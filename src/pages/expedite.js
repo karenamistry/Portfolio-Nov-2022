@@ -72,7 +72,7 @@ function Expedite() {
         {/* Container for Gray BKG */}
         <div className="container mx-auto max-w-5xl">
           {/* Responsive Container */}
-          <div className="grid grid-col-2 gap-24 justify-center items-center">
+          <div className="grid grid-col-2 gap-24 justify-center items-center  auto-cols-fr">
             {/* Grid Whole Container */}
             <div>
               <div className="h2">Streamlining the pickup-in-store process</div>
