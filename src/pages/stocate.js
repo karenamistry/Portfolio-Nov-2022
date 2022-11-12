@@ -94,12 +94,7 @@ function Stocate() {
                 During my internship, I was given the opportunity to create
                 goals for the product and manage the actualization of these
                 goals through the product and development teams. These were the
-                goals I set, in order of importance: Goal 1: Having a 2 Week
-                Turnaround on receiving and designing for feedback. Goal 2:
-                Receive 20 new user feedbacks per week. Goal 3: Maintain 50
-                active users. These goals were actualized through the completion
-                of the following solutions and systems I built during my
-                internship.
+                goals I set, in order of importance: internship.
               </div>
               <div className="p">
                 <br />
