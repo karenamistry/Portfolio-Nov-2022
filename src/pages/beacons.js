@@ -1,7 +1,7 @@
 import React from "react";
 import Footerbar from "../components/footerbar";
 // Hero Image
-import StocateHero from "../images/stocate/smartphone-stocate-b.png";
+import BeaconsHero from "../images/beacons/smartphone-beacons-a.png";
 // Project Images
 
 import Access from "../images/beacons/accessibility.png";
@@ -27,7 +27,7 @@ function Beacons() {
         <div className="px-2 py-2 text-lg">🥸</div>
         <img
           className="object-contain h-full w-full mx-auto ratio-square bg-gray-800"
-          src={StocateHero}
+          src={BeaconsHero}
           alt="BeaconsImage"
         />
       </div>
