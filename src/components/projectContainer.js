@@ -146,9 +146,7 @@ function ProjectContainer() {
               Instasnacks
             </div>
             <div className="flex gap-x-6 col-span-4 caption ">
-              <div className="gray-text">UX/UI</div>
-              <div className="gray-text">Apr - Dec</div>
-              <div className="gray-text">Mobile</div>
+              <div className="gray-text">Motion, Illustration & Social Media Stategy</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
               Creating a brand strategy and social media presence for a company
@@ -173,9 +171,7 @@ function ProjectContainer() {
               Casper Kitchen
             </div>
             <div className="flex gap-x-6 col-span-4 caption ">
-              <div className="gray-text">UR/UX/UI</div>
-              <div className="gray-text">Apr - Dec</div>
-              <div className="gray-text">Mobile</div>
+              <div className="gray-text">Photography, Typography & Social Media Stategy</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
               Using social media to boost sales for a restaurant company that
