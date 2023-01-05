@@ -63,9 +63,7 @@ function Stocate() {
               </span>{" "}
               <span className="font-medium">Stocate</span>
               <span className="opacity-80">
-                . At Stocate, my impact is most clearly seen from the systems
-                that I designed to aid in the growth and scalability of the
-                product. I continue to work with the Stocate team.
+                . At Stocate, my impact is most clearly seen from the systems that I designed to aid in the growth and scalability of the product, as well as the interfaces I designed to improve core features in the mobile application. I continue to work with the Stocate team.
               </span>
             </div>
             <div className="p text-white">
