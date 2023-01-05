@@ -144,6 +144,16 @@ function Stocate() {
                 our applications, so we could prioritize them when building
                 solutions.
               </div>
+              <div className="p">
+                I organized all the data by type of problem, section of the app
+                it concerned, completion status of of that feedback, & team that
+                could work on the solution. This was initially done in an excel
+                document to test the benefits of this organization. We intended
+                to develop a dashboard system to organize incoming feedback in
+                realtime. I designed a interface solution based on the
+                organizational structure of the excel document. This dashboard
+                is in the development stage.
+              </div>
             </div>
              
 
@@ -179,16 +189,7 @@ function Stocate() {
                 information to narrow down our personas, core problems and get
                 us in contact with potential users.
               </div>
-              <div className="p">
-                I organized all the data by type of problem, section of the app
-                it concerned, completion status of of that feedback, & team that
-                could work on the solution. This was initially done in an excel
-                document to test the benefits of this organization. We intended
-                to develop a dashboard system to organize incoming feedback in
-                realtime. I designed a interface solution based on the
-                organizational structure of the excel document. This dashboard
-                is in the development stage.
-              </div>
+           
             </div>
 
             <img className="h-auto w-full" src={Interview} alt="StocateImage" />
