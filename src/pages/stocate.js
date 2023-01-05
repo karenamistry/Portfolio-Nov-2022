@@ -304,7 +304,7 @@ function Stocate() {
               />
               <div className="caption">
                 Iterations for our adding user flow. These are a few screens
-                that with changes that I made after each stage of user testing.
+                with changes that I made after each stage of user testing.
                 I did over 4 iterations of this flow.
               </div>
             </div>
