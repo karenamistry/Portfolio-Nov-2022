@@ -132,20 +132,8 @@ function Stocate() {
                 buying experience of sustainable products?
               </div>
             </div>
-            <div>
-              <div className="h2">Improving Core Features</div>
-              <div className="p">
-                Generating design solutions for user problems within the mobile
-                application was one of my main tasks at Stocate. We wanted to
-                strengthen our core features. This was a way that we wanted
-                improve our active user numbers.
-              </div>
-            </div>
-
-            <div></div>
-            <div></div>
-
-            <div>
+              
+             <div>
               <div className="h2">Parsing User Problems</div>
               <div className="p">
                 Using a backlog of user data obtained from prior user testing
@@ -157,6 +145,22 @@ function Stocate() {
                 solutions.
               </div>
             </div>
+             
+
+            <div></div>
+            <div></div>
+              
+             <div>
+              <div className="h2">Improving Core Features</div>
+              <div className="p">
+                Generating design solutions for user problems within the mobile
+                application was one of my main tasks at Stocate. We wanted to
+                strengthen our core features. This was a way that we wanted
+                improve our active user numbers.
+              </div>
+            </div>
+
+      
 
             <div className="h1 col-span-2 text-center">Research</div>
 
