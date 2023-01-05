@@ -92,7 +92,7 @@ function Stocate() {
                 During my internship, I was given the opportunity to create
                 goals for the product and manage the actualization of these
                 goals through the product and development teams. These were the
-                goals I set, in order of importance: internship.
+                goals I set, in order of importance:
               </div>
               <div className="p">
                 <br />
