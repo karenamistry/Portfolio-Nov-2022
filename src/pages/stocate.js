@@ -254,7 +254,7 @@ function Stocate() {
                 Our MVP already existed, my job was to bring the MVP to a more
                 definite and concise model. During this stage in the process, I
                 was able to iterate upon our design system. The design system
-                was not yet built during the begging of my internship, so I
+                was not yet built during the beginning of my internship, so I
                 created components as they were needed. I later created a more
                 concise and documented design system to improve the speed of
                 creating mid and high fidelity mockups and prototypes.
