@@ -33,7 +33,7 @@ function Stocate() {
         />
       </div>
       {/* Hero Project Info */}
-      <div className="w-full py-24 bg-cyan-700">
+      <div className="w-full py-24 bg-cyan-700 sm:px-2">
         <div className="container mx-auto grid gap-y-3 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
           <div className="col-span-4  text-white flex flex-col justify-end">
             <div className="flex items-center gap-x-2">
@@ -87,10 +87,12 @@ function Stocate() {
         {/* Container for Gray BKG */}
         <div className="container mx-auto max-w-5xl">
           {/* Responsive Container */}
-          <div className="grid grid-col-2 gap-24 justify-center items-center auto-cols-fr">
+          <div className="grid gap-24 justify-center items-center auto-cols-fr">
             {/* Grid Whole Container */}
-            <div className="h1 col-span-2 text-center">Discovery</div>
-            <div>
+            <div className="h1 sm:col-span-1 md:col-span-2 text-center">
+              Discovery
+            </div>
+            <div className="">
               <div className="h2">Managing Goals</div>
               <div className="p">
                 During my internship, I was given the opportunity to create

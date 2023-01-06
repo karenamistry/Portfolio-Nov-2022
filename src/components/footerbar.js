@@ -8,14 +8,14 @@ function Footerbar() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex gap-x-2 caption">
           <a
-            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium"
+            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium sm:hidden"
             target="_blank"
             href="https://www.dropbox.com/s/q695q022e75l8kd/Resume-Jan2023.pdf?dl=0"
           >
             CV
           </a>
           <a
-            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium"
+            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium sm:hidden"
             target="_blank"
             href="https://www.linkedin.com/in/karenamistry/"
           >
@@ -39,7 +39,7 @@ function Footerbar() {
           </div>
         </div>
 
-        <div className="caption sm:hidden md:flex gap-x-2">
+        <div className="caption flex gap-x-2 sm:hidden">
           <h1 className="">Karena Mistry</h1>
           <h1 className="">·</h1>
           <h1 className="">Product Designer</h1>

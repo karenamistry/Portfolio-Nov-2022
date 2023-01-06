@@ -6,9 +6,9 @@ import Standing from "../images/about/me-standing.jpg";
 function About() {
   return (
     <div>
-      <div className="mt-10 w-full h-screen bg-slate-100">
+      <div className="mt-10 w-full h-screen bg-slate-100 sm:h-full">
         <div className="container mx-auto pt-12">
-          <div className="p-8 mb-8 w-1/3 h-full bg-slate-100 mx-auto rounded-2xl shadow-lg border-b-2 border-t border-sky-50 bg-gradient-to-t from-slate-100 to-white">
+          <div className="p-8 mb-8 w-1/3 h-full bg-slate-100 mx-auto rounded-2xl shadow-lg border-b-2 border-t border-sky-50 bg-gradient-to-t from-slate-100 to-white sm:w-full">
             <div className="h2 pb-2">
               👋 I'm Karena. I studied design at York University. I've worked in
               graphic design for the past 5 years, but recently specialized
@@ -25,7 +25,7 @@ function About() {
             </div>
           </div>
 
-          <div className="w-1/3 h-3/4 flex mx-auto">
+          <div className="w-1/3 h-3/4 flex mx-auto sm:w-full">
             <img
               className="object-cover w-1/2 rounded-2xl p-2 "
               src={Me}

@@ -8,7 +8,7 @@ function Footer() {
         <div>Made by Karena</div>
         <div className="caption text-slate-500">With React using Tailwind</div>
       </div>
-      <div className="flex gap-x-2 items-center">
+      <div className="flex gap-x-2 items-center  sm:hidden">
         <div className="">Product Design Works</div>
         <Link className="caption blue-text" to="/stocate">
           Stocate
@@ -21,7 +21,7 @@ function Footer() {
         </Link>
       </div>
 
-      <div className="flex gap-x-2 items-center">
+      <div className="flex gap-x-2 items-center sm:hidden">
         <div className="">Socials</div>
         <a
           target="_blank"
@@ -38,7 +38,7 @@ function Footer() {
           Instagram
         </a>
       </div>
-      <div className="p">Last updated Nov 2022</div>
+      <div className="p sm:hidden">Last updated Nov 2022</div>
     </div>
   );
 }

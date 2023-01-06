@@ -13,7 +13,7 @@ function ProjectContainer() {
     <div className="w-screen bg-slate-50 py-16">
       <div className="flex flex-col gap-y-12">
         <NavLink to="/stocate">
-          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4 sm:px-2">
             <div className="row-span-2 col-span-4 text-500 title">Stocate</div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">UX/UI</div>
@@ -35,7 +35,7 @@ function ProjectContainer() {
         </NavLink>
 
         <NavLink to="/beacons">
-          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4 sm:px-2">
             <div className="row-span-2 col-span-4 text-500 title">Beacons</div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">UR/UX/UI</div>
@@ -57,13 +57,13 @@ function ProjectContainer() {
         </NavLink>
 
         <NavLink to="/expedite">
-          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4 sm:px-2">
             <div className="row-span-2 col-span-4 text-500 title">Expedite</div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">UX/UI</div>
               <div className="gray-text">April - Current 2023</div>
               <div className="gray-text">Mobile</div>
-              <div className="gray-text">In Progress</div>
+              <div className="gray-text sm:hidden">In Progress</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
               Developing a product that seamlessly integrates complex systems
@@ -81,7 +81,7 @@ function ProjectContainer() {
 
         {/* Half Containers */}
 
-        <div className="container mx-auto flex gap-x-6">
+        <div className="container mx-auto flex gap-x-6  sm:flex-col">
           <a
             target="_blank"
             href="https://www.behance.net/gallery/154462559/Feature-UR-UX-UI-Case-Study"
@@ -112,7 +112,7 @@ function ProjectContainer() {
             target="_blank"
             href="https://www.behance.net/gallery/154472601/Guitar-Tablature-UX-UI-Case-Study"
           >
-            <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+            <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4 sm:px-2">
               <div className="row-span-2 col-span-4 text-500 title">
                 Tablature
               </div>
@@ -141,7 +141,7 @@ function ProjectContainer() {
           target="_blank"
           href="https://www.behance.net/gallery/138923685/Instasnacks-Motion-Illustrative-Content"
         >
-          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4 sm:px-2">
             <div className="row-span-2 col-span-4 text-500 title">
               Instasnacks
             </div>
@@ -168,14 +168,14 @@ function ProjectContainer() {
           target="_blank"
           href="https://www.behance.net/gallery/138924473/Casper-Kitchen-Social-Media-Strategy-Photography"
         >
-          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+          <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4 sm:px-2">
             <div className="row-span-2 col-span-4 text-500 title">
               Casper Kitchen
             </div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">Photography</div>
               <div className="gray-text">Typography</div>
-              <div className="gray-text">Social Media Strategy</div>
+              <div className="gray-text sm:hidden">Social Media Strategy</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
               Using social media to boost sales for a restaurant company that
