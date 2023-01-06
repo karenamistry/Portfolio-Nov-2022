@@ -30,9 +30,9 @@ function Footerbar() {
           </a>
         </div>
 
-        <div className="p flex gap-6">
-          <NavLink to="/">Work</NavLink>
-          {/* <NavLink to="/about">About</NavLink> */}
+        <div className="p flex gap-12">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
         </div>
 
         <div className="caption sm:hidden md:flex gap-x-2">

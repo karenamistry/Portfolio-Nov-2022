@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="flex justify-between py-8 px-4 p bg-slate-50">
+    <div className="flex justify-between pt-16 pb-8 px-4 p bg-slate-100">
       <div>
         <div>Made by Karena</div>
         <div className="caption text-slate-500">With React using Tailwind</div>
@@ -38,7 +38,7 @@ function Footer() {
           Instagram
         </a>
       </div>
-      <div>Last updated Nov 2022</div>
+      <div className="p">Last updated Nov 2022</div>
     </div>
   );
 }
