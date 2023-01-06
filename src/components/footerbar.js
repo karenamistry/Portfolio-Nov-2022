@@ -10,7 +10,7 @@ function Footerbar() {
           <a
             className="py-1 px-2 rounded-md bg-blue-100 text-blue-500"
             target="_blank"
-            href="https://www.dropbox.com/s/jypnti18w0e9adx/Resume-Nov2022.pdf?dl=0"
+            href="https://www.dropbox.com/s/q695q022e75l8kd/Resume-Jan2023.pdf?dl=0"
           >
             CV
           </a>
@@ -36,9 +36,9 @@ function Footerbar() {
         </div>
 
         <div className="caption sm:hidden md:flex gap-x-2">
-          <h1 className="">Product Designer</h1>
+          <h1 className="">Karena Mistry</h1>
           <h1 className="">·</h1>
-          <h1 className="">Based in Canada</h1>
+          <h1 className="">Product Designer</h1>
         </div>
       </div>
     </div>

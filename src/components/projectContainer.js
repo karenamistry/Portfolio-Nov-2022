@@ -10,14 +10,14 @@ import CasperHome from "../images/other/casper-cover.jpg";
 
 function ProjectContainer() {
   return (
-    <div className="w-screen bg-slate-50 pb-24">
+    <div className="w-screen bg-slate-50 py-16">
       <div className="flex flex-col gap-y-12">
         <NavLink to="/stocate">
           <div className="container mx-auto grid gap-y-3 row-span-2 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
             <div className="row-span-2 col-span-4 text-500 title">Stocate</div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">UX/UI</div>
-              <div className="gray-text">Apr - Aug</div>
+              <div className="gray-text">Apr - Aug 2022</div>
               <div className="gray-text">Mobile & Desktop</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
@@ -39,7 +39,7 @@ function ProjectContainer() {
             <div className="row-span-2 col-span-4 text-500 title">Beacons</div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">UR/UX/UI</div>
-              <div className="gray-text">Jan - Feb</div>
+              <div className="gray-text">Jan - Feb 2022</div>
               <div className="gray-text">Mobile</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
@@ -61,7 +61,7 @@ function ProjectContainer() {
             <div className="row-span-2 col-span-4 text-500 title">Expedite</div>
             <div className="flex gap-x-6 col-span-4 caption ">
               <div className="gray-text">UX/UI</div>
-              <div className="gray-text">April - Current</div>
+              <div className="gray-text">April - Current 2023</div>
               <div className="gray-text">Mobile</div>
               <div className="gray-text">In Progress</div>
             </div>
@@ -146,9 +146,9 @@ function ProjectContainer() {
               Instasnacks
             </div>
             <div className="flex gap-x-6 col-span-4 caption ">
-              <div className="gray-text">UX/UI</div>
-              <div className="gray-text">Apr - Dec</div>
-              <div className="gray-text">Mobile</div>
+              <div className="gray-text">Motion</div>
+              <div className="gray-text">Illustration</div>
+              <div className="gray-text">Social Media Strategy</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
               Creating a brand strategy and social media presence for a company
@@ -173,9 +173,9 @@ function ProjectContainer() {
               Casper Kitchen
             </div>
             <div className="flex gap-x-6 col-span-4 caption ">
-              <div className="gray-text">UR/UX/UI</div>
-              <div className="gray-text">Apr - Dec</div>
-              <div className="gray-text">Mobile</div>
+              <div className="gray-text">Photography</div>
+              <div className="gray-text">Typography</div>
+              <div className="gray-text">Social Media Strategy</div>
             </div>
             <div className="row-span-2 col-span-4 pb-6 h1">
               Using social media to boost sales for a restaurant company that

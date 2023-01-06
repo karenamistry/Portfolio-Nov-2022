@@ -4,7 +4,7 @@ import Profile from "../images/about/me-standing-cropped.jpg";
 
 function Card() {
   return (
-    <div className="w-screen h-screen bg-slate-50 flex justify-center items-center z-40">
+    <div className="w-screen h-screen bg-slate-100 flex justify-center items-center z-40">
       <div className="w-[525px] flex p-12 gap-x-4 rounded-2xl shadow-lg border-b-2 border-t border-sky-50 bg-gradient-to-t from-slate-100 to-white">
         <div className="w-48">
           <img

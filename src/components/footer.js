@@ -38,7 +38,7 @@ function Footer() {
           Instagram
         </a>
       </div>
-      <div>Last updated Nov '22</div>
+      <div>Last updated Nov 2022</div>
     </div>
   );
 }

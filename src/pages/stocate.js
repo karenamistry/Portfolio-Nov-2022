@@ -65,7 +65,9 @@ function Stocate() {
               <span className="opacity-80">
                 . At Stocate, my impact is most clearly seen from the systems
                 that I designed to aid in the growth and scalability of the
-                product. I continue to work with the Stocate team.
+                product, as well as the interfaces I designed to improve core
+                features in the mobile application. I continue to work with the
+                Stocate team.
               </span>
             </div>
             <div className="p text-white">
@@ -94,7 +96,7 @@ function Stocate() {
                 During my internship, I was given the opportunity to create
                 goals for the product and manage the actualization of these
                 goals through the product and development teams. These were the
-                goals I set, in order of importance: internship.
+                goals I set, in order of importance:
               </div>
               <div className="p">
                 <br />
@@ -134,18 +136,6 @@ function Stocate() {
                 buying experience of sustainable products?
               </div>
             </div>
-            <div>
-              <div className="h2">Improving Core Features</div>
-              <div className="p">
-                Generating design solutions for user problems within the mobile
-                application was one of my main tasks at Stocate. We wanted to
-                strengthen our core features. This was a way that we wanted
-                improve our active user numbers.
-              </div>
-            </div>
-
-            <div></div>
-            <div></div>
 
             <div>
               <div className="h2">Parsing User Problems</div>
@@ -157,6 +147,29 @@ function Stocate() {
                 looking to parse the most crucial problems users were having in
                 our applications, so we could prioritize them when building
                 solutions.
+              </div>
+              <div className="p">
+                I organized all the data by type of problem, section of the app
+                it concerned, completion status of of that feedback, & team that
+                could work on the solution. This was initially done in an excel
+                document to test the benefits of this organization. We intended
+                to develop a dashboard system to organize incoming feedback in
+                realtime. I designed a interface solution based on the
+                organizational structure of the excel document. This dashboard
+                is in the development stage.
+              </div>
+            </div>
+
+            <div></div>
+            <div></div>
+
+            <div>
+              <div className="h2">Improving Core Features</div>
+              <div className="p">
+                Generating design solutions for user problems within the mobile
+                application was one of my main tasks at Stocate. We wanted to
+                strengthen our core features. This was a way that we wanted
+                improve our active user numbers.
               </div>
             </div>
 
@@ -176,16 +189,6 @@ function Stocate() {
                 they would like to see in the application. Interviews provided
                 information to narrow down our personas, core problems and get
                 us in contact with potential users.
-              </div>
-              <div className="p">
-                I organized all the data by type of problem, section of the app
-                it concerned, completion status of of that feedback, & team that
-                could work on the solution. This was initially done in an excel
-                document to test the benefits of this organization. We intended
-                to develop a dashboard system to organize incoming feedback in
-                realtime. I designed a interface solution based on the
-                organizational structure of the excel document. This dashboard
-                is in the development stage.
               </div>
             </div>
 
@@ -251,7 +254,7 @@ function Stocate() {
                 Our MVP already existed, my job was to bring the MVP to a more
                 definite and concise model. During this stage in the process, I
                 was able to iterate upon our design system. The design system
-                was not yet built during the begging of my internship, so I
+                was not yet built during the beginning of my internship, so I
                 created components as they were needed. I later created a more
                 concise and documented design system to improve the speed of
                 creating mid and high fidelity mockups and prototypes.
@@ -306,8 +309,8 @@ function Stocate() {
               />
               <div className="caption">
                 Iterations for our adding user flow. These are a few screens
-                that with changes that I made after each stage of user testing.
-                I did over 4 iterations of this flow.
+                with changes that I made after each stage of user testing. I did
+                over 4 iterations of this flow.
               </div>
             </div>
 
