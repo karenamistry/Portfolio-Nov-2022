@@ -20,6 +20,27 @@ import Iterating from "../images/stocate/iterating-adding.png";
 import SystemA from "../images/stocate/design-system.png";
 import SystemB from "../images/stocate/design-system-2.png";
 
+// features images
+import onboardingA from "../images/stocate/features/onboarding-1.png";
+import onboardingB from "../images/stocate/features/onboarding-2.png";
+import onboardingC from "../images/stocate/features/onboarding-3.png";
+
+import addingA from "../images/stocate/features/adding-1.png";
+import addingB from "../images/stocate/features/adding-2.png";
+import addingC from "../images/stocate/features/adding-3.png";
+import addingD from "../images/stocate/features/adding-4.png";
+
+import chatA from "../images/stocate/features/chat-1.png";
+import chatB from "../images/stocate/features/chat-2.png";
+import chatC from "../images/stocate/features/chat-3.png";
+
+import listA from "../images/stocate/features/list-1.png";
+import listB from "../images/stocate/features/list-2.png";
+import listC from "../images/stocate/features/list-3.png";
+
+import askA from "../images/stocate/features/ask-1.png";
+import askB from "../images/stocate/features/ask-2.png";
+
 function Stocate() {
   return (
     <>
@@ -89,10 +110,161 @@ function Stocate() {
           {/* Responsive Container */}
           <div className="grid gap-24 justify-center items-center auto-cols-fr">
             {/* Grid Whole Container */}
+
+            <div className="h1 sm:col-span-1 md:col-span-2 text-center">
+              Features
+            </div>
+
+            <div></div>
+
+            <div className="">
+              <div className="h2">Onboarding</div>
+              <div className="p">
+                We built an onboarding flow to solve for users having trouble
+                navigating the application on first download.
+              </div>
+            </div>
+
+            <div className="col-span-2 flex w-full h-full">
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={onboardingA}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={onboardingB}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={onboardingC}
+                alt="StocateImage"
+              />
+            </div>
+
+            <div>
+              <div className="h2">Improved Adding Journey</div>
+              <div className="p">
+                Improvements for the user journey of adding stores in the
+                application were made in order to make for a faster and more
+                enjoyable user experience.
+              </div>
+            </div>
+
+            <div></div>
+
+            <div className="col-span-2 flex w-full h-full">
+              <img
+                className="h-fit w-60 mx-2 rounded-2xl"
+                src={addingA}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-fit w-60 mx-2 rounded-2xl"
+                src={addingB}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-fit w-60 mx-2 rounded-2xl"
+                src={addingC}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-fit w-60 mx-2 rounded-2xl"
+                src={addingD}
+                alt="StocateImage"
+              />
+            </div>
+
+            <div></div>
+
+            <div>
+              <div className="h2">Create your shopping list</div>
+              <div className="p">
+                The creating list feature of the mobile application was moved to
+                be more readily available for users. As well as interface
+                improvements to make the user journey more enjoyable.
+              </div>
+            </div>
+
+            <div className="col-span-2 flex w-full h-full">
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={listA}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={listB}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={listC}
+                alt="StocateImage"
+              />
+            </div>
+
+            <div>
+              <div className="h2">Message Store Owners</div>
+              <div className="p">
+                The messaging feature was added to the application to make it
+                easier for users to ask questions and get information about
+                specific stores or products.
+              </div>
+            </div>
+
+            <div className="flex w-full h-full">
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={chatB}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={chatC}
+                alt="StocateImage"
+              />
+            </div>
+
+            <div className=" flex w-full h-full">
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={askA}
+                alt="StocateImage"
+              />
+
+              <img
+                className="h-auto w-60 mx-2 rounded-2xl"
+                src={askB}
+                alt="StocateImage"
+              />
+            </div>
+
+            <div>
+              <div className="h2">Ask the Community</div>
+              <div className="p">
+                The addition of the "ask for help finding" feature was added to
+                aid users in the search for better sustainable alternatives.
+                Asking local users and vendors where they can find specific
+                items, users are able to parse options for less popular
+                products.
+              </div>
+            </div>
+
             <div className="h1 sm:col-span-1 md:col-span-2 text-center">
               Discovery
             </div>
-            <div className="">
+            <div>
               <div className="h2">Managing Goals</div>
               <div className="p">
                 During my internship, I was given the opportunity to create
