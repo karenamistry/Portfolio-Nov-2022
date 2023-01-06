@@ -14,7 +14,7 @@ function About() {
               graphic design for the past 5 years, but recently specialized
               myself in product design. Product design is what i've always had a
               passion for but I wasn't able to find my footing in it until
-              recently. I've worked on applications that have are being used in
+              recently. I've worked on applications that are being used in
               Canadian Tire Stores, signage for successful political campaigns
               and designed for startups in Ottawa, Toronto and Montreal.
             </div>
