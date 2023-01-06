@@ -156,27 +156,29 @@ function Stocate() {
 
             <div></div>
 
-            <div className="col-span-2 flex w-full h-full">
+            <div className=" flex w-full h-full">
               <img
-                className="h-fit w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl"
                 src={addingA}
                 alt="StocateImage"
               />
 
               <img
-                className="h-fit w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl"
                 src={addingB}
                 alt="StocateImage"
               />
+            </div>
 
+            <div className=" flex w-full h-full">
               <img
-                className="h-fit w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl"
                 src={addingC}
                 alt="StocateImage"
               />
 
               <img
-                className="h-fit w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl"
                 src={addingD}
                 alt="StocateImage"
               />
