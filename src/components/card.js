@@ -1,5 +1,4 @@
 import React from "react";
-
 import Profile from "../images/about/me-standing-cropped.jpg";
 
 function Card() {
@@ -16,7 +15,7 @@ function Card() {
         <div className="flex flex-col gap-y-3">
           <div className="flex justify-between">
             <div className="h2 text-500">Karena Mistry</div>
-            <div className="p text-slate-500">Based in Canada</div>
+            <div className="caption text-slate-500">Based in Canada</div>
           </div>
           <div className="p leading-5">
             I create thoughtful digital interfaces, that aim to understand the
