@@ -45,7 +45,7 @@ function Stocate() {
   return (
     <>
       {/* Hero Image */}
-      <div className="w-full h-screen">
+      <div className="w-full h-screen sm:h-3/4">
         <div className="px-2 py-2 text-lg">🥸</div>
         <img
           className="object-contain h-full w-full mx-auto ratio-square bg-cyan-700"
@@ -55,7 +55,7 @@ function Stocate() {
       </div>
       {/* Hero Project Info */}
       <div className="w-full py-24 bg-cyan-700 sm:px-2">
-        <div className="container mx-auto grid gap-y-3 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
+        <div className="container mx-auto grid gap-y-3 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-1 sm:grid-rows-1">
           <div className="col-span-4  text-white flex flex-col justify-end">
             <div className="flex items-center gap-x-2">
               <div className="p opacity-80 text-white">Role</div>
@@ -108,16 +108,14 @@ function Stocate() {
         {/* Container for Gray BKG */}
         <div className="container mx-auto max-w-5xl">
           {/* Responsive Container */}
-          <div className="grid gap-24 justify-center items-center auto-cols-fr">
+          <div className="grid gap-24 justify-center items-center auto-cols-fr sm:gap-2">
             {/* Grid Whole Container */}
 
-            <div className="h1 sm:col-span-1 md:col-span-2 text-center">
-              Features
-            </div>
+            <div className="h1 text-center sm:col-span-2">Features</div>
 
-            <div></div>
+            <div className="sm:col-span-2"></div>
 
-            <div className="">
+            <div className="sm:col-span-2">
               <div className="h2">Onboarding</div>
               <div className="p">
                 We built an onboarding flow to solve for users having trouble
@@ -127,25 +125,25 @@ function Stocate() {
 
             <div className="col-span-2 flex w-full h-full">
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={onboardingA}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={onboardingB}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={onboardingC}
                 alt="StocateImage"
               />
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Improved Adding Journey</div>
               <div className="p">
                 Improvements for the user journey of adding stores in the
@@ -154,39 +152,39 @@ function Stocate() {
               </div>
             </div>
 
-            <div></div>
+            <div className="sm:hidden"></div>
 
-            <div className=" flex w-full h-full">
+            <div className="flex w-full h-full sm:col-span-2">
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-40 sm:w-auto sm:mx-0.5"
                 src={addingA}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-40 sm:w-auto sm:mx-0.5"
                 src={addingB}
                 alt="StocateImage"
               />
             </div>
 
-            <div className=" flex w-full h-full">
+            <div className="flex w-full h-full sm:col-span-2">
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-40 sm:w-auto sm:mx-0.5"
                 src={addingC}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-40 sm:w-auto sm:mx-0.5"
                 src={addingD}
                 alt="StocateImage"
               />
             </div>
 
-            <div></div>
+            <div className="sm:col-span-2"></div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Create your shopping list</div>
               <div className="p">
                 The creating list feature of the mobile application was moved to
@@ -195,27 +193,27 @@ function Stocate() {
               </div>
             </div>
 
-            <div className="col-span-2 flex w-full h-full">
+            <div className="col-span-2 flex w-full h-full ">
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:col-span-2 sm:h-60 sm:w-auto sm:mx-0.5"
                 src={listA}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:col-span-2 sm:h-60 sm:w-auto sm:mx-0.5"
                 src={listB}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:col-span-2 sm:h-60 sm:w-auto sm:mx-0.5"
                 src={listC}
                 alt="StocateImage"
               />
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Message Store Owners</div>
               <div className="p">
                 The messaging feature was added to the application to make it
@@ -224,35 +222,35 @@ function Stocate() {
               </div>
             </div>
 
-            <div className="flex w-full h-full">
+            <div className="flex w-full h-full sm:col-span-2">
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={chatB}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={chatC}
                 alt="StocateImage"
               />
             </div>
 
-            <div className=" flex w-full h-full">
+            <div className=" flex w-full h-full sm:col-span-2">
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={askA}
                 alt="StocateImage"
               />
 
               <img
-                className="h-auto w-60 mx-2 rounded-2xl"
+                className="h-auto w-60 mx-2 rounded-2xl sm:h-60 sm:w-auto sm:mx-0.5"
                 src={askB}
                 alt="StocateImage"
               />
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Ask the Community</div>
               <div className="p">
                 The addition of the "ask for help finding" feature was added to
@@ -263,10 +261,11 @@ function Stocate() {
               </div>
             </div>
 
-            <div className="h1 sm:col-span-1 md:col-span-2 text-center">
+            <div className="h1 md:col-span-2 text-center sm:col-span-2">
               Discovery
             </div>
-            <div>
+
+            <div className="sm:col-span-2">
               <div className="h2">Managing Goals</div>
               <div className="p">
                 During my internship, I was given the opportunity to create
@@ -291,7 +290,7 @@ function Stocate() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <img className="h-auto w-full" src={Goals} alt="StocateImage" />
               <div className="caption">
                 My very initial (very messy) notes for best case and worst case
@@ -300,12 +299,12 @@ function Stocate() {
             </div>
 
             <img
-              className="h-auto w-full  p-12 box-border"
+              className="h-auto w-full  p-12 box-border sm:col-span-2"
               src={Challenge}
               alt="StocateImage"
             />
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Design Challenge?</div>
               <div className="p">
                 How do we create customer centered UI solutions to aid the
@@ -313,7 +312,7 @@ function Stocate() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Parsing User Problems</div>
               <div className="p">
                 Using a backlog of user data obtained from prior user testing
@@ -336,10 +335,10 @@ function Stocate() {
               </div>
             </div>
 
-            <div></div>
-            <div></div>
+            <div className="sm:col-span-2"></div>
+            <div className="sm:col-span-2"></div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Improving Core Features</div>
               <div className="p">
                 Generating design solutions for user problems within the mobile
@@ -349,9 +348,11 @@ function Stocate() {
               </div>
             </div>
 
-            <div className="h1 col-span-2 text-center">Research</div>
+            <div className="h1 col-span-2 text-center sm:col-span-2">
+              Research
+            </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">User Interviews</div>
               <div className="p">
                 Learning about the user is integral to my design process. I
@@ -368,11 +369,15 @@ function Stocate() {
               </div>
             </div>
 
-            <img className="h-auto w-full" src={Interview} alt="StocateImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Interview}
+              alt="StocateImage"
+            />
 
-            <div></div>
+            <div className="sm:col-span-2"></div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">HMW & Managing Tasks</div>
               <div className="p">
                 Once we understood user feedback, we were able to prioritize
@@ -387,7 +392,7 @@ function Stocate() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Process</div>
               <div className="p">
                 With the customer at the core of our design philosophy, the
@@ -401,14 +406,18 @@ function Stocate() {
             </div>
 
             <img
-              className="h-auto w-full p-24 box-border"
+              className="h-auto w-full p-24 box-border sm:col-span-2"
               src={Jira}
               alt="StocateImage"
             />
 
-            <img className="h-auto w-full" src={Flow} alt="StocateImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Flow}
+              alt="StocateImage"
+            />
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">User Flow Diagrams</div>
               <div className="p">
                 Our team worked to make user flow diagrams for the entire
@@ -420,11 +429,11 @@ function Stocate() {
               </div>
             </div>
 
-            <div className="h1 col-span-2 text-center">
+            <div className="h1 col-span-2 text-center sm:col-span-2">
               Design & User Testing
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Mockups & Prototyping</div>
               <div className="p">
                 Our MVP already existed, my job was to bring the MVP to a more
@@ -437,11 +446,19 @@ function Stocate() {
               </div>
             </div>
 
-            <img className="h-auto w-full" src={User} alt="StocateImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={User}
+              alt="StocateImage"
+            />
 
-            <img className="h-auto w-full" src={Testing} alt="StocateImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Testing}
+              alt="StocateImage"
+            />
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">User Testing</div>
               <div className="p">
                 User testing was conducted to improve clarity, speed and
@@ -463,7 +480,7 @@ function Stocate() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Iterating</div>
               <div className="p">
                 Improved user journeys within the application were created by
@@ -492,7 +509,7 @@ function Stocate() {
 
             <div className="h1 col-span-2 text-center">System Building</div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Building a scalable design system</div>
               <div className="p">
                 To meet our mission of creating customer centered design
@@ -524,7 +541,7 @@ function Stocate() {
               alt="StocateImage"
             />
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Streamlining Feedback Pipeline</div>
               <div className="p">
                 Another one of the systems I helped build to aid in process of
@@ -538,10 +555,10 @@ function Stocate() {
               </div>
             </div>
 
-            <div></div>
-            <div></div>
+            <div className="sm:col-span-2"></div>
+            <div className="sm:col-span-2"></div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Reflection</div>
               <div className="p">
                 Working at Stocate was like when they say to always work with
