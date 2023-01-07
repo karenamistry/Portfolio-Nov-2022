@@ -85,8 +85,10 @@ function Beacons() {
           {/* Responsive Container */}
           <div className="grid grid-col-2 gap-24 justify-center items-center auto-cols-fr">
             {/* Grid Whole Container */}
-            <div className="h1 col-span-2 text-center">Features</div>
-            <div>
+            <div className="h1 col-span-2 text-center sm:col-span-2">
+              Features
+            </div>
+            <div className=" sm:col-span-2">
               <div className="h2">Accessability Adjustments</div>
               <div className="p">
                 Providing large font sizes and more contrast makes the new
@@ -104,12 +106,12 @@ function Beacons() {
             </div>
 
             <img
-              className="h-auto w-full"
+              className="h-auto w-full sm:col-span-2"
               src={Onboarding}
               alt="BeaconsImage"
             />
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Addition of Onboarding</div>
               <div className="p">
                 When an employee is first greeted by the application, they are
@@ -118,7 +120,7 @@ function Beacons() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Emphasis on Personal Achievements</div>
               <div className="p">
                 The previous system of having a customer experience score for
@@ -131,14 +133,14 @@ function Beacons() {
             </div>
 
             <img
-              className="h-auto w-full"
+              className="h-auto w-full sm:col-span-2"
               src={Achievement}
               alt="BeaconsImage"
             />
 
-            <div></div>
+            <div className="sm:hidden"></div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Improving the Customer Request Journey</div>
               <div className="p">
                 Telling employees where and when the button was pressed, as well
@@ -157,7 +159,7 @@ function Beacons() {
               <div className="caption"></div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Simplified Editing</div>
               <div className="p">
                 Organizing beacon buttons by department and SKU, which can be
@@ -167,11 +169,15 @@ function Beacons() {
               </div>
             </div>
 
-            <img className="h-auto w-full" src={Editing} alt="BeaconsImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Editing}
+              alt="BeaconsImage"
+            />
 
             <div className="h1 col-span-2 text-center">Process</div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Design Goals</div>
               <div className="p">
                 Beacons was created with the goal of enhancing the customer to
@@ -182,11 +188,19 @@ function Beacons() {
               </div>
             </div>
 
-            <img className="h-auto w-full" src={Goals} alt="BeaconsImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Goals}
+              alt="BeaconsImage"
+            />
 
-            <img className="h-auto w-full" src={GoalsB} alt="BeaconsImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={GoalsB}
+              alt="BeaconsImage"
+            />
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Conducting Interviews</div>
               <div className="p">
                 I started researching by interviewing employees at the Canadian
@@ -201,7 +215,7 @@ function Beacons() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Asking HMW Questions</div>
               <div className="p">
                 I started the designing process by asking "How Might We"
@@ -211,8 +225,9 @@ function Beacons() {
               </div>
             </div>
 
-            <div></div>
-            <div className="">
+            <div className="sm:hidden"></div>
+
+            <div className="sm:col-span-2">
               <img
                 className="h-auto w-full"
                 src={Competition}
@@ -221,7 +236,7 @@ function Beacons() {
               <div className="caption"></div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Analyzing Competition</div>
               <div className="p">
                 Analyzing applications competitive with Beacons was a roadblock
@@ -235,7 +250,7 @@ function Beacons() {
               </div>
             </div>
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Mapping User Journeys</div>
               <div className="p">
                 One of my goals during this redesign was to improve the user
@@ -246,10 +261,10 @@ function Beacons() {
               </div>
             </div>
 
-            <div></div>
-            <div></div>
+            <div className=" sm:hidden"></div>
+            <div className="sm:hidden"></div>
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Building Personas</div>
               <div className="p">
                 I was able to build realistic personas that were based off the
@@ -258,7 +273,7 @@ function Beacons() {
               </div>
             </div>
 
-            <div className="">
+            <div className=" sm:col-span-2">
               <img
                 className="h-auto w-full"
                 src={PersonaA}
@@ -267,7 +282,7 @@ function Beacons() {
               <div className="caption"></div>
             </div>
 
-            <div className="">
+            <div className=" sm:col-span-2">
               <img
                 className="h-auto w-full"
                 src={PersonaB}
@@ -276,7 +291,7 @@ function Beacons() {
               <div className="caption"></div>
             </div>
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Sketching</div>
               <div className="p">
                 Sketching basic UI ideas was an easy way for me to test how they
@@ -286,11 +301,19 @@ function Beacons() {
               </div>
             </div>
 
-            <img className="h-auto w-full" src={Sketch} alt="BeaconsImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Sketch}
+              alt="BeaconsImage"
+            />
 
-            <img className="h-auto w-full" src={Prototype} alt="BeaconsImage" />
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Prototype}
+              alt="BeaconsImage"
+            />
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Prototyping</div>
               <div className="p">
                 I began prototyping the main customer request user flow first,
@@ -306,7 +329,7 @@ function Beacons() {
               </div>
             </div>
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">User Testing</div>
               <div className="p">
                 I scheduled in-person user testing meeting with the same
@@ -318,10 +341,10 @@ function Beacons() {
               </div>
             </div>
 
-            <div></div>
-            <div></div>
+            <div className="hidden"></div>
+            <div className="hidden"></div>
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Iterating</div>
               <div className="p">
                 After user testing and iterating, I was able to use the feedback
@@ -347,7 +370,7 @@ function Beacons() {
               alt="BeaconsImage"
             />
 
-            <div>
+            <div className=" sm:col-span-2">
               <div className="h2">Reflection</div>
               <div className="p">
                 I started this project as a case study, to further my UI and UX
