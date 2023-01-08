@@ -25,7 +25,7 @@ function ProjectContainer() {
               of sustainable products.
             </div>
           </div>
-          <div className="container bg-slate-200 mx-auto rounded-2xl">
+          <div className="container bg-slate-200 mx-auto rounded-3xl">
             <img
               className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full "
               src={StocateHome}
@@ -47,7 +47,7 @@ function ProjectContainer() {
               employee success in the retail workplace.
             </div>
           </div>
-          <div className="container bg-slate-200 mx-auto rounded-2xl">
+          <div className="container bg-slate-200 mx-auto rounded-3xl">
             <img
               className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full"
               src={BeaconsHome}
@@ -70,9 +70,9 @@ function ProjectContainer() {
               into a friendly interface.
             </div>
           </div>
-          <div className="container bg-slate-200 mx-auto rounded-2xl">
+          <div className="container bg-slate-200 mx-auto rounded-3xl">
             <img
-              className="rounded-2xl object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full"
+              className="rounded-3xl object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full"
               src={ExpediteHome}
               alt="StocateImage"
             />
@@ -99,9 +99,9 @@ function ProjectContainer() {
                 Encouraging young people to stay interested in politics.
               </div>
             </div>
-            <div className="container bg-slate-200 mx-auto rounded-2xl">
+            <div className="container bg-slate-200 mx-auto rounded-3xl">
               <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-2xl"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
                 src={FeatureHome}
                 alt="StocateImage"
               />
@@ -125,9 +125,9 @@ function ProjectContainer() {
                 Improving song learning experience for guitar playing using AR.
               </div>
             </div>
-            <div className="container bg-slate-200 mx-auto rounded-2xl">
+            <div className="container bg-slate-200 mx-auto rounded-3xl">
               <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-2xl"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
                 src={TablatureHome}
                 alt="StocateImage"
               />
@@ -155,9 +155,9 @@ function ProjectContainer() {
               that sells entirely through delivery platforms.
             </div>
           </div>
-          <div className="container bg-slate-200 mx-auto rounded-2xl">
+          <div className="container bg-slate-200 mx-auto rounded-3xl">
             <img
-              className="rounded-2xl object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full"
+              className="rounded-3xl object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full"
               src={InstaHome}
               alt="StocateImage"
             />
@@ -182,7 +182,7 @@ function ProjectContainer() {
               sells entirely through delivery platforms during a pandemic.
             </div>
           </div>
-          <div className="container bg-slate-200 mx-auto rounded-2xl">
+          <div className="container bg-slate-200 mx-auto rounded-3xl">
             <img
               className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full"
               src={CasperHome}
