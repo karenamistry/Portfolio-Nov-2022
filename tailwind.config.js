@@ -14,6 +14,9 @@ module.exports = {
       large: "1.5rem",
       xl: "2.125rem",
     },
+    container: {
+      padding: "2rem",
+    },
     extend: {
       screens: { sm: { max: "640px" } },
       colors: {
