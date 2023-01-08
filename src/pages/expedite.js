@@ -68,13 +68,13 @@ function Expedite() {
 
       {/* Project Text */}
 
-      <div className="w-full px-2 py-12 bg-slate-50">
+      <div className="w-full px-2 py-12 bg-slate-50 ">
         {/* Container for Gray BKG */}
         <div className="container mx-auto max-w-5xl">
           {/* Responsive Container */}
           <div className="grid grid-col-2 gap-24 justify-center items-center  auto-cols-fr">
             {/* Grid Whole Container */}
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Streamlining the pickup-in-store process</div>
               <div className="p">
                 Expedite organizes the complex systems behind the
@@ -84,9 +84,13 @@ function Expedite() {
               </div>
             </div>
 
-            <div></div>
-            <img className="h-auto w-full" src={Store} alt="BeaconsImage" />
-            <div>
+            <div className="sm:hidden"></div>
+            <img
+              className="h-auto w-full sm:col-span-2"
+              src={Store}
+              alt="BeaconsImage"
+            />
+            <div className="sm:col-span-2">
               <div className="h2">Customer Profile</div>
               <div className="p">
                 A goal we had was to add new features to the expedite flow,
@@ -97,7 +101,7 @@ function Expedite() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Readying for Soft Launch</div>
               <div className="p">
                 Another goal while working on Expedite was readying the product
@@ -107,14 +111,14 @@ function Expedite() {
               </div>
             </div>
 
-            <div></div>
+            <div className="sm:hidden"></div>
             <img
-              className="h-auto w-full"
+              className="h-auto w-full sm:col-span-2"
               src={Typeography}
               alt="BeaconsImage"
             />
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Improving Typographic Hierarchy</div>
               <div className="p">
                 Building type styles to be used across all the expedite
@@ -125,7 +129,7 @@ function Expedite() {
               </div>
             </div>
 
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">Making a Consistent Design Language</div>
               <div className="p">
                 The main purpose of the design system, in the case of expedite,
@@ -135,30 +139,30 @@ function Expedite() {
               </div>
             </div>
 
-            <div></div>
+            <div className="sm:hidden"></div>
 
-            <div className="caption">
-              <div className="bg-[#F7F9FA] w-96 h-96 ratio-square rounded-[100%] border">
+            <div className="caption sm:col-span-2">
+              <div className="bg-[#F7F9FA] w-96 h-96 ratio-square rounded-full border sm:w-full sm:h-24">
                 100
               </div>
             </div>
-            <div className="caption">
-              <div className="bg-[#C2C7CA] w-96 h-96 ratio-square rounded-[100%]">
+            <div className="caption sm:col-span-2">
+              <div className="bg-[#C2C7CA] w-96 h-96 ratio-square rounded-full  sm:w-full sm:h-24">
                 400
               </div>
             </div>
-            <div className="caption">
-              <div className="bg-[#1A262C] w-96 h-96 ratio-square rounded-[100%]">
+            <div className="caption sm:col-span-2">
+              <div className="bg-[#1A262C] w-96 h-96 ratio-square rounded-full  sm:w-full sm:h-24">
                 800
               </div>
             </div>
-            <div className="caption">
-              <div className="bg-[#CFFF00] w-96 h-96 ratio-square rounded-[100%]">
+            <div className="caption sm:col-span-2">
+              <div className="bg-[#CFFF00] w-96 h-96 ratio-square rounded-full  sm:w-full sm:h-24">
                 Secondary
               </div>
             </div>
-            <div className="col-span-2 caption">
-              <div className="bg-blue-500 w-auto h-96 ratio-square rounded-full">
+            <div className="col-span-2 caption sm:col-span-2">
+              <div className="bg-blue-500 w-auto h-96 ratio-square rounded-full  sm:w-full sm:h-24">
                 Primary
               </div>
             </div>
@@ -166,7 +170,7 @@ function Expedite() {
             <div className="col-span-2">
               <img className="h-auto w-full" src={Type} alt="ExpediteImage" />
             </div>
-            <div>
+            <div className="sm:col-span-2">
               <div className="h2">More Coming Soon!</div>
               <div className="p">
                 This product is still the process of being worked on! I'm
