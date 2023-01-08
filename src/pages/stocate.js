@@ -113,8 +113,6 @@ function Stocate() {
 
             <div className="h1 text-center col-span-2">Features</div>
 
-            <div className="sm:col-span-2"></div>
-
             <div className="sm:col-span-2">
               <div className="h2">Onboarding</div>
               <div className="p">
