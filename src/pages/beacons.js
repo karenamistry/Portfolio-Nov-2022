@@ -329,7 +329,7 @@ function Beacons() {
               </div>
             </div>
 
-            <div className=" sm:col-span-2">
+            <div className="sm:col-span-2">
               <div className="h2">User Testing</div>
               <div className="p">
                 I scheduled in-person user testing meeting with the same
@@ -341,8 +341,8 @@ function Beacons() {
               </div>
             </div>
 
-            <div className="hidden"></div>
-            <div className="hidden"></div>
+            <div className="sm:hidden"></div>
+            <div className="sm:hidden"></div>
 
             <div className=" sm:col-span-2">
               <div className="h2">Iterating</div>

@@ -45,7 +45,7 @@ function Stocate() {
   return (
     <>
       {/* Hero Image */}
-      <div className="w-full h-screen sm:h-3/4">
+      <div className="w-full h-screen">
         <div className="px-2 py-2 text-lg">🥸</div>
         <img
           className="object-contain h-full w-full mx-auto ratio-square bg-cyan-700"
@@ -111,7 +111,7 @@ function Stocate() {
           <div className="grid gap-24 justify-center items-center auto-cols-fr sm:gap-2">
             {/* Grid Whole Container */}
 
-            <div className="h1 text-center sm:col-span-2">Features</div>
+            <div className="h1 text-center col-span-2">Features</div>
 
             <div className="sm:col-span-2"></div>
 
@@ -185,7 +185,7 @@ function Stocate() {
             <div className="sm:col-span-2"></div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Create your shopping list</div>
+              <div className="h2">Create Your Shopping List</div>
               <div className="p">
                 The creating list feature of the mobile application was moved to
                 be more readily available for users. As well as interface

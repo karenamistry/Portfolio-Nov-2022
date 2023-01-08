@@ -5,17 +5,17 @@ import { NavLink } from "react-router-dom";
 function Footerbar() {
   return (
     <div className="w-full fixed px-2 py-2 bg-slate-50 top-0 border-b-[0.25px] border-blue-200 shadow-sm">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center sm:flex-col sm:gap-8">
         <div className="flex gap-x-2 caption">
           <a
-            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium sm:hidden"
+            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium"
             target="_blank"
             href="https://www.dropbox.com/s/q695q022e75l8kd/Resume-Jan2023.pdf?dl=0"
           >
             CV
           </a>
           <a
-            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium sm:hidden"
+            className="py-1 px-2 rounded-md bg-blue-100 text-blue-500 font-medium"
             target="_blank"
             href="https://www.linkedin.com/in/karenamistry/"
           >
