@@ -115,7 +115,7 @@ function ProjectContainer() {
                   <div className="h5 max-w-md pb-2">2021</div>
                 </div>
                 <div className="h3 max-w-xl">
-                  Improving song learning for guitar playing by using AR .
+                  Improving song learning for guitar playing by using AR.
                 </div>
               </div>
               <div className="w-full bg-gray-200 rounded-3xl">
