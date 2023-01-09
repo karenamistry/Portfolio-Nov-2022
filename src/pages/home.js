@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "../components/card";
+import Hero from "../components/hero";
 import ProjectContainer from "../components/projectContainer";
 
 function Home() {
   return (
     <div>
-      <Card></Card>
+      <Hero></Hero>
       <ProjectContainer />
     </div>
   );

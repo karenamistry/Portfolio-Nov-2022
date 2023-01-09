@@ -1,5 +1,5 @@
 import React from "react";
-import Footerbar from "../components/footerbar";
+import Navbar from "../components/navbar";
 // Hero Image
 import StocateHero from "../images/stocate/smartphone-stocate-b.png";
 // Project Images
@@ -46,7 +46,7 @@ function Stocate() {
     <>
       {/* Hero Image */}
       <div className="w-full h-screen">
-        <div className="px-2 py-2 text-lg">🥸</div>
+        <div className="paragraph x-2 py-2 text-lg">🥸</div>
         <img
           className="object-contain h-full w-full mx-auto ratio-square bg-cyan-700"
           src={StocateHero}
@@ -58,31 +58,31 @@ function Stocate() {
         <div className="container mx-auto grid gap-y-3 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-1 sm:grid-rows-1">
           <div className="col-span-4  text-white flex flex-col justify-end">
             <div className="flex items-center gap-x-2">
-              <div className="p opacity-80 text-white">Role</div>
-              <div className="p text-white">UX/UI</div>
+              <div className="paragraph  opacity-80 text-white">Role</div>
+              <div className="paragraph  text-white">UX/UI</div>
             </div>
             <div className="flex items-center gap-x-2">
-              <div className="p opacity-80 text-white">Platform</div>
-              <div className="p text-white">Mobile & Desktop</div>
+              <div className="paragraph  opacity-80 text-white">Platform</div>
+              <div className="paragraph  text-white">Mobile & Desktop</div>
             </div>
             <div className="flex items-center gap-x-2">
-              <div className="p opacity-80 text-white">Timeline</div>
-              <div className="p text-white">2022, Apr to Aug</div>
+              <div className="paragraph  opacity-80 text-white">Timeline</div>
+              <div className="paragraph  text-white">2022, Apr to Aug</div>
             </div>
             <div className="flex items-center gap-x-2">
-              <div className="p opacity-80 text-white">Team</div>
-              <div className="p text-white">
+              <div className="paragraph  opacity-80 text-white">Team</div>
+              <div className="paragraph  text-white">
                 Myself, Amritpal Singh, Joey Koay
               </div>
             </div>
           </div>
           {/* Hero Project Description */}
           <div className="col-span-4 flex flex-col gap-y-6">
-            <div className="h1 text-white">
+            <div className="h2 text-white">
               <span className="opacity-80">
                 I completed a 5-month internship as a product designer at
               </span>{" "}
-              <span className="font-medium">Stocate</span>
+              <span className="font-semibold">Stocate</span>
               <span className="opacity-80">
                 . At Stocate, my impact is most clearly seen from the systems
                 that I designed to aid in the growth and scalability of the
@@ -91,7 +91,7 @@ function Stocate() {
                 Stocate team.
               </span>
             </div>
-            <div className="p text-white">
+            <div className="h4  text-white">
               <span className="opacity-80">
                 Stocate connects local and sustainable businesses with
                 customers. Stocate is interested in giving users information
@@ -114,8 +114,8 @@ function Stocate() {
             <div className="h1 text-center col-span-2">Features</div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Onboarding</div>
-              <div className="p">
+              <div className="h3 mb-2">Onboarding</div>
+              <div className="paragraph ">
                 We built an onboarding flow to solve for users having trouble
                 navigating the application on first download.
               </div>
@@ -142,8 +142,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Improved Adding Journey</div>
-              <div className="p">
+              <div className="h3 mb-2">Improved Adding Journey</div>
+              <div className="paragraph ">
                 Improvements for the user journey of adding stores in the
                 application were made in order to make for a faster and more
                 enjoyable user experience.
@@ -183,8 +183,8 @@ function Stocate() {
             <div className="sm:col-span-2"></div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Create Your Shopping List</div>
-              <div className="p">
+              <div className="h3 mb-2">Create Your Shopping List</div>
+              <div className="paragraph ">
                 The creating list feature of the mobile application was moved to
                 be more readily available for users. As well as interface
                 improvements to make the user journey more enjoyable.
@@ -212,8 +212,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Message Store Owners</div>
-              <div className="p">
+              <div className="h3 mb-2">Message Store Owners</div>
+              <div className="paragraph ">
                 The messaging feature was added to the application to make it
                 easier for users to ask questions and get information about
                 specific stores or products.
@@ -249,8 +249,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Ask the Community</div>
-              <div className="p">
+              <div className="h3 mb-2">Ask the Community</div>
+              <div className="paragraph ">
                 The addition of the "ask for help finding" feature was added to
                 aid users in the search for better sustainable alternatives.
                 Asking local users and vendors where they can find specific
@@ -264,14 +264,14 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Managing Goals</div>
-              <div className="p">
+              <div className="h3 mb-2">Managing Goals</div>
+              <div className="paragraph ">
                 During my internship, I was given the opportunity to create
                 goals for the product and manage the actualization of these
                 goals through the product and development teams. These were the
                 goals I set, in order of importance:
               </div>
-              <div className="p">
+              <div className="paragraph ">
                 <br />
                 Goal 1: Having a 2 Week Turnaround on receiving and designing
                 for feedback.
@@ -282,7 +282,7 @@ function Stocate() {
                 <br />
                 <br />
               </div>
-              <div className="p">
+              <div className="paragraph ">
                 These goals were actualized through the completion of the
                 following solutions and systems I built during my internship.
               </div>
@@ -290,7 +290,7 @@ function Stocate() {
 
             <div className="sm:col-span-2">
               <img className="h-auto w-full" src={Goals} alt="StocateImage" />
-              <div className="caption">
+              <div className="paragraph">
                 My very initial (very messy) notes for best case and worst case
                 scenario goals.
               </div>
@@ -303,16 +303,16 @@ function Stocate() {
             />
 
             <div className="sm:col-span-2">
-              <div className="h2">Design Challenge?</div>
-              <div className="p">
+              <div className="h3 mb-2">Design Challenge?</div>
+              <div className="paragraph ">
                 How do we create customer centered UI solutions to aid the
                 buying experience of sustainable products?
               </div>
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Parsing User Problems</div>
-              <div className="p">
+              <div className="h3 mb-2">Parsing User Problems</div>
+              <div className="paragraph ">
                 Using a backlog of user data obtained from prior user testing
                 and in-app feedback, I was able to organize and sort of over 180
                 user comments from separate users concerning the initial
@@ -321,7 +321,7 @@ function Stocate() {
                 our applications, so we could prioritize them when building
                 solutions.
               </div>
-              <div className="p">
+              <div className="paragraph ">
                 I organized all the data by type of problem, section of the app
                 it concerned, completion status of of that feedback, & team that
                 could work on the solution. This was initially done in an excel
@@ -337,8 +337,8 @@ function Stocate() {
             <div className="sm:col-span-2"></div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Improving Core Features</div>
-              <div className="p">
+              <div className="h3 mb-2">Improving Core Features</div>
+              <div className="paragraph ">
                 Generating design solutions for user problems within the mobile
                 application was one of my main tasks at Stocate. We wanted to
                 strengthen our core features. This was a way that we wanted
@@ -351,8 +351,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">User Interviews</div>
-              <div className="p">
+              <div className="h3 mb-2">User Interviews</div>
+              <div className="paragraph ">
                 Learning about the user is integral to my design process. I
                 conducted a variety of user interviews to get information about
                 our primary and secondary user personas. These interviews
@@ -376,8 +376,8 @@ function Stocate() {
             <div className="sm:col-span-2"></div>
 
             <div className="sm:col-span-2">
-              <div className="h2">HMW & Managing Tasks</div>
-              <div className="p">
+              <div className="h3 mb-2">HMW & Managing Tasks</div>
+              <div className="paragraph ">
                 Once we understood user feedback, we were able to prioritize
                 solving for crucial interface and experience flaws in the design
                 of the desktop and mobile application. We brainstormed and
@@ -391,8 +391,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Process</div>
-              <div className="p">
+              <div className="h3 mb-2">Process</div>
+              <div className="paragraph ">
                 With the customer at the core of our design philosophy, the
                 process of arriving at a final design solution was very
                 iterative. The process we used for creating design solutions was
@@ -416,8 +416,8 @@ function Stocate() {
             />
 
             <div className="sm:col-span-2">
-              <div className="h2">User Flow Diagrams</div>
-              <div className="p">
+              <div className="h3 mb-2">User Flow Diagrams</div>
+              <div className="paragraph ">
                 Our team worked to make user flow diagrams for the entire
                 application, because that documentation was not yet in place. We
                 diagrammed the user flows in figma, so we could visualize the
@@ -432,8 +432,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Mockups & Prototyping</div>
-              <div className="p">
+              <div className="h3 mb-2">Mockups & Prototyping</div>
+              <div className="paragraph ">
                 Our MVP already existed, my job was to bring the MVP to a more
                 definite and concise model. During this stage in the process, I
                 was able to iterate upon our design system. The design system
@@ -457,15 +457,15 @@ function Stocate() {
             />
 
             <div className="sm:col-span-2">
-              <div className="h2">User Testing</div>
-              <div className="p">
+              <div className="h3 mb-2">User Testing</div>
+              <div className="paragraph ">
                 User testing was conducted to improve clarity, speed and
                 enjoyment for users within specific user flows. User testing was
                 conducted for each sprint during the mid fidelity stage. Once
                 users provided us with their feedback, we moved to the high
                 fidelity stage, where all flaws and details were ironed out.
               </div>
-              <div className="p">
+              <div className="paragraph ">
                 I conducted user testing bi-weekly with different users, during
                 sprints for our mobile application. User testing sessions were a
                 mix of in-person and via Zoom. They each lasted about 30 mins.
@@ -479,8 +479,8 @@ function Stocate() {
             </div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Iterating</div>
-              <div className="p">
+              <div className="h3 mb-2">Iterating</div>
+              <div className="paragraph ">
                 Improved user journeys within the application were created by
                 conducting extensive user testing and iterating afterwards.
                 After user testing a user flow or a feature, I would return to
@@ -498,7 +498,7 @@ function Stocate() {
                 src={Iterating}
                 alt="StocateImage"
               />
-              <div className="caption">
+              <div className="paragraph">
                 Iterations for our adding user flow. These are a few screens
                 with changes that I made after each stage of user testing. I did
                 over 4 iterations of this flow.
@@ -508,8 +508,8 @@ function Stocate() {
             <div className="h1 col-span-2 text-center">System Building</div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Building a scalable design system</div>
-              <div className="p">
+              <div className="h3 mb-2">Building a scalable design system</div>
+              <div className="paragraph ">
                 To meet our mission of creating customer centered design
                 solutions, we needed to receive and respond to customer needs
                 within the applications as quickly as we can. One of the systems
@@ -519,7 +519,7 @@ function Stocate() {
                 building the system was very iterative because the system was
                 constantly growing.
               </div>
-              <div className="p">
+              <div className="paragraph ">
                 Before I started my internship, a style guide was created to lay
                 the groundwork for the design system that I built. The
                 groundwork consisted of the primary teal, that was used in the
@@ -540,8 +540,8 @@ function Stocate() {
             />
 
             <div className="sm:col-span-2">
-              <div className="h2">Streamlining Feedback Pipeline</div>
-              <div className="p">
+              <div className="h3 mb-2">Streamlining Feedback Pipeline</div>
+              <div className="paragraph ">
                 Another one of the systems I helped build to aid in process of
                 creating customer centered design solutions was the feedback
                 dashboard. The feedback dashboard is an end-to-end process for
@@ -557,8 +557,8 @@ function Stocate() {
             <div className="sm:col-span-2"></div>
 
             <div className="sm:col-span-2">
-              <div className="h2">Reflection</div>
-              <div className="p">
+              <div className="h3 mb-2">Reflection</div>
+              <div className="paragraph ">
                 Working at Stocate was like when they say to always work with
                 people smarter than yourself. It paid off in the amount of
                 growth i've had as a designer and as a member of a product team.
@@ -574,7 +574,7 @@ function Stocate() {
         </div>
       </div>
 
-      <Footerbar />
+      <Navbar />
     </>
   );
 }
