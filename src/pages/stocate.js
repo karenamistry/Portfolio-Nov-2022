@@ -108,7 +108,7 @@ function Stocate() {
         {/* Container for Gray BKG */}
         <div className="container mx-auto max-w-5xl">
           {/* Responsive Container */}
-          <div className="grid gap-24 justify-center items-center auto-cols-fr sm:gap-2">
+          <div className="grid gap-24 justify-center items-center auto-cols-fr">
             {/* Grid Whole Container */}
 
             <div className="h1 text-center col-span-2">Features</div>
