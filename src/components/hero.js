@@ -16,11 +16,11 @@ function Hero() {
           I'm a product designer based in Canada. I create thoughtful digital
           interfaces, that aim to understand the people using them.
         </div>
-        <a className="flex gap-x-2 items-center gray-button" href="#">
+        <div className="flex gap-x-2 items-center gray-button">
           <Link to="/about" className="text-xs font-medium">
             Read more about me
           </Link>
-        </a>
+        </div>
       </div>
     </div>
   );
