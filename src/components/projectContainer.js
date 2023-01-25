@@ -20,8 +20,8 @@ function ProjectContainer() {
                 <div className="h5 max-w-md pb-2">April - Current, 2023</div>
               </div>
               <div className="h3 max-w-2xl">
-                Developing a product that seamlessly integrates complex systems
-                into a friendly interface.
+                Creating solutions to manage the complex systems behind the
+                pickup-in-store process.
               </div>
             </div>
             <div className="w-full bg-gray-200 rounded-3xl">

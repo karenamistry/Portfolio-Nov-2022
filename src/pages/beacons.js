@@ -24,7 +24,7 @@ function Beacons() {
     <>
       {/* Hero Image */}
       <div className="w-full h-screen z-10">
-        <div className="paragraph x-2 text-xs">🥸</div>
+        <div className="h4 x-2 text-xs">🥸</div>
         <img
           className="object-contain h-full w-full mx-auto ratio-square bg-gray-800"
           src={BeaconsHero}
@@ -32,46 +32,37 @@ function Beacons() {
         />
       </div>
       {/* Hero Project Info */}
-      <div className="w-full py-24 bg-gray-800">
-        <div className="container mx-auto grid gap-y-3 lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-4">
-          <div className="col-span-4  text-white flex flex-col justify-end">
-            <div className="flex items-center gap-x-2">
-              <div className="paragraph  opacity-80 text-white">Role</div>
-              <div className="paragraph  text-white">UR/UX/UI</div>
+      <div className="flex bg-gray-800 py-24 rounded-b-xl">
+        <div className="container flex flex-col gap-y-12">
+          <div className="h2 text-white">CX Beacons</div>
+          <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
+            <div className="flex gap-x-6">
+              <div className="flex flex-col opacity-80 gap-y-2">
+                <div className="h5 text-white">Role</div>
+                <div className="h5 text-white">Timeline</div>
+                <div className="h5 text-white">Platform</div>
+                <div className="h5 text-white">Team</div>
+              </div>
+              <div className="flex flex-col gap-y-2">
+                <div className="h5 text-white">
+                  User Interface, User Experience
+                </div>
+                <div className="h5 text-white">
+                  January 2022 to February, 2022
+                </div>
+                <div className="h5 text-white">IOS, Android</div>
+                <div className="h5 text-white">Myself</div>
+              </div>
             </div>
-            <div className="flex items-center gap-x-2">
-              <div className="paragraph  opacity-80 text-white">Platform</div>
-              <div className="paragraph  text-white">Mobile</div>
-            </div>
-            <div className="flex items-center gap-x-2">
-              <div className="paragraph  opacity-80 text-white">Timeline</div>
-              <div className="paragraph  text-white">2022, Jan to Feb</div>
-            </div>
-            <div className="flex items-center gap-x-2">
-              <div className="paragraph  opacity-80 text-white">Team</div>
-              <div className="paragraph  text-white">Myself</div>
-            </div>
-          </div>
-          {/* Hero Project Description */}
-          <div className="col-span-4 flex flex-col gap-y-6">
-            <div className="h3 text-white">
-              <span className="opacity-80">
-                This project started as a case study, but I later worked with
-                Dynamics CXS to bring these solutions to development for their
-              </span>{" "}
-              <span className="font-semibold">Beacons</span>{" "}
-              <span className="opacity-80">
-                product. I redesigned their previous interface to improve user
-                journeys, adjust for accessibility and build a design system.
-              </span>
-            </div>
-            <div className="h3 text-white">
-              <span className="opacity-80">
-                Beacons increases the efficiency of sales floors in large retail
-                stores. Press a button and an employee gets a notification! This
-                product is being used in the Canadian Tire Kanata, Ottawa and
-                Halton Hills, GTA stores.
-              </span>
+            <div className="flex flex-col gap-y-8 max-w-4xl">
+              <div className="h3 text-white">
+                Beacons improving the service experience for customers and
+                empowers employee success in the retail workplace. This project
+                started as a case study, but I worked with Dynamics CXS to bring
+                these solutions to development for their Beacons product. I
+                redesigned their previous interface to improve user journeys,
+                adjust for accessibility and build a design system.
+              </div>
             </div>
           </div>
         </div>
@@ -85,12 +76,12 @@ function Beacons() {
           {/* Responsive Container */}
           <div className="grid grid-col-2 gap-24 justify-center items-center auto-cols-fr">
             {/* Grid Whole Container */}
-            <div className="h1 col-span-2 text-center sm:col-span-2">
+            <div className="h2 col-span-2 text-center sm:col-span-2">
               Features
             </div>
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Accessability Adjustments</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 Providing large font sizes and more contrast makes the new
                 interface better equipped to function for all employees.
               </div>
@@ -102,7 +93,7 @@ function Beacons() {
                 src={Access}
                 alt="BeaconsImage"
               />
-              <div className="paragraph"></div>
+              <div className="h4"></div>
             </div>
 
             <img
@@ -113,7 +104,7 @@ function Beacons() {
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">Addition of Onboarding</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 When an employee is first greeted by the application, they are
                 asked about their goals so that we can better suit the
                 application to its target audience.
@@ -122,7 +113,7 @@ function Beacons() {
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">Emphasis on Personal Achievements</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 The previous system of having a customer experience score for
                 the entire store was impersonal and did not do anything to
                 encourage employee success. By implementing a personal badge and
@@ -144,7 +135,7 @@ function Beacons() {
               <div className="h3 mb-2 ">
                 Improving the Customer Request Journey
               </div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 Telling employees where and when the button was pressed, as well
                 as if their coworkers are already occupied with customers.
                 Improving how an employee receives requests when customers press
@@ -158,12 +149,12 @@ function Beacons() {
                 src={Request}
                 alt="BeaconsImage"
               />
-              <div className="paragraph"></div>
+              <div className="h4"></div>
             </div>
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">Simplified Editing</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 Organizing beacon buttons by department and SKU, which can be
                 searched, makes it easier to find and edit beacons on-the-go.
                 Previously, all the beacons were all listed together. The icons
@@ -177,11 +168,11 @@ function Beacons() {
               alt="BeaconsImage"
             />
 
-            <div className="h1 col-span-2 text-center">Process</div>
+            <div className="h2 col-span-2 text-center">Process</div>
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">Design Goals</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 Beacons was created with the goal of enhancing the customer to
                 employee service experience, not eliminating it. My goal was to
                 expand the reach of the beacons app to more retail stores by
@@ -204,7 +195,7 @@ function Beacons() {
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Conducting Interviews</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 I started researching by interviewing employees at the Canadian
                 Tire Kanata store to learn the application from their
                 perspective. I did this to learn about pain points within the
@@ -219,7 +210,7 @@ function Beacons() {
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">Asking HMW Questions</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 I started the designing process by asking "How Might We"
                 questions while listening back to my interviews. I jotted down
                 notes and questions related to changes, features and ideas that
@@ -235,12 +226,12 @@ function Beacons() {
                 src={Competition}
                 alt="BeaconsImage"
               />
-              <div className="paragraph"></div>
+              <div className="h4"></div>
             </div>
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">Analyzing Competition</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 Analyzing applications competitive with Beacons was a roadblock
                 I faced, because most similar products require consultation to
                 get access. I was able to research features of the two
@@ -254,7 +245,7 @@ function Beacons() {
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Mapping User Journeys</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 One of my goals during this redesign was to improve the user
                 journeys within the application. I started by mapping the users
                 stories in the application to better understand them. The
@@ -268,7 +259,7 @@ function Beacons() {
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Building Personas</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 I was able to build realistic personas that were based off the
                 employees that I had interviewed. I created two personas that
                 represented the two types of users that I had to accommodate.
@@ -281,7 +272,7 @@ function Beacons() {
                 src={PersonaA}
                 alt="BeaconsImage"
               />
-              <div className="paragraph"></div>
+              <div className="h4"></div>
             </div>
 
             <div className=" sm:col-span-2">
@@ -290,12 +281,12 @@ function Beacons() {
                 src={PersonaB}
                 alt="BeaconsImage"
               />
-              <div className="paragraph"></div>
+              <div className="h4"></div>
             </div>
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Sketching</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 Sketching basic UI ideas was an easy way for me to test how they
                 would work in the complete user journey before committing to
                 prototyping. After sketching, I moved to low and mid fidelity
@@ -317,7 +308,7 @@ function Beacons() {
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Prototyping</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 I began prototyping the main customer request user flow first,
                 meaning how does an employee respond to a customer presses a
                 button. I created two different iterations for completing this
@@ -333,7 +324,7 @@ function Beacons() {
 
             <div className="sm:col-span-2">
               <div className="h3 mb-2 ">User Testing</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 I scheduled in-person user testing meeting with the same
                 employees at Canadian Tire that I had previously interviewed to
                 user test the user journey for creating a customer request. My
@@ -348,7 +339,7 @@ function Beacons() {
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Iterating</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 After user testing and iterating, I was able to use the feedback
                 to iterate and narrow in on a final prototype. One of the major
                 changes I made after user testing was the addition of an
@@ -374,7 +365,7 @@ function Beacons() {
 
             <div className=" sm:col-span-2">
               <div className="h3 mb-2 ">Reflection</div>
-              <div className="paragraph ">
+              <div className="h4 ">
                 I started this project as a case study, to further my UI and UX
                 skills, but I was able to work with Dynamics and learn far more
                 than I had anticipated. I found this product so interesting
