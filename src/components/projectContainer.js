@@ -24,7 +24,7 @@ function ProjectContainer() {
                 pickup-in-store process.
               </div>
             </div>
-            <div className="w-full bg-gray-200 rounded-3xl">
+            <div className="w-full bg-gray-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
               <img
                 className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
                 src={ExpediteHome}
@@ -45,7 +45,7 @@ function ProjectContainer() {
                 experience of sustainable products.
               </div>
             </div>
-            <div className="w-full bg-gray-200 rounded-3xl">
+            <div className="w-full bg-gray-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
               <img
                 className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl bg-cyan-600"
                 src={StocateHome}
@@ -67,7 +67,7 @@ function ProjectContainer() {
                 employee success in the retail workplace.
               </div>
             </div>
-            <div className="w-full bg-gray-800 rounded-3xl">
+            <div className="w-full bg-gray-800 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
               <img
                 className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full  rounded-3xl"
                 src={BeaconsHome}
@@ -96,7 +96,7 @@ function ProjectContainer() {
               </div>
               <div className="w-full bg-gray-200 rounded-3xl">
                 <img
-                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
+                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.15)] border-[0.5px] border-gray-50"
                   src={FeatureHome}
                   alt="InstasnacksImage"
                 />
@@ -119,7 +119,7 @@ function ProjectContainer() {
               </div>
               <div className="w-full bg-gray-200 rounded-3xl">
                 <img
-                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
+                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.15)] border-[0.5px] border-gray-50"
                   src={TablatureHome}
                   alt="InstasnacksImage"
                 />
@@ -146,7 +146,7 @@ function ProjectContainer() {
             </div>
             <div className="w-full bg-gray-200 rounded-3xl">
               <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50"
                 src={InstaHome}
                 alt="InstasnacksImage"
               />
@@ -171,7 +171,7 @@ function ProjectContainer() {
             </div>
             <div className="w-full bg-gray-200 rounded-3xl">
               <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50"
                 src={CasperHome}
                 alt="CasperImage"
               />
