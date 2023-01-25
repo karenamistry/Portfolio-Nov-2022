@@ -39,16 +39,13 @@ import addingC from "../images/stocate/features/adding/AddStore-1.jpg";
 import addingD from "../images/stocate/features/adding/AddStore-2.jpg";
 import addingE from "../images/stocate/features/adding/AddStore-3.jpg";
 
-import chatA from "../images/stocate/features/chat-1.png";
-import chatB from "../images/stocate/features/chat-2.png";
-import chatC from "../images/stocate/features/chat-3.png";
+import listA from "../images/stocate/features/lists/lista.jpg";
+import listB from "../images/stocate/features/lists/listb.jpg";
+import listC from "../images/stocate/features/lists/listc.jpg";
 
-import listA from "../images/stocate/features/list-1.png";
-import listB from "../images/stocate/features/list-2.png";
-import listC from "../images/stocate/features/list-3.png";
-
-import askA from "../images/stocate/features/ask-1.png";
-import askB from "../images/stocate/features/ask-2.png";
+import feedbA from "../images/stocate/features/chat/Chat Page-0.jpg";
+import feedbB from "../images/stocate/features/chat/Chat Page-1.jpg";
+import feedbC from "../images/stocate/features/chat/Chat Page-2.jpg";
 
 function Stocate() {
   return (
@@ -107,7 +104,7 @@ function Stocate() {
           <div>
             <div className="flex flex-col items-end">
               <div className="flex flex-col gap-y-2">
-                <div className="h3">Promoting Sustainably</div>
+                <div className="h3">Be Local Everywhere</div>
                 <div className="h4 max-w-xl">
                   Stocate connects users to a community of sustainably minded
                   individuals. This community provides recommendations for
@@ -365,6 +362,37 @@ function Stocate() {
           <div className="">
             <div className="flex flex-col items-end">
               <div className="flex flex-col gap-y-2">
+                <div className="h3">Streamlining Feedback Pipeline</div>
+                <div className="h4 max-w-xl">
+                  Another one of the systems I helped build to aid in process of
+                  creating customer centered design solutions was the feedback
+                  dashboard. The feedback dashboard is an end-to-end process for
+                  receiving customer problems and creating user centered
+                  solutions. It was created to organize the excess of customer
+                  feedback received directly from the application and feedback
+                  received from user testing. It allowed us to prioritize
+                  feedback on a scale of 1-5, as well as group similar
+                  feedbacks.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="flex flex-col items-center">
+            <img
+              className="w-5/6 object-contain rounded-screen"
+              src={Pipeline}
+              alt="ExpediteImage"
+            />
+          </div>
+        </div>
+
+        <div className="container flex justify-center max-w-4xl">
+          <div className="">
+            <div className="flex flex-col items-end">
+              <div className="flex flex-col gap-y-2">
                 <div className="h3">Mockups & Prototyping</div>
                 <div className="h4 max-w-xl">
                   Our MVP already existed, my job was to bring the MVP to a more
@@ -472,18 +500,29 @@ function Stocate() {
               <div className="flex flex-col gap-y-2">
                 <div className="h3">High Fidelity Design</div>
                 <div className="h4 max-w-xl">
-                  These are some of final design solutions for the mobile
-                  application. These are a culmination of multiple stages of
-                  user testing and iterating.
+                  These are a few of the final design solutions for the mobile
+                  application.
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="container flex flex-col items-start gap-y-2">
-          <div className="h4">Onboarding</div>
-          <div className="flex gap-x-6 w-2/3">
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4 text-gray-800">Onboarding</div>
+                    <div className="h5">
+                      We built an onboarding flow to solve for users having
+                      trouble navigating the application on first download.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="">
               <img
                 className="object-cover rounded-screen"
@@ -508,9 +547,22 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="container flex flex-col items-start gap-y-2">
-          <div className="h4">Browsing</div>
-          <div className="flex gap-x-6 w-2/3">
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4 text-gray-800">Browsing</div>
+                    <div className="h5">
+                      Improved interface for the browsing section of the
+                      application provides users with a more inviting and
+                      informative introduction to the application.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="">
               <img
                 className="object-cover rounded-screen"
@@ -535,9 +587,65 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="container flex flex-col items-start gap-y-2">
-          <div className="h4">Adding Stores to Stocate</div>
+        <div className="container">
           <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4 text-gray-800">
+                      Create your shopping list
+                    </div>
+                    <div className="h5">
+                      The creating list feature of the mobile application was
+                      moved to be more readily available for users. As well as
+                      interface improvements to make the experience more
+                      enjoyable.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={listA}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={listB}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={listC}
+                alt="ExpediteImage"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4 text-gray-800">Adding Stores</div>
+                    <div className="h5">
+                      Improvements for the user journey of adding stores in the
+                      application were made in order to make for a faster and
+                      more enjoyable user experience.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="">
               <img
                 className="object-cover rounded-screen"
@@ -549,13 +657,6 @@ function Stocate() {
               <img
                 className="object-cover rounded-screen"
                 src={addingE}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={addingB}
                 alt="ExpediteImage"
               />
             </div>
@@ -576,34 +677,46 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="container flex justify-center max-w-4xl">
-          <div className="">
-            <div className="flex flex-col items-end">
-              <div className="flex flex-col gap-y-2">
-                <div className="h3">Streamlining Feedback Pipeline</div>
-                <div className="h4 max-w-xl">
-                  Another one of the systems I helped build to aid in process of
-                  creating customer centered design solutions was the feedback
-                  dashboard. The feedback dashboard is an end-to-end process for
-                  receiving customer problems and creating user centered
-                  solutions. It was created to organize the excess of customer
-                  feedback received directly from the application and feedback
-                  received from user testing. It allowed us to prioritize
-                  feedback on a scale of 1-5, as well as group similar
-                  feedbacks.
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4 text-gray-800">
+                      Receive Feedback from the Community
+                    </div>
+                    <div className="h5">
+                      Stocate is a community based application. Asking the
+                      community for feedback on the mobile and desktop
+                      applications give the product team more feedback to work
+                      from.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="flex flex-col items-center">
-            <img
-              className="w-5/6 object-contain rounded-screen"
-              src={Pipeline}
-              alt="ExpediteImage"
-            />
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={feedbA}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={feedbB}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={feedbC}
+                alt="ExpediteImage"
+              />
+            </div>
           </div>
         </div>
 
@@ -628,7 +741,7 @@ function Stocate() {
           </div>
         </div>
 
-        {/* Container Padding */}
+        {/* Container Padding   */}
       </div>
     </>
   );

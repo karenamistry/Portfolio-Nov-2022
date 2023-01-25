@@ -125,6 +125,23 @@ function Expedite() {
           </div>
         </div>
 
+        <div className="container flex justify-center max-w-4xl">
+          <div className="">
+            <div className="flex flex-col items-end">
+              <div className="flex flex-col gap-y-2">
+                <div className="h3">High Fidelity Design</div>
+                <div className="h4 max-w-xl">
+                  The Expedite application has many user journeys to accommodate
+                  the complex management system. Here are a couple of screens
+                  that explain the general user journeys in the application.
+                  These screens are a culmination of 2 stages of iterating and
+                  user testing with Canadian Tire employees.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="container">
           <div className="flex gap-x-6">
             <div className="container hidden md:flex">
@@ -390,8 +407,7 @@ function Expedite() {
                 <div className="h4 max-w-xl">
                   This product is still in the process of being worked on! We
                   are currently in the development stage. I'm excited to show
-                  updates on this project, including the findings of our user
-                  testing, as it gets further in its development.
+                  updates on this project as it gets further in its development.
                 </div>
               </div>
             </div>
