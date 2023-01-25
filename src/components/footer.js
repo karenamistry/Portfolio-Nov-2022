@@ -23,14 +23,14 @@ function Footer() {
               <div className="hidden paragraph md:flex md:flex-col">
                 Featured Works
               </div>
+              <Link className="blue-button" to="/expedite">
+                Expedite
+              </Link>
               <Link className="blue-button" to="/stocate">
                 Stocate
               </Link>
               <Link className="blue-button" to="/beacons">
                 Beacons
-              </Link>
-              <Link className="blue-button" to="/expedite">
-                Expedite
               </Link>
             </div>
             <div className="flex flex-col gap-y-4">
