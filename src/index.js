@@ -6,8 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/footer";
-import Navbar from "./components/navbar";
+
 import ScrollToTop from "./scrollToTop";
+import NavContainer from "./components/navContainer";
+import Navbar from "./components/navbar";
 import ExternalLinks from "./components/externalLinks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,8 +17,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <ScrollToTop />
-      <Navbar />
-      <ExternalLinks />
+      <Navbar></Navbar>
+      <ExternalLinks></ExternalLinks>
+      <ExternalLinks></ExternalLinks>
       <App />
       <Footer />
     </BrowserRouter>

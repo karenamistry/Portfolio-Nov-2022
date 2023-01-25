@@ -4,22 +4,24 @@ import Profile from "../images/about/me-standing-cropped.jpg";
 
 function Hero() {
   return (
-    <div className="container w-screen h-[85vh] flex flex-col justify-center items-start gap-6 md:flex-row md:justify-center md:items-center">
+    <div className="container w-screen h-[100vh] flex flex-col justify-center items-start gap-6 md:flex-row md:justify-center md:items-center">
       <img
-        className="w-24 md:w-32 rounded-full shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] m-4"
+        className="w-40 md:w-40 rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] m-4"
         src={Profile}
         alt="me!"
       />
-      <div className="flex flex-col gap-3">
-        <div className="h1">Karena Mistry</div>
-        <div className="paragraph max-w-md">
-          I'm a product designer based in Canada. I create thoughtful digital
-          interfaces, that aim to understand the people using them.
+      <div className="flex flex-col gap-y-4">
+        <div>
+          <div className="h2">Hi, I'm Karena Mistry</div>
+          <div className="h5 max-w-lg">
+            I'm a product designer based in Canada. I'm passionate about
+            creating thoughtful experiences and carefully crafted interfaces.
+          </div>
         </div>
-        <div className="flex gap-x-2 items-center gray-button">
-          <Link to="/about" className="text-xs font-medium">
-            Read more about me
-          </Link>
+        <div>
+          <div className="flex gap-x-2 items-center gray-button">
+            <Link to="/about">Read more about me</Link>
+          </div>
         </div>
       </div>
     </div>

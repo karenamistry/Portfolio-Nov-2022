@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="w-full bg-slate-50 border-t border-blue-100">
       <div className="container pt-12 pb-24">
-        <div className="flex justify-between">
+        <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
           <div className="flex flex-col gap-y-12">
             <div className="flex flex-col">
               <div className="h3">Karena Mistry</div>
@@ -13,12 +13,16 @@ function Footer() {
                 Made with React using Tailwind
               </div>
             </div>
-            <div className="h5">© Karena Mistry 2023</div>
+            <div className="hidden h5 md:flex md:flex-col">
+              © Karena Mistry 2023
+            </div>
           </div>
 
           <div className="flex gap-x-12">
             <div className="flex flex-col gap-y-4">
-              <div className="paragraph">Featured Works</div>
+              <div className="hidden paragraph md:flex md:flex-col">
+                Featured Works
+              </div>
               <Link className="blue-button" to="/stocate">
                 Stocate
               </Link>
@@ -30,7 +34,9 @@ function Footer() {
               </Link>
             </div>
             <div className="flex flex-col gap-y-4">
-              <div className="paragraph">Socials</div>
+              <div className="hidden paragraph md:flex md:flex-col">
+                Socials
+              </div>
               <a
                 className="gray-button"
                 target="_blank"

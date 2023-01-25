@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="w-full fixed bg-slate-50 border-b border-blue-100">
+    <div className="w-full fixed bg-slate-50 border-b border-blue-100  z-40">
       <div className="container py-2">
         <div className="flex gap-2 justify-center items-center">
           <NavLink

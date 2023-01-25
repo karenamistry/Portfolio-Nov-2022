@@ -2,9 +2,9 @@ import React from "react";
 
 function ExternalLinks() {
   return (
-    <div className="fixed hidden lg:flex">
+    <div className="fixed hidden lg:flex z-50">
       <div className="container py-2">
-        <div className="flex gap-2 justify-end items-center">
+        <div className="flex gap-2 justify-end items-center ">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/karenamistry/"

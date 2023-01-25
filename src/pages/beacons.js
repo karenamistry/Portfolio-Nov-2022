@@ -23,8 +23,8 @@ function Beacons() {
   return (
     <>
       {/* Hero Image */}
-      <div className="w-full h-screen">
-        <div className="paragraph x-2 py-2 text-lg">🥸</div>
+      <div className="w-full h-screen z-10">
+        <div className="paragraph x-2 text-xs">🥸</div>
         <img
           className="object-contain h-full w-full mx-auto ratio-square bg-gray-800"
           src={BeaconsHero}
@@ -54,7 +54,7 @@ function Beacons() {
           </div>
           {/* Hero Project Description */}
           <div className="col-span-4 flex flex-col gap-y-6">
-            <div className="h2 text-white">
+            <div className="h3 text-white">
               <span className="opacity-80">
                 This project started as a case study, but I later worked with
                 Dynamics CXS to bring these solutions to development for their
@@ -65,7 +65,7 @@ function Beacons() {
                 journeys, adjust for accessibility and build a design system.
               </span>
             </div>
-            <div className="h4  text-white">
+            <div className="h3 text-white">
               <span className="opacity-80">
                 Beacons increases the efficiency of sales floors in large retail
                 stores. Press a button and an employee gets a notification! This
