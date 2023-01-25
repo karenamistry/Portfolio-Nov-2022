@@ -14,7 +14,7 @@ function ExternalLinks() {
           </a>
           <a
             target="_blank"
-            href="https://www.dropbox.com/s/q695q022e75l8kd/Resume-Jan2023.pdf?dl=0"
+            href="https://www.dropbox.com/s/woehfl91vpojb6m/KarenaMistry-Jan2023-Updated.pdf?dl=0"
             className="flex gap-x-1 items-center justify-center gray-button"
           >
             <div>CV</div>
