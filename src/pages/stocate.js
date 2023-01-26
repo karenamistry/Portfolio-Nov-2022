@@ -125,11 +125,11 @@ function Stocate() {
                   During my internship, I was given the opportunity to create
                   goals for the product and manage the actualization of these
                   goals through the product and development teams. My primary
-                  goal was to increasing the amount of active users we retained
-                  in the application. My secondary goal was to speed up our
-                  process of implementing new design solutions into our MVP.
-                  These goals were actualized through the completion of the
-                  following solutions and systems I built during my internship.
+                  goal was to increase the amount of active users we retained in
+                  the application. My secondary goal was to speed up our process
+                  of implementing new design solutions into our MVP. These goals
+                  were actualized through the completion of the following
+                  solutions and systems I built during my internship.
                 </div>
               </div>
             </div>
