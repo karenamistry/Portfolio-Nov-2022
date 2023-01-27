@@ -56,7 +56,7 @@ function Beacons() {
             </div>
             <div className="flex flex-col gap-y-8 max-w-4xl">
               <div className="h3 text-white">
-                Beacons improving the service experience for customers and
+                Beacons improves the service experience for customers and
                 empowers employee success in the retail workplace. This project
                 started as a case study, but I worked with Dynamics CXS to bring
                 these solutions to development for their Beacons product. I
