@@ -8,12 +8,19 @@ import FeatureHome from "../images/other/cover-feature.jpg";
 import InstaHome from "../images/other/insta-cover.jpg";
 import CasperHome from "../images/other/casper-cover.jpg";
 
+import { motion } from "framer-motion";
+
 function ProjectContainer() {
   return (
     <div className="bg-white w-screen py-24">
       <div className="container flex flex-col gap-y-24">
         <NavLink to="/expedite">
-          <div className="flex flex-col gap-y-6" href="#">
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            transition={{ type: "spring", stiffness: 125 }}
+            className="flex flex-col gap-y-6"
+            href="#"
+          >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
                 <div className="h2">Expedite</div>
@@ -31,10 +38,15 @@ function ProjectContainer() {
                 alt="StocateImage"
               />
             </div>
-          </div>
+          </motion.div>
         </NavLink>
         <NavLink to="/stocate">
-          <div className="flex flex-col gap-y-6" href="#">
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            transition={{ type: "spring", stiffness: 125 }}
+            className="flex flex-col gap-y-6"
+            href="#"
+          >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
                 <div className="h2">Stocate</div>
@@ -52,11 +64,16 @@ function ProjectContainer() {
                 alt="StocateImage"
               />
             </div>
-          </div>
+          </motion.div>
         </NavLink>
 
         <NavLink to="/beacons">
-          <div className="flex flex-col gap-y-6" href="#">
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            transition={{ type: "spring", stiffness: 125 }}
+            className="flex flex-col gap-y-6"
+            href="#"
+          >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
                 <div className="h2">Beacons</div>
@@ -74,7 +91,7 @@ function ProjectContainer() {
                 alt="StocateImage"
               />
             </div>
-          </div>
+          </motion.div>
         </NavLink>
 
         {/* Half s */}
@@ -84,7 +101,12 @@ function ProjectContainer() {
             target="_blank"
             href="https://www.behance.net/gallery/154462559/Feature-UR-UX-UI-Case-Study"
           >
-            <div className="flex flex-col gap-y-6" href="#">
+            <motion.div
+              whileHover={{ scale: 1.01 }}
+              transition={{ type: "spring", stiffness: 125 }}
+              className="flex flex-col gap-y-6"
+              href="#"
+            >
               <div className="flex flex-col gap-y-2">
                 <div className="flex flex-col">
                   <div className="h2">Feature</div>
@@ -101,13 +123,18 @@ function ProjectContainer() {
                   alt="InstasnacksImage"
                 />
               </div>
-            </div>
+            </motion.div>
           </a>
           <a
             target="_blank"
             href="https://www.behance.net/gallery/154472601/Guitar-Tablature-UX-UI-Case-Study"
           >
-            <div className="flex flex-col gap-y-6" href="#">
+            <motion.div
+              whileHover={{ scale: 1.01 }}
+              transition={{ type: "spring", stiffness: 125 }}
+              className="flex flex-col gap-y-6"
+              href="#"
+            >
               <div className="flex flex-col gap-y-2">
                 <div className="flex flex-col">
                   <div className="h2">Tablature</div>
@@ -124,7 +151,7 @@ function ProjectContainer() {
                   alt="InstasnacksImage"
                 />
               </div>
-            </div>
+            </motion.div>
           </a>
         </div>
         {/* End Half s */}
@@ -133,7 +160,12 @@ function ProjectContainer() {
           target="_blank"
           href="https://www.behance.net/gallery/138923685/Instasnacks-Motion-Illustrative-Content"
         >
-          <div className="flex flex-col gap-y-6" href="#">
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            transition={{ type: "spring", stiffness: 125 }}
+            className="flex flex-col gap-y-6"
+            href="#"
+          >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
                 <div className="h2">Instasnacks</div>
@@ -151,14 +183,19 @@ function ProjectContainer() {
                 alt="InstasnacksImage"
               />
             </div>
-          </div>
+          </motion.div>
         </a>
 
         <a
           target="_blank"
           href="https://www.behance.net/gallery/138924473/Casper-Kitchen-Social-Media-Strategy-Photography"
         >
-          <div className="flex flex-col gap-y-6" href="#">
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            transition={{ type: "spring", stiffness: 125 }}
+            className="flex flex-col gap-y-6"
+            href="#"
+          >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
                 <div className="h2">Casper Kitchen</div>
@@ -176,7 +213,7 @@ function ProjectContainer() {
                 alt="CasperImage"
               />
             </div>
-          </div>
+          </motion.div>
         </a>
       </div>
     </div>
