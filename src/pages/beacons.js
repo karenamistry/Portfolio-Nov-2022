@@ -59,9 +59,9 @@ function Beacons() {
                 Beacons improves the service experience for customers and
                 empowers employee success in the retail workplace. This project
                 started as a case study, but I worked with Dynamics CXS to bring
-                these solutions to development for their Beacons product. I
-                redesigned their previous interface to improve user journeys,
-                adjust for accessibility and build a design system.
+                these solutions to development. I redesigned their previous
+                interface to improve user journeys, adjust for accessibility and
+                build a design system.
               </div>
             </div>
           </div>
