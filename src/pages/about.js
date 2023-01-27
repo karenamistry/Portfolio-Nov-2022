@@ -12,13 +12,13 @@ function About() {
           <div className="flex flex-col gap-y-2">
             <div className="h3">About Me</div>
             <div className="h4 max-w-xl">
-              Hi, I'm Karena. I live in Ottawa, Canada. I've worked in graphic
-              design for the past 5 years, but recently specialized myself in
-              product design. Product design is what i've always had a passion
-              for but I wasn't able to find my footing in it until recently.
-              I've worked on applications that are being used in Canadian Tire
-              Stores, signage for successful political campaigns and designed
-              for startups in Ottawa, Toronto and Montreal.
+              Hi, I'm Karena. I've worked in graphic design for the past 5
+              years, but recently specialized myself in product design. Product
+              design is what i've always had a passion for but I wasn't able to
+              find my footing in it until recently. I've worked on applications
+              that are being used in Canadian Tire Stores, signage for
+              successful political campaigns and designed for startups in
+              Ottawa, Toronto and Montreal.
             </div>
             <div className="h4 max-w-xl">
               Just some fun things about myself. I enjoy music in a variety of
