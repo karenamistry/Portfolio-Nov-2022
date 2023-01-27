@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="container w-screen h-[100vh] flex flex-col justify-center items-start gap-6 md:flex-row md:justify-center md:items-center">
+    <div className="container w-screen h-[60vh] flex flex-col justify-center items-start gap-6 md:flex-row md:justify-center md:items-center">
       <motion.div
         animate={{ scale: [0.5, 1] }}
         transition={{ type: "spring", stiffness: 150 }}
