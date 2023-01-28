@@ -12,7 +12,7 @@ function About() {
           <div className="flex flex-col gap-y-2">
             <div className="h3">About Me</div>
             <div className="h4 max-w-xl">
-              Hi, I'm Karena. I've worked in graphic design for the past 5
+              Hi, I'm Karena. I've worked in graphic design for the past few
               years, but recently specialized myself in product design. Product
               design is what i've always had a passion for but I wasn't able to
               find my footing in it until recently. I've worked on applications
