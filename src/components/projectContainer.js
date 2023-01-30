@@ -27,7 +27,7 @@ function ProjectContainer() {
                 <div className="h5 max-w-md pb-2">April - Current, 2023</div>
               </div>
               <div className="h3 max-w-2xl">
-                Creating solutions to manage the complex systems behind the
+                Improving the retail customer's experience of the complex
                 pickup-in-store process.
               </div>
             </div>
