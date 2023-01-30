@@ -21,7 +21,7 @@ function About() {
             <div className="h3 min-w-4xl">
               <span className="text-blue-600">👩‍💻 Hello!</span> I'm Karena. I'm
               currently a product designer for Dyanmic CXS, I've previously
-              designed for startups across Canada.
+              designed for multiple startups across Canada.
             </div>
             <div className="flex flex-col gap-y-2 max-w-xl">
               <div className="h5">Some Things About Me</div>
