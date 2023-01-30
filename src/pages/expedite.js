@@ -380,7 +380,7 @@ function Expedite() {
                   to help employees keep track of where they were in the
                   process. We later learned that this was confusing users,
                   because users each counted the steps differently. This was
-                  replaced with a timeline element that just reached closer to
+                  replaced with a timeline element that reached closer to
                   completion at the end of each step.
                 </div>
               </div>

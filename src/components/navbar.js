@@ -16,7 +16,7 @@ function Navbar() {
             to="/about"
             className="flex gap-x-1 items-center justify-center blue-button"
           >
-            <div>About</div>
+            <div>Info</div>
           </NavLink>
         </div>
       </div>
