@@ -2,7 +2,7 @@ import React from "react";
 
 import Me from "../images/about/me-spinning.jpg";
 import Standing from "../images/about/me-standing.jpg";
-import Profile from "../images/about/me-standing-cropped.jpg";
+import Collage from "../images/about/me-collage.png";
 
 function About() {
   return (
@@ -10,10 +10,10 @@ function About() {
       <div className="">
         <div className="h-[15vh] w-full"></div>
         <div className="flex flex-col lg:flex-row gap-x-12 justify-between">
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full items-center pb-12 lg:pb-0">
             <img
-              className="object-cover object-top w-[16rem] h-[16rem] lg:w-[28rem] lg:h-[28rem] rounded-[1.2rem] shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] m-4 border-[0.5px] border-gray-50"
-              src={Me}
+              className="object-contain object-top w-[14rem] lg:w-full lg:h-[32rem]"
+              src={Collage}
               alt="me!"
             />
           </div>
