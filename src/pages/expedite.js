@@ -1,4 +1,6 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
 // Hero Image
 import ExpediteHero from "../images/expedite/smartphone-expedite-c.jpg";
 // Project Images
@@ -586,6 +588,11 @@ function Expedite() {
                   This product is still in the process of being worked on! We
                   are currently in the development stage. I'm excited to show
                   updates on this project as it gets further in its development.
+                  To see more work i've done with Dyanmic CXS, check out{" "}
+                  <Link className="text-blue-600" to="/beacons">
+                    Beacons
+                  </Link>
+                  .
                 </div>
               </div>
             </div>

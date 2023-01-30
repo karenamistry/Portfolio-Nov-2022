@@ -443,7 +443,9 @@ function Stocate() {
                   would walk me through their experience with our Figma
                   prototype. During this portion, I am able to focus in on
                   roadblocks users have during specific areas of the
-                  application.
+                  application. Conducting interviews and completing scenarios in
+                  the application provided us with both quantitative and
+                  qualitative information.
                 </div>
               </div>
             </div>
