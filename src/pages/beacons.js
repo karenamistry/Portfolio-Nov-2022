@@ -82,10 +82,11 @@ function Beacons() {
                 <div className="h3">Personal Goals</div>
                 <div className="h4 max-w-xl">
                   This project started as a freelance branding project for
-                  Dynamic CXS. I created this case study as a way to show
-                  Dyanmic CXS a better design solutions in their Beacons
-                  product, hoping that they would want to work with me to
-                  implement my solution.
+                  Dynamic CXS. I created this case study as a way to show them a
+                  better design solutions in their Beacons product, hoping that
+                  they would want to work with me to implement my solution. I
+                  was able to pitch my design solution to Dynamic CXS and ship
+                  my final design solution.
                 </div>
                 <div className="h3">Design Goals</div>
                 <div className="h4 max-w-xl">
@@ -245,9 +246,7 @@ function Beacons() {
                 <div className="h4 max-w-xl">
                   If I were able to spend more time on this projects, I would
                   have also liked to have created personas for the customer, on
-                  the opposite end of the Beacons application. The Beacons
-                  application was created to improve the experience of the
-                  customer in a retail store, so .
+                  the opposite end of the Beacons application.
                 </div>
               </div>
             </div>
