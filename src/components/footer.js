@@ -14,7 +14,8 @@ function Footer() {
               </div>
             </div>
             <div className="hidden h5 md:flex md:flex-col">
-              © Karena Mistry 2023
+              Made by Karena, with the help coffee and late nights. © Karena
+              Mistry 2023
             </div>
           </div>
 
