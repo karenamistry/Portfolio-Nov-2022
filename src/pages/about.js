@@ -12,14 +12,13 @@ function About() {
         <div className="flex flex-col lg:flex-row gap-x-12 justify-between">
           <div className="flex flex-col w-full">
             <img
-              className="object-cover object-top w-40 md:w-full md:h-[40rem] rounded-[1.2rem] shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] m-4 border-[0.5px] border-gray-50"
+              className="object-cover object-top w-[16rem] h-[16rem] lg:w-[28rem] lg:h-[28rem] rounded-[1.2rem] shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] m-4 border-[0.5px] border-gray-50"
               src={Me}
               alt="me!"
             />
-            <div className="h5 text-center">This is a pic of me! 💃 </div>
           </div>
           <div className="flex flex-col gap-y-6">
-            <div className="h3 min-w-3xl">
+            <div className="h3 min-w-4xl">
               <span className="text-blue-600">👩‍💻 Hello!</span> I'm Karena. I'm
               currently a product designer for Dyanmic CXS, I've previously
               designed for startups across Canada.
