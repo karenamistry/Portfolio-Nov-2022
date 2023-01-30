@@ -7,6 +7,12 @@ import Type from "../images/expedite/type-poppins.png";
 import System from "../images/expedite/system.jpg";
 import Warehouse from "../images/expedite/store.jpg";
 
+import Affinity from "../images/expedite/affinitymap.png";
+import UserJourney from "../images/expedite/userjourney-general.png";
+import SiteMap from "../images/expedite/sitemapA.png";
+import IterateA from "../images/expedite/pages/expedite/dashed.jpg";
+import IterateB from "../images/expedite/pages/expedite/line.jpg";
+
 import ExpediteA from "../images/expedite/pages/expedite/CXP 168.jpg";
 import ExpediteB from "../images/expedite/pages/expedite/CXP 165.jpg";
 import ExpediteC from "../images/expedite/pages/expedite/CXP 166.jpg";
@@ -129,13 +135,20 @@ function Expedite() {
           <div className="">
             <div className="flex flex-col items-end">
               <div className="flex flex-col gap-y-2">
-                <div className="h3">High Fidelity Design</div>
+                <div className="h3">Affinity Mapping</div>
                 <div className="h4 max-w-xl">
-                  The Expedite application has many user journeys to accommodate
-                  the complex management system. Here are a couple of screens
-                  that explain the general user journeys in the application.
-                  These screens are a culmination of 2 stages of iterating and
-                  user testing with Canadian Tire employees.
+                  Initially I started by asking "how might we?" questions and
+                  creating an affinity map in order to better understand the
+                  product. I grouped my categories by the stage in the expedite
+                  process. These being: Customer experience employees (CXP),
+                  Logistics employees (Warehouse), Cash (Checkout) & Statistics.
+                  This helped me better manage my questions.
+                </div>
+                <div className="h4 max-w-xl">
+                  A few takeaways being: Where do we implement with the new
+                  customer profile feature? How can we make the customer
+                  information filling as quick as possible? How can logistics
+                  employees be able to see upcoming order for that day?
                 </div>
               </div>
             </div>
@@ -143,136 +156,79 @@ function Expedite() {
         </div>
 
         <div className="container">
-          <div className="flex gap-x-6">
-            <div className="container hidden md:flex">
-              <div className="">
-                <div className="flex flex-col items-end">
-                  <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">Stage 1: Expedite</div>
-                    <div className="h5">
-                      A sales floor employee has to request for an item to be
-                      found in the warehouse.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="">
+          <div className="w-full md:w-full h-auto mx-auto">
+            <div className="object-contain">
               <img
-                className="object-cover rounded-screen"
-                src={ExpediteB}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={ExpediteC}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={ExpediteD}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={ExpediteE}
+                className="object-cover rounded-screen mx-auto"
+                src={Affinity}
                 alt="ExpediteImage"
               />
             </div>
           </div>
         </div>
 
-        <div className="container">
-          <div className="flex gap-x-6">
-            <div className="container hidden md:flex">
-              <div className="">
-                <div className="flex flex-col items-end">
-                  <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">Stage 2: Picking</div>
-                    <div className="h5">
-                      A warehouse employee has to find that item.
-                    </div>
-                  </div>
+        <div className="container flex justify-center max-w-4xl">
+          <div className="">
+            <div className="flex flex-col items-end">
+              <div className="flex flex-col gap-y-2">
+                <div className="h3">Site Mapping</div>
+                <div className="h4 max-w-xl">
+                  I mapped out the original site map for the Expedite MVP. This
+                  allowed me to understand the intricacies of the system.
+                </div>
+                <div className="h4 max-w-xl">
+                  The application has a different landing page depending on
+                  which section of the store the employee belongs to because
+                  employees are confined to their store section. Except for
+                  management (which is why I made a circle and a note during a
+                  meeting to let myself know).
                 </div>
               </div>
             </div>
-            <div className="">
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="w-full md:w-full h-auto mx-auto">
+            <div className="object-contain">
               <img
                 className="object-cover rounded-screen"
-                src={PickingA}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={PickingB}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={PickingC}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={PickingD}
+                src={SiteMap}
                 alt="ExpediteImage"
               />
             </div>
           </div>
         </div>
 
-        <div className="container">
-          <div className="flex gap-x-6">
-            <div className="container hidden md:flex">
-              <div className="">
-                <div className="flex flex-col items-end">
-                  <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">Stage 3: Loading</div>
-                    <div className="h5">
-                      A loading employee has to load the large ticket item into
-                      the customer's vehicle.
-                    </div>
-                  </div>
+        <div className="container flex justify-center max-w-4xl">
+          <div className="">
+            <div className="flex flex-col items-end">
+              <div className="flex flex-col gap-y-2">
+                <div className="h3">User Journeys</div>
+                <div className="h4 max-w-xl">
+                  Expedite is an interesting product to work on because it takes
+                  into account the journey that both the employee and the
+                  customer take. This was very difficult for me to understand,
+                  so introducing user journeys to the business team for provided
+                  a lot of clarity all around.
+                </div>
+                <div className="h4 max-w-xl">
+                  There are two user journeys depicted in the diagram below. I
+                  mapped the steps that each employee takes to complete a pickup
+                  order (blue, green, red). Below that I mapped the journey that
+                  the customer takes, alongside those employees (orange).
                 </div>
               </div>
             </div>
-            <div className="">
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="w-full md:w-full h-auto mx-auto">
+            <div className="object-contain">
               <img
                 className="object-cover rounded-screen"
-                src={LoadingA}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={LoadingB}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={LoadingC}
-                alt="ExpediteImage"
-              />
-            </div>
-            <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={LoadingD}
+                src={UserJourney}
                 alt="ExpediteImage"
               />
             </div>
@@ -317,16 +273,16 @@ function Expedite() {
           <div className="">
             <div className="flex flex-col items-end">
               <div className="flex flex-col gap-y-2">
-                <div className="h3">Versatile Typography</div>
+                <div className="h3">Accessible Typography</div>
                 <div className="h4 max-w-xl">
-                  The type system I created for Dynamics CXS is complex because
-                  it needed to be very versatile. There are 9 different type
-                  styles being used in the current application. Having a large
-                  variety of sizes allowed for more flexibility when designing
-                  information condensed components. Hierarchy needed to be
-                  tight, so that information is easily accessible at a glance.
-                  The typography also needed to be accessible to accomadate
-                  employees with poorer eyesight.
+                  There are 9 different type styles being used in the current
+                  application. My main concern when designing the typography was
+                  accommodating employees with poorer eyesight. The type system
+                  is complex because it needed to be very versatile. Having a
+                  large variety of sizes allowed for more flexibility when
+                  designing highly condensed information based components.
+                  Hierarchy also needed to be tight, so that information is
+                  easily accessible at a glance.
                 </div>
               </div>
             </div>
@@ -393,6 +349,228 @@ function Expedite() {
               <img
                 className="w-5/6 object-cover rounded-screen"
                 src={Cust4}
+                alt="ExpediteImage"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="container flex justify-center max-w-4xl">
+          <div className="">
+            <div className="flex flex-col items-end">
+              <div className="flex flex-col gap-y-2">
+                <div className="h3">Iterating</div>
+                <div className="h4 max-w-xl">
+                  We learned that employees were often picking items in similar
+                  departments all at once. This meant that there needed to be an
+                  option to select a single or multiple items during the picking
+                  and loading stages. To solve for this we adjusted the
+                  interface to allow for multiple items to be picked.
+                </div>
+                <div className="h4 max-w-xl">
+                  When developing our customer profile, we were running into the
+                  problem of having multiple accounts in the system under the
+                  same phone number. To solve this problem, the customer profile
+                  is created when a phone number is not found in the Expedite
+                  system. Employees are prompted to create a new profile using
+                  that number.
+                </div>
+                <div className="h4 max-w-xl">
+                  Originally, I had designed a multiple dash interface element
+                  to help employees keep track of where they were in the
+                  process. We later learned that this was confusing users,
+                  because users each counted the steps differently. This was
+                  replaced with a timeline element that just reached closer to
+                  completion at the end of each step.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="w-full md:w-1/3 h-auto mx-auto flex gap-x-6">
+            <div className="object-contain">
+              <img
+                className="object-cover rounded-screen"
+                src={IterateA}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="object-contain">
+              <img
+                className="object-cover rounded-screen"
+                src={IterateB}
+                alt="ExpediteImage"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="container flex justify-center max-w-4xl">
+          <div className="">
+            <div className="flex flex-col items-end">
+              <div className="flex flex-col gap-y-2">
+                <div className="h3">High Fidelity Design</div>
+                <div className="h4 max-w-xl">
+                  The Expedite application has many flows to accommodate the
+                  complex management system. Here are a couple of screens that
+                  explain the most common use cases of the application.
+                </div>
+                <div className="h4 max-w-xl">
+                  These screens are a culmination of 2 stages of iterating and
+                  user testing with Canadian Tire employees.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h5 text-gray-800">Stage 1: Expedite</div>
+                    <div className="h4">
+                      A sales floor employee has to request for an item to be
+                      found in the warehouse.
+                    </div>
+                    <div className="h4">
+                      The Customer Profile feature was implemented in this
+                      stage.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={ExpediteB}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={ExpediteC}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={ExpediteD}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={ExpediteE}
+                alt="ExpediteImage"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h5 text-gray-800">Stage 2: Picking</div>
+                    <div className="h4">
+                      A warehouse employee has to find that item.
+                    </div>
+                    <div className="h4">
+                      Warehouse employees are able to select the items they
+                      would like to pick and those items are added to a picking
+                      list. Once the employee has found those items, they are
+                      able to mark them as found.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={PickingA}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={PickingB}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={PickingC}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={PickingD}
+                alt="ExpediteImage"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="flex gap-x-6">
+            <div className="container hidden md:flex">
+              <div className="">
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h5 text-gray-800">Stage 3: Loading</div>
+                    <div className="h4">
+                      A loading employee has to load the large ticket item into
+                      the customer's vehicle.
+                    </div>
+                    <div className="h4">
+                      Employees are asked to provide photographic proof of
+                      loading during this stage.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={LoadingA}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={LoadingB}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={LoadingC}
+                alt="ExpediteImage"
+              />
+            </div>
+            <div className="">
+              <img
+                className="object-cover rounded-screen"
+                src={LoadingD}
                 alt="ExpediteImage"
               />
             </div>
