@@ -156,7 +156,7 @@ function Expedite() {
         </div>
 
         <div className="container">
-          <div className="w-full md:w-full h-auto mx-auto">
+          <div className="w-full md:w-1/2 h-auto mx-auto">
             <div className="object-contain">
               <img
                 className="object-cover rounded-screen mx-auto"
@@ -189,7 +189,7 @@ function Expedite() {
         </div>
 
         <div className="container">
-          <div className="w-full md:w-full h-auto mx-auto">
+          <div className="w-full md:w-1/2 h-auto mx-auto">
             <div className="object-contain">
               <img
                 className="object-cover rounded-screen"
@@ -224,7 +224,7 @@ function Expedite() {
         </div>
 
         <div className="container">
-          <div className="w-full md:w-full h-auto mx-auto">
+          <div className="w-full md:w-2/3 h-auto mx-auto">
             <div className="object-contain">
               <img
                 className="object-cover rounded-screen"
@@ -389,7 +389,7 @@ function Expedite() {
         </div>
 
         <div className="container">
-          <div className="w-full md:w-1/3 h-auto mx-auto flex gap-x-6">
+          <div className="w-full md:w-2/3 h-auto mx-auto flex gap-x-6">
             <div className="object-contain">
               <img
                 className="object-cover rounded-screen"
