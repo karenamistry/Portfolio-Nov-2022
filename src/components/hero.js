@@ -24,7 +24,7 @@ function Hero() {
       >
         <div>
           <div className="h3 max-w-xl">
-            <span className="text-blue-600">I'm Karena.</span> I'm a product
+            <span className="text-blue-600">👩‍💻 I'm Karena.</span> I'm a product
             designer based in Canada. I'm passionate about creating thoughtful
             experiences and carefully crafted interfaces.
           </div>
