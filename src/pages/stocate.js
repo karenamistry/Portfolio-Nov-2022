@@ -107,9 +107,9 @@ function Stocate() {
                 <div className="h3">Be Local Everywhere</div>
                 <div className="h4 max-w-xl">
                   Stocate connects users to a community of sustainably minded
-                  individuals. This community provides recommendations for
-                  locally and sustainably sourced products and stores in their
-                  area.
+                  individuals and businesses. This community provides
+                  recommendations for locally and sustainably sourced products
+                  and stores in their area.
                 </div>
               </div>
             </div>
@@ -159,7 +159,9 @@ function Stocate() {
                   Generating design solutions for user problems within the
                   mobile application was one of my main tasks at Stocate. We
                   wanted to strengthen our core features, in order to improve
-                  our active user numbers and solidify our core user journey.
+                  our active user numbers and solidify our core user journey. To
+                  improve a core feature, I went through steps of conducting
+                  user research, designing, user testing & iterating.
                 </div>
               </div>
             </div>
@@ -282,7 +284,7 @@ function Stocate() {
           <div className="">
             <div className="flex flex-col items-end">
               <div className="flex flex-col gap-y-2">
-                <div className="h3">User Flow Diagrams</div>
+                <div className="h3">Site Mapping and User Flow Diagrams</div>
                 <div className="h4 max-w-xl">
                   Our team worked to make user flow diagrams for the entire
                   application, because that documentation was not yet in place.
@@ -304,8 +306,9 @@ function Stocate() {
               alt="ExpediteImage"
             />
             <div className="h5">
-              We mapped the user flows from larger scale flow to the smaller
-              scale interactions to properly understand how our systems were
+              We created a site map using our existing application pages to
+              understand from the larger scale flows to the smaller scale
+              interactions. This helped us understand how our systems were
               working together.
             </div>
           </div>
@@ -372,7 +375,7 @@ function Stocate() {
                   feedback received directly from the application and feedback
                   received from user testing. It allowed us to prioritize
                   feedback on a scale of 1-5, as well as group similar
-                  feedbacks.
+                  feedbacks. The steps in the end-to-end process are as follows:
                 </div>
               </div>
             </div>
@@ -397,12 +400,10 @@ function Stocate() {
                 <div className="h4 max-w-xl">
                   Our MVP already existed, my job was to bring the MVP to a more
                   definite and concise model. During this stage in the process,
-                  I was able to iterate upon our design system. The design
-                  system was not yet built during the beginning of my
-                  internship, so I created components as they were needed. I
-                  later created a more concise and documented design system to
-                  improve the speed of creating mid and high fidelity mockups
-                  and prototypes.
+                  I was able to iterate upon our design system. I created
+                  components as they were needed. This kept our design system
+                  smaller and more intentional. The mockups I created worked off
+                  the design of our prior application.
                 </div>
               </div>
             </div>
@@ -467,12 +468,12 @@ function Stocate() {
                 <div className="h4 max-w-xl">
                   Improved user journeys within the application were created by
                   conducting extensive user testing and iterating afterwards.
-                  After user testing a user flow or a feature, I would return to
-                  prototyping in Figma to resolve problems or challenges users
-                  had brought up. For most features, iterating once or twice was
-                  enough, but larger user flows required three or four
-                  iterations. This was the case when designing for the adding
-                  flows because it was a more complex problem to solve for.
+                  After user testing, I would return to prototyping in Figma to
+                  resolve problems or challenges users had brought up. For most
+                  features, iterating once or twice was enough time spent, but
+                  larger user flows required three or four iterations. This was
+                  the case when designing for the adding flows because it was a
+                  more complex problem to solve for.
                 </div>
               </div>
             </div>
@@ -487,9 +488,8 @@ function Stocate() {
               alt="ExpediteImage"
             />
             <div className="h5">
-              Iterations for our adding user flow. These are a few screens with
-              changes that I made after each stage of user testing. I did over 4
-              iterations of this flow.
+              Iterations for our adding user flow. I did 4 iterations of this
+              flow before arriving at our solution.
             </div>
           </div>
         </div>
@@ -500,8 +500,9 @@ function Stocate() {
               <div className="flex flex-col gap-y-2">
                 <div className="h3">High Fidelity Design</div>
                 <div className="h4 max-w-xl">
-                  These are a few of the final design solutions for the mobile
-                  application.
+                  After iterating, we arrived at a final version of the
+                  interface. These are a few of the final design solutions I
+                  designed for the mobile application.
                 </div>
               </div>
             </div>
@@ -514,8 +515,8 @@ function Stocate() {
               <div className="">
                 <div className="flex flex-col items-end">
                   <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">Onboarding</div>
-                    <div className="h5">
+                    <div className="h5 text-gray-800">Onboarding</div>
+                    <div className="h4">
                       We built an onboarding flow to solve for users having
                       trouble navigating the application on first download.
                     </div>
@@ -553,8 +554,8 @@ function Stocate() {
               <div className="">
                 <div className="flex flex-col items-end">
                   <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">Browsing</div>
-                    <div className="h5">
+                    <div className="h5 text-gray-800">Browsing</div>
+                    <div className="h4">
                       Improved interface for the browsing section of the
                       application provides users with a more inviting and
                       informative introduction to the application.
@@ -593,10 +594,10 @@ function Stocate() {
               <div className="">
                 <div className="flex flex-col items-end">
                   <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">
+                    <div className="h5 text-gray-800">
                       Create your shopping list
                     </div>
-                    <div className="h5">
+                    <div className="h4">
                       The creating list feature of the mobile application was
                       moved to be more readily available for users. As well as
                       interface improvements to make the experience more
@@ -636,8 +637,8 @@ function Stocate() {
               <div className="">
                 <div className="flex flex-col items-end">
                   <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">Adding Stores</div>
-                    <div className="h5">
+                    <div className="h5 text-gray-800">Adding Stores</div>
+                    <div className="h4">
                       Improvements for the user journey of adding stores in the
                       application were made in order to make for a faster and
                       more enjoyable user experience.
@@ -683,10 +684,10 @@ function Stocate() {
               <div className="">
                 <div className="flex flex-col items-end">
                   <div className="flex flex-col gap-y-2">
-                    <div className="h4 text-gray-800">
+                    <div className="h5 text-gray-800">
                       Receive Feedback from the Community
                     </div>
-                    <div className="h5">
+                    <div className="h4">
                       Stocate is a community based application. Asking the
                       community for feedback on the mobile and desktop
                       applications give the product team more feedback to work
