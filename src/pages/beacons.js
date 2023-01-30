@@ -82,7 +82,7 @@ function Beacons() {
                 <div className="h3">Personal Goals</div>
                 <div className="h4 max-w-xl">
                   This project started as a freelance branding project for
-                  Dynamic CXS. I created this case study as a way to show them a
+                  Dynamic CXS. I created this case study as a way to show them
                   better design solutions in their Beacons product, hoping that
                   they would want to work with me to implement my solution. I
                   was able to pitch my design solution to Dynamic CXS and ship
