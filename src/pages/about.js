@@ -42,9 +42,9 @@ function About() {
               <div className="h4">
                 I'm kind of a nerd. I love Marvel movies, playing video games
                 and reading fantasy. I love learning about front end development
-                in my free time (I coded this site 🤓). I love learning, so I
-                also have been reading a lot of about designing experiences and
-                product strategy.
+                in my free time (I coded this site 🤓). Lately, I've been
+                reading a lot of about designing experience and product
+                strategy.
               </div>
             </div>
             <div className="max-w-xl">
@@ -66,7 +66,7 @@ function About() {
                 >
                   LinkedIn
                 </a>
-                . I sometimes post my art, and design discoveries on{" "}
+                . I sometimes post my photography on{" "}
                 <a
                   className="text-blue-600"
                   target="_blank"
