@@ -77,7 +77,7 @@ function Expedite() {
                 retail end. I'm working as the sole designer on Expedite for
                 Dynamic CXS. I've streamlined user journeys, integrated new
                 features & established a design system across their mobile and
-                tablet applications. This project is in the development stage.
+                tablet applications. This product is in the development stage.
               </div>
             </div>
           </div>
