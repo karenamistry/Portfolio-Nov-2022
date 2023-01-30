@@ -209,8 +209,8 @@ function Expedite() {
                   Expedite is an interesting product to work on because it takes
                   into account the journey that both the employee and the
                   customer take. This was very difficult for me to understand,
-                  so introducing user journeys to the business team for provided
-                  a lot of clarity all around.
+                  so introducing user journeys to the business team provided a
+                  lot of clarity all around.
                 </div>
                 <div className="h4 max-w-xl">
                   There are two user journeys depicted in the diagram below. I
