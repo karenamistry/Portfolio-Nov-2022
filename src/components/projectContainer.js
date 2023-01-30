@@ -80,8 +80,8 @@ function ProjectContainer() {
                 <div className="h5 max-w-md pb-2">January - February, 2022</div>
               </div>
               <div className="h3 max-w-2xl">
-                Improving the service experience for customers and empowering
-                employee success in the retail workplace.
+                Empowering employee success in the retail workplace and
+                improving the service experience for customers.
               </div>
             </div>
             <div className="w-full bg-gray-800 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
