@@ -145,7 +145,7 @@ function Expedite() {
         <div className="flex flex-col max-w-4xl gap-y-2 px-12">
           <div className="h2">PACT Analysis</div>
           <div className="h3">
-            I decided to conducted a PACT analysis because there are a lot of
+            I decided to conduct a PACT analysis because there are a lot of
             things to consider when designing this application. Many different
             users need to touch the mobile application in order to complete a
             customer pickup, so understanding the user is imperative to

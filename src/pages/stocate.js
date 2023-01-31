@@ -287,8 +287,8 @@ function Stocate() {
             Scenarios were things like:{" "}
             <span className="italic">
               {" "}
-              You're doing your regular grocery shop. Trying to finding and
-              adding items to your shopping list.{" "}
+              You're doing your regular grocery shop. Try finding and adding
+              items to your shopping list.{" "}
             </span>
             During this portion, I am able to focus in on roadblocks users have
             during specific areas of the application. Conducting interviews and
