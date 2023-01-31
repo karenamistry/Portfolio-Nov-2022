@@ -23,15 +23,15 @@ function ProjectContainer() {
           >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
-                <div className="h2">Expedite</div>
-                <div className="h5 max-w-md pb-2">April - Current, 2023</div>
+                <div className="h1">Expedite</div>
+                <div className="h3 max-w-md pb-2">April - Current, 2023</div>
               </div>
-              <div className="h3 max-w-2xl">
+              <div className="h1 max-w-4xl">
                 Improving the retail customer's experience of the complex
                 pickup-in-store process.
               </div>
             </div>
-            <div className="w-full bg-gray-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
+            <div className="w-full bg-stone-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50">
               <img
                 className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
                 src={ExpediteHome}
@@ -49,17 +49,17 @@ function ProjectContainer() {
           >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
-                <div className="h2">Stocate</div>
-                <div className="h5 max-w-md pb-2">April - August, 2022</div>
+                <div className="h1">Stocate</div>
+                <div className="h3 max-w-md pb-2">April - August, 2022</div>
               </div>
-              <div className="h3 max-w-2xl">
+              <div className="h1 max-w-4xl">
                 Creating customer centered solutions to aid the buying
                 experience of sustainable products.
               </div>
             </div>
-            <div className="w-full bg-gray-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
+            <div className="w-full bg-stone-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50">
               <img
-                className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl bg-cyan-600"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl bg-cyan-600"
                 src={StocateHome}
                 alt="StocateImage"
               />
@@ -76,15 +76,15 @@ function ProjectContainer() {
           >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
-                <div className="h2">Beacons</div>
-                <div className="h5 max-w-md pb-2">January - February, 2022</div>
+                <div className="h1">Beacons</div>
+                <div className="h3 max-w-md pb-2">January - February, 2022</div>
               </div>
-              <div className="h3 max-w-2xl">
+              <div className="h1 max-w-4xl">
                 Empowering employee success in the retail workplace and
                 improving the service experience for customers.
               </div>
             </div>
-            <div className="w-full bg-gray-800 rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50">
+            <div className="w-full bg-gray-800 rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50">
               <img
                 className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full  rounded-3xl"
                 src={BeaconsHome}
@@ -109,16 +109,16 @@ function ProjectContainer() {
             >
               <div className="flex flex-col gap-y-2">
                 <div className="flex flex-col">
-                  <div className="h2">Feature</div>
-                  <div className="h5 max-w-md pb-2">2020 Case Study</div>
+                  <div className="h1">Feature</div>
+                  <div className="h3 max-w-md pb-2">2020 Case Study</div>
                 </div>
-                <div className="h3 max-w-xl">
+                <div className="h1 max-w-xl">
                   Encouraging young people to stay interested in politics.
                 </div>
               </div>
-              <div className="w-full bg-gray-200 rounded-3xl">
+              <div className="w-full bg-stone-200 rounded-3xl">
                 <img
-                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.15)] border-[0.5px] border-gray-50"
+                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
                   src={FeatureHome}
                   alt="InstasnacksImage"
                 />
@@ -137,16 +137,16 @@ function ProjectContainer() {
             >
               <div className="flex flex-col gap-y-2">
                 <div className="flex flex-col">
-                  <div className="h2">Tablature</div>
-                  <div className="h5 max-w-md pb-2">2021 Case Study</div>
+                  <div className="h1">Tablature</div>
+                  <div className="h3 max-w-md pb-2">2021 Case Study</div>
                 </div>
-                <div className="h3 max-w-xl">
+                <div className="h1 max-w-xl">
                   Improving song learning for guitar playing by using AR.
                 </div>
               </div>
-              <div className="w-full bg-gray-200 rounded-3xl">
+              <div className="w-full bg-stone-200 rounded-3xl">
                 <img
-                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.15)] border-[0.5px] border-gray-50"
+                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
                   src={TablatureHome}
                   alt="InstasnacksImage"
                 />
@@ -168,17 +168,17 @@ function ProjectContainer() {
           >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
-                <div className="h2">Instasnacks</div>
-                <div className="h5 max-w-md pb-2">2021</div>
+                <div className="h1">Instasnacks</div>
+                <div className="h3 max-w-md pb-2">2021</div>
               </div>
-              <div className="h3 max-w-2xl">
+              <div className="h1 max-w-4xl">
                 Creating a brand strategy and social media presence for a
                 company that sells entirely through delivery platforms.
               </div>
             </div>
-            <div className="w-full bg-gray-200 rounded-3xl">
+            <div className="w-full bg-stone-200 rounded-3xl">
               <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
                 src={InstaHome}
                 alt="InstasnacksImage"
               />
@@ -198,17 +198,17 @@ function ProjectContainer() {
           >
             <div className="flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
-                <div className="h2">Casper Kitchen</div>
-                <div className="h5 max-w-md pb-2">2021</div>
+                <div className="h1">Casper Kitchen</div>
+                <div className="h3 max-w-md pb-2">2021</div>
               </div>
-              <div className="h3 max-w-2xl">
+              <div className="h1 max-w-4xl">
                 Using social media to boost sales for a restaurant company that
                 sells entirely through delivery platforms during a pandemic.
               </div>
             </div>
-            <div className="w-full bg-gray-200 rounded-3xl">
+            <div className="w-full bg-stone-200 rounded-3xl">
               <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(59,130,246,0.25)] border-[0.5px] border-gray-50"
+                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
                 src={CasperHome}
                 alt="CasperImage"
               />
