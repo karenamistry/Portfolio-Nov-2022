@@ -2,7 +2,7 @@ import React from "react";
 
 function ExternalLinks() {
   return (
-    <div className="fixed hidden lg:flex z-50">
+    <div className="fixed lg:flex z-50">
       <div className="container py-2">
         <div className="flex gap-2 justify-end items-center ">
           <a
