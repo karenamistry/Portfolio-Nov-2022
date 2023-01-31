@@ -147,10 +147,10 @@ function Expedite() {
                   This helped me better manage my questions.
                 </div>
                 <div className="h4 max-w-xl">
-                  A few takeaways being: Where do we implement with the new
-                  customer profile feature? How can we make the customer
-                  information filling as quick as possible? How can logistics
-                  employees be able to see upcoming order for that day?
+                  A few takeaways being: Where do we implement the new customer
+                  profile feature? How can we make the customer information
+                  filling as quick as possible? How can logistics employees be
+                  able to see upcoming order for that day?
                 </div>
               </div>
             </div>
