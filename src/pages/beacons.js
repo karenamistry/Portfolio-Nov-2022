@@ -152,12 +152,6 @@ function Beacons() {
                   related to changes, features and ideas that could potentially
                   be implemented.
                 </div>
-                <div className="h4 max-w-xl">
-                  A few takeaways being: Where do we implement with the new
-                  customer profile feature? How can we make the customer
-                  information filling as quick as possible? How can logistics
-                  employees be able to see upcoming order for that day?
-                </div>
               </div>
             </div>
           </div>
