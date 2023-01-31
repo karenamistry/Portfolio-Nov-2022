@@ -8,7 +8,7 @@ function About() {
   return (
     <div className="py-[20vh]">
       <div className="container flex flex-col lg:flex-row justify-center">
-        <div className="flex flex-col max-w-4xl gap-y-2 px-0 lg:px-12">
+        <div className="flex flex-col w-4xl gap-y-2 px-0 lg:px-12">
           <div className="h2">
             👩‍💻 <span className="text-blue-600">Hello! I'm Karena.</span> I'm
             currently a product designer for Dyanmic CXS, I've previously
