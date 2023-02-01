@@ -50,7 +50,7 @@ function Expedite() {
       {/* Project Info */}
 
       <div className="flex pt-[20vh] pb-24">
-        <div className="container flex flex-col gap-y-12 px-12">
+        <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">CX Expedite</div>
           <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
@@ -95,9 +95,9 @@ function Expedite() {
 
       <div className="container flex flex-col gap-y-24 py-24">
         {/*  Container */}
-        <div className="h1 px-12">Introduction</div>
+        <div className="h1 md:px-12">Introduction</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Faster orders, Happier customers.</div>
           <div className="h3">
             Expedite was created was to streamline the complex systems behind
@@ -109,7 +109,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">A Tool for Communication</div>
           <div className="h3">
             Expedite connects floor employees with warehouse employees in large
@@ -119,9 +119,9 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="h1 px-12">Research</div>
+        <div className="h1 md:px-12">Research</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Affinity Mapping</div>
           <div className="h3">
             I started by asking "how might we?" questions, to create an affinity
@@ -142,7 +142,7 @@ function Expedite() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">PACT Analysis</div>
           <div className="h3">
             I decided to conduct a PACT analysis because there are a lot of
@@ -161,7 +161,7 @@ function Expedite() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Site Mapping</div>
           <div className="h3">
             I mapped out the original site map that was being used for the
@@ -183,7 +183,7 @@ function Expedite() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Journey Map</div>
           <div className="h3">
             Expedite is an interesting product to work on because it takes into
@@ -207,7 +207,7 @@ function Expedite() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">User Scenarios</div>
           <div className="h3">
             After site mapping and creating user journeys, I understood that
@@ -241,9 +241,9 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="h1 px-12">Designing</div>
+        <div className="h1 md:px-12">Designing</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Low Fidelity Explorations</div>
         </div>
 
@@ -255,7 +255,7 @@ function Expedite() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">User Testing & Iterating</div>
           <div className="h3">
             We conducted user testing with Canadian Tire employees in different
@@ -288,7 +288,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">The Visual System</div>
           <div className="h3">
             A purpose for the Expedite design system was to create consistency
@@ -301,7 +301,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Creating Accessible Designs</div>
           <div className="h3">
             We had a very heterogeneous user base that could vary in
@@ -323,7 +323,7 @@ function Expedite() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">High Fidelity Design</div>
           <div className="h3">
             The Expedite application has many flows to accommodate the complex
@@ -332,7 +332,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Stage 1: Expedite</div>
           <div className="h3">
             A sales floor employee has to request for an item to be found in the
@@ -371,7 +371,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Stage 2: Picking</div>
           <div className="h3">
             A warehouse employee has to find that item. Warehouse employees are
@@ -412,7 +412,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Stage 3: Loading</div>
           <div className="h3">
             A loading employee has to load the large ticket item into the
@@ -452,7 +452,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">More Coming Soon...</div>
           <div className="h3">
             This product is still in the process of being worked on! We are

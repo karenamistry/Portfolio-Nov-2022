@@ -97,9 +97,9 @@ function Stocate() {
 
       <div className="container flex flex-col gap-y-24 py-24">
         {/*  Container */}
-        <div className="h1 px-12">Introduction</div>
+        <div className="h1 md:px-12">Introduction</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Be Local Everywhere.</div>
           <div className="h3">
             Stocate connects users to the community of sustainably minded
@@ -109,7 +109,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Find Hidden Gems</div>
           <div className="h3">
             Stocate provides users with a tool to aid in finding sustainable
@@ -118,9 +118,9 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="h1 px-12">Exploration</div>
+        <div className="h1 md:px-12">Exploration</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Goals</div>
           <div className="h3">
             During my internship, I was given the opportunity to create goals
@@ -138,7 +138,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Improving Core Features</div>
           <div className="h3">
             In order to improve our active user numbers, we wanted to strengthen
@@ -150,7 +150,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Parsing User Problems</div>
           <div className="h3">
             Using a backlog of user data obtained from prior user testing and
@@ -164,9 +164,9 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="h1 px-12">Research</div>
+        <div className="h1 md:px-12">Research</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">HMW & Managing Tasks</div>
           <div className="h3">
             Once we understood user feedback, we were able to prioritize solving
@@ -180,7 +180,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">User Interviews</div>
           <div className="h3">
             I conducted user interviews to get information for our personas.
@@ -193,15 +193,15 @@ function Stocate() {
 
         <div className="w-full h-full">
           <img
-            className="object-contain mx-auto h-full w-full"
+            className="object-contain mx-auto h-full w-full rounded-xl"
             src={Interview}
             alt="Image"
           />
         </div>
 
-        <div className="h1 px-12">Designing</div>
+        <div className="h1 md:px-12">Designing</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Approach</div>
           <div className="h3">
             With the customer at the core of our design philosophy, the process
@@ -212,7 +212,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Building a Scalable Design System</div>
           <div className="h3">
             To meet our mission of creating customer centered design solutions,
@@ -247,7 +247,7 @@ function Stocate() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Low Fidelity Explorations</div>
           <div className="h3">
             I created low fidelity mockups using Figma, so I could explore
@@ -261,13 +261,13 @@ function Stocate() {
 
         <div className="w-full h-full">
           <img
-            className="object-contain mx-auto h-full w-full w-2/3"
+            className="object-contain mx-auto h-full w-2/3"
             src={LowFid}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">User Testing</div>
           <div className="h3">
             User testing was conducted to improve clarity, speed and enjoyment
@@ -299,13 +299,13 @@ function Stocate() {
 
         <div className="w-full h-full">
           <img
-            className="object-contain mx-auto h-full w-full w-1/3"
+            className="object-contain mx-auto h-full w-1/3 rounded-xl"
             src={Testing}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Iterating</div>
           <div className="h3">
             Improved user journeys within the application were created by
@@ -324,13 +324,13 @@ function Stocate() {
 
         <div className="w-full h-full">
           <img
-            className="object-contain mx-auto h-full w-full w-2/3"
+            className="object-contain mx-auto h-full  w-2/3"
             src={Iterating}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h3">
             These are a some of the iterations done for the Adding Stores to
             Stocate user journey. These were some of the problems we faced when
@@ -339,20 +339,20 @@ function Stocate() {
         </div>
         <div className="w-full h-full">
           <img
-            className="object-contain mx-auto h-full w-full w-2/3"
+            className="object-contain mx-auto h-full w-2/3"
             src={IteratingB}
             alt="Image"
           />
         </div>
         <div className="w-full h-full">
           <img
-            className="object-contain mx-auto h-full w-full w-2/3"
+            className="object-contain mx-auto h-full w-2/3"
             src={IteratingC}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">High Fidelity Design</div>
           <div className="h3">
             The Expedite application has many flows to accommodate the complex
@@ -361,7 +361,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Onboarding</div>
           <div className="h3">
             We built an onboarding flow to solve for users having trouble
@@ -401,7 +401,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Browsing</div>
           <div className="h3">
             Browsing is made easier with the store and item descriptions. These
@@ -435,7 +435,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Creating Shopping Lists</div>
           <div className="h3">
             There is now an easily accessible button for creating lists. The
@@ -469,7 +469,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 px-12">
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Reflection</div>
           <div className="h3">
             Working at Stocate was like when they say to always work with people
