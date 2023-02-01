@@ -50,11 +50,11 @@ function Expedite() {
       {/* Project Info */}
 
       <div className="flex pt-[20vh] pb-24">
-        <div className="container flex flex-col gap-y-12">
+        <div className="container flex flex-col gap-y-12 px-12">
           <div className="h1">CX Expedite</div>
           <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h2">
+              <div className="h3">
                 Expedite is a customer pickup application that manages the
                 retail end. I'm working as the sole designer on Expedite for
                 Dynamic CXS. I've streamlined user journeys, integrated new

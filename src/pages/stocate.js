@@ -56,7 +56,7 @@ function Stocate() {
           <div className="h1">Stocate</div>
           <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h2">
+              <div className="h3">
                 Stocate connects local and sustainable businesses with
                 customers. My impact is most clearly seen from the systems that
                 I designed to aid in the growth and scalability of the product,

@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="w-full bg-stone-50 border-t border-blue-100">
+    <div className="w-full bg-white border-t border-stone-200">
       <div className="container pt-12 pb-24">
         <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
           <div className="flex flex-col gap-y-12">
             <div className="flex flex-col">
               <div className="h2">Karena Mistry</div>
-              <div className="h2 text-blue-500">
+              <div className="h2 text-stone-400">
                 Made with React using Tailwind
               </div>
               <div className="hidden h4 md:flex md:flex-col">
-                Made by Karena, with the help coffee and late nights.
+                With the help coffee and late nights. 🥱
               </div>
             </div>
 
@@ -22,23 +22,19 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex gap-x-12">
+          <div className="flex gap-x-6">
             <div className="flex flex-col gap-y-4">
-              <div className="hidden h3 md:flex md:flex-col">
-                Featured Works
-              </div>
-              <Link className="blue-button" to="/expedite">
+              <Link className="gray-button" to="/expedite">
                 Expedite
               </Link>
-              <Link className="blue-button" to="/stocate">
+              <Link className="gray-button" to="/stocate">
                 Stocate
               </Link>
-              <Link className="blue-button" to="/beacons">
+              <Link className="gray-button" to="/beacons">
                 Beacons
               </Link>
             </div>
             <div className="flex flex-col gap-y-4">
-              <div className="hidden h3 md:flex md:flex-col">Socials</div>
               <a
                 className="gray-button"
                 target="_blank"

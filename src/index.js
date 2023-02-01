@@ -18,8 +18,7 @@ root.render(
     <BrowserRouter>
       <ScrollToTop />
       <Navbar></Navbar>
-      <ExternalLinks></ExternalLinks>
-      <ExternalLinks></ExternalLinks>
+
       <App />
       <Footer />
     </BrowserRouter>

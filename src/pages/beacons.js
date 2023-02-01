@@ -24,42 +24,12 @@ import IteratingB from "../images/beacons/iteration-b.png";
 function Beacons() {
   return (
     <>
-      {/* NEW Hero Image */}
-      <div className="w-full h-screen z-10">
-        <div className="paragraph x-2 text-xs">🥸</div>
-        <img
-          className="object-contain h-full w-full mx-auto ratio-square bg-gray-800"
-          src={BeaconsHero}
-          alt="ExpediteImage"
-        />
-      </div>
-
-      {/* NEW Project Info */}
-
-      <div className="flex bg-gray-800 py-24 rounded-b-xl">
-        <div className="container flex flex-col gap-y-12">
-          <div className="h2 text-white">CX Beacons</div>
+      <div className="flex pt-[20vh] pb-24">
+        <div className="container flex flex-col gap-y-12 px-12">
+          <div className="h1">CX Beacons</div>
           <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
-            <div className="flex gap-x-6">
-              <div className="flex flex-col opacity-80 gap-y-2">
-                <div className="h5 text-white">Role</div>
-                <div className="h5 text-white">Timeline</div>
-                <div className="h5 text-white">Platform</div>
-                <div className="h5 text-white">Team</div>
-              </div>
-              <div className="flex flex-col gap-y-2">
-                <div className="h5 text-white">
-                  User Research, User Interface, User Experience
-                </div>
-                <div className="h5 text-white">
-                  January 2022 to February, 2022
-                </div>
-                <div className="h5 text-white">IOS, Android</div>
-                <div className="h5 text-white">Myself</div>
-              </div>
-            </div>
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h3 text-white">
+              <div className="h3">
                 Beacons is an "ask for help" button for retail stores that is
                 managed through a mobile application. This project started as a
                 case study, but I worked with Dynamics CXS to bring these
@@ -68,14 +38,38 @@ function Beacons() {
                 design system.
               </div>
             </div>
+            <div className="flex gap-x-6">
+              <div className="flex flex-col opacity-80 gap-y-2">
+                <div className="h4">Role</div>
+                <div className="h4">Timeline</div>
+                <div className="h4">Platform</div>
+                <div className="h4">Team</div>
+              </div>
+              <div className="flex flex-col gap-y-2">
+                <div className="h4">User Research, UI, UX</div>
+                <div className="h4">January 2022 to February 2022</div>
+                <div className="h4">IOS, Android</div>
+                <div className="h4">Myself</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
+      {/* Hero Image */}
+      <div className="container">
+        <div className="w-full h-[80vh] z-10">
+          <img
+            className="object-contain mx-auto h-full w-full bg-gray-800 rounded-3xl"
+            src={BeaconsHero}
+            alt="ExpediteImage"
+          />
+        </div>
+      </div>
       {/*  NEW Project Text */}
 
       <div className="flex flex-col gap-y-24 pt-24 pb-24">
-        <div className="container flex justify-center max-w-4xl">
+        <div className="container flex justify-start max-w-4xl">
           <div>
             <div className="flex flex-col items-end">
               <div className="flex flex-col gap-y-2">
@@ -104,12 +98,12 @@ function Beacons() {
         <div className="container">
           <div className="flex mx-auto">
             <img
-              className="w-1/2  object-cover rounded-screen"
+              className="w-1/2  object-cover"
               src={Goals}
               alt="ExpediteImage"
             />
             <img
-              className="w-1/2 object-cover rounded-screen"
+              className="w-1/2 object-cover"
               src={GoalsB}
               alt="ExpediteImage"
             />
@@ -186,7 +180,7 @@ function Beacons() {
           <div className="w-full md:w-1/3 h-auto mx-auto">
             <div className="object-contain">
               <img
-                className="object-contain rounded-screen mx-auto"
+                className="object-contain mx-auto"
                 src={Competition}
                 alt="ExpediteImage"
               />
@@ -251,7 +245,7 @@ function Beacons() {
           <div className="w-full md:w-1/2 h-auto mx-auto">
             <div className="object-contain">
               <img
-                className="object-cover rounded-screen p-4"
+                className="object-cover p-4"
                 src={PersonaBoth}
                 alt="ExpediteImage"
               />
@@ -278,11 +272,7 @@ function Beacons() {
         <div className="container">
           <div className="w-full md:w-2/3 h-auto mx-auto">
             <div className="object-contain">
-              <img
-                className="object-cover rounded-screen"
-                src={Sketch}
-                alt="ExpediteImage"
-              />
+              <img className="object-cover" src={Sketch} alt="ExpediteImage" />
             </div>
           </div>
         </div>
@@ -291,7 +281,7 @@ function Beacons() {
           <div className="w-full md:w-2/3 h-auto mx-auto">
             <div className="object-contain">
               <img
-                className="object-cover rounded-screen"
+                className="object-cover"
                 src={Prototype}
                 alt="ExpediteImage"
               />
@@ -344,14 +334,14 @@ function Beacons() {
           <div className="w-full md:w-2/3 h-auto mx-auto flex flex-col gap-y-4">
             <div className="object-contain">
               <img
-                className="object-cover rounded-screen"
+                className="object-cover"
                 src={IteratingA}
                 alt="ExpediteImage"
               />
             </div>
             <div className="object-contain">
               <img
-                className="object-cover rounded-screen"
+                className="object-cover"
                 src={IteratingB}
                 alt="ExpediteImage"
               />
@@ -417,7 +407,7 @@ function Beacons() {
             </div>
             <div className="">
               <img
-                className="object-cover rounded-screen"
+                className="object-cover"
                 src={Onboarding}
                 alt="ExpediteImage"
               />
@@ -443,11 +433,7 @@ function Beacons() {
               </div>
             </div>
             <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={Request}
-                alt="ExpediteImage"
-              />
+              <img className="object-cover" src={Request} alt="ExpediteImage" />
             </div>
           </div>
         </div>
@@ -473,7 +459,7 @@ function Beacons() {
             </div>
             <div className="">
               <img
-                className="object-cover rounded-screen"
+                className="object-cover"
                 src={Achievement}
                 alt="ExpediteImage"
               />
@@ -499,11 +485,7 @@ function Beacons() {
               </div>
             </div>
             <div className="">
-              <img
-                className="object-cover rounded-screen"
-                src={Editing}
-                alt="ExpediteImage"
-              />
+              <img className="object-cover" src={Editing} alt="ExpediteImage" />
             </div>
           </div>
         </div>
