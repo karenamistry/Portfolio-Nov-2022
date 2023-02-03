@@ -13,7 +13,7 @@ function Footer() {
                 Made with React using Tailwind
               </div>
               <div className="hidden h4 md:flex md:flex-col">
-                With the help coffee and late nights. 🥱
+                With the help coffee and late nights.
               </div>
             </div>
 
