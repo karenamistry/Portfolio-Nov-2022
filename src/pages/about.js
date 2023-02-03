@@ -65,7 +65,7 @@ function About() {
         </div>
         <div className="w-full">
           <img
-            className="object-contain object-top w-[20rem] lg:w-full lg:h-[24rem]  mx-auto pt-12 lg:pt-0"
+            className="object-contain object-top w-[20rem] lg:w-full lg:h-[28rem]  mx-auto pt-12 lg:pt-0"
             src={Collage}
             alt="me!"
           />
