@@ -21,11 +21,9 @@ function ProjectContainer() {
             <div className="h1">Karena Mistry</div>
             <div className="h3 max-w-xl text-stone-600">
               I'm a product designer passionate about creating{" "}
-              <span className="text-stone-800 font-medium">thoughtful</span>{" "}
+              <span className="text-black font-medium">thoughtful</span>{" "}
               experiences and{" "}
-              <span className="text-stone-800 font-medium">
-                carefully crafted
-              </span>{" "}
+              <span className="text-black font-medium">carefully crafted</span>{" "}
               interfaces. Currently product designer at Dynamics CXS, previously
               designed for startups across Canada.
             </div>
@@ -45,7 +43,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[90px] bg-[#CAF805] md:flex items-center justify-center rounded-lg ">
+                  <div className="w-[90px] bg-[#CAF805] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Dyanmics}
@@ -86,7 +84,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[104px] bg-[#0295AD] md:flex items-center justify-center rounded-lg">
+                  <div className="w-[104px] bg-[#0295AD] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Stocate}
@@ -128,7 +126,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[94px] bg-[#CAF805] md:flex items-center justify-center rounded-lg">
+                  <div className="w-[94px] bg-[#CAF805] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Dyanmics}
@@ -170,7 +168,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[104px] bg-[#FFC314] md:flex items-center justify-center rounded-lg">
+                  <div className="w-[104px] bg-[#FFC314] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Insta}
@@ -212,7 +210,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[108px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg">
+                  <div className="w-[108px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Casper}
