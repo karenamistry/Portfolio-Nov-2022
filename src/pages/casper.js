@@ -23,11 +23,10 @@ function Casper() {
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
               <div className="h3">
-                Casper Kitchen is a restaurant delivery and pickup only
-                restaurant chain located in the heart of downtown Ottawa. I used
-                social media to boost sales during the pandemic. We were able to
-                drive sales by creating strong brand values and good standing in
-                the community.
+                Casper Kitchen is a delivery and pickup only restaurant chain
+                located in the heart of downtown Ottawa. I used social media to
+                boost sales during the pandemic. We were able to drive sales by
+                creating strong brand values and good standing in the community.
               </div>
             </div>
             <div className="flex gap-x-6">
