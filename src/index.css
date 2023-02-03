@@ -21,7 +21,7 @@
     @apply text-stone-800 text-[14px] leading-[1.45] tracking-[-0.01em];
   }
   .gray-button {
-    @apply w-fit px-5 py-2.5 border-stone-600 rounded-2xl text-[13px] font-medium text-stone-600 active:bg-stone-200 active:text-stone-900 hover:bg-stone-100 hover:text-stone-800 transition duration-150 ease-out hover:ease-in bg-stone-100 md:bg-white;
+    @apply w-fit px-5 py-2.5 border-stone-600 rounded-2xl text-[13px] font-medium text-stone-400 active:bg-stone-200 active:text-stone-900 hover:bg-stone-100 hover:text-stone-800 transition duration-150 ease-out hover:ease-in bg-stone-100 md:bg-white;
   }
   .hover-effects {
     @apply bg-stone-100 md:bg-white md:active:bg-stone-200 active:text-stone-900 hover:bg-stone-100 hover:text-stone-800 transition duration-150 ease-out hover:ease-in z-40;
