@@ -52,7 +52,7 @@ function Expedite() {
       <div className="flex pt-[20vh] pb-24">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">CX Expedite</div>
-          <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
+          <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
               <div className="h3">
                 Expedite is a customer pickup application that manages the
@@ -244,7 +244,7 @@ function Expedite() {
         <div className="h1 md:px-12">Designing</div>
 
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Low Fidelity Explorations</div>
+          <div className="h2">Mid Fidelity Explorations</div>
         </div>
 
         <div className="w-full h-full mx-auto">

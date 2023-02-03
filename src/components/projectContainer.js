@@ -1,222 +1,277 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import StocateHome from "../images/stocate/smartphone-stocate-d.png";
-import ExpediteHome from "../images/expedite/smartphone-expedite-c.jpg";
-import BeaconsHome from "../images/beacons/smartphone-beacons-a.png";
-import TablatureHome from "../images/other/cover-tablature.jpg";
-import FeatureHome from "../images/other/cover-feature.jpg";
-import InstaHome from "../images/other/insta-cover.jpg";
-import CasperHome from "../images/other/casper-cover.jpg";
+
+import Dyanmics from "../images/expedite/dynamics-square.png";
+import Stocate from "../images/stocate/stocate-square.png";
+import Beacons from "../images/beacons/beacons-square.png";
+import Insta from "../images/about/instasnacks-square.png";
+import Casper from "../images/about/casper-square.png";
+
+import { FiArrowUpRight } from "react-icons/fi";
 
 import { motion } from "framer-motion";
 
 function ProjectContainer() {
   return (
-    <div className="bg-white w-screen py-24">
-      <div className="container flex flex-col gap-y-24">
-        <NavLink to="/expedite">
-          <motion.div
-            whileHover={{ scale: 1.01 }}
-            transition={{ type: "spring", stiffness: 125 }}
-            className="flex flex-col gap-y-6"
-            href="#"
-          >
-            <div className="flex flex-col md:flex-row justify-between">
-              <div className="flex flex-col">
-                <div className="h1">Expedite</div>
-                <div className="h3 max-w-md pb-2">April - Current, 2023</div>
-              </div>
-              <div className="h1 max-w-4xl">
-                Improving the retail customer's experience of the complex
-                pickup-in-store process.
-              </div>
+    <>
+      <div className="container flex flex-col gap-y-10 py-[20vh] xl:justify-between xl:flex-row xl:items-start">
+        {/* text section */}
+        <div className="flex flex-col w-full">
+          <div className="flex flex-col gap-y-12 xl:fixed xl:px-8">
+            <div className="h1">Karena Mistry</div>
+            <div className="h3 max-w-xl text-stone-600">
+              I'm a product designer passionate about creating{" "}
+              <span className="text-stone-800 font-medium">thoughtful</span>{" "}
+              experiences and{" "}
+              <span className="text-stone-800 font-medium">
+                carefully crafted
+              </span>{" "}
+              interfaces. Currently product designer at Dynamics CXS, previously
+              designed for startups across Canada.
             </div>
-            <div className="w-full bg-stone-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50">
-              <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl"
-                src={ExpediteHome}
-                alt="StocateImage"
-              />
-            </div>
-          </motion.div>
-        </NavLink>
-        <NavLink to="/stocate">
-          <motion.div
-            whileHover={{ scale: 1.01 }}
-            transition={{ type: "spring", stiffness: 125 }}
-            className="flex flex-col gap-y-6"
-            href="#"
-          >
-            <div className="flex flex-col md:flex-row justify-between">
-              <div className="flex flex-col">
-                <div className="h1">Stocate</div>
-                <div className="h3 max-w-md pb-2">April - August, 2022</div>
+          </div>
+        </div>
+        {/* section */}
+        <div className="flex flex-col gap-y-2 justify-end w-full md:gap-y-10 md:max-w-3xl">
+          <NavLink to="/expedite">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 250 }}
+              className="flex justify-between items-center gap-x-12 md:gap-x-9"
+            >
+              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
+                <div className="h4 text-[12px] text-stone-500">August</div>
+                <div className="h3">2022</div>
               </div>
-              <div className="h1 max-w-4xl">
-                Creating customer centered solutions to aid the buying
-                experience of sustainable products.
+              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
+                <div className="flex items-center gap-x-4">
+                  <div className="w-[90px] bg-[#CAF805] md:flex items-center justify-center rounded-lg ">
+                    <img
+                      className="object-cover p-4 rounded-lg"
+                      src={Dyanmics}
+                      alt="StocateImage"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex justify-between">
+                      <div className="h3 text-[16px] font-medium text-black">
+                        CX Expedite
+                      </div>
+                      <div className="flex gap-x-2">
+                        <div className="h4 text-[12px]">See Project</div>
+                        <FiArrowUpRight className="text-stone-800" />
+                      </div>
+                    </div>
+                    <div className="h4 leading-[1.2]">
+                      Improving customer experience by streaming the pickup
+                      in-store process for retail merchants.{" "}
+                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                        • User Research, UX & UI,
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="w-full bg-stone-200 rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50">
-              <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl bg-cyan-600"
-                src={StocateHome}
-                alt="StocateImage"
-              />
-            </div>
-          </motion.div>
-        </NavLink>
+            </motion.div>
+          </NavLink>
+          <NavLink to="/stocate">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 250 }}
+              className="flex justify-between items-center gap-x-12 md:gap-x-9"
+            >
+              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
+                <div className="h4 text-[12px] text-stone-500">April</div>
+                <div className="h3">2022</div>
+              </div>
+              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
+                <div className="flex items-center gap-x-4">
+                  <div className="w-[104px] bg-[#0295AD] md:flex items-center justify-center rounded-lg">
+                    <img
+                      className="object-cover p-4 rounded-lg"
+                      src={Stocate}
+                      alt="StocateImage"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex justify-between">
+                      <div className="h3 text-[16px] font-medium text-black">
+                        Stocate
+                      </div>
+                      <div className="flex gap-x-2">
+                        <div className="h4 text-[12px]">See Project</div>
+                        <FiArrowUpRight className="text-stone-800" />
+                      </div>
+                    </div>
+                    <div className="h4 leading-[1.2]">
+                      Creating user centered solutions to connecting sustainable
+                      and local businesses with a community of interested
+                      buyers.{" "}
+                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                        • Internship, UX & UI
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </NavLink>
+          <NavLink to="/beacons">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 250 }}
+              className="flex justify-between items-center gap-x-12 md:gap-x-9"
+            >
+              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
+                <div className="h4 text-[12px] text-stone-500">January</div>
+                <div className="h3">2022</div>
+              </div>
+              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
+                <div className="flex items-center gap-x-4">
+                  <div className="w-[94px] bg-[#0d1e26] md:flex items-center justify-center rounded-lg">
+                    <img
+                      className="object-cover p-4 rounded-lg"
+                      src={Beacons}
+                      alt="StocateImage"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex justify-between">
+                      <div className="h3 text-[16px] font-medium text-black">
+                        CX Beacons
+                      </div>
+                      <div className="flex gap-x-2">
+                        <div className="h4 text-[12px]">See Project</div>
+                        <FiArrowUpRight className="text-stone-800" />
+                      </div>
+                    </div>
+                    <div className="h4 leading-[1.2]">
+                      Empowering employee success in the retail workplace and
+                      improving the service experience for customers.{" "}
+                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                        • User Research, UX & UI
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </NavLink>
 
-        <NavLink to="/beacons">
-          <motion.div
-            whileHover={{ scale: 1.01 }}
-            transition={{ type: "spring", stiffness: 125 }}
-            className="flex flex-col gap-y-6"
-            href="#"
-          >
-            <div className="flex flex-col md:flex-row justify-between">
-              <div className="flex flex-col">
-                <div className="h1">Beacons</div>
-                <div className="h3 max-w-md pb-2">January - February, 2022</div>
+          <NavLink to="/instasnacks">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 250 }}
+              className="flex justify-between items-center gap-x-12 md:gap-x-9"
+            >
+              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
+                <div className="h4 text-[12px] text-stone-500">April</div>
+                <div className="h3">2021</div>
               </div>
-              <div className="h1 max-w-4xl">
-                Empowering employee success in the retail workplace and
-                improving the service experience for customers.
+              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
+                <div className="flex items-center gap-x-4">
+                  <div className="w-[104px] bg-[#FFC314] md:flex items-center justify-center rounded-lg">
+                    <img
+                      className="object-cover p-4 rounded-lg"
+                      src={Insta}
+                      alt="StocateImage"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex justify-between">
+                      <div className="h3 text-[16px] font-medium text-black">
+                        Instasnacks
+                      </div>
+                      <div className="flex gap-x-2">
+                        <div className="h4 text-[12px]">See Project</div>
+                        <FiArrowUpRight className="text-stone-800" />
+                      </div>
+                    </div>
+                    <div className="h4 leading-[1.2]">
+                      Creating a brand strategy and social media presence for a
+                      retailer that sells entirely through delivery platforms.{" "}
+                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                        • Branding, Social Media Strategy
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="w-full bg-gray-800 rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50">
-              <img
-                className="object-contain lg:h-[620px] md:h-[420px] sm:h-[320px] w-full  rounded-3xl"
-                src={BeaconsHome}
-                alt="StocateImage"
-              />
-            </div>
-          </motion.div>
-        </NavLink>
-
-        {/* Half s */}
-
-        <div className="flex flex-col gap-y-24 md:flex-row md:gap-y-0 md:gap-x-6">
+            </motion.div>
+          </NavLink>
           <a
             target="_blank"
-            href="https://www.behance.net/gallery/154462559/Feature-UR-UX-UI-Case-Study"
+            href="https://www.behance.net/gallery/138924473/Casper-Kitchen-Social-Media-Strategy-Photography"
           >
             <motion.div
-              whileHover={{ scale: 1.01 }}
-              transition={{ type: "spring", stiffness: 125 }}
-              className="flex flex-col gap-y-6"
-              href="#"
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 250 }}
+              className="flex justify-between items-center gap-x-12 md:gap-x-9"
             >
-              <div className="flex flex-col gap-y-2">
-                <div className="flex flex-col">
-                  <div className="h1">Feature</div>
-                  <div className="h3 max-w-md pb-2">2020 Case Study</div>
-                </div>
-                <div className="h1 max-w-xl">
-                  Encouraging young people to stay interested in politics.
-                </div>
+              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
+                <div className="h4 text-[12px] text-stone-500">April</div>
+                <div className="h3">2021</div>
               </div>
-              <div className="w-full bg-stone-200 rounded-3xl">
-                <img
-                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
-                  src={FeatureHome}
-                  alt="InstasnacksImage"
-                />
+              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
+                <div className="flex items-center gap-x-4">
+                  <div className="w-[104px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg">
+                    <img
+                      className="object-cover p-4 rounded-lg"
+                      src={Casper}
+                      alt="StocateImage"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex justify-between">
+                      <div className="h3 text-[16px] font-medium text-black">
+                        Casper Kitchen
+                      </div>
+                      <div className="flex gap-x-2">
+                        <div className="h4 text-[12px]">See Project</div>
+                        <FiArrowUpRight className="text-stone-800" />
+                      </div>
+                    </div>
+                    <div className="h4 leading-[1.2]">
+                      Using social media to boost sales for a restaurant chain
+                      that sells entirely through delivery platforms during a
+                      pandemic.{" "}
+                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                        • Social Media Strategy
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </motion.div>
           </a>
-          <a
-            target="_blank"
-            href="https://www.behance.net/gallery/154472601/Guitar-Tablature-UX-UI-Case-Study"
-          >
+
+          <a target="_blank" href="http://behance.net/karenamistry">
             <motion.div
-              whileHover={{ scale: 1.01 }}
-              transition={{ type: "spring", stiffness: 125 }}
-              className="flex flex-col gap-y-6"
-              href="#"
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 250 }}
+              className="flex justify-between items-center gap-x-12 md:gap-x-9"
             >
-              <div className="flex flex-col gap-y-2">
-                <div className="flex flex-col">
-                  <div className="h1">Tablature</div>
-                  <div className="h3 max-w-md pb-2">2021 Case Study</div>
+              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12"></div>
+              <div className="flex flex-col items-end w-full p-3 rounded-2xl hover-effects">
+                <div className="flex items-center gap-x-4">
+                  <div>
+                    <div className="flex justify-between">
+                      <div className="flex gap-x-2">
+                        <div className="h4 text-[12px]">
+                          See More Work on Behance
+                        </div>
+                        <FiArrowUpRight className="text-stone-800" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="h1 max-w-xl">
-                  Improving song learning for guitar playing by using AR.
-                </div>
-              </div>
-              <div className="w-full bg-stone-200 rounded-3xl">
-                <img
-                  className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
-                  src={TablatureHome}
-                  alt="InstasnacksImage"
-                />
               </div>
             </motion.div>
           </a>
         </div>
-        {/* End Half s */}
-
-        <a
-          target="_blank"
-          href="https://www.behance.net/gallery/138923685/Instasnacks-Motion-Illustrative-Content"
-        >
-          <motion.div
-            whileHover={{ scale: 1.01 }}
-            transition={{ type: "spring", stiffness: 125 }}
-            className="flex flex-col gap-y-6"
-            href="#"
-          >
-            <div className="flex flex-col md:flex-row justify-between">
-              <div className="flex flex-col">
-                <div className="h1">Instasnacks</div>
-                <div className="h3 max-w-md pb-2">2021</div>
-              </div>
-              <div className="h1 max-w-4xl">
-                Creating a brand strategy and social media presence for a
-                company that sells entirely through delivery platforms.
-              </div>
-            </div>
-            <div className="w-full bg-stone-200 rounded-3xl">
-              <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
-                src={InstaHome}
-                alt="InstasnacksImage"
-              />
-            </div>
-          </motion.div>
-        </a>
-
-        <a
-          target="_blank"
-          href="https://www.behance.net/gallery/138924473/Casper-Kitchen-Social-Media-Strategy-Photography"
-        >
-          <motion.div
-            whileHover={{ scale: 1.01 }}
-            transition={{ type: "spring", stiffness: 125 }}
-            className="flex flex-col gap-y-6"
-            href="#"
-          >
-            <div className="flex flex-col md:flex-row justify-between">
-              <div className="flex flex-col">
-                <div className="h1">Casper Kitchen</div>
-                <div className="h3 max-w-md pb-2">2021</div>
-              </div>
-              <div className="h1 max-w-4xl">
-                Using social media to boost sales for a restaurant company that
-                sells entirely through delivery platforms during a pandemic.
-              </div>
-            </div>
-            <div className="w-full bg-stone-200 rounded-3xl">
-              <img
-                className="object-cover lg:h-[620px] md:h-[420px] sm:h-[320px] w-full rounded-3xl shadow-[0_35px_60px_-15px_rgba(168,162,158,0.25)] border-[0.5px] border-stone-50"
-                src={CasperHome}
-                alt="CasperImage"
-              />
-            </div>
-          </motion.div>
-        </a>
+        {/* section */}
       </div>
-    </div>
+    </>
   );
 }
 

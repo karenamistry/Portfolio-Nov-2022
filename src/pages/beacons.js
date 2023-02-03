@@ -35,7 +35,7 @@ function Beacons() {
       <div className="flex pt-[20vh] pb-24">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">CX Beacons</div>
-          <div className="flex flex-col gap-y-6 md:flex-row md:justify-between">
+          <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
               <div className="h3">
                 Beacons is an "ask for help" button for retail stores that is
