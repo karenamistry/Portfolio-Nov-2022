@@ -66,7 +66,7 @@ function ProjectContainer() {
                       Improving customer experience by streaming the pickup
                       in-store process for retail merchants.{" "}
                       <span className="block md:inline h4 text-[12px] text-stone-500 ">
-                        • User Research, UX & UI,
+                        • User Research • UX • UI
                       </span>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ function ProjectContainer() {
                       and local businesses with a community of interested
                       buyers.{" "}
                       <span className="block md:inline h4 text-[12px] text-stone-500 ">
-                        • Internship, UX & UI
+                        • Internship • UX • UI
                       </span>
                     </div>
                   </div>
@@ -128,10 +128,10 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[94px] bg-[#0d1e26] md:flex items-center justify-center rounded-lg">
+                  <div className="w-[94px] bg-[#CAF805] md:flex items-center justify-center rounded-lg">
                     <img
                       className="object-cover p-4 rounded-lg"
-                      src={Beacons}
+                      src={Dyanmics}
                       alt="StocateImage"
                     />
                   </div>
@@ -149,7 +149,7 @@ function ProjectContainer() {
                       Empowering employee success in the retail workplace and
                       improving the service experience for customers.{" "}
                       <span className="block md:inline h4 text-[12px] text-stone-500 ">
-                        • User Research, UX & UI
+                        • User Research • UX • UI
                       </span>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ function ProjectContainer() {
                       Creating a brand strategy and social media presence for a
                       retailer that sells entirely through delivery platforms.{" "}
                       <span className="block md:inline h4 text-[12px] text-stone-500 ">
-                        • Branding, Social Media Strategy
+                        • Branding • Social Media Strategy
                       </span>
                     </div>
                   </div>
@@ -199,10 +199,8 @@ function ProjectContainer() {
               </div>
             </motion.div>
           </NavLink>
-          <a
-            target="_blank"
-            href="https://www.behance.net/gallery/138924473/Casper-Kitchen-Social-Media-Strategy-Photography"
-          >
+
+          <NavLink to="/casperkitchen">
             <motion.div
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 250 }}
@@ -214,7 +212,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[104px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg">
+                  <div className="w-[108px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Casper}
@@ -236,14 +234,14 @@ function ProjectContainer() {
                       that sells entirely through delivery platforms during a
                       pandemic.{" "}
                       <span className="block md:inline h4 text-[12px] text-stone-500 ">
-                        • Social Media Strategy
+                        • Branding • Social Media Strategy
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
             </motion.div>
-          </a>
+          </NavLink>
 
           <a target="_blank" href="http://behance.net/karenamistry">
             <motion.div

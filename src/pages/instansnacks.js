@@ -86,15 +86,15 @@ function Instansnacks() {
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Impact</div>
           <div className="h3">
-            I was able to gain a steady increase in views from previous content
-            posted, peaking at a 67% increase in views from previous reel
-            content. The more significant difference was the increase in
-            interactions on reel content compared to regular posts. Reel content
-            had at the very least 4 times as many interactions than the regular
-            posts. Regular posts received fewer interactions compared to Reels,
-            but they did really well to entice profile visits, all illustrated
-            posts were among the top posts to entice profile visits at the end
-            of each month they were posted.
+            I was able to gain a steady increase in engagement from previous
+            content posted, peaking at a 46% increase in engagement from
+            previous content. The more significant difference was the increase
+            in interactions on reel content compared to regular posts. Reel
+            content had at the very least 4 times as many interactions than the
+            regular posts. Regular posts received fewer interactions compared to
+            Reels, but they did really well to entice profile visits, all
+            illustrated posts were among the top posts to entice profile visits
+            at the end of each month they were posted.
           </div>
         </div>
 

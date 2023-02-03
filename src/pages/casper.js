@@ -1,8 +1,16 @@
 import React from "react";
 
-import ExpediteHero from "../images/expedite/smartphone-expedite-c.jpg";
-import Affinity from "../images/expedite/affinitymap-2.png";
-import Ghost from "../images/instasnacks/Halloween-1.png";
+import CasperCover from "../images/casper/casper-cover.jpg";
+import Image1 from "../images/casper/image-4.jpeg";
+import Image2 from "../images/casper/image-2.jpeg";
+import Image3 from "../images/casper/image-3.jpeg";
+import Image4 from "../images/casper/image-1.jpeg";
+import Image5 from "../images/casper/image-5.jpeg";
+import Image6 from "../images/casper/image-6.jpeg";
+import Image7 from "../images/casper/image-7.jpeg";
+import Image8 from "../images/casper/image-8.jpeg";
+import Image9 from "../images/casper/image-9.jpeg";
+import Image10 from "../images/casper/image-10.jpeg";
 
 function Casper() {
   return (
@@ -18,7 +26,8 @@ function Casper() {
                 Casper Kitchen is a restaurant delivery and pickup only
                 restaurant chain located in the heart of downtown Ottawa. I used
                 social media to boost sales during the pandemic. We were able to
-                drive sales by creating a good standing in the community.
+                drive sales by creating strong brand values and good standing in
+                the community.
               </div>
             </div>
             <div className="flex gap-x-6">
@@ -30,7 +39,7 @@ function Casper() {
               </div>
               <div className="flex flex-col gap-y-2">
                 <div className="h4">
-                  Social Media Management, Graphic & Motion Design, Copywriting
+                  Social Media Management, Graphic & Photography, Copywriting
                 </div>
                 <div className="h4">April 2021 to December, 2021</div>
                 <div className="h4">Instagram, Facebook, TikTok</div>
@@ -46,7 +55,7 @@ function Casper() {
         <div className="w-full h-[80vh] z-10">
           <img
             className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-3xl"
-            src={Ghost}
+            src={CasperCover}
             alt="ExpediteImage"
           />
         </div>
@@ -60,27 +69,32 @@ function Casper() {
         <div className="h1 md:px-12">Introduction</div>
 
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Role & Impact</div>
+          <div className="h2">Casper Kitchen</div>
           <div className="h3">
-            I was in charge of creating a strategy to increase the reach of
-            content & content creation for Facebook & lnstagram. I worked for
-            the majority of my time on two of their restaurant brands: VietFresh
-            & Banh Mi Bros. These were the Vietnamese restaurants.
+            Casper Kitchen is what is commonly referred to as a ghost kitchen,
+            which means they do all their sales through delivery and pickup
+            orders. Their kitchen is in the heart of downtown Ottawa, where you
+            can either order from their takeout window or pickup through
+            delivery apps.
           </div>
         </div>
 
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
           <div className="h2">Role & Impact</div>
           <div className="h3">
-            I was able to gain a steady increase in views from previous content
-            posted, peaking at a 67% increase in views from previous reel
-            content. The more significant difference was the increase in
-            interactions on reel content compared to static posts. Reel content
-            had at the very least 4 times as many interactions than the static
-            posts. Even though static posts didn't do well for impressions, they
-            did do really well to entice profile visits, all illustrated posts
-            were among the top posts to entice profile visits at the end of each
-            month they were posted.
+            I was in charge of creating a strategy to increase the reach of
+            content for Facebook & lnstagram. I worked on 4 of their restaurant
+            brands: VietFresh & Banh Mi Bros, Casper Kitchen & Old's BBQ.
+          </div>
+
+          <div className="h3">
+            I created photography and visual content to post daily on each of
+            these accounts. The content I created helped build brand recognition
+            for the each specific restaurant. I was able to gain an increase in
+            engagement from previous content posted, peaking at a 72% increase
+            in engagement from previous content. I often responded to customer
+            questions and comments to help build our customer service
+            experience.
           </div>
         </div>
 
@@ -90,7 +104,7 @@ function Casper() {
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
               className="object-cover mx-auto h-full w-5/6 rounded-xl"
-              src={Ghost}
+              src={Image1}
               alt="Image"
             />
           </div>
@@ -98,25 +112,12 @@ function Casper() {
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
+              src={Image2}
               alt="Image"
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
-              alt="Image"
-            />
-          </div>
-
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
-              alt="Image"
-            />
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
+              src={Image3}
               alt="Image"
             />
           </div>
@@ -124,25 +125,12 @@ function Casper() {
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
+              src={Image4}
               alt="Image"
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
-              alt="Image"
-            />
-          </div>
-
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
-              alt="Image"
-            />
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
+              src={Image5}
               alt="Image"
             />
           </div>
@@ -150,12 +138,33 @@ function Casper() {
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
+              src={Image6}
               alt="Image"
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Ghost}
+              src={Image7}
+              alt="Image"
+            />
+          </div>
+
+          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
+            <img
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              src={Image8}
+              alt="Image"
+            />
+            <img
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              src={Image9}
+              alt="Image"
+            />
+          </div>
+
+          <div className="w-full h-1/2 flex flex-col md:flex-row gap-x-6 gap-y-4">
+            <img
+              className="object-cover mx-auto h-1/2 w-full rounded-xl"
+              src={Image10}
               alt="Image"
             />
           </div>
