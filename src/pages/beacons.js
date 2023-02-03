@@ -37,13 +37,16 @@ function Beacons() {
           <div className="h1">CX Beacons</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h3">
+              <div className="h3 text-stone-700">
                 Beacons is an "ask for help" button for retail stores that is
                 managed through a mobile application. This project started as a
                 case study, but I worked with Dynamics CXS to bring these
                 solutions to development. I redesigned their previous interface
-                to improve user journeys, adjust for accessibility and build a
-                design system.
+                to{" "}
+                <span className="text-black font-medium">
+                  improve user journeys, adjust for accessibility and build a
+                  design system.
+                </span>
               </div>
             </div>
             <div className="flex gap-x-6">

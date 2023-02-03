@@ -54,12 +54,16 @@ function Expedite() {
           <div className="h1">CX Expedite</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h3">
+              <div className="h3 text-stone-700">
                 Expedite is a customer pickup application that manages the
                 retail end. I'm working as the sole designer on Expedite for
-                Dynamic CXS. I've streamlined user journeys, integrated new
-                features & established a design system across their mobile
-                applications. This product is in the development stage.
+                Dynamic CXS. I've{" "}
+                <span className="text-black font-medium">
+                  streamlined user journeys, integrated new features &
+                  established a design system
+                </span>{" "}
+                across their mobile applications. This product is in the
+                development stage.
               </div>
             </div>
             <div className="flex gap-x-6">
