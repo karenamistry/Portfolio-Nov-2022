@@ -16,7 +16,7 @@ function Navbar() {
           <a
             target="_blank"
             href="https://www.dropbox.com/s/bu2fi6ket1uh670/KarenaMistry-2023-CV.pdf?dl=0"
-            className="gray-button"
+            className=" hidden gray-button"
           >
             <div>CV</div>
           </a>

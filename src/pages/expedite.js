@@ -56,8 +56,8 @@ function Expedite() {
             <div className="flex flex-col gap-y-8 max-w-4xl">
               <div className="h3 text-stone-700">
                 Expedite is a customer pickup application that manages the
-                retail end. I'm working as the sole designer on Expedite for
-                Dynamic CXS. I've{" "}
+                retail end. I'm working as the sole designer on the team
+                Expedite for Dynamic CXS. I've{" "}
                 <span className="text-black font-medium">
                   streamlined user journeys, integrated new features &
                   established a design system
@@ -77,7 +77,9 @@ function Expedite() {
                 <div className="h4">User Research, UI, UX</div>
                 <div className="h4">August 2022 to Current, 2023</div>
                 <div className="h4">IOS, Android</div>
-                <div className="h4">Myself</div>
+                <div className="h4">
+                  Myself, Mario, Ricky, Elizabeth & Allan
+                </div>
               </div>
             </div>
           </div>

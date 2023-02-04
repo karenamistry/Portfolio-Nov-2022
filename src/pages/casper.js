@@ -90,10 +90,9 @@ function Casper() {
             I created photography and visual content to post daily on each of
             these accounts. The content I created helped build brand recognition
             for the each specific restaurant. I was able to gain an increase in
-            engagement from previous content posted, peaking at a 72% increase
-            in engagement from previous content. I often responded to customer
-            questions and comments to help build our customer service
-            experience.
+            engagement, peaking at a 72% increase in engagement from previous
+            content. I often responded to customer questions and comments to
+            help build our customer service experience.
           </div>
         </div>
 

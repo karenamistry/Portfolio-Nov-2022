@@ -126,7 +126,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[94px] bg-[#CAF805] md:flex items-center justify-center rounded-lg hidden">
+                  <div className="w-[96px] bg-[#CAF805] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Dyanmics}

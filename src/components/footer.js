@@ -9,10 +9,8 @@ function Footer() {
           <div className="flex flex-col gap-y-12">
             <div className="flex flex-col">
               <div className="h2">Karena Mistry</div>
-              <div className="h2 text-stone-400">
-                Made with React using Tailwind
-              </div>
-              <div className="hidden h4 md:flex md:flex-col">
+              <div className="h3">Made with tailwind css and framer motion</div>
+              <div className="hidden h4 md:flex md:flex-col  text-stone-400">
                 With the help coffee and late nights.
               </div>
             </div>

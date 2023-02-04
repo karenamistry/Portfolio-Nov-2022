@@ -60,7 +60,9 @@ function Beacons() {
                 <div className="h4">User Research, UI, UX</div>
                 <div className="h4">January 2022 to February 2022</div>
                 <div className="h4">IOS, Android</div>
-                <div className="h4">Myself</div>
+                <div className="h4">
+                  Myself, Mario, Ricky, Elizabeth & Allan
+                </div>
               </div>
             </div>
           </div>
