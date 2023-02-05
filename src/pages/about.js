@@ -15,17 +15,13 @@ function About() {
           </div>
           <div className="h3">
             I studied design at York University/Sheridan College, Joint program.
-            I have 5 years experience outside of product design, working in a
-            variety of fields like print, social media content & visual design.
-            I've worked on applications that are being used in Canadian Tire
-            Stores, signage for successful political campaigns and designed for
-            startups in Ottawa, Toronto and Montreal.
+            I've been working in graphic design for the past 5 years, working in
+            a variety of fields like print, social media content & product
+            design. I've worked on mobile applications that are being used in
+            Canadian Tire Stores, branding for successful political campaigns
+            and designed for startups in Ottawa, Toronto and Montreal.
           </div>
-          <div className="h3">
-            Recently I've specialized myself in product design but i've been
-            interested in interface and experience since I was twelve,
-            recreating websites pixel for pixel in Adobe Photoshop, version 4.0.
-          </div>
+
           <div className="h3">
             I'm kind of a nerd. I love Marvel movies, playing video games and
             reading fantasy. I love learning about front end development in my

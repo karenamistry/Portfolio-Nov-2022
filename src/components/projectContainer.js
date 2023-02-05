@@ -19,9 +19,9 @@ function ProjectContainer() {
         <div className="flex flex-col w-full">
           <div className="flex flex-col gap-y-12 xl:fixed xl:px-8">
             <div className="h1">Karena Mistry</div>
-            <div className="h3 max-w-xl text-stone-600">
-              I'm a product designer passionate about creating{" "}
-              <span className="text-black font-medium">thoughtful</span>{" "}
+            <div className="h3 max-w-lg text-stone-600">
+              I'm a designer passionate about creating{" "}
+              <span className="text-black font-medium">data-driven</span>{" "}
               experiences and{" "}
               <span className="text-black font-medium">carefully crafted</span>{" "}
               interfaces. Currently product designer at Dynamics CXS, previously
