@@ -49,15 +49,7 @@ function About() {
               >
                 LinkedIn{" "}
               </a>
-              to see my experience. I post my photography and art on{" "}
-              <a
-                className="text-stone-400  hover:text-stone-500"
-                target="_blank"
-                href="https://www.instagram.com/karena_mistry/"
-              >
-                Instagram
-              </a>
-              .
+              to see my experience.
             </div>
           </div>
         </div>
