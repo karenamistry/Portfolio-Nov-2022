@@ -56,7 +56,9 @@ function ProjectContainer() {
                         CX Expedite
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]">See Project</div>
+                        <div className="h4 text-[12px] text-stone-400">
+                          See Project
+                        </div>
                         <FiArrowUpRight className="text-stone-800" />
                       </div>
                     </div>
@@ -97,7 +99,9 @@ function ProjectContainer() {
                         Stocate
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]">See Project</div>
+                        <div className="h4 text-[12px]  text-stone-400">
+                          See Project
+                        </div>
                         <FiArrowUpRight className="text-stone-800" />
                       </div>
                     </div>
@@ -139,7 +143,9 @@ function ProjectContainer() {
                         CX Beacons
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]">See Project</div>
+                        <div className="h4 text-[12px]  text-stone-400">
+                          See Project
+                        </div>
                         <FiArrowUpRight className="text-stone-800" />
                       </div>
                     </div>
@@ -181,7 +187,9 @@ function ProjectContainer() {
                         Instasnacks
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]">See Project</div>
+                        <div className="h4 text-[12px] text-stone-400">
+                          See Project
+                        </div>
                         <FiArrowUpRight className="text-stone-800" />
                       </div>
                     </div>
@@ -223,7 +231,9 @@ function ProjectContainer() {
                         Casper Kitchen
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]">See Project</div>
+                        <div className="h4 text-[12px] text-stone-400">
+                          See Project
+                        </div>
                         <FiArrowUpRight className="text-stone-800" />
                       </div>
                     </div>
