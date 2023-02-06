@@ -102,12 +102,12 @@ function Instansnacks() {
         </div>
 
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Get Snackin' Campaign</div>
+          <div className="h2">Illustrated Campaign</div>
           <div className="h3">
             Using this information, I was able to know what I wanted to
             accomplish with my posts. People enjoyed that our brand that was
             young, tech-savy and fun. I did some sketching for potential
-            directions and we decided to move forward with the Get Snackin'
+            directions and we decided to move forward with the Illustrated
             Posts.
           </div>
         </div>
