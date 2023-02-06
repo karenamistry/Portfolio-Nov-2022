@@ -55,7 +55,7 @@ function About() {
         </div>
         <div className="w-full h-full rounded-xl">
           <img
-            className="object-cover object-top w-[20rem] lg:w-full lg:w-[20rem]  mx-auto pt-12 lg:pt-0 rounded-xl"
+            className="object-cover object-top w-[20rem] lg:w-[20rem]  mx-auto pt-12 lg:pt-0 rounded-xl"
             src={Standing}
             alt="me!"
           />

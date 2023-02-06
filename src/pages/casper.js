@@ -11,6 +11,9 @@ import Image7 from "../images/casper/image-7.jpeg";
 import Image8 from "../images/casper/image-8.jpeg";
 import Image9 from "../images/casper/image-9.jpeg";
 import Image10 from "../images/casper/image-10.jpeg";
+import Image11 from "../images/casper/casper-new-1.jpg";
+import Image12 from "../images/casper/casper-new-2.jpg";
+import Image13 from "../images/casper/casper-new-3.jpg";
 
 function Casper() {
   return (
@@ -24,10 +27,10 @@ function Casper() {
             <div className="flex flex-col gap-y-8 max-w-4xl">
               <div className="h3">
                 Casper Kitchen is a delivery and pickup only restaurant chain
-                located in the heart of downtown Ottawa. I used social media to
-                boost their presence during the pandemic. We were able to drive
-                sales by creating strong brand values and good standing in the
-                community.
+                located in the heart of downtown Ottawa. I managed the content
+                creation for the social media accounts of 4 of their restaurant
+                brands. I created over 100 design and photo assets for digital
+                and print purposes.
               </div>
             </div>
             <div className="flex gap-x-6">
@@ -39,7 +42,8 @@ function Casper() {
               </div>
               <div className="flex flex-col gap-y-2">
                 <div className="h4">
-                  Social Media Management, Graphic & Photography, Copywriting
+                  Social Media Management, Photography, Photo Editing,
+                  Copywriting
                 </div>
                 <div className="h4">April 2021 to December, 2021</div>
                 <div className="h4">Instagram, Facebook, TikTok</div>
@@ -69,35 +73,64 @@ function Casper() {
         <div className="h1 md:px-12">Introduction</div>
 
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Casper Kitchen</div>
+          <div className="h2">Ghost Kitchen</div>
           <div className="h3">
             Casper Kitchen is what is commonly referred to as a ghost kitchen,
             which means they do all their sales through delivery and pickup
             orders. Their kitchen is in the heart of downtown Ottawa, where you
             can either order from their takeout window or pickup through
-            delivery apps.
+            delivery apps. They drive sales by having a strong social media
+            presence and good standing in the community.
+          </div>
+          <div className="h3">
+            I created and managed daily content for 4 of their restaurant
+            brands: VietFresh & Banh Mi Bros, Casper Kitchen & Old's BBQ. I
+            worked on their Instagram, & Facebook accounts.
+          </div>
+        </div>
+
+        <div className="h1 md:px-12">Process</div>
+
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+          <div className="h2">Consistent & Reliable Content</div>
+          <div className="h3">
+            Casper Kitchen brands had an established customer base and social
+            presence. The most important part of designing for Casper Kitchen
+            was maintaining that brand identity and designing content that would
+            maintain that audience.
           </div>
         </div>
 
         <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Role & Impact</div>
+          <div className="h2">Photo Posts</div>
           <div className="h3">
-            I was in charge of creating a strategy to increase the reach of
-            content for Facebook & lnstagram. I worked on 4 of their restaurant
-            brands: VietFresh & Banh Mi Bros, Casper Kitchen & Old's BBQ.
+            Previous content consisted of mostly photography posts. This made
+            sense, because customers often browsed the Instagram when choosing
+            what to order. That is what I decided to create to maintain our
+            audience.
           </div>
-
           <div className="h3">
-            I created photography and visual content to post daily on each of
-            these accounts. The content I created helped build brand recognition
-            for the each specific restaurant. I was able to gain an increase in
-            engagement, peaking at a 72% increase in engagement from previous
-            content. I often responded to customer questions and comments to
-            help build our customer service experience.
+            The first set of photos I created were edited to use the brand
+            specific colours to represent each restaurant. The second set of
+            photos I created used a homogenous blue background to show that
+            these brands were all under the same roof.
+          </div>
+          <div className="h3"></div>
+        </div>
+
+        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+          <div className="h2">Impact</div>
+          <div className="h3">
+            I was able to gain an increase in engagement, peaking at a 69%
+            increase in engagement from previous photo content. The content I
+            created helped build brand recognition for the each specific
+            restaurant. I often responded to customer questions and comments to
+            help build our customer service experience. This was important to
+            maintaining our community standing.
           </div>
         </div>
 
-        <div className="h1 md:px-12">Select Work</div>
+        <div className="h1 md:px-12">Select Posts</div>
 
         <div className="flex flex-col gap-y-6">
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
@@ -116,7 +149,7 @@ function Casper() {
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image3}
+              src={Image11}
               alt="Image"
             />
           </div>
@@ -124,12 +157,12 @@ function Casper() {
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image4}
+              src={Image12}
               alt="Image"
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image5}
+              src={Image13}
               alt="Image"
             />
           </div>
@@ -142,7 +175,7 @@ function Casper() {
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image7}
+              src={Image4}
               alt="Image"
             />
           </div>
@@ -150,20 +183,12 @@ function Casper() {
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image8}
+              src={Image7}
               alt="Image"
             />
             <img
               className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image9}
-              alt="Image"
-            />
-          </div>
-
-          <div className="w-full h-1/2 flex flex-col md:flex-row gap-x-6 gap-y-4">
-            <img
-              className="object-cover mx-auto h-1/2 w-full rounded-xl"
-              src={Image10}
+              src={Image5}
               alt="Image"
             />
           </div>
