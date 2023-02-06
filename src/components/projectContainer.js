@@ -20,7 +20,7 @@ function ProjectContainer() {
           <div className="flex flex-col gap-y-12 xl:fixed xl:px-8">
             <div className="h1">Karena Mistry</div>
             <div className="h3 max-w-lg text-stone-600">
-              I'm a visual and product designer passionate about creating{" "}
+              I'm a graphic and product designer passionate about creating{" "}
               <span className="text-black font-medium">data-driven</span>{" "}
               experiences and{" "}
               <span className="text-black font-medium">carefully crafted</span>{" "}
@@ -174,7 +174,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[104px] bg-[#FFC314] md:flex items-center justify-center rounded-lg hidden">
+                  <div className="w-[106px] bg-[#FFC314] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Insta}
@@ -197,7 +197,7 @@ function ProjectContainer() {
                       Creating a brand strategy and social media presence for a
                       retailer that sells entirely through delivery platforms.{" "}
                       <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • Branding • Social Media Strategy
+                        • Graphic Design • Social Media Strategy
                       </span>
                     </div>
                   </div>
@@ -218,7 +218,7 @@ function ProjectContainer() {
               </div>
               <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
                 <div className="flex items-center gap-x-4">
-                  <div className="w-[108px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg hidden">
+                  <div className="w-[112px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg hidden">
                     <img
                       className="object-cover p-4 rounded-lg"
                       src={Casper}
@@ -242,7 +242,7 @@ function ProjectContainer() {
                       chain that sells entirely through delivery platforms
                       during a pandemic.{" "}
                       <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • Branding • Social Media Strategy
+                        • Graphic Design • Social Media Strategy
                       </span>
                     </div>
                   </div>
