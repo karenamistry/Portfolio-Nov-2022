@@ -11,7 +11,7 @@ function About() {
         <div className="flex flex-col w-4xl gap-y-6 px-0 lg:px-12">
           <div className="h2">
             Hello! I'm Karena. I'm currently a product designer for Dyanmic CXS,
-            I've previously designed for multiple startups across Canada.
+            I've previously designed for multiple startups in Canada.
           </div>
           <div className="h3">
             I studied design at York University/Sheridan College, Joint program.

@@ -20,12 +20,12 @@ function ProjectContainer() {
           <div className="flex flex-col gap-y-12 xl:fixed xl:px-8">
             <div className="h1">Karena Mistry</div>
             <div className="h3 max-w-lg text-stone-600">
-              I'm a designer passionate about creating{" "}
+              I'm a visual and product designer passionate about creating{" "}
               <span className="text-black font-medium">data-driven</span>{" "}
               experiences and{" "}
               <span className="text-black font-medium">carefully crafted</span>{" "}
-              interfaces. Currently product designer at Dynamics CXS, previously
-              designed for startups across Canada.
+              interfaces. Currently freelance product designer at Dynamics CXS,
+              previously designed for startups in Canada.
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ function ProjectContainer() {
                     <div className="h4 leading-[1.2]">
                       Improving customer experience by streaming the pickup
                       in-store process for retail merchants.{" "}
-                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
                         • User Research • UX • UI
                       </span>
                     </div>
@@ -99,7 +99,7 @@ function ProjectContainer() {
                         Stocate
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]  text-stone-400">
+                        <div className="h4 text-[12px]  text-stone-500">
                           See Project
                         </div>
                         <FiArrowUpRight className="text-stone-800" />
@@ -109,7 +109,7 @@ function ProjectContainer() {
                       Creating user centered solutions to connecting sustainable
                       and local businesses with a community of interested
                       buyers.{" "}
-                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
                         • Internship • UX • UI
                       </span>
                     </div>
@@ -143,7 +143,7 @@ function ProjectContainer() {
                         CX Beacons
                       </div>
                       <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]  text-stone-400">
+                        <div className="h4 text-[12px]  text-stone-500">
                           See Project
                         </div>
                         <FiArrowUpRight className="text-stone-800" />
@@ -152,7 +152,7 @@ function ProjectContainer() {
                     <div className="h4 leading-[1.2]">
                       Empowering employee success in the retail workplace and
                       improving the service experience for customers.{" "}
-                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
                         • User Research • UX • UI
                       </span>
                     </div>
@@ -196,7 +196,7 @@ function ProjectContainer() {
                     <div className="h4 leading-[1.2]">
                       Creating a brand strategy and social media presence for a
                       retailer that sells entirely through delivery platforms.{" "}
-                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
                         • Branding • Social Media Strategy
                       </span>
                     </div>
@@ -238,10 +238,10 @@ function ProjectContainer() {
                       </div>
                     </div>
                     <div className="h4 leading-[1.2]">
-                      Using social media to boost sales for a restaurant chain
-                      that sells entirely through delivery platforms during a
-                      pandemic.{" "}
-                      <span className="block md:inline h4 text-[12px] text-stone-500 ">
+                      Using social media to boost presence for a restaurant
+                      chain that sells entirely through delivery platforms
+                      during a pandemic.{" "}
+                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
                         • Branding • Social Media Strategy
                       </span>
                     </div>
