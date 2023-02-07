@@ -14,23 +14,23 @@ import { motion } from "framer-motion";
 function ProjectContainer() {
   return (
     <>
-      <div className="container flex flex-col gap-y-10 py-[20vh] xl:justify-between xl:flex-row xl:items-start">
+      <div className="container flex flex-col gap-y-24 pt-[20vh] pb-24">
         {/* text section */}
         <div className="flex flex-col w-full">
-          <div className="flex flex-col gap-y-12 xl:fixed xl:px-8">
+          <div className="flex flex-col gap-y-12 xl:px-8">
             <div className="h1">Karena Mistry</div>
-            <div className="h3 max-w-lg text-stone-600">
-              I'm a graphic and product designer passionate about creating{" "}
+            <div className="h3 max-w-3xl text-stone-600">
+              I'm a designer passionate about creating{" "}
               <span className="text-black font-medium">data-driven</span>{" "}
               experiences and{" "}
               <span className="text-black font-medium">carefully crafted</span>{" "}
-              interfaces. Currently freelance product designer at Dynamics CXS,
-              previously designed for startups in Canada.
+              visuals and interfaces. Currently freelance product designer at
+              Dynamics CXS, previously graphic designer for startups in Canada.
             </div>
           </div>
         </div>
-        {/* section */}
-        <div className="flex flex-col gap-y-2 justify-end w-full md:gap-y-10 md:max-w-3xl">
+        {/* component section */}
+        <div className="flex flex-col gap-y-2 justify-end w-full md:gap-y-10 md:max-w-3xl xl:mx-8">
           <NavLink to="/expedite">
             <motion.div
               whileHover={{ scale: 1.02 }}
