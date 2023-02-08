@@ -7,13 +7,13 @@ import ExpediteHero from "../images/expedite/smartphone-expedite-c.jpg";
 
 import Warehouse from "../images/expedite/store.jpg";
 
-import Affinity from "../images/expedite/affinitymap-2.png";
-import Pact from "../images/expedite/pact.png";
+import Affinity from "../images/expedite/affinitymap-dark.png";
+import Pact from "../images/expedite/pact-dark.png";
 import Sitemap from "../images/expedite/sitemap-light.png";
-import Journey from "../images/expedite/userjourney.png";
-import ScenarioA from "../images/expedite/userscenario.png";
-import ScenarioB from "../images/expedite/userscenario-b.png";
-import ScenarioC from "../images/expedite/userscenario-c.png";
+import Journey from "../images/expedite/userjourney-dark.png";
+import ScenarioA from "../images/expedite/userscenario-dark.png";
+import ScenarioB from "../images/expedite/userscenario-b-dark.png";
+import ScenarioC from "../images/expedite/userscenario-c-dark.png";
 import LowFid from "../images/expedite/low-fid.png";
 import System from "../images/expedite/system.jpg";
 import Type from "../images/expedite/type-poppins.png";
@@ -90,7 +90,7 @@ function Expedite() {
       <div className="container">
         <div className="w-full h-[80vh] z-10">
           <img
-            className="object-cover mx-auto h-full w-full bg-sky-600 rounded-3xl"
+            className="object-cover mx-auto h-full w-full bg-sky-600 rounded-sm"
             src={ExpediteHero}
             alt="ExpediteImage"
           />
@@ -224,9 +224,9 @@ function Expedite() {
         </div>
 
         <div className="flex flex-col gap-y-6">
-          <div className="h3 text-zinc-600">Scroll →</div>
+          <div className="h3 text-zinc-200">Scroll →</div>
 
-          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl  bg-zinc-700">
+          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl border-[0.5px] border-zinc-700 bg-zinc-900">
             <img
               className="object-contain mx-auto h-full w-full p-24"
               src={ScenarioA}
