@@ -9,7 +9,7 @@ import Warehouse from "../images/expedite/store.jpg";
 
 import Affinity from "../images/expedite/affinitymap-2.png";
 import Pact from "../images/expedite/pact.png";
-import Sitemap from "../images/expedite/sitemap.png";
+import Sitemap from "../images/expedite/sitemap-light.png";
 import Journey from "../images/expedite/userjourney.png";
 import ScenarioA from "../images/expedite/userscenario.png";
 import ScenarioB from "../images/expedite/userscenario-b.png";
@@ -19,7 +19,7 @@ import System from "../images/expedite/system.jpg";
 import Type from "../images/expedite/type-poppins.png";
 
 import UserJourney from "../images/expedite/userjourney-general.png";
-import SiteMap from "../images/expedite/sitemapA.png";
+import SiteMap from "../images/expedite/sitemap.png";
 import IterateA from "../images/expedite/pages/expedite/dashed.jpg";
 import IterateB from "../images/expedite/pages/expedite/line.jpg";
 
@@ -46,19 +46,19 @@ import Cust4 from "../images/expedite/pages/profile/CXP 159.jpg";
 
 function Expedite() {
   return (
-    <>
+    <div className=" bg-zinc-900">
       {/* Project Info */}
 
-      <div className="flex pt-[20vh] pb-24">
+      <div className="flex pt-[14vh] pb-24">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">CX Expedite</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h3 text-stone-700">
+              <div className="h3">
                 Expedite is a customer pickup application that manages the
                 retail end. I'm working as the sole designer on the team
                 Expedite for Dynamic CXS. I've{" "}
-                <span className="text-black font-medium">
+                <span className="font-medium">
                   streamlined user journeys, integrated new features &
                   established a design system
                 </span>{" "}
@@ -224,9 +224,9 @@ function Expedite() {
         </div>
 
         <div className="flex flex-col gap-y-6">
-          <div className="h3 text-stone-600">Scroll →</div>
+          <div className="h3 text-zinc-600">Scroll →</div>
 
-          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl  bg-stone-50">
+          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl  bg-zinc-700">
             <img
               className="object-contain mx-auto h-full w-full p-24"
               src={ScenarioA}
@@ -465,14 +465,14 @@ function Expedite() {
             currently in the development stage. I'm excited to show updates on
             this project as it gets further in its development. To see more work
             i've done with Dyanmic CXS, check out{" "}
-            <Link className="text-blue-600" to="/beacons">
+            <Link className="underline underline-offset-4" to="/beacons">
               Beacons
             </Link>
             .
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

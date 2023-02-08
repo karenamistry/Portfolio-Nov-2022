@@ -15,14 +15,14 @@ import Image11 from "../images/casper/casper-new-1.jpg";
 import Image12 from "../images/casper/casper-new-2.jpg";
 import Image13 from "../images/casper/casper-new-3.jpg";
 
-function Casper() {
+function Campaign() {
   return (
     <div className="bg-zinc-900">
       {/* Project Info */}
 
       <div className="flex pt-[14vh] pb-24  bg-zinc-900">
         <div className="container flex flex-col gap-y-12 md:px-12">
-          <div className="h1">Casper Kitchen</div>
+          <div className="h1">Alysha Aziz Trustee Campaign</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-3xl">
               <div className="h3">
@@ -198,4 +198,4 @@ function Casper() {
   );
 }
 
-export default Casper;
+export default Campaign;

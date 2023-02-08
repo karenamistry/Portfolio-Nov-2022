@@ -8,6 +8,9 @@ import Beacons from "./pages/beacons";
 import Tablature from "./pages/tablature";
 import Instansnacks from "./pages/instansnacks";
 import Casper from "./pages/casper";
+import Canadiantire from "./pages/canadiantire";
+import Campaign from "./pages/campaign";
+import Branding from "./pages/branding";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path="/tablature" element={<Tablature />} />
         <Route path="/instasnacks" element={<Instansnacks />} />
         <Route path="/casperkitchen" element={<Casper />} />
+        <Route path="/canadiantire" element={<Canadiantire />} />
+        <Route path="/branding" element={<Branding />} />
+        <Route path="/campaign" element={<Campaign />} />
       </Routes>
     </div>
   );

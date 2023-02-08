@@ -6,30 +6,30 @@
 
 @layer components {
   .title {
-    @apply text-stone-400 text-[48px] font-normal leading-[2.2rem] tracking-[-0.012em];
+    @apply text-zinc-400 text-[51px] font-medium leading-[2.2rem] tracking-[-0.012em];
   }
   .h1 {
-    @apply text-stone-800 text-[27px] font-medium leading-[2.2rem] tracking-[-0.012em];
+    @apply text-zinc-300 text-[31px] font-normal leading-[2.6rem] tracking-[-0.012em];
   }
   .h2 {
-    @apply text-stone-800 text-[21px] font-medium leading-[1.5] tracking-[0.003em];
+    @apply text-zinc-400 text-[23px] font-normal leading-[1.42] tracking-[0.002em];
   }
   .h3 {
-    @apply text-stone-800 text-[15px] leading-[1.58] tracking-[0.001em];
+    @apply text-zinc-500 font-medium text-[18px] leading-[1.65] tracking-[0.001em];
   }
   .h4 {
-    @apply text-stone-800 text-[14px] leading-[1.45] tracking-[-0.01em];
+    @apply text-zinc-500 font-medium text-[15px] leading-[1.45] tracking-[-0.01em];
   }
   .gray-button {
-    @apply w-fit px-5 py-2.5 border-stone-600 rounded-2xl text-[13px] font-medium text-stone-400 active:bg-stone-200 active:text-stone-900 hover:bg-stone-100 hover:text-stone-800 transition duration-150 ease-out hover:ease-in bg-stone-100 md:bg-white;
+    @apply w-fit px-5 py-2.5 rounded-lg h4 text-zinc-500 bg-zinc-800 active:bg-zinc-600 active:text-zinc-300 hover:bg-zinc-700 hover:text-zinc-300 transition duration-200 ease-out hover:ease-in  border-[0.5px] border-zinc-700 hover:border-zinc-600;
   }
   .hover-effects {
-    @apply bg-stone-100 md:bg-white md:active:bg-stone-200 active:text-stone-900 hover:bg-stone-100 hover:text-stone-800 transition duration-150 ease-out hover:ease-in z-40;
+    @apply bg-zinc-100  md:active:bg-zinc-200 active:text-zinc-900 hover:bg-zinc-100 hover:text-zinc-800 transition duration-150 ease-out hover:ease-in z-40;
   }
   .rounded-block {
     @apply rounded-[1.5rem] p-10 backdrop-blur-xl;
   }
   .rounded-screen {
-    @apply rounded-[0.25rem] md:rounded-[1rem] border border-stone-100 shadow-md shadow-stone-100;
+    @apply rounded-[0.25rem] md:rounded-[1rem] border-[0.5px] border-zinc-900 shadow-zinc-100;
   }
 }

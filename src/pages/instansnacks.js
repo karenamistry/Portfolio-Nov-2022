@@ -19,10 +19,10 @@ import Video from "../components/vimeo.js";
 
 function Instansnacks() {
   return (
-    <>
+    <div className="bg-zinc-900">
       {/* Project Info */}
 
-      <div className="flex pt-[20vh] pb-24">
+      <div className="flex pt-[20vh] pb-24 bg-zinc-900">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">Instasnacks</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
@@ -31,7 +31,7 @@ function Instansnacks() {
                 Instasnacks delivers corner store products and specialty snacks
                 using food delivery services. I managed their social media for
                 Instagram, Facebook, and TikTok. I{" "}
-                <span className="text-black font-medium">
+                <span className="">
                   communicated with customers to conduct user research and
                   create marketing strategy's
                 </span>{" "}
@@ -39,7 +39,7 @@ function Instansnacks() {
               </div>
             </div>
             <div className="flex gap-x-6">
-              <div className="flex flex-col opacity-80 gap-y-2">
+              <div className="flex flex-col gap-y-2">
                 <div className="h4">Role</div>
                 <div className="h4">Timeline</div>
                 <div className="h4">Platform</div>
@@ -207,7 +207,7 @@ function Instansnacks() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

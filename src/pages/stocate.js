@@ -12,8 +12,8 @@ import Jira from "../images/stocate/jira-logo.png";
 import Interview from "../images/stocate/user-interviews.png";
 import LowFid from "../images/stocate/low-fid.png";
 import Iterating from "../images/stocate/Iterating-b.png";
-import IteratingB from "../images/stocate/Iterating-c.png";
-import IteratingC from "../images/stocate/Iterating-d.png";
+import IteratingB from "../images/stocate/iterating-adding-light-a.png";
+import IteratingC from "../images/stocate/iterating-adding-light-b.png";
 
 import Testing from "../images/stocate/user-testing.png";
 import Pipeline from "../images/stocate/pipeline.jpg";
@@ -48,26 +48,24 @@ import feedbC from "../images/stocate/features/chat/Chat Page-2.jpg";
 
 function Stocate() {
   return (
-    <>
+    <div className="bg-zinc-900">
       {/* Project Info */}
 
-      <div className="flex pt-[20vh] pb-24">
+      <div className="flex pt-[14vh] pb-24">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">Stocate</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h3 text-stone-700">
+              <div className="h3">
                 Stocate connects local and sustainable businesses with
                 customers. My impact is most clearly seen from the systems that
                 I{" "}
-                <span className="text-black font-medium">
+                <span className="">
                   designed to aid in the growth and scalability
                 </span>{" "}
                 of the product, as well as the interfaces I designed to{" "}
-                <span className="text-black font-medium">
-                  improve core features
-                </span>{" "}
-                in the mobile application.
+                <span className="">improve core features</span> in the mobile
+                application.
               </div>
             </div>
             <div className="flex gap-x-6">
@@ -489,7 +487,7 @@ function Stocate() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

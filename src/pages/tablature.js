@@ -48,7 +48,7 @@ function Tablature() {
   return (
     <>
       {/* Project Info */}
-      <div className="flex pt-[20vh] pb-24">
+      <div className="flex pt-[14vh] pb-24 bg-zinc-900">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">Tablature</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">

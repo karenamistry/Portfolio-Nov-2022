@@ -31,19 +31,19 @@ import IteratingB from "../images/beacons/iteration-b.png";
 
 function Beacons() {
   return (
-    <>
-      <div className="flex pt-[20vh] pb-24">
+    <div className="bg-zinc-900">
+      <div className="flex pt-[14vh] pb-24">
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">CX Beacons</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-y-8 max-w-4xl">
-              <div className="h3 text-stone-700">
+              <div className="h3">
                 Beacons is an "ask for help" button for retail stores that is
                 managed through a mobile application. This project started as a
                 case study, but I worked with Dynamics CXS to bring these
                 solutions to development. I redesigned their previous interface
                 to{" "}
-                <span className="text-black font-medium">
+                <span className="">
                   improve user journeys, adjust for accessibility and build a
                   design system.
                 </span>
@@ -299,9 +299,9 @@ function Beacons() {
         </div>
 
         <div className="flex flex-col gap-y-6">
-          <div className="h3 text-stone-600">Scroll →</div>
+          <div className="h3 text-zinc-600">Scroll →</div>
 
-          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl  bg-stone-50">
+          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl  bg-zinc-700">
             <img
               className="object-contain mx-auto h-full w-full p-24"
               src={IteratingA}
@@ -466,7 +466,7 @@ function Beacons() {
 
         {/* Container End */}
       </div>
-    </>
+    </div>
   );
 }
 

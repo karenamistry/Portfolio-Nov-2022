@@ -9,275 +9,346 @@ import Casper from "../images/about/casper-square.png";
 
 import { FiArrowUpRight } from "react-icons/fi";
 
+import SmartphoneExpedite from "../images/expedite/smartphone-expedite-c.jpg";
+import ExpediteA from "../images/expedite/pages/expedite/CXP 164.jpg";
+import ExpediteB from "../images/expedite/pages/expedite/CXP 173.jpg";
+
+import SmartphoneStocate from "../images/expedite/smartphone-expedite-c.jpg";
+import StocateA from "../images/stocate/features/list-2.png";
+import StocateB from "../images/stocate/features/browsing/page2.jpg";
+
+import BeaconsA from "../images/beacons/pages/page1.jpg";
+import BeaconsB from "../images/beacons/pages/page2.jpg";
+import BeaconsC from "../images/beacons/pages/page3.jpg";
+import BeaconsD from "../images/beacons/pages/page4.jpg";
+
+import AlyshaA from "../images/alysha/alysha-cover.jpg";
+import LogoA from "../images/logos/logos-cover.jpg";
+
+import InstaA from "../images/instasnacks/instasnacks-cover.jpg";
+import CasperA from "../images/casper/casper-cover.jpg";
+
+import CanadianA from "../images/canadian/canadian-cover-3.jpg";
+
 import { motion } from "framer-motion";
+import Instansnacks from "../pages/instansnacks";
 
 function ProjectContainer() {
   return (
-    <>
-      <div className="container flex flex-col gap-y-24 pt-[20vh] pb-24">
+    <div className="w-full h-auto bg-zinc-900">
+      <div className="container flex flex-col gap-y-24 pt-[18vh] pb-24">
         {/* text section */}
         <div className="flex flex-col w-full">
           <div className="flex flex-col gap-y-12 xl:px-8">
-            <div className="h1">Karena Mistry</div>
-            <div className="h3 max-w-3xl text-stone-600">
-              I'm a designer passionate about creating{" "}
-              <span className="text-black font-medium">data-driven</span>{" "}
-              experiences and{" "}
-              <span className="text-black font-medium">carefully crafted</span>{" "}
-              visuals and interfaces. Currently freelance product designer at
-              Dynamics CXS, previously graphic designer for startups in Canada.
+            <div className="h1">
+              👋 I'm Karena Mistry, a designer of all kinds of things.{" "}
+            </div>
+            <div className="h3 text-zinc-400 max-w-4xl">
+              — I'm passionate about creating{" "}
+              <span className="text-zinc-300">data-driven</span> experiences and{" "}
+              <span className="text-zinc-300">carefully crafted</span> visuals.
+              Currently freelance product designer at Dynamics CXS, previously
+              graphic designer for multiple startups in Canada.
             </div>
           </div>
         </div>
         {/* component section */}
-        <div className="flex flex-col gap-y-2 justify-end w-full md:gap-y-10 md:max-w-3xl xl:mx-8">
-          <NavLink to="/expedite">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 250 }}
-              className="flex justify-between items-center gap-x-12 md:gap-x-9"
-            >
-              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
-                <div className="h4 text-[12px] text-stone-500">August</div>
-                <div className="h3">2022</div>
-              </div>
-              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
-                <div className="flex items-center gap-x-4">
-                  <div className="w-[90px] bg-[#CAF805] md:flex items-center justify-center rounded-lg hidden">
-                    <img
-                      className="object-cover p-4 rounded-lg"
-                      src={Dyanmics}
-                      alt="StocateImage"
-                    />
+
+        <div className="w-full md:flex md:flex-col gap-y-6">
+          <div className="flex flex-col md:flex-row gap-y-6 gap-x-6">
+            <NavLink to="/expedite">
+              <motion.div className="flex flex-col p-6 gray-button w-full">
+                <div className="flex flex-col w-full">
+                  <div className="w-full">
+                    <div className="flex gap-x-2 justify-end">
+                      <div className="h4">See Project</div>
+                      <FiArrowUpRight className="h2" />
+                    </div>
                   </div>
-                  <div>
-                    <div className="flex justify-between">
-                      <div className="h3 text-[16px] font-medium text-black">
-                        CX Expedite
-                      </div>
-                      <div className="flex gap-x-2">
-                        <div className="h4 text-[12px] text-stone-400">
-                          See Project
-                        </div>
-                        <FiArrowUpRight className="text-stone-800" />
+                  <div className="flex flex-col gap-y-2">
+                    <div>
+                      <div className="h1">CX Expedite</div>
+                      <div className="h2">
+                        Improving customer experience by streamlining the pickup
+                        in-store process for retail merchants.
                       </div>
                     </div>
-                    <div className="h4 leading-[1.2]">
-                      Improving customer experience by streaming the pickup
-                      in-store process for retail merchants.{" "}
-                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • User Research • UX • UI
-                      </span>
+                    <div className="h4">
+                      User Research, User Interface, User Experience
                     </div>
                   </div>
                 </div>
-              </div>
-            </motion.div>
-          </NavLink>
-          <NavLink to="/stocate">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 250 }}
-              className="flex justify-between items-center gap-x-12 md:gap-x-9"
-            >
-              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
-                <div className="h4 text-[12px] text-stone-500">April</div>
-                <div className="h3">2022</div>
-              </div>
-              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
-                <div className="flex items-center gap-x-4">
-                  <div className="w-[104px] bg-[#0295AD] md:flex items-center justify-center rounded-lg hidden">
-                    <img
-                      className="object-cover p-4 rounded-lg"
-                      src={Stocate}
-                      alt="StocateImage"
-                    />
+                <div className="hidden md:flex gap-x-6 mt-6">
+                  <img
+                    src={ExpediteA}
+                    alt="Image"
+                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
+                  />
+                  <img
+                    src={ExpediteB}
+                    alt="Image"
+                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
+                  />
+                </div>
+              </motion.div>
+            </NavLink>
+
+            <NavLink to="/stocate">
+              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+                <div className="flex flex-col w-full">
+                  <div className="w-full">
+                    <div className="flex gap-x-2 justify-end">
+                      <div className="h4">See Project</div>
+                      <FiArrowUpRight className="h2" />
+                    </div>
                   </div>
-                  <div>
-                    <div className="flex justify-between">
-                      <div className="h3 text-[16px] font-medium text-black">
-                        Stocate
-                      </div>
-                      <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]  text-stone-500">
-                          See Project
-                        </div>
-                        <FiArrowUpRight className="text-stone-800" />
+                  <div className="flex flex-col gap-y-2">
+                    <div>
+                      <div className="h1">Stocate</div>
+                      <div className="h2">
+                        Creating user centered solutions to connecting
+                        sustainable and local businesses with a community of
+                        interested buyers.
                       </div>
                     </div>
-                    <div className="h4 leading-[1.2]">
-                      Creating user centered solutions to connecting sustainable
-                      and local businesses with a community of interested
-                      buyers.{" "}
-                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • Internship • UX • UI
-                      </span>
-                    </div>
+                    <div className="h4">User Interface, User Experience</div>
                   </div>
                 </div>
-              </div>
-            </motion.div>
-          </NavLink>
-          <NavLink to="/beacons">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 250 }}
-              className="flex justify-between items-center gap-x-12 md:gap-x-9"
-            >
-              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
-                <div className="h4 text-[12px] text-stone-500">January</div>
-                <div className="h3">2022</div>
-              </div>
-              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
-                <div className="flex items-center gap-x-4">
-                  <div className="w-[96px] bg-[#CAF805] md:flex items-center justify-center rounded-lg hidden">
-                    <img
-                      className="object-cover p-4 rounded-lg"
-                      src={Dyanmics}
-                      alt="StocateImage"
-                    />
-                  </div>
-                  <div>
-                    <div className="flex justify-between">
-                      <div className="h3 text-[16px] font-medium text-black">
-                        CX Beacons
-                      </div>
-                      <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]  text-stone-500">
-                          See Project
-                        </div>
-                        <FiArrowUpRight className="text-stone-800" />
-                      </div>
-                    </div>
-                    <div className="h4 leading-[1.2]">
-                      Empowering employee success in the retail workplace and
-                      improving the service experience for customers.{" "}
-                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • User Research • UX • UI
-                      </span>
-                    </div>
-                  </div>
+                <div className="hidden md:flex gap-x-6 mt-6">
+                  <img
+                    src={StocateB}
+                    alt="Image"
+                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
+                  />
+                  <img
+                    src={StocateA}
+                    alt="Image"
+                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
+                  />
                 </div>
-              </div>
-            </motion.div>
-          </NavLink>
+              </motion.div>
+            </NavLink>
+          </div>
 
           <NavLink to="/instasnacks">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 250 }}
-              className="flex justify-between items-center gap-x-12 md:gap-x-9"
-            >
-              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
-                <div className="h4 text-[12px] text-stone-500">April</div>
-                <div className="h3">2021</div>
-              </div>
-              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
-                <div className="flex items-center gap-x-4">
-                  <div className="w-[106px] bg-[#FFC314] md:flex items-center justify-center rounded-lg hidden">
-                    <img
-                      className="object-cover p-4 rounded-lg"
-                      src={Insta}
-                      alt="StocateImage"
-                    />
+            <motion.div className="flex flex-col p-6 gray-button w-full mt-6 md:mt-0">
+              <div className="flex flex-col w-full">
+                <div className="w-full">
+                  <div className="flex gap-x-2 justify-end">
+                    <div className="h4">See Project</div>
+                    <FiArrowUpRight className="h2" />
                   </div>
+                </div>
+                <div className="flex flex-col gap-y-2">
                   <div>
-                    <div className="flex justify-between">
-                      <div className="h3 text-[16px] font-medium text-black">
-                        Instasnacks
-                      </div>
-                      <div className="flex gap-x-2">
-                        <div className="h4 text-[12px] text-stone-400">
-                          See Project
-                        </div>
-                        <FiArrowUpRight className="text-stone-800" />
-                      </div>
-                    </div>
-                    <div className="h4 leading-[1.2]">
+                    <div className="h1">Instasnacks</div>
+                    <div className="h2">
                       Creating a brand strategy and social media presence for a
-                      retailer that sells entirely through delivery platforms.{" "}
-                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • Graphic Design • Social Media Strategy
-                      </span>
+                      retailer that sells entirely through delivery platforms.
                     </div>
                   </div>
+                  <div className="h4">
+                    Graphic Design, Social Media Marketing, Illustration &
+                    Motion
+                  </div>
                 </div>
+              </div>
+              <div className="hidden md:flex gap-x-6 mt-6">
+                <img
+                  src={InstaA}
+                  alt="Image"
+                  className="object-cover h-auto w-full rounded-screen"
+                />
               </div>
             </motion.div>
           </NavLink>
 
-          <NavLink to="/casperkitchen">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 250 }}
-              className="flex justify-between items-center gap-x-12 md:gap-x-9"
+          <div className="flex flex-col md:flex-row gap-y-6 gap-x-6 mt-6 md:mt-0">
+            <a
+              target="_blank"
+              href="https://www.behance.net/gallery/163017819/Freelance-Designer-for-Canadian-Tire-2020-2021"
             >
-              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12">
-                <div className="h4 text-[12px] text-stone-500">April</div>
-                <div className="h3">2021</div>
-              </div>
-              <div className="flex flex-col items-start w-full p-3 rounded-2xl hover-effects">
-                <div className="flex items-center gap-x-4">
-                  <div className="w-[112px] bg-[#d4d4d4] md:flex items-center justify-center rounded-lg hidden">
-                    <img
-                      className="object-cover p-4 rounded-lg"
-                      src={Casper}
-                      alt="StocateImage"
-                    />
+              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+                <div className="flex flex-col w-full">
+                  <div className="w-full">
+                    <div className="flex gap-x-2 justify-end">
+                      <div className="h4">See Project</div>
+                      <FiArrowUpRight className="h2" />
+                    </div>
                   </div>
-                  <div>
-                    <div className="flex justify-between">
-                      <div className="h3 text-[16px] font-medium text-black">
-                        Casper Kitchen
-                      </div>
-                      <div className="flex gap-x-2">
-                        <div className="h4 text-[12px] text-stone-400">
-                          See Project
-                        </div>
-                        <FiArrowUpRight className="text-stone-800" />
+                  <div className="flex flex-col gap-y-2">
+                    <div>
+                      <div className="h1">Canadian Tire</div>
+                      <div className="h2">
+                        Various print and digital assets for the most popular
+                        Canadian Tire store in Ottawa.
                       </div>
                     </div>
-                    <div className="h4 leading-[1.2]">
-                      Using social media to boost presence for a restaurant
-                      chain that sells entirely through delivery platforms
-                      during a pandemic.{" "}
-                      <span className="block md:inline h4 text-[13px] text-stone-500 ">
-                        • Graphic Design • Social Media Strategy
-                      </span>
+                    <div className="h4">Graphic Design, Illustration </div>
+                  </div>
+                </div>
+                <div className="hidden md:flex gap-x-6 mt-6">
+                  <img
+                    src={CanadianA}
+                    alt="Image"
+                    className="object-cover h-auto rounded-screen"
+                  />
+                </div>
+              </motion.div>
+            </a>
+
+            <NavLink to="/casperkitchen">
+              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+                <div className="flex flex-col w-full">
+                  <div className="w-full">
+                    <div className="flex gap-x-2 justify-end">
+                      <div className="h4">See Project</div>
+                      <FiArrowUpRight className="h2" />
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <div>
+                      <div className="h1">Casper Kitchen</div>
+                      <div className="h2">
+                        Using social media to increase the presence of a
+                        restaurant chain that sells entirely through delivery
+                        platforms during the pandemic.
+                      </div>
+                    </div>
+                    <div className="h4">
+                      Graphic Design, Social Media Marketing, Photography{" "}
                     </div>
                   </div>
                 </div>
+                <div className="hidden md:flex gap-x-6 mt-6">
+                  <img
+                    src={CasperA}
+                    alt="Image"
+                    className="object-cover h-auto rounded-screen"
+                  />
+                </div>
+              </motion.div>
+            </NavLink>
+          </div>
+
+          <div className="flex flex-col md:flex-row gap-y-6 gap-x-6 mt-6 md:mt-0">
+            <a
+              target="_blank"
+              href="https://www.behance.net/gallery/162371367/Alysha-Alyshas-%28now-elected%29-Trustee-Campaign-2022"
+            >
+              <motion.div className="flex flex-col p-6 gray-button w-full">
+                <div className="flex flex-col w-full">
+                  <div className="w-full">
+                    <div className="flex gap-x-2 justify-end">
+                      <div className="h4">See Project</div>
+                      <FiArrowUpRight className="h2" />
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <div>
+                      <div className="h1">Alysha Aziz Trustee Campaign</div>
+                      <div className="h2">
+                        Creating branding and print deliverables to contribute
+                        to a successful political campaign.
+                      </div>
+                    </div>
+                    <div className="h4">Graphic Design, Branding</div>
+                  </div>
+                </div>
+                <div className="hidden md:flex gap-x-6 mt-6">
+                  <img
+                    src={AlyshaA}
+                    alt="Image"
+                    className="object-cover h-auto w-full rounded-screen"
+                  />
+                </div>
+              </motion.div>
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.behance.net/gallery/162880627/Freelance-Brand-Work-2020-2021"
+            >
+              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+                <div className="flex flex-col w-full">
+                  <div className="w-full">
+                    <div className="flex gap-x-2 justify-end">
+                      <div className="h4">See Project</div>
+                      <FiArrowUpRight className="h2" />
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <div>
+                      <div className="h1">Freelance Branding</div>
+                      <div className="h2">
+                        Process & concept proposals for logos and other branding
+                        assets for small businesses.
+                      </div>
+                    </div>
+                    <div className="h4">Graphic Design, Branding </div>
+                  </div>
+                </div>
+                <div className="hidden md:flex gap-x-6 mt-6">
+                  <img
+                    src={LogoA}
+                    alt="Image"
+                    className="object-cover h-auto rounded-screen"
+                  />
+                </div>
+              </motion.div>
+            </a>
+          </div>
+          <NavLink to="/beacons">
+            <motion.div className="flex flex-col p-6 gray-button w-full mt-6 md:mt-0">
+              <div className="flex flex-col w-full">
+                <div className="w-full">
+                  <div className="flex gap-x-2 justify-end">
+                    <div className="h4">See Project</div>
+                    <FiArrowUpRight className="h2" />
+                  </div>
+                </div>
+                <div className="flex flex-col gap-y-2">
+                  <div>
+                    <div className="h1">Beacons</div>
+                    <div className="h2">
+                      Empowering employee success in the retail workplace and
+                      improving the service experience for customers.
+                    </div>
+                  </div>
+                  <div className="h4">
+                    User Research, User Interface, User Experience
+                  </div>
+                </div>
+              </div>
+              <div className="hidden md:flex gap-x-6 mt-6">
+                <img
+                  src={BeaconsA}
+                  alt="Image"
+                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
+                />
+                <img
+                  src={BeaconsD}
+                  alt="Image"
+                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
+                />
+                <img
+                  src={BeaconsC}
+                  alt="Image"
+                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
+                />
+                <img
+                  src={BeaconsB}
+                  alt="Image"
+                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
+                />
               </div>
             </motion.div>
           </NavLink>
-
-          <a target="_blank" href="http://behance.net/karenamistry">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 250 }}
-              className="flex justify-between items-center gap-x-12 md:gap-x-9"
-            >
-              <div className="hidden md:flex flex-col gap-y justify-center items-center w-12"></div>
-              <div className="flex flex-col items-end w-full p-3 rounded-2xl hover-effects">
-                <div className="flex items-center gap-x-4">
-                  <div>
-                    <div className="flex justify-between">
-                      <div className="flex gap-x-2">
-                        <div className="h4 text-[12px]">
-                          See More Work on Behance
-                        </div>
-                        <FiArrowUpRight className="text-stone-800" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-          </a>
         </div>
+
         {/* section */}
       </div>
-    </>
+    </div>
   );
 }
 
