@@ -90,7 +90,7 @@ function Stocate() {
       <div className="container">
         <div className="w-full h-[80vh] z-10">
           <img
-            className="object-cover mx-auto h-full w-full bg-cyan-600 rounded-3xl"
+            className="object-cover mx-auto h-full w-full bg-cyan-600 rounded-sm"
             src={StocateHero}
             alt="ExpediteImage"
           />

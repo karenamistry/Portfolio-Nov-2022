@@ -73,7 +73,7 @@ function Beacons() {
       <div className="container">
         <div className="w-full h-[80vh] z-10">
           <img
-            className="object-contain mx-auto h-full w-full bg-gray-800 rounded-3xl"
+            className="object-contain mx-auto h-full w-full bg-gray-800 rounded-sm"
             src={BeaconsHero}
             alt="ExpediteImage"
           />

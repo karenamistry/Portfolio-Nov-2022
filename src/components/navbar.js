@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="w-full fixed bg-zinc-900 z-50 backdrop-blur-xl bg-[#18181B]/90">
-      <div className="container py-4 flex justify-end md:justify-between">
-        <div className="hidden md:flex gap-4 justify-center">
+    <div className="w-full fixed bg-zinc-900 z-50 backdrop-blur-xl bg-[#18181B]/80">
+      <div className="container py-4 flex justify-end md:justify-between ">
+        <div className="hidden md:flex gap-4 justify-center ">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/karenamistry/"
@@ -16,7 +16,7 @@ function Navbar() {
           <a
             target="_blank"
             href="https://www.dropbox.com/s/bu2fi6ket1uh670/KarenaMistry-2023-CV.pdf?dl=0"
-            className=" hidden gray-button rounded-full"
+            className=" hidden gray-button"
           >
             <div>CV</div>
           </a>

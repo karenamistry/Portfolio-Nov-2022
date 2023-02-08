@@ -58,7 +58,7 @@ function Canadian() {
       <div className="container">
         <div className="w-full h-[80vh] z-10">
           <img
-            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-3xl"
+            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-sm"
             src={CasperCover}
             alt="ExpediteImage"
           />

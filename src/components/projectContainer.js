@@ -36,17 +36,17 @@ import Instansnacks from "../pages/instansnacks";
 function ProjectContainer() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="container flex flex-col gap-y-24 pt-[18vh] pb-24">
+      <div className="container flex flex-col gap-y-24 pt-[18vh] pb-24 gap-24">
         {/* text section */}
-        <div className="flex flex-col w-full">
-          <div className="flex flex-col gap-y-12 xl:px-8">
-            <div className="h1">
-              👋 I'm Karena Mistry, a designer of all kinds of things.{" "}
+        <div className="flex flex-col w-full rounded-sm py-3">
+          <div className="flex flex-col gap-y-6 xl:px-8">
+            <div className="h1 text-zinc-200">
+              I'm Karena Mistry, a designer of all kinds of things.{" "}
             </div>
-            <div className="h3 text-zinc-400 max-w-4xl">
+            <div className="h2 text-zinc-400 max-w-4xl">
               — I'm passionate about creating{" "}
-              <span className="text-zinc-300">data-driven</span> experiences and{" "}
-              <span className="text-zinc-300">carefully crafted</span> visuals.
+              <span className="text-zinc-200">data-driven</span> experiences and{" "}
+              <span className="text-zinc-200">carefully crafted</span> visuals.
               Currently freelance product designer at Dynamics CXS, previously
               graphic designer for multiple startups in Canada.
             </div>
@@ -54,31 +54,31 @@ function ProjectContainer() {
         </div>
         {/* component section */}
 
-        <div className="w-full md:flex md:flex-col gap-y-6">
-          <div className="flex flex-col md:flex-row gap-y-6 gap-x-6">
-            <NavLink to="/expedite">
-              <motion.div className="flex flex-col p-6 gray-button w-full">
+        <div className="w-full md:flex md:flex-col gap-y-3">
+          <div className="flex flex-col md:flex-row gap-y-3 gap-x-3">
+            <NavLink to="/expedite" className="md:w-1/2">
+              <div className="flex flex-col p-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
-                    <div className="flex gap-x-2 justify-end">
-                      <div className="h4">See Project</div>
+                    <div className="flex gap-x-3 justify-end">
+                      <div className="h4"></div>
                       <FiArrowUpRight className="h2" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
                       <div className="h1">CX Expedite</div>
-                      <div className="h2">
+                      <div className="h2 hidden">
                         Improving customer experience by streamlining the pickup
                         in-store process for retail merchants.
                       </div>
                     </div>
-                    <div className="h4">
+                    <div className="h">
                       User Research, User Interface, User Experience
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-6 mt-6">
+                <div className="hidden md:flex gap-x-3 mt-3">
                   <img
                     src={ExpediteA}
                     alt="Image"
@@ -90,22 +90,22 @@ function ProjectContainer() {
                     className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
                   />
                 </div>
-              </motion.div>
+              </div>
             </NavLink>
 
-            <NavLink to="/stocate">
-              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+            <NavLink to="/stocate" className="md:w-1/2">
+              <div className="flex flex-col p-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
-                    <div className="flex gap-x-2 justify-end">
-                      <div className="h4">See Project</div>
+                    <div className="flex gap-x-3 justify-end">
+                      <div className="h4"></div>
                       <FiArrowUpRight className="h2" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
                       <div className="h1">Stocate</div>
-                      <div className="h2">
+                      <div className="h2 hidden">
                         Creating user centered solutions to connecting
                         sustainable and local businesses with a community of
                         interested buyers.
@@ -114,7 +114,7 @@ function ProjectContainer() {
                     <div className="h4">User Interface, User Experience</div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-6 mt-6">
+                <div className="hidden md:flex gap-x-3 mt-3">
                   <img
                     src={StocateB}
                     alt="Image"
@@ -126,23 +126,23 @@ function ProjectContainer() {
                     className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
                   />
                 </div>
-              </motion.div>
+              </div>
             </NavLink>
           </div>
 
           <NavLink to="/instasnacks">
-            <motion.div className="flex flex-col p-6 gray-button w-full mt-6 md:mt-0">
+            <div className="flex flex-col p-6 gray-button w-full mt-3 md:mt-0">
               <div className="flex flex-col w-full">
                 <div className="w-full">
-                  <div className="flex gap-x-2 justify-end">
-                    <div className="h4">See Project</div>
+                  <div className="flex gap-x-3 justify-end">
+                    <div className="h4"></div>
                     <FiArrowUpRight className="h2" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-y-2">
                   <div>
                     <div className="h1">Instasnacks</div>
-                    <div className="h2">
+                    <div className="h2 hidden">
                       Creating a brand strategy and social media presence for a
                       retailer that sells entirely through delivery platforms.
                     </div>
@@ -153,33 +153,33 @@ function ProjectContainer() {
                   </div>
                 </div>
               </div>
-              <div className="hidden md:flex gap-x-6 mt-6">
+              <div className="hidden md:flex gap-x-3 mt-3">
                 <img
                   src={InstaA}
                   alt="Image"
-                  className="object-cover h-auto w-full rounded-screen"
+                  className="object-cover h-auto w-full rounded-sm"
                 />
               </div>
-            </motion.div>
+            </div>
           </NavLink>
 
-          <div className="flex flex-col md:flex-row gap-y-6 gap-x-6 mt-6 md:mt-0">
+          <div className="flex flex-col md:flex-row gap-y-3 gap-x-3 mt-3 md:mt-0">
             <a
               target="_blank"
               href="https://www.behance.net/gallery/163017819/Freelance-Designer-for-Canadian-Tire-2020-2021"
             >
-              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+              <div className="flex flex-col p-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
-                    <div className="flex gap-x-2 justify-end">
-                      <div className="h4">See Project</div>
+                    <div className="flex gap-x-3 justify-end">
+                      <div className="h4"></div>
                       <FiArrowUpRight className="h2" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
                       <div className="h1">Canadian Tire</div>
-                      <div className="h2">
+                      <div className="h2 hidden">
                         Various print and digital assets for the most popular
                         Canadian Tire store in Ottawa.
                       </div>
@@ -187,29 +187,29 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Illustration </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-6 mt-6">
+                <div className="hidden md:flex gap-x-3 mt-3">
                   <img
                     src={CanadianA}
                     alt="Image"
-                    className="object-cover h-auto rounded-screen"
+                    className="object-cover h-auto rounded-sm"
                   />
                 </div>
-              </motion.div>
+              </div>
             </a>
 
             <NavLink to="/casperkitchen">
-              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+              <div className="flex flex-col p-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
-                    <div className="flex gap-x-2 justify-end">
-                      <div className="h4">See Project</div>
+                    <div className="flex gap-x-3 justify-end">
+                      <div className="h4"></div>
                       <FiArrowUpRight className="h2" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
                       <div className="h1">Casper Kitchen</div>
-                      <div className="h2">
+                      <div className="h2 hidden">
                         Using social media to increase the presence of a
                         restaurant chain that sells entirely through delivery
                         platforms during the pandemic.
@@ -220,34 +220,34 @@ function ProjectContainer() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-6 mt-6">
+                <div className="hidden md:flex gap-x-3 mt-3">
                   <img
                     src={CasperA}
                     alt="Image"
-                    className="object-cover h-auto rounded-screen"
+                    className="object-cover h-auto rounded-sm"
                   />
                 </div>
-              </motion.div>
+              </div>
             </NavLink>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-y-6 gap-x-6 mt-6 md:mt-0">
+          <div className="flex flex-col md:flex-row gap-y-3 gap-x-3 mt-3 md:mt-0">
             <a
               target="_blank"
               href="https://www.behance.net/gallery/162371367/Alysha-Alyshas-%28now-elected%29-Trustee-Campaign-2022"
             >
-              <motion.div className="flex flex-col p-6 gray-button w-full">
+              <div className="flex flex-col p-6 gray-button w-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
-                    <div className="flex gap-x-2 justify-end">
-                      <div className="h4">See Project</div>
+                    <div className="flex gap-x-3 justify-end">
+                      <div className="h4"></div>
                       <FiArrowUpRight className="h2" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
                       <div className="h1">Alysha Aziz Trustee Campaign</div>
-                      <div className="h2">
+                      <div className="h2 hidden">
                         Creating branding and print deliverables to contribute
                         to a successful political campaign.
                       </div>
@@ -255,32 +255,32 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Branding</div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-6 mt-6">
+                <div className="hidden md:flex gap-x-3 mt-3">
                   <img
                     src={AlyshaA}
                     alt="Image"
-                    className="object-cover h-auto w-full rounded-screen"
+                    className="object-cover h-auto w-full rounded-sm"
                   />
                 </div>
-              </motion.div>
+              </div>
             </a>
 
             <a
               target="_blank"
               href="https://www.behance.net/gallery/162880627/Freelance-Brand-Work-2020-2021"
             >
-              <motion.div className="flex flex-col p-6 gray-button w-full h-full">
+              <div className="flex flex-col p-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
-                    <div className="flex gap-x-2 justify-end">
-                      <div className="h4">See Project</div>
+                    <div className="flex gap-x-3 justify-end">
+                      <div className="h4"></div>
                       <FiArrowUpRight className="h2" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
                       <div className="h1">Freelance Branding</div>
-                      <div className="h2">
+                      <div className="h2 hidden">
                         Process & concept proposals for logos and other branding
                         assets for small businesses.
                       </div>
@@ -288,29 +288,29 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Branding </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-6 mt-6">
+                <div className="hidden md:flex gap-x-3 mt-3">
                   <img
                     src={LogoA}
                     alt="Image"
-                    className="object-cover h-auto rounded-screen"
+                    className="object-cover h-auto rounded-sm"
                   />
                 </div>
-              </motion.div>
+              </div>
             </a>
           </div>
           <NavLink to="/beacons">
-            <motion.div className="flex flex-col p-6 gray-button w-full mt-6 md:mt-0">
+            <div className="flex flex-col p-6 gray-button w-full mt-3 md:mt-0">
               <div className="flex flex-col w-full">
                 <div className="w-full">
-                  <div className="flex gap-x-2 justify-end">
-                    <div className="h4">See Project</div>
+                  <div className="flex gap-x-3 justify-end">
+                    <div className="h4"></div>
                     <FiArrowUpRight className="h2" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-y-2">
                   <div>
                     <div className="h1">Beacons</div>
-                    <div className="h2">
+                    <div className="h2 hidden">
                       Empowering employee success in the retail workplace and
                       improving the service experience for customers.
                     </div>
@@ -320,7 +320,7 @@ function ProjectContainer() {
                   </div>
                 </div>
               </div>
-              <div className="hidden md:flex gap-x-6 mt-6">
+              <div className="hidden md:flex gap-x-3 mt-3">
                 <img
                   src={BeaconsA}
                   alt="Image"
@@ -342,7 +342,7 @@ function ProjectContainer() {
                   className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
                 />
               </div>
-            </motion.div>
+            </div>
           </NavLink>
         </div>
 
