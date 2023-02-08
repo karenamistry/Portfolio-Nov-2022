@@ -11,7 +11,7 @@ function About() {
         <div className="flex flex-col  gap-y-6 px-0 lg:px-12 max-w-2xl">
           <div className="h2">Hello! I'm Karena.</div>
           <div className="h3">
-            I'm a design with a BA in design from York University/Sheridan
+            I'm a designer with a BA in design from York University/Sheridan
             College, Joint program. I'm a very versatile with experience in
             print and publishing, social media strategy, and UI/UX design. I've
             worked on small teams, sometimes as the only design voice. I believe
