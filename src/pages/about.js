@@ -12,10 +12,10 @@ function About() {
           <div className="h2">Hello! I'm Karena.</div>
           <div className="h3">
             I'm a designer with a BA in design from York University/Sheridan
-            College, Joint program. I'm a very versatile with experience in
-            print and publishing, social media strategy, and UI/UX design. I've
-            worked on small teams, sometimes as the only design voice. I believe
-            in creating intentional & data-driven design.
+            College, Joint program. I'm a very versatile designer with
+            experience in print and publishing, social media strategy, and UI/UX
+            design. I've worked on small teams, sometimes as the only design
+            voice. I believe in creating intentional & data-driven design.
           </div>
 
           <div className="h3"></div>
