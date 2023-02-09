@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
 
 @layer components {
   .title {
-    @apply text-zinc-100 text-[51px] font-medium leading-[2.2rem] tracking-[-0.012em];
+    @apply text-zinc-400 font-medium text-[16px] leading-[1.65] font-['Syne'];
   }
 
   .h1 {
-    @apply text-zinc-200 text-[29px] font-normal leading-[2.6rem] tracking-[-0.012em];
+    @apply text-zinc-200 text-[29px] font-normal leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
   }
   .h2 {
     @apply text-zinc-200 text-[21px] font-normal leading-[1.42] tracking-[0.002em];
@@ -19,7 +20,7 @@
     @apply text-zinc-400 font-medium text-[16px] leading-[1.65] tracking-[0.001em];
   }
   .h4 {
-    @apply text-zinc-500 font-medium text-[13.5px] leading-[1.45] tracking-[-0.01em];
+    @apply text-zinc-500 font-medium text-[13.5px] leading-[1.45] font-['Syne'];
   }
   .gray-button {
     @apply w-fit px-7 py-2.5 rounded-sm h4 text-zinc-500 bg-zinc-800 active:bg-zinc-600 active:text-zinc-300 hover:bg-zinc-700 hover:text-zinc-300 transition duration-200 ease-out hover:ease-in  border-[0.5px] border-zinc-700 hover:border-zinc-600 drop-shadow-[0_10px_10px_rgba(63,63,70,.15)];

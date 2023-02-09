@@ -9,7 +9,7 @@ import Casper from "../images/about/casper-square.png";
 
 import { FiArrowUpRight } from "react-icons/fi";
 
-import SmartphoneExpedite from "../images/expedite/smartphone-expedite-c.jpg";
+import SmartphoneExpedite from "../images/expedite/ezgif.com-gif-maker.gif";
 import ExpediteA from "../images/expedite/pages/expedite/CXP 164.jpg";
 import ExpediteB from "../images/expedite/pages/expedite/CXP 173.jpg";
 
@@ -40,12 +40,13 @@ function ProjectContainer() {
         {/* text section */}
         <div className="flex flex-col w-full rounded-sm py-3">
           <div className="flex flex-col gap-y-6 xl:px-8">
+            <div className="title text-zinc-200">Karena Mistry</div>
             <div className="h1 text-zinc-200">
-              I'm Karena Mistry, a designer of all kinds of things.{" "}
+              A designer of all kinds of things.{" "}
             </div>
             <div className="h2 text-zinc-400 max-w-4xl">
-              — I'm passionate about creating{" "}
-              <span className="text-zinc-200">data-driven</span> experiences and{" "}
+              — I create <span className="text-zinc-200">data-driven</span>{" "}
+              experiences and{" "}
               <span className="text-zinc-200">carefully crafted</span> visuals.
               Currently freelance product designer at Dynamics CXS, previously
               graphic designer for multiple startups in Canada.

@@ -16,7 +16,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="hidden h4 md:flex md:flex-col  text-zinc-700">
+            <div className="hidden h3 text-[13px] md:flex md:flex-col  text-zinc-700">
               © Karena Mistry 2023
             </div>
           </div>
