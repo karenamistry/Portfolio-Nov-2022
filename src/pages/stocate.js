@@ -19,8 +19,8 @@ import Testing from "../images/stocate/user-testing.png";
 import Pipeline from "../images/stocate/pipeline.jpg";
 import Flow from "../images/stocate/prototype-flow.png";
 import User from "../images/stocate/user-flow.png";
-import SystemA from "../images/stocate/design-system.png";
-import SystemB from "../images/stocate/design-system-2.png";
+import SystemA from "../images/stocate/design-system-dark.png";
+import SystemB from "../images/stocate/design-system-2-dark.png";
 
 // features images
 import onboardingA from "../images/stocate/features/onboarding/sketcha.jpg";
@@ -235,7 +235,7 @@ function Stocate() {
           </div>
         </div>
 
-        <div className="w-full h-full">
+        <div className="w-full h-full bg-zinc-800 rounded-sm">
           <img
             className="object-contain mx-auto h-full w-full"
             src={SystemA}
@@ -243,7 +243,7 @@ function Stocate() {
           />
         </div>
 
-        <div className="w-full h-full">
+        <div className="w-full h-full bg-zinc-800 rounded-sm">
           <img
             className="object-contain mx-auto h-full w-full"
             src={SystemB}

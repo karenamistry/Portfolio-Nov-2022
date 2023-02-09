@@ -15,7 +15,7 @@ import ScenarioA from "../images/expedite/userscenario-dark.png";
 import ScenarioB from "../images/expedite/userscenario-b-dark.png";
 import ScenarioC from "../images/expedite/userscenario-c-dark.png";
 import LowFid from "../images/expedite/low-fid.png";
-import System from "../images/expedite/system.jpg";
+import System from "../images/expedite/system-dark.png";
 import Type from "../images/expedite/type-poppins.png";
 
 import UserJourney from "../images/expedite/userjourney-general.png";
@@ -321,7 +321,7 @@ function Expedite() {
           </div>
         </div>
 
-        <div className="w-full h-full mx-auto">
+        <div className="w-full h-full mx-auto bg-zinc-800 p-36 rounded-sm">
           <img
             className="object-contain h-auto w-full"
             src={System}
