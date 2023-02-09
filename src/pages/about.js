@@ -13,9 +13,10 @@ function About() {
           <div className="h3">
             I'm a designer with a BA in design from York University/Sheridan
             College, Joint program. I'm a very versatile designer with
-            experience in print and publishing, social media strategy, and UI/UX
-            design. I've worked on small teams, sometimes as the only design
-            voice. I believe in creating intentional & data-driven design.
+            experience in print and publishing, social media marketing, motion,
+            and UR/UI/UX design. I've worked on small but impactful teams,
+            sometimes as the only design voice. I believe in creating
+            intentional & data-driven design.
           </div>
 
           <div className="h3"></div>
