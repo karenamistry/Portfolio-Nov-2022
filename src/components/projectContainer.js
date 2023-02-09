@@ -9,7 +9,6 @@ import Casper from "../images/about/casper-square.png";
 
 import { FiArrowUpRight } from "react-icons/fi";
 
-import SmartphoneExpedite from "../images/expedite/ezgif.com-gif-maker.gif";
 import ExpediteA from "../images/expedite/pages/expedite/CXP 164.jpg";
 import ExpediteB from "../images/expedite/pages/expedite/CXP 173.jpg";
 
