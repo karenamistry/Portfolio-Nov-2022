@@ -1,7 +1,7 @@
 import React from "react";
 
 import Me from "../images/about/me-spinning.jpg";
-import Standing from "../images/about/me-standing-gray.jpg";
+import Standing from "../images/about/me-standing.jpg";
 import Collage from "../images/about/me-collage.png";
 
 function About() {
