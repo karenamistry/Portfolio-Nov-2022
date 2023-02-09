@@ -1,12 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import Dyanmics from "../images/expedite/dynamics-square.png";
-import Stocate from "../images/stocate/stocate-square.png";
-import Beacons from "../images/beacons/beacons-square.png";
-import Insta from "../images/about/instasnacks-square.png";
-import Casper from "../images/about/casper-square.png";
-
 import { FiArrowUpRight } from "react-icons/fi";
 
 import ExpediteA from "../images/expedite/pages/expedite/CXP 164.jpg";
@@ -23,14 +17,13 @@ import BeaconsD from "../images/beacons/pages/page4.jpg";
 
 import AlyshaA from "../images/alysha/alysha-cover.jpg";
 import LogoA from "../images/logos/logos-cover.jpg";
+import CanadianA from "../images/canadian/canadian-cover-3.jpg";
 
 import InstaA from "../images/instasnacks/instasnacks-cover.jpg";
 import CasperA from "../images/casper/casper-cover.jpg";
 
-import CanadianA from "../images/canadian/canadian-cover-3.jpg";
-
-import { motion } from "framer-motion";
-import Instansnacks from "../pages/instansnacks";
+import VideoExpedite from "../images/expedite/expedite.mp4";
+import VideoStocate from "../images/stocate/stocate.mp4";
 
 function ProjectContainer() {
   return (
@@ -79,16 +72,7 @@ function ProjectContainer() {
                   </div>
                 </div>
                 <div className="hidden md:flex gap-x-3 mt-3">
-                  <img
-                    src={ExpediteA}
-                    alt="Image"
-                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
-                  />
-                  <img
-                    src={ExpediteB}
-                    alt="Image"
-                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
-                  />
+                  <video src={VideoExpedite} autoPlay loop muted />
                 </div>
               </div>
             </NavLink>
@@ -115,16 +99,7 @@ function ProjectContainer() {
                   </div>
                 </div>
                 <div className="hidden md:flex gap-x-3 mt-3">
-                  <img
-                    src={StocateB}
-                    alt="Image"
-                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
-                  />
-                  <img
-                    src={StocateA}
-                    alt="Image"
-                    className="object-cover h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem] rounded-screen"
-                  />
+                  <video src={VideoStocate} autoPlay loop muted />
                 </div>
               </div>
             </NavLink>

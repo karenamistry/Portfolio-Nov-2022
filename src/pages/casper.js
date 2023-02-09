@@ -110,10 +110,11 @@ function Casper() {
             audience.
           </div>
           <div className="h3">
-            The first set of photos I created were edited to use the brand
-            specific colours to represent each restaurant. The second set of
-            photos I created used a homogenous blue background to show that
-            these brands were all under the same roof.
+            I created over 80 cropped and edited photo assets used for social
+            media purposes. The first set of photos I created were edited to use
+            the brand specific colours to represent each restaurant. The second
+            set of photos I created used a homogenous blue background to show
+            that these brands were all under the same roof.
           </div>
           <div className="h3"></div>
         </div>
