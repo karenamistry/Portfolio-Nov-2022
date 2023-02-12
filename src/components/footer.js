@@ -11,8 +11,8 @@ function Footer() {
               <div className="h3 font-semibold text-zinc-500">
                 Karena Mistry
               </div>
-              <div className="hidden h4 md:flex md:flex-col text-zinc-500">
-                Made with the help coffee and late nights.
+              <div className="hidden h3 text-[13px] md:flex md:flex-col  text-zinc-500">
+                Made with the help coffee.
               </div>
             </div>
 
@@ -26,9 +26,9 @@ function Footer() {
               <a
                 className="gray-button w-32 text-center rounded-full"
                 target="_blank"
-                href="https://www.instagram.com/karena_mistry/"
+                href="http://behance.net/karenamistry"
               >
-                Instagram
+                Behance
               </a>
               <a
                 className="gray-button w-32 text-center rounded-full"
@@ -40,9 +40,9 @@ function Footer() {
               <a
                 className="gray-button w-32 text-center rounded-full"
                 target="_blank"
-                href="http://behance.net/karenamistry"
+                href="https://www.instagram.com/karena_mistry/"
               >
-                Behance
+                Instagram
               </a>
             </div>
           </div>

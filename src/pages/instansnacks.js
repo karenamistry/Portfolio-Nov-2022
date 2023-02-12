@@ -26,7 +26,7 @@ function Instansnacks() {
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">Instasnacks</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-            <div className="flex flex-col gap-y-8 max-w-4xl">
+            <div className="flex flex-col gap-y-8 max-w-xl">
               <div className="h3">
                 Instasnacks delivers corner store products and specialty snacks
                 using food delivery services. I managed their social media for
@@ -62,7 +62,7 @@ function Instansnacks() {
       <div className="container">
         <div className="w-full h-[80vh] z-10">
           <img
-            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-3xl"
+            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-sm"
             src={InstaCover}
             alt="ExpediteImage"
           />
@@ -76,7 +76,7 @@ function Instansnacks() {
 
         <div className="h1 md:px-12">Introduction</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Entirely Online Retailer</div>
           <div className="h3">
             Instansnacks sells through delivery applications such as UberEats,
@@ -90,7 +90,7 @@ function Instansnacks() {
 
         <div className="h1 md:px-12">Process</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Getting Input from Users</div>
           <div className="h3">
             An important part of my job was interacting with customers. To
@@ -101,7 +101,7 @@ function Instansnacks() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Illustrated Campaign</div>
           <div className="h3">
             Using this information, I was able to know what I wanted to
@@ -112,7 +112,7 @@ function Instansnacks() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Impact</div>
           <div className="h3">
             I was able to gain a steady increase in engagement from previous
@@ -133,7 +133,7 @@ function Instansnacks() {
 
         <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
           <img
-            className="object-cover mx-auto h-full w-5/6 rounded-xl"
+            className="object-cover mx-auto h-full w-5/6 rounded-sm"
             src={Process}
             alt="Image"
           />
@@ -148,7 +148,7 @@ function Instansnacks() {
         <div className="flex flex-col gap-y-24">
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-5/6 rounded-xl"
+              className="object-cover mx-auto h-full w-5/6 rounded-sm"
               src={Door}
               alt="Image"
             />
@@ -156,12 +156,12 @@ function Instansnacks() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Ramen}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Lolly}
               alt="Image"
             />
@@ -169,12 +169,12 @@ function Instansnacks() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Pretzel}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Poppop}
               alt="Image"
             />
@@ -182,12 +182,12 @@ function Instansnacks() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Ghost}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Kitty}
               alt="Image"
             />
@@ -195,12 +195,12 @@ function Instansnacks() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Choco}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Can}
               alt="Image"
             />

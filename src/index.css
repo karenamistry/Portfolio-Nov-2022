@@ -23,7 +23,7 @@
     @apply text-zinc-500 font-medium text-[13.5px] leading-[1.45] font-['Syne'];
   }
   .gray-button {
-    @apply w-fit px-7 py-2.5 rounded-sm h4 text-zinc-500 bg-zinc-800 active:bg-zinc-600 active:text-zinc-300 hover:bg-zinc-700 hover:text-zinc-300 transition duration-200 ease-out hover:ease-in  border-[0.5px] border-zinc-700 hover:border-zinc-600 drop-shadow-[0_10px_10px_rgba(63,63,70,.15)];
+    @apply w-fit px-7 py-2.5 rounded-sm h4 text-zinc-500 bg-zinc-900 active:bg-zinc-600 active:text-zinc-300 hover:bg-zinc-800 hover:text-zinc-300 transition duration-200 ease-out hover:ease-in  border-[0.5px] border-zinc-700 hover:border-zinc-600 drop-shadow-[0_10px_10px_rgba(63,63,70,.05)];
   }
   .hover-effects {
     @apply bg-zinc-100  md:active:bg-zinc-200 active:text-zinc-900 hover:bg-zinc-100 hover:text-zinc-800 transition duration-150 ease-out hover:ease-in z-40;

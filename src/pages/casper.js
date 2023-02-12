@@ -24,7 +24,7 @@ function Casper() {
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">Casper Kitchen</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-            <div className="flex flex-col gap-y-8 max-w-3xl">
+            <div className="flex flex-col gap-y-8 max-w-xl">
               <div className="h3">
                 Casper Kitchen is a delivery and pickup only restaurant chain
                 located in the heart of downtown Ottawa. I managed the content
@@ -58,7 +58,7 @@ function Casper() {
       <div className="container">
         <div className="w-full h-[80vh] z-10">
           <img
-            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-3xl"
+            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-sm"
             src={CasperCover}
             alt="ExpediteImage"
           />
@@ -72,7 +72,7 @@ function Casper() {
 
         <div className="h1 md:px-12">Introduction</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Ghost Kitchen</div>
           <div className="h3">
             Casper Kitchen is what is commonly referred to as a ghost kitchen,
@@ -91,7 +91,7 @@ function Casper() {
 
         <div className="h1 md:px-12">Process</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Consistent & Reliable Content</div>
           <div className="h3">
             Casper Kitchen brands had an established customer base and social
@@ -101,7 +101,7 @@ function Casper() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Photo Posts</div>
           <div className="h3">
             Previous content consisted of mostly photography posts. This made
@@ -119,7 +119,7 @@ function Casper() {
           <div className="h3"></div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Impact</div>
           <div className="h3">
             I was able to gain an increase in engagement, peaking at a 69%
@@ -136,7 +136,7 @@ function Casper() {
         <div className="flex flex-col gap-y-6">
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-5/6 rounded-xl"
+              className="object-cover mx-auto h-full w-5/6 rounded-sm"
               src={Image1}
               alt="Image"
             />
@@ -144,12 +144,12 @@ function Casper() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image2}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image11}
               alt="Image"
             />
@@ -157,12 +157,12 @@ function Casper() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image12}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image13}
               alt="Image"
             />
@@ -170,12 +170,12 @@ function Casper() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image6}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image4}
               alt="Image"
             />
@@ -183,12 +183,12 @@ function Casper() {
 
           <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image7}
               alt="Image"
             />
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
+              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
               src={Image5}
               alt="Image"
             />

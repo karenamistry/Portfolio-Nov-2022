@@ -5,18 +5,18 @@ import BeaconsHero from "../images/beacons/smartphone-beacons-a.png";
 // Project Images
 
 import Access from "../images/beacons/accessibility.png";
-import Screens from "../images/beacons/screens.png";
+import Screens from "../images/beacons/screens-dark.png";
 import Onboarding from "../images/beacons/onboarding.png";
 import Achievement from "../images/beacons/achievements.png";
 import Request from "../images/beacons/requests.png";
 import Editing from "../images/beacons/editing.png";
 
-import Pull from "../images/beacons/interview-pullquote.png";
-import Affinity from "../images/beacons/affinity-mapping.png";
-import Sitemap from "../images/beacons/site-map.png";
+import Pull from "../images/beacons/interview-pullquote-dark.png";
+import Affinity from "../images/beacons/affinity-mapping-dark.png";
+import Sitemap from "../images/beacons/site-map-2.png";
 import Journey from "../images/beacons/user-journey.png";
 import Differences from "../images/beacons/differences.jpeg";
-import Testing from "../images/beacons/user-testing.png";
+import Testing from "../images/beacons/user-testing-dark.png";
 import Comparison from "../images/beacons/comparison.svg";
 
 import Competition from "../images/beacons/competition-gray.png";
@@ -36,7 +36,7 @@ function Beacons() {
         <div className="container flex flex-col gap-y-12 md:px-12">
           <div className="h1">CX Beacons</div>
           <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-            <div className="flex flex-col gap-y-8 max-w-4xl">
+            <div className="flex flex-col gap-y-8 max-w-xl">
               <div className="h3">
                 Beacons is an "ask for help" button for retail stores that is
                 managed through a mobile application. This project started as a
@@ -85,7 +85,7 @@ function Beacons() {
         {/* Container */}
         <div className="h1 md:px-12">Introduction</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">From Case Study to Shipped</div>
           <div className="h3">
             I was introduced to this project while working on a freelance
@@ -98,7 +98,7 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Product Goals</div>
           <div className="h3">
             Beacons was created with the goal of enhancing the customer to
@@ -110,16 +110,16 @@ function Beacons() {
         </div>
 
         <div className="flex gap-x-6">
-          <div className="w-1/2 h-full mx-auto rounded-xl">
+          <div className="w-1/2 h-full mx-auto rounded-sm">
             <img
-              className="object-contain h-auto w-full rounded-xl"
+              className="object-contain h-auto w-full rounded-sm"
               src={Goals}
               alt="Image"
             />
           </div>
-          <div className="w-1/2 h-full mx-auto rounded-xl">
+          <div className="w-1/2 h-full mx-auto rounded-sm">
             <img
-              className="object-contain h-auto w-full rounded-xl"
+              className="object-contain h-auto w-full rounded-sm"
               src={GoalsB}
               alt="Image"
             />
@@ -128,7 +128,7 @@ function Beacons() {
 
         <div className="h1 md:px-12">Research</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">User Interviews & Pain Points</div>
           <div className="h3">
             I started researching by interviewing employees at the Canadian Tire
@@ -148,7 +148,7 @@ function Beacons() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Affinity Mapping & How might we ?s</div>
           <div className="h3">
             By asking "How Might We" questions, while listening back to my
@@ -167,7 +167,7 @@ function Beacons() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Competition Analysis</div>
           <div className="h3">
             I researched the features of the two competitor products. The first
@@ -193,7 +193,7 @@ function Beacons() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Site Mapping and User Journey</div>
           <div className="h3">
             Creating a site map allowed me to recognize that the landing page
@@ -225,7 +225,7 @@ function Beacons() {
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Building Personas</div>
           <div className="h3">
             I was able to build realistic personas that were based off the
@@ -251,7 +251,7 @@ function Beacons() {
 
         <div className="h1 md:px-12">Designing</div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Sketching & Low Fidelity</div>
           <div className="h3">
             Sketching basic UI ideas was an easy way for me to test how user
@@ -260,23 +260,23 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-full h-full mx-auto rounded-xl">
+        <div className="w-full h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Sketch}
             alt="Image"
           />
         </div>
 
-        <div className="w-2/3 h-full mx-auto rounded-xl">
+        <div className="w-2/3 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Prototype}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Prototyping</div>
           <div className="h3">
             I began prototyping the core user flows first, which mapped how an
@@ -290,18 +290,18 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-2/3 h-full mx-auto rounded-xl">
+        <div className="w-2/3 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Differences}
             alt="Image"
           />
         </div>
 
         <div className="flex flex-col gap-y-6">
-          <div className="h3 text-zinc-600">Scroll →</div>
+          <div className="h3 text-zinc-200">Scroll →</div>
 
-          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-3xl  bg-zinc-700">
+          <div className="w-full h-full flex gap-x-12 overflow-auto rounded-sm border-[0.5px] border-zinc-700 bg-zinc-900">
             <img
               className="object-contain mx-auto h-full w-full p-24"
               src={IteratingA}
@@ -316,7 +316,7 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">User Testing</div>
           <div className="h3">
             I scheduled in-person user testing meeting with the same employees
@@ -333,15 +333,15 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-full h-full mx-auto rounded-xl">
+        <div className="w-full h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Testing}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Iterating</div>
           <div className="h3">
             To solve for one of the major feedbacks I received, which was
@@ -355,15 +355,15 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-2/3 h-full mx-auto rounded-xl">
+        <div className="w-2/3 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Comparison}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">High Fidelity Design</div>
           <div className="h3">
             These screens are a culmination of 1 stage of user testing and
@@ -372,7 +372,7 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Onboarding</div>
           <div className="h3">
             When an employee is first greeted by the application, they are asked
@@ -381,15 +381,15 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-2/3 h-full mx-auto rounded-xl">
+        <div className="w-2/3 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Onboarding}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Customer Requests</div>
           <div className="h3">
             Telling employees where and when the button was pressed, as well as
@@ -399,15 +399,15 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-3/4 h-full mx-auto rounded-xl">
+        <div className="w-3/4 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Request}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Achievement</div>
           <div className="h3">
             The previous system of having a customer experience score for the
@@ -418,15 +418,15 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-1/3 h-full mx-auto rounded-xl">
+        <div className="w-1/3 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Achievement}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Editing</div>
           <div className="h3">
             Organizing beacon buttons by department and SKU, which can be
@@ -436,23 +436,23 @@ function Beacons() {
           </div>
         </div>
 
-        <div className="w-1/2 h-full mx-auto rounded-xl">
+        <div className="w-1/2 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Editing}
             alt="Image"
           />
         </div>
 
-        <div className="w-2/3 h-full mx-auto rounded-xl">
+        <div className="w-2/3 h-full mx-auto rounded-sm">
           <img
-            className="object-contain h-auto w-full rounded-xl"
+            className="object-contain h-auto w-full rounded-sm"
             src={Screens}
             alt="Image"
           />
         </div>
 
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
+        <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
           <div className="h2">Reflection</div>
           <div className="h3">
             I started this project as a case study, to further my UI and UX

@@ -15,28 +15,32 @@ import BeaconsB from "../images/beacons/pages/page2.jpg";
 import BeaconsC from "../images/beacons/pages/page3.jpg";
 import BeaconsD from "../images/beacons/pages/page4.jpg";
 
-import AlyshaA from "../images/alysha/alysha-cover.jpg";
 import LogoA from "../images/logos/logos-cover.jpg";
-import CanadianA from "../images/canadian/canadian-cover-3.jpg";
-
 import InstaA from "../images/instasnacks/instasnacks-cover.jpg";
 import CasperA from "../images/casper/casper-cover.jpg";
 
 import VideoExpedite from "../images/expedite/expedite.mp4";
-import VideoStocate from "../images/stocate/stocate.mp4";
+import VideoStocate from "../images/stocate/screens-3.mp4";
+import Stocate from "../images/stocate/stocate-2.png";
+import VideoInstasnacks from "../images/instasnacks/instasnacks.mp4";
+import VideoCasper from "../images/casper/casper-2.mp4";
+import ImageCanadian from "../images/canadian/canadiantire-10.png";
+import ImageAlysha from "../images/alysha/alysha-cover-7.jpg";
+import ImageFreelance from "../images/logos/freelance-4.png";
+import ImageBeacons from "../images/beacons/beacons-2.png";
 
 function ProjectContainer() {
   return (
-    <div className="w-full h-auto bg-zinc-900">
+    <div className="w-full h-auto bg-zinc-900 ">
       <div className="container flex flex-col gap-y-24 pt-[18vh] pb-24 gap-24">
         {/* text section */}
-        <div className="flex flex-col w-full rounded-sm py-3">
+        <div className="flex flex-col w-full  py-3">
           <div className="flex flex-col gap-y-6 xl:px-8">
             <div className="title text-zinc-200">Karena Mistry</div>
             <div className="h1 text-zinc-200">
               A designer of all kinds of things.{" "}
             </div>
-            <div className="h2 text-zinc-400 max-w-4xl">
+            <div className="h3 text-zinc-400 max-w-xl">
               — I create <span className="text-zinc-200">data-driven</span>{" "}
               experiences and{" "}
               <span className="text-zinc-200">carefully crafted</span> visuals.
@@ -71,13 +75,13 @@ function ProjectContainer() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-3 mt-3">
+                <div className=" md:flex gap-x-3 mt-3">
                   <video src={VideoExpedite} autoPlay loop muted />
                 </div>
               </div>
             </NavLink>
 
-            <NavLink to="/stocate" className="md:w-1/2">
+            <NavLink to="/instasnacks" className="md:w-1/2">
               <div className="flex flex-col p-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="w-full">
@@ -88,24 +92,27 @@ function ProjectContainer() {
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <div>
-                      <div className="h1">Stocate</div>
+                      <div className="h1">Instasnacks</div>
                       <div className="h2 hidden">
-                        Creating user centered solutions to connecting
-                        sustainable and local businesses with a community of
-                        interested buyers.
+                        Creating a brand strategy and social media presence for
+                        a retailer that sells entirely through delivery
+                        platforms.
                       </div>
                     </div>
-                    <div className="h4">User Interface, User Experience</div>
+                    <div className="h4">
+                      Graphic Design, Social Media Marketing, Illustration &
+                      Motion
+                    </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-3 mt-3">
-                  <video src={VideoStocate} autoPlay loop muted />
+                <div className=" md:flex gap-x-3 mt-3">
+                  <video src={VideoInstasnacks} autoPlay loop muted />
                 </div>
               </div>
             </NavLink>
           </div>
 
-          <NavLink to="/instasnacks">
+          <NavLink to="/stocate">
             <div className="flex flex-col p-6 gray-button w-full mt-3 md:mt-0">
               <div className="flex flex-col w-full">
                 <div className="w-full">
@@ -116,23 +123,21 @@ function ProjectContainer() {
                 </div>
                 <div className="flex flex-col gap-y-2">
                   <div>
-                    <div className="h1">Instasnacks</div>
+                    <div className="h1">Stocate</div>
                     <div className="h2 hidden">
-                      Creating a brand strategy and social media presence for a
-                      retailer that sells entirely through delivery platforms.
+                      Creating user centered solutions to connecting sustainable
+                      and local businesses with a community of interested
+                      buyers.
                     </div>
                   </div>
-                  <div className="h4">
-                    Graphic Design, Social Media Marketing, Illustration &
-                    Motion
-                  </div>
+                  <div className="h4">User Interface, User Experience</div>
                 </div>
               </div>
-              <div className="hidden md:flex gap-x-3 mt-3">
+              <div className=" md:flex gap-x-3 mt-3">
                 <img
-                  src={InstaA}
+                  src={Stocate}
                   alt="Image"
-                  className="object-cover h-auto w-full rounded-sm"
+                  className="object-cover h-auto"
                 />
               </div>
             </div>
@@ -162,11 +167,11 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Illustration </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-3 mt-3">
+                <div className=" md:flex gap-x-3 mt-3">
                   <img
-                    src={CanadianA}
+                    src={ImageCanadian}
                     alt="Image"
-                    className="object-cover h-auto rounded-sm"
+                    className="object-cover h-auto"
                   />
                 </div>
               </div>
@@ -195,12 +200,8 @@ function ProjectContainer() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-3 mt-3">
-                  <img
-                    src={CasperA}
-                    alt="Image"
-                    className="object-cover h-auto rounded-sm"
-                  />
+                <div className=" md:flex gap-x-3 mt-3">
+                  <video src={VideoCasper} autoPlay loop muted />
                 </div>
               </div>
             </NavLink>
@@ -230,11 +231,11 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Branding</div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-3 mt-3">
+                <div className=" md:flex gap-x-3 mt-3">
                   <img
-                    src={AlyshaA}
+                    src={ImageAlysha}
                     alt="Image"
-                    className="object-cover h-auto w-full rounded-sm"
+                    className="object-cover h-auto w-full "
                   />
                 </div>
               </div>
@@ -263,11 +264,11 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Branding </div>
                   </div>
                 </div>
-                <div className="hidden md:flex gap-x-3 mt-3">
+                <div className=" md:flex gap-x-3 mt-3">
                   <img
-                    src={LogoA}
+                    src={ImageFreelance}
                     alt="Image"
-                    className="object-cover h-auto rounded-sm"
+                    className="object-cover h-auto "
                   />
                 </div>
               </div>
@@ -295,26 +296,11 @@ function ProjectContainer() {
                   </div>
                 </div>
               </div>
-              <div className="hidden md:flex gap-x-3 mt-3">
+              <div className=" md:flex gap-x-3 mt-3">
                 <img
-                  src={BeaconsA}
+                  src={ImageBeacons}
                   alt="Image"
-                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
-                />
-                <img
-                  src={BeaconsD}
-                  alt="Image"
-                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
-                />
-                <img
-                  src={BeaconsC}
-                  alt="Image"
-                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
-                />
-                <img
-                  src={BeaconsB}
-                  alt="Image"
-                  className="object-cover  h-auto md:max-w-[9rem] lg:max-w-[12rem] xl:max-w-[16rem]  rounded-screen"
+                  className="object-cover h-auto "
                 />
               </div>
             </div>
