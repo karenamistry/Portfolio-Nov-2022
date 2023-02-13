@@ -9,7 +9,7 @@ function About() {
     <div className="w-screen h-screen bg-zinc-900">
       <div className="py-[20vh] bg-zinc-900">
         <div className="container flex flex-col lg:flex-row justify-center">
-          <div className="flex flex-col  gap-y-6 px-0 lg:px-12 max-w-xl">
+          <div className="flex flex-col  gap-y-6 max-w-xl">
             <div className="h2">Hello! I'm Karena.</div>
             <div className="h3">
               I'm a designer with a BA in design from York University/Sheridan
@@ -52,7 +52,7 @@ function About() {
           </div>
           <div className="w-full h-full rounded-sm">
             <img
-              className="object-cover object-top w-[20rem] lg:w-[17rem]  mx-auto pt-12 lg:pt-0 rounded-sm"
+              className="object-cover object-top w-[20rem] lg:w-[17rem]  mx-auto pt-12 lg:pt-0 rounded-[15px]"
               src={Standing}
               alt="me!"
             />

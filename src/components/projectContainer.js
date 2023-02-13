@@ -15,20 +15,18 @@ import ImageBeacons from "../images/beacons/beacons-2.png";
 
 function ProjectContainer() {
   return (
-    <div className="w-full h-auto bg-zinc-900 ">
-      <div className="container flex flex-col pt-[14vh] pb-24 gap-y-24">
+    <div className="w-full h-auto bg-zinc-900">
+      <div className="container flex flex-col pt-[14vh] pb-24 gap-y-36 md:max-w-7xl mx-auto">
         {/* text section */}
-        <div className="flex flex-col w-full md:px-3">
+        <div className="flex flex-col w-full">
           <div className="flex flex-col gap-y-12">
             <div className="title">Karena Mistry</div>
             <div className="flex flex-col gap-y-2">
-              <div className="h1 text-zinc-200">
-                — A designer of all kinds of things.{" "}
-              </div>
-              <div className="h3 text-zinc-500 max-w-xl">
-                I create <span className="text-zinc-300">data-driven</span>{" "}
+              <div className="h1">— A designer of all kinds of things.</div>
+              <div className="h3 max-w-xl">
+                I create <span className="text-zinc-200">data-driven</span>{" "}
                 experiences and{" "}
-                <span className="text-zinc-300">carefully crafted</span>{" "}
+                <span className="text-zinc-200">carefully crafted</span>{" "}
                 visuals. Currently freelance product designer at Dynamics CXS,
                 previously graphic designer for multiple startups in Canada.
               </div>
@@ -40,14 +38,14 @@ function ProjectContainer() {
         <div className="w-full md:flex md:flex-col gap-y-8">
           <div className="flex flex-col md:flex-row gap-x-3">
             <NavLink to="/expedite" className="md:w-1/2">
-              <div className="flex flex-col gray-button w-full h-full">
+              <div className="flex flex-col gray-button w-full h-full ">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:px-3">
+                  <div className="flex flex-col ">
                     <div>
                       <div>
                         <div className="h1">CX Expedite</div>
                       </div>
-                      <div className="h2 hidden">
+                      <div className=" hidden">
                         Improving customer experience by streamlining the pickup
                         in-store process for retail merchants.
                       </div>
@@ -59,7 +57,7 @@ function ProjectContainer() {
                 </div>
                 <div className=" md:flex mt-6">
                   <video
-                    className="rounded-[15px]"
+                    className="rounded-image"
                     src={VideoExpedite}
                     autoPlay
                     loop
@@ -72,10 +70,10 @@ function ProjectContainer() {
             <NavLink to="/instasnacks" className="md:w-1/2">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:px-3">
+                  <div className="flex flex-col ">
                     <div>
                       <div className="h1">Instasnacks</div>
-                      <div className="h2 hidden">
+                      <div className=" hidden">
                         Creating a brand strategy and social media presence for
                         a retailer that sells entirely through delivery
                         platforms.
@@ -88,7 +86,7 @@ function ProjectContainer() {
                 </div>
                 <div className=" md:flex  mt-6">
                   <video
-                    className="rounded-[15px]"
+                    className="rounded-image"
                     src={VideoInstasnacks}
                     autoPlay
                     loop
@@ -102,10 +100,10 @@ function ProjectContainer() {
           <NavLink to="/stocate">
             <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
               <div className="flex flex-col w-full">
-                <div className="flex flex-col md:px-3">
+                <div className="flex flex-col ">
                   <div>
                     <div className="h1">Stocate</div>
-                    <div className="h2 hidden">
+                    <div className=" hidden">
                       Creating user centered solutions to connecting sustainable
                       and local businesses with a community of interested
                       buyers.
@@ -118,7 +116,7 @@ function ProjectContainer() {
                 <img
                   src={Stocate}
                   alt="Image"
-                  className="object-cover h-auto rounded-[15px]"
+                  className="object-cover h-auto rounded-image"
                 />
               </div>
             </div>
@@ -131,10 +129,10 @@ function ProjectContainer() {
             >
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:px-3">
+                  <div className="flex flex-col ">
                     <div>
                       <div className="h1">Canadian Tire</div>
-                      <div className="h2 hidden">
+                      <div className=" hidden">
                         Various print and digital assets for the most popular
                         Canadian Tire store in Ottawa.
                       </div>
@@ -146,7 +144,7 @@ function ProjectContainer() {
                   <img
                     src={ImageCanadian}
                     alt="Image"
-                    className="object-cover h-auto rounded-[15px]"
+                    className="object-cover h-auto rounded-image"
                   />
                 </div>
               </div>
@@ -155,10 +153,10 @@ function ProjectContainer() {
             <NavLink to="/casperkitchen">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:px-3">
+                  <div className="flex flex-col ">
                     <div>
                       <div className="h1">Casper Kitchen</div>
-                      <div className="h2 hidden">
+                      <div className=" hidden">
                         Using social media to increase the presence of a
                         restaurant chain that sells entirely through delivery
                         platforms during the pandemic.
@@ -171,7 +169,7 @@ function ProjectContainer() {
                 </div>
                 <div className=" md:flex mt-6">
                   <video
-                    className="rounded-[15px]"
+                    className="rounded-image"
                     src={VideoCasper}
                     autoPlay
                     loop
@@ -189,10 +187,10 @@ function ProjectContainer() {
             >
               <div className="flex flex-col gap-x-6 gray-button w-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:px-3">
+                  <div className="flex flex-col ">
                     <div>
                       <div className="h1">Alysha Aziz Trustee Campaign</div>
-                      <div className="h2 hidden">
+                      <div className=" hidden">
                         Creating branding and print deliverables to contribute
                         to a successful political campaign.
                       </div>
@@ -204,7 +202,7 @@ function ProjectContainer() {
                   <img
                     src={ImageAlysha}
                     alt="Image"
-                    className="object-cover h-auto w-full rounded-[15px]"
+                    className="object-cover h-auto w-full rounded-image"
                   />
                 </div>
               </div>
@@ -216,10 +214,10 @@ function ProjectContainer() {
             >
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:px-3">
+                  <div className="flex flex-col ">
                     <div>
                       <div className="h1">Freelance Branding</div>
-                      <div className="h2 hidden">
+                      <div className=" hidden">
                         Process & concept proposals for logos and other branding
                         assets for small businesses.
                       </div>
@@ -231,7 +229,7 @@ function ProjectContainer() {
                   <img
                     src={ImageFreelance}
                     alt="Image"
-                    className="object-cover h-auto rounded-[15px]"
+                    className="object-cover h-auto rounded-image"
                   />
                 </div>
               </div>
@@ -240,10 +238,10 @@ function ProjectContainer() {
           <NavLink to="/beacons">
             <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
               <div className="flex flex-col w-full">
-                <div className="flex flex-col md:px-3">
+                <div className="flex flex-col ">
                   <div>
                     <div className="h1">Beacons</div>
-                    <div className="h2 hidden">
+                    <div className=" hidden">
                       Empowering employee success in the retail workplace and
                       improving the service experience for customers.
                     </div>
@@ -257,7 +255,7 @@ function ProjectContainer() {
                 <img
                   src={ImageBeacons}
                   alt="Image"
-                  className="object-cover h-auto rounded-[15px]"
+                  className="object-cover h-auto rounded-image"
                 />
               </div>
             </div>

@@ -7,14 +7,13 @@
 
 @layer components {
   .title {
-    @apply text-zinc-200 font-bold text-[17px] font-['Syne'];
+    @apply text-zinc-200 font-bold text-[19px] font-['Syne'];
   }
-
   .h1 {
-    @apply text-zinc-300 text-[25px] font-normal leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
+    @apply text-zinc-300 text-[23px] font-medium leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
   }
   .h2 {
-    @apply text-zinc-200 text-[21px] font-medium leading-[1.42] tracking-[0.002em];
+    @apply text-zinc-300 text-[21px] font-medium leading-[1.42] tracking-[0.002em];
   }
   .h3 {
     @apply text-zinc-400 font-medium text-[15px] leading-[1.65] tracking-[0.001em];
@@ -23,13 +22,12 @@
     @apply text-zinc-500 font-medium text-[13.5px] leading-[1.45];
   }
   .gray-button {
-    @apply w-fit h4 hover:text-zinc-300 active:text-zinc-300 transition duration-300 ease-out hover:ease-in;
+    @apply w-fit h4 hover:text-zinc-100 active:text-zinc-300 transition duration-300 ease-out hover:ease-in;
   }
-
-  .rounded-block {
-    @apply rounded-[1.5rem] p-10 backdrop-blur-xl;
+  .rounded-image {
+    @apply rounded-[0px];
   }
   .rounded-screen {
-    @apply rounded-[0.25rem] md:rounded-[1rem] border-[0.5px] border-zinc-900 shadow-zinc-100;
+    @apply rounded-[0.5rem] md:rounded-[1rem] border-[0.5px] border-zinc-800;
   }
 }
