@@ -10,15 +10,20 @@ function About() {
       <div className="py-[20vh] bg-zinc-900">
         <div className="container flex flex-col lg:flex-row justify-center">
           <div className="flex flex-col  gap-y-6 px-0 lg:px-12 max-w-xl">
-            <div className="h1">Hello! I'm Karena.</div>
+            <div className="h2">Hello! I'm Karena.</div>
             <div className="h3">
               I'm a designer with a BA in design from York University/Sheridan
-              College, Joint program. I call myself a designer of all kinds of
-              things, because i'm a very versatile designer with experience in
-              print and publishing, social media marketing, motion, and UR/UI/UX
-              design. I've worked on small but impactful teams, sometimes as the
-              only design voice. I believe in creating intentional & data-driven
-              design.
+              College, Joint program. I'm currently living in Ottawa, Canada. I
+              call myself a designer of all kinds of things, because i'm a very
+              versatile designer with experience in print and publishing, social
+              media marketing, motion, and UR/UI/UX design. I believe in
+              creating intentional & data-driven design.
+            </div>
+            <div className="h3">
+              I've worked on small but impactful teams, sometimes as the only
+              design voice. I've worked freelance for clients like: Canadian
+              Tire, Upside Realty and Trustee Alysha Aziz. I'm currently working
+              as a freelance product designer for Dynamic CXS.
             </div>
 
             <div className="h3"></div>
