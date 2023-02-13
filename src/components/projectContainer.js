@@ -16,7 +16,7 @@ import ImageBeacons from "../images/beacons/beacons-2.png";
 function ProjectContainer() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="container flex flex-col pt-[14vh] pb-24 gap-y-36 md:max-w-7xl mx-auto">
+      <div className="container flex flex-col pt-[14vh] pb-24 gap-y-24 md:max-w-7xl mx-auto">
         {/* text section */}
         <div className="flex flex-col w-full">
           <div className="flex flex-col gap-y-12">
@@ -35,7 +35,7 @@ function ProjectContainer() {
         </div>
         {/* component section */}
 
-        <div className="w-full md:flex md:flex-col gap-y-8">
+        <div className="w-full md:flex md:flex-col gap-y-6">
           <div className="flex flex-col md:flex-row gap-x-3">
             <NavLink to="/expedite" className="md:w-1/2">
               <div className="flex flex-col gray-button w-full h-full ">

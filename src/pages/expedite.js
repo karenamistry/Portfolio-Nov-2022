@@ -172,7 +172,7 @@ function Expedite() {
               things to consider when designing this application. Many different
               users need to touch the mobile application in order to complete a
               customer pickup, so understanding the user is imperative to
-              completing the products intended tasks.
+              completing the product's intended tasks.
             </div>
           </div>
 
@@ -305,7 +305,7 @@ function Expedite() {
             </div>
           </div>
 
-          <div className="w-full h-full mx-auto bg-zinc-800 p-36 rounded-sm">
+          <div className="w-full h-full mx-auto bg-zinc-400 p-36 rounded-sm">
             <img
               className="object-contain h-auto w-full"
               src={System}

@@ -11,7 +11,7 @@ function About() {
         <div className="py-[20vh] bg-zinc-900">
           <div className="container flex flex-col lg:flex-row justify-center">
             <div className="flex flex-col  gap-y-6 max-w-xl">
-              <div className="h2">Hello! I'm Karena.</div>
+              <div className="h1 text-stone-300">Hello! I'm Karena.</div>
               <div className="h3">
                 I'm a designer with a BA in design from York University/Sheridan
                 College, Joint program. I'm currently living in Ottawa, Canada.
@@ -29,7 +29,7 @@ function About() {
 
               <div className="h3"></div>
               <div className="flex flex-col gap-y-2">
-                <div className="h4">I'm always down to chat!</div>
+                <div className="h2">I'm always down to chat!</div>
                 <div className="h3">
                   I check my email most often, at{" "}
                   <a
@@ -50,10 +50,13 @@ function About() {
                   to see my experience.
                 </div>
               </div>
+              <div className="h4">
+                <div></div>
+              </div>
             </div>
             <div className="w-full h-full rounded-sm">
               <img
-                className="object-cover object-top w-[20rem] lg:w-[17rem]  mx-auto pt-12 lg:pt-0 rounded-[15px]"
+                className="object-cover object-top w-[20rem] lg:w-[17rem]  mx-auto pt-12 lg:pt-0 rounded-image"
                 src={Standing}
                 alt="me!"
               />

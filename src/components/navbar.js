@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div className="w-full fixed bg-zinc-900 z-50 backdrop-blur-xl bg-[#18181B]/90 font-['Syne']">
-      <div className="container py-5 flex justify-end md:justify-between px-6">
+      <div className="container py-5 flex justify-end md:justify-between">
         <div className="hidden md:flex gap-12 justify-center">
           <a
             target="_blank"

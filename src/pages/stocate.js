@@ -240,7 +240,7 @@ function Stocate() {
             </div>
           </div>
 
-          <div className="w-full h-full bg-zinc-800 rounded-sm">
+          <div className="w-full h-full bg-zinc-600 rounded-sm">
             <img
               className="object-contain mx-auto h-full w-full"
               src={SystemA}
@@ -248,7 +248,7 @@ function Stocate() {
             />
           </div>
 
-          <div className="w-full h-full bg-zinc-800 rounded-sm">
+          <div className="w-full h-full bg-zinc-600 rounded-sm">
             <img
               className="object-contain mx-auto h-full w-full"
               src={SystemB}
