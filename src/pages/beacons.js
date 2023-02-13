@@ -60,9 +60,7 @@ function Beacons() {
                 <div className="h4">User Research, UI, UX</div>
                 <div className="h4">January 2022 to February 2022</div>
                 <div className="h4">IOS, Android</div>
-                <div className="h4">
-                  Myself, Mario, Ricky, Elizabeth & Allan
-                </div>
+                <div className="h4">Myself</div>
               </div>
             </div>
           </div>
@@ -90,7 +88,7 @@ function Beacons() {
           <div className="h3">
             I was introduced to this project while working on a freelance
             branding project for Dynamic CXS, separate from this application. I
-            decided to created this case study as a way to show them better user
+            decided to create this case study as a way to show them better user
             centered design solutions for their Beacons product. I did this
             hoping that they would want to work with me to implement my
             solution. I was able to pitch my design solution to Dynamic CXS and

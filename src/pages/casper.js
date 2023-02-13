@@ -45,7 +45,7 @@ function Casper() {
                   Graphic Design, Social Media Management, Photography, Photo
                   Editing
                 </div>
-                <div className="h4">April 2021 to December, 2021</div>
+                <div className="h4">January 2021 to December, 2021</div>
                 <div className="h4">Instagram, Facebook, TikTok</div>
                 <div className="h4">Myself</div>
               </div>
