@@ -7,27 +7,25 @@
 
 @layer components {
   .title {
-    @apply text-zinc-400 font-medium text-[16px] leading-[1.65] font-['Syne'];
+    @apply text-zinc-200 font-bold text-[17px] font-['Syne'];
   }
 
   .h1 {
-    @apply text-zinc-200 text-[29px] font-normal leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
+    @apply text-zinc-300 text-[25px] font-normal leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
   }
   .h2 {
-    @apply text-zinc-200 text-[21px] font-normal leading-[1.42] tracking-[0.002em];
+    @apply text-zinc-200 text-[21px] font-medium leading-[1.42] tracking-[0.002em];
   }
   .h3 {
-    @apply text-zinc-400 font-medium text-[16px] leading-[1.65] tracking-[0.001em];
+    @apply text-zinc-400 font-medium text-[15px] leading-[1.65] tracking-[0.001em];
   }
   .h4 {
-    @apply text-zinc-500 font-medium text-[13.5px] leading-[1.45] font-['Syne'];
+    @apply text-zinc-500 font-medium text-[13.5px] leading-[1.45];
   }
   .gray-button {
-    @apply w-fit px-7 py-2.5 rounded-sm h4 text-zinc-500 bg-zinc-900 active:bg-zinc-600 active:text-zinc-300 hover:bg-zinc-800 hover:text-zinc-300 transition duration-200 ease-out hover:ease-in  border-[0.5px] border-zinc-700 hover:border-zinc-600 drop-shadow-[0_10px_10px_rgba(63,63,70,.05)];
+    @apply w-fit h4 hover:text-zinc-300 active:text-zinc-300 transition duration-300 ease-out hover:ease-in;
   }
-  .hover-effects {
-    @apply bg-zinc-100  md:active:bg-zinc-200 active:text-zinc-900 hover:bg-zinc-100 hover:text-zinc-800 transition duration-150 ease-out hover:ease-in z-40;
-  }
+
   .rounded-block {
     @apply rounded-[1.5rem] p-10 backdrop-blur-xl;
   }
