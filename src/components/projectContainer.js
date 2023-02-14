@@ -50,7 +50,7 @@ function ProjectContainer() {
                         in-store process for retail merchants.
                       </div>
                     </div>
-                    <div className="h3">
+                    <div className="h4">
                       User Research, User Interface, User Experience
                     </div>
                   </div>
@@ -79,7 +79,7 @@ function ProjectContainer() {
                         platforms.
                       </div>
                     </div>
-                    <div className="h3">
+                    <div className="h4">
                       Graphic Design, Social Media Marketing
                     </div>
                   </div>
@@ -109,7 +109,7 @@ function ProjectContainer() {
                       buyers.
                     </div>
                   </div>
-                  <div className="h3">User Interface, User Experience</div>
+                  <div className="h4">User Interface, User Experience</div>
                 </div>
               </div>
               <div className="md:flex mt-6">
@@ -137,7 +137,7 @@ function ProjectContainer() {
                         Canadian Tire store in Ottawa.
                       </div>
                     </div>
-                    <div className="h3">Graphic Design, Illustration </div>
+                    <div className="h4">Graphic Design, Illustration </div>
                   </div>
                 </div>
                 <div className=" md:flex  mt-6">
@@ -162,7 +162,7 @@ function ProjectContainer() {
                         platforms during the pandemic.
                       </div>
                     </div>
-                    <div className="h3">
+                    <div className="h4">
                       Graphic Design, Social Media Marketing, Photography{" "}
                     </div>
                   </div>
@@ -195,7 +195,7 @@ function ProjectContainer() {
                         to a successful political campaign.
                       </div>
                     </div>
-                    <div className="h3">Graphic Design, Branding</div>
+                    <div className="h4">Graphic Design, Branding</div>
                   </div>
                 </div>
                 <div className=" md:flex  mt-6">
@@ -222,7 +222,7 @@ function ProjectContainer() {
                         assets for small businesses.
                       </div>
                     </div>
-                    <div className="h3">Graphic Design, Branding </div>
+                    <div className="h4">Graphic Design, Branding </div>
                   </div>
                 </div>
                 <div className=" md:flex  mt-6">
@@ -246,7 +246,7 @@ function ProjectContainer() {
                       improving the service experience for customers.
                     </div>
                   </div>
-                  <div className="h3">
+                  <div className="h4">
                     User Research, User Interface, User Experience
                   </div>
                 </div>

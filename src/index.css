@@ -7,10 +7,10 @@
 
 @layer components {
   .title {
-    @apply text-zinc-200 font-bold text-[19px] font-['Syne'];
+    @apply text-zinc-200 font-bold text-[17px] font-['Syne'];
   }
   .h1 {
-    @apply text-zinc-300 text-[23px] font-medium leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
+    @apply text-zinc-300 text-[21px] font-bold leading-[2.6rem] tracking-[-0.012em] font-['Syne'];
   }
   .h2 {
     @apply text-zinc-300 text-[21px] font-medium leading-[1.42] tracking-[0.002em];

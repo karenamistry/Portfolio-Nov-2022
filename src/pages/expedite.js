@@ -40,6 +40,9 @@ import Cust4 from "../images/expedite/pages/profile/CXP 159.jpg";
 
 import VideoExpedite from "../images/expedite/expedite.mp4";
 import VideoSlider from "../images/expedite/slider-a.mp4";
+import ImageA from "../images/expedite/image-add.png";
+import ImageB from "../images/expedite/image-choice.png";
+import Full from "../images/expedite/image-whole.png";
 
 function Expedite() {
   return (
@@ -84,15 +87,7 @@ function Expedite() {
 
         {/* Hero Image */}
         <div className="container">
-          <div className="w-full h-[80vh] z-10 pb-3">
-            <img
-              className="object-cover mx-auto h-full w-full bg-sky-600 rounded-image"
-              src={ExpediteHero}
-              alt="ExpediteImage"
-            />
-          </div>
-
-          <div className="md:flex gap-3">
+          <div className="md:flex gap-3 pb-3">
             <div className="">
               <video
                 className="rounded-image"
@@ -111,6 +106,29 @@ function Expedite() {
                 muted
               />
             </div>
+          </div>
+          <div className="md:flex gap-3 pb-3">
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={ImageA}
+                alt="Image"
+              />
+            </div>
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={ImageB}
+                alt="Image"
+              />
+            </div>
+          </div>
+          <div className="w-full h-full mx-auto bg-zinc-500 rounded-sm">
+            <img
+              className="object-contain h-auto w-full"
+              src={Full}
+              alt="Image"
+            />
           </div>
         </div>
 
@@ -305,7 +323,7 @@ function Expedite() {
             </div>
           </div>
 
-          <div className="w-full h-full mx-auto bg-zinc-400 p-36 rounded-sm">
+          <div className="w-full h-full mx-auto bg-zinc-500 p-36 rounded-sm">
             <img
               className="object-contain h-auto w-full"
               src={System}

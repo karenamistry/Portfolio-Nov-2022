@@ -17,6 +17,12 @@ import Process from "../images/instasnacks/process-a.png";
 
 import Video from "../components/vimeo.js";
 
+import VideoChip from "../images/instasnacks/chip-anim.mp4";
+import VideoGhost from "../images/instasnacks/ghost.mp4";
+import ImageA from "../images/expedite/image-add.png";
+import ImageB from "../images/expedite/image-choice.png";
+import Full from "../images/expedite/image-whole.png";
+
 function Instansnacks() {
   return (
     <div className="bg-zinc-900">
@@ -61,16 +67,92 @@ function Instansnacks() {
         </div>
 
         {/* Hero Image */}
+
         <div className="container">
-          <div className="w-full h-[80vh] z-10">
+          <div className="w-full h-[80vh] z-10 pb-3">
             <img
-              className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-sm"
+              className="object-cover object-center mx-auto h-full w-full bg-sky-600 "
               src={InstaCover}
               alt="ExpediteImage"
             />
           </div>
+
+          <div className="md:flex gap-3 pb-3">
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={Ramen}
+                alt="Image"
+              />
+            </div>
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={Lolly}
+                alt="Image"
+              />
+            </div>
+          </div>
+
+          <div className="md:flex gap-3 pb-3">
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={Pretzel}
+                alt="Image"
+              />
+            </div>
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={Poppop}
+                alt="Image"
+              />
+            </div>
+          </div>
+
+          <div className="md:flex gap-3 pb-3">
+            <div className="w-full h-full">
+              <video
+                className="rounded-image"
+                src={VideoGhost}
+                autoPlay
+                loop
+                muted
+              />
+            </div>
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={Kitty}
+                alt="Image"
+              />
+            </div>
+          </div>
+
+          <div className="md:flex gap-3 pb-3">
+            <div className="w-full h-full">
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={Choco}
+                alt="Image"
+              />
+            </div>
+            <div className="w-full h-full">
+              <video
+                className="rounded-image"
+                src={VideoChip}
+                autoPlay
+                loop
+                muted
+              />
+            </div>
+          </div>
         </div>
 
+        <div className="">
+          <Video />
+        </div>
         {/*  NEW Project Text */}
 
         <div className="container flex flex-col gap-y-24 py-24">
@@ -135,80 +217,14 @@ function Instansnacks() {
             </div>
           </div>
 
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
+          <div className="h1 md:px-12">Proposed Concept Illustrations </div>
+
+          <div className="w-full h-full flex flex-col md:flex-row ">
             <img
-              className="object-cover mx-auto h-full w-5/6 rounded-sm"
+              className="object-cover mx-auto h-full w-5/6 "
               src={Process}
               alt="Image"
             />
-          </div>
-
-          <div className="h1 md:px-12">Select Posts</div>
-
-          <div className="">
-            <Video />
-          </div>
-
-          <div className="flex flex-col gap-y-24">
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-5/6 rounded-sm"
-                src={Door}
-                alt="Image"
-              />
-            </div>
-
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Ramen}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Lolly}
-                alt="Image"
-              />
-            </div>
-
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Pretzel}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Poppop}
-                alt="Image"
-              />
-            </div>
-
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Ghost}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Kitty}
-                alt="Image"
-              />
-            </div>
-
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Choco}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-sm"
-                src={Can}
-                alt="Image"
-              />
-            </div>
           </div>
         </div>
       </div>
