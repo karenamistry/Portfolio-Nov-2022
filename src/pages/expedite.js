@@ -38,7 +38,7 @@ import Cust2 from "../images/expedite/pages/profile/CXP 150.jpg";
 import Cust3 from "../images/expedite/pages/profile/CXP 176.jpg";
 import Cust4 from "../images/expedite/pages/profile/CXP 159.jpg";
 
-import VideoExpedite from "../images/expedite/expedite.mp4";
+import VideoExpedite from "../images/expedite/expedite-2.mp4";
 import VideoSlider from "../images/expedite/slider-a.mp4";
 import ImageA from "../images/expedite/image-add.png";
 import ImageB from "../images/expedite/image-choice.png";

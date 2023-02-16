@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-import VideoExpedite from "../images/expedite/expedite.mp4";
+import VideoExpedite from "../images/expedite/expedite-2.mp4";
 import VideoStocate from "../images/stocate/screens-3.mp4";
 import Stocate from "../images/stocate/stocate-2.png";
 import VideoInstasnacks from "../images/instasnacks/instasnacks.mp4";
