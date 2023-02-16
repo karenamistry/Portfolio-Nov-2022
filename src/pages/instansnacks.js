@@ -68,91 +68,10 @@ function Instansnacks() {
 
         {/* Hero Image */}
 
-        <div className="container">
-          <div className="w-full h-[80vh] z-10 pb-3">
-            <img
-              className="object-cover object-center mx-auto h-full w-full bg-sky-600 "
-              src={InstaCover}
-              alt="ExpediteImage"
-            />
-          </div>
-
-          <div className="md:flex gap-3 pb-3">
-            <div className="w-full h-full">
-              <img
-                className="object-contain mx-auto h-full w-full"
-                src={Ramen}
-                alt="Image"
-              />
-            </div>
-            <div className="w-full h-full">
-              <img
-                className="object-contain mx-auto h-full w-full"
-                src={Lolly}
-                alt="Image"
-              />
-            </div>
-          </div>
-
-          <div className="md:flex gap-3 pb-3">
-            <div className="w-full h-full">
-              <img
-                className="object-contain mx-auto h-full w-full"
-                src={Pretzel}
-                alt="Image"
-              />
-            </div>
-            <div className="w-full h-full">
-              <img
-                className="object-contain mx-auto h-full w-full"
-                src={Poppop}
-                alt="Image"
-              />
-            </div>
-          </div>
-
-          <div className="md:flex gap-3 pb-3">
-            <div className="w-full h-full">
-              <video
-                className="rounded-image"
-                src={VideoGhost}
-                autoPlay
-                loop
-                muted
-              />
-            </div>
-            <div className="w-full h-full">
-              <img
-                className="object-contain mx-auto h-full w-full"
-                src={Kitty}
-                alt="Image"
-              />
-            </div>
-          </div>
-
-          <div className="md:flex gap-3 pb-3">
-            <div className="w-full h-full">
-              <img
-                className="object-contain mx-auto h-full w-full"
-                src={Choco}
-                alt="Image"
-              />
-            </div>
-            <div className="w-full h-full">
-              <video
-                className="rounded-image"
-                src={VideoChip}
-                autoPlay
-                loop
-                muted
-              />
-            </div>
-          </div>
-        </div>
-
         <div className="">
           <Video />
         </div>
+
         {/*  NEW Project Text */}
 
         <div className="container flex flex-col gap-y-24 py-24">
@@ -225,6 +144,82 @@ function Instansnacks() {
               src={Process}
               alt="Image"
             />
+          </div>
+
+          <div className="h1 md:px-12">Select Posts</div>
+
+          <div className="container">
+            <div className="md:flex gap-3 pb-3">
+              <div className="w-full h-full">
+                <img
+                  className="object-contain mx-auto h-full w-full"
+                  src={Ramen}
+                  alt="Image"
+                />
+              </div>
+              <div className="w-full h-full">
+                <img
+                  className="object-contain mx-auto h-full w-full"
+                  src={Lolly}
+                  alt="Image"
+                />
+              </div>
+            </div>
+
+            <div className="md:flex gap-3 pb-3">
+              <div className="w-full h-full">
+                <img
+                  className="object-contain mx-auto h-full w-full"
+                  src={Pretzel}
+                  alt="Image"
+                />
+              </div>
+              <div className="w-full h-full">
+                <img
+                  className="object-contain mx-auto h-full w-full"
+                  src={Poppop}
+                  alt="Image"
+                />
+              </div>
+            </div>
+
+            <div className="md:flex gap-3 pb-3">
+              <div className="w-full h-full">
+                <video
+                  className="rounded-image"
+                  src={VideoGhost}
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div>
+              <div className="w-full h-full">
+                <img
+                  className="object-contain mx-auto h-full w-full"
+                  src={Kitty}
+                  alt="Image"
+                />
+              </div>
+            </div>
+
+            <div className="md:flex gap-3 pb-3">
+              <div className="w-full h-full">
+                <img
+                  className="object-contain mx-auto h-full w-full"
+                  src={Choco}
+                  alt="Image"
+                />
+              </div>
+              <div className="w-full h-full">
+                <video
+                  className="rounded-image"
+                  src={VideoChip}
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
