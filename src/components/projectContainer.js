@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 import VideoExpedite from "../images/expedite/expedite-2.mp4";
 import VideoStocate from "../images/stocate/screens-3.mp4";
-import Stocate from "../images/stocate/stocate-2.png";
+import Stocate from "../images/stocate/stocate-3.png";
 import VideoInstasnacks from "../images/instasnacks/instasnacks.mp4";
 import VideoCasper from "../images/casper/casper-2.mp4";
 import ImageCanadian from "../images/canadian/canadiantire-10.png";
