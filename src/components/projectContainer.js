@@ -228,10 +228,7 @@ function ProjectContainer() {
               </div>
             </NavLink>
 
-            <a
-              target="_blank"
-              href="https://www.behance.net/gallery/162880627/Freelance-Brand-Work-2020-2021"
-            >
+            <NavLink to="/branding">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col ">
@@ -253,7 +250,7 @@ function ProjectContainer() {
                   />
                 </div>
               </div>
-            </a>
+            </NavLink>
           </div>
         </div>
 

@@ -7,13 +7,20 @@ import LogoHero from "../images/logos/logos-cover.jpg";
 
 import Affinity from "../images/expedite/affinitymap-dark.png";
 
-import VanishaLogo from "../images/logos/vanisha-logo.jpg";
+import VanishaLogo from "../images/logos/branding/vanisha-a.png";
+import VanishaLogoB from "../images/logos/branding/vanisha-b.png";
+import VanishaLogoC from "../images/logos/branding/vanisha-c.png";
+
 import VanishaIterate from "../images/logos/vanisha-iterations.jpg";
 
-import UpsideLogo from "../images/logos/upside-logo.jpg";
+import UpsideLogo from "../images/logos/branding/upside-a.png";
+import UpsideLogoB from "../images/logos/branding/upside-b.png";
+
 import UpsideIterate from "../images/logos/upside-iterations.jpg";
 
-import DCLogo from "../images/logos/dcxs-logo.jpg";
+import DCLogo from "../images/logos/branding/dynamic-a.png";
+import DCLogoB from "../images/logos/branding/dynamic-b.png";
+
 import DCIterate from "../images/logos/dcxs-iterations.jpg";
 
 function Branding() {
@@ -78,6 +85,22 @@ function Branding() {
             />
           </div>
 
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full"
+              src={VanishaLogoB}
+              alt="Image"
+            />
+          </div>
+
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full"
+              src={VanishaLogoC}
+              alt="Image"
+            />
+          </div>
+
           <div className="flex flex-col max-w-xl gap-y-2">
             <div className="h2">Proposed Concepts</div>
             <div className="h3">
@@ -116,6 +139,14 @@ function Branding() {
             />
           </div>
 
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full"
+              src={UpsideLogoB}
+              alt="Image"
+            />
+          </div>
+
           <div className="flex flex-col max-w-xl gap-y-2">
             <div className="h2">Proposed Concepts</div>
             <div className="h3">
@@ -147,6 +178,14 @@ function Branding() {
             <img
               className="object-contain mx-auto h-full w-full"
               src={DCLogo}
+              alt="Image"
+            />
+          </div>
+
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full"
+              src={DCLogoB}
               alt="Image"
             />
           </div>
