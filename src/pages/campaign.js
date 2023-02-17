@@ -1,196 +1,144 @@
 import React from "react";
 
-import CasperCover from "../images/casper/casper-cover.jpg";
-import Image1 from "../images/casper/image-4.jpeg";
-import Image2 from "../images/casper/image-2.jpeg";
-import Image3 from "../images/casper/image-3.jpeg";
-import Image4 from "../images/casper/image-1.jpeg";
-import Image5 from "../images/casper/image-5.jpeg";
-import Image6 from "../images/casper/image-6.jpeg";
-import Image7 from "../images/casper/image-7.jpeg";
-import Image8 from "../images/casper/image-8.jpeg";
-import Image9 from "../images/casper/image-9.jpeg";
-import Image10 from "../images/casper/image-10.jpeg";
-import Image11 from "../images/casper/casper-new-1.jpg";
-import Image12 from "../images/casper/casper-new-2.jpg";
-import Image13 from "../images/casper/casper-new-3.jpg";
+import { Link } from "react-router-dom";
+// Hero Image
+import CampaignHero from "../images/alysha/alysha-cover.jpg";
+// Project Images
+
+import Affinity from "../images/expedite/affinitymap-dark.png";
+import MailerA from "../images/alysha/front.png";
+import MailerB from "../images/alysha/back.png";
+import Mockup from "../images/alysha/alysha-front.jpg";
+
+import Lawn from "../images/alysha/lawn.png";
+
+import SocialA from "../images/alysha/post-1.png";
+import SocialB from "../images/alysha/post-2.png";
 
 function Campaign() {
   return (
-    <div className="bg-zinc-900">
-      {/* Project Info */}
+    <div className="w-full h-auto bg-zinc-900">
+      <div className="md:max-w-7xl mx-auto">
+        {/* Project Info */}
 
-      <div className="flex pt-[14vh] pb-24  bg-zinc-900">
-        <div className="container flex flex-col gap-y-12 md:px-12">
-          <div className="h1">Alysha Aziz Trustee Campaign</div>
-          <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-            <div className="flex flex-col gap-y-8 max-w-3xl">
-              <div className="h3">
-                Casper Kitchen is a delivery and pickup only restaurant chain
-                located in the heart of downtown Ottawa. I managed the content
-                creation for the social media accounts of 4 of their restaurant
-                brands. I created over 100 design and photo assets for digital
-                and print purposes.
-              </div>
-            </div>
-            <div className="flex gap-x-6">
-              <div className="flex flex-col gap-y-2">
-                <div className="h4">Role</div>
-                <div className="h4">Timeline</div>
-                <div className="h4">Platform</div>
-                <div className="h4">Team</div>
-              </div>
-              <div className="flex flex-col gap-y-2">
-                <div className="h4">
-                  Graphic Design, Social Media Management, Photography, Photo
-                  Editing
+        <div className="flex pt-[14vh] pb-24">
+          <div className="container flex flex-col gap-y-12">
+            <div className="h1">Alysha Aziz Trustee Campaign</div>
+            <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
+              <div className="flex flex-col gap-y-8 max-w-xl">
+                <div className="h3">
+                  I designed crucial print deliverables for now elected
+                  candidate Alysha Aziz's 2022 campaign for Ottawa/Carleton
+                  District School Board Trustee. We worked together on several
+                  print assets and social media posts to advertise her campaign.
                 </div>
-                <div className="h4">April 2021 to December, 2021</div>
-                <div className="h4">Instagram, Facebook, TikTok</div>
-                <div className="h4">Myself</div>
+              </div>
+              <div className="flex gap-x-6">
+                <div className="flex flex-col opacity-80 gap-y-2">
+                  <div className="h4">Role</div>
+                  <div className="h4">Timeline</div>
+                  <div className="h4">Platform</div>
+                  <div className="h4">Team</div>
+                </div>
+                <div className="flex flex-col gap-y-2">
+                  <div className="h4">Graphic Design</div>
+                  <div className="h4">August 2022 to September, 2022</div>
+                  <div className="h4">Print, Social Media</div>
+                  <div className="h4">Myself, Rochelle Moore</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Hero Image */}
-      <div className="container">
-        <div className="w-full h-[80vh] z-10">
-          <img
-            className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-3xl"
-            src={CasperCover}
-            alt="ExpediteImage"
-          />
-        </div>
-      </div>
+        {/* Hero Image */}
 
-      {/*  NEW Project Text */}
+        {/*  NEW Project Text */}
 
-      <div className="container flex flex-col gap-y-24 py-24">
-        {/*  Container */}
+        <div className="container flex flex-col gap-y-24 py-24">
+          {/*  Container */}
+          <div className="h1">Deliverables</div>
 
-        <div className="h1 md:px-12">Introduction</div>
-
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Ghost Kitchen</div>
-          <div className="h3">
-            Casper Kitchen is what is commonly referred to as a ghost kitchen,
-            which means they do all their sales through delivery and pickup
-            orders. Their kitchen is in the heart of downtown Ottawa, where you
-            can either order from their takeout window or pickup through
-            delivery apps. They drive sales by having a strong social media
-            presence and good standing in the community.
+          <div className="flex flex-col max-w-xl gap-y-2">
+            <div className="h2">Mailers</div>
+            <div className="h3">
+              Postcards that were mailed to every house in the election
+              district. These mailers were used to promote the candidate, and
+              inform voters on the candidate's platform. These were an important
+              piece of marketing for the candidate, because they had the most
+              reach.
+            </div>
           </div>
-          <div className="h3">
-            I created and managed daily content for 4 of their restaurant
-            brands: VietFresh & Banh Mi Bros, Casper Kitchen & Old's BBQ. I
-            worked on their Instagram, & Facebook accounts.
+
+          <div className="md:flex gap-3 pb-3">
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={MailerA}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={MailerB}
+                alt="Image"
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="h1 md:px-12">Process</div>
-
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Consistent & Reliable Content</div>
-          <div className="h3">
-            Casper Kitchen brands had an established customer base and social
-            presence. The most important part of designing for Casper Kitchen
-            was maintaining that brand identity and designing content that would
-            maintain that audience.
-          </div>
-        </div>
-
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Photo Posts</div>
-          <div className="h3">
-            Previous content consisted of mostly photography posts. This made
-            sense, because customers often browsed the Instagram when choosing
-            what to order. That is what I decided to create to maintain our
-            audience.
-          </div>
-          <div className="h3">
-            The first set of photos I created were edited to use the brand
-            specific colours to represent each restaurant. The second set of
-            photos I created used a homogenous blue background to show that
-            these brands were all under the same roof.
-          </div>
-          <div className="h3"></div>
-        </div>
-
-        <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-          <div className="h2">Impact</div>
-          <div className="h3">
-            I was able to gain an increase in engagement, peaking at a 69%
-            increase in engagement from previous photo content. The content I
-            created helped build brand recognition for the each specific
-            restaurant. I often responded to customer questions and comments to
-            help build our customer service experience. This was important to
-            maintaining our community standing.
-          </div>
-        </div>
-
-        <div className="h1 md:px-12">Select Posts</div>
-
-        <div className="flex flex-col gap-y-6">
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
+          <div className="w-full h-full">
             <img
-              className="object-cover mx-auto h-full w-5/6 rounded-xl"
-              src={Image1}
+              className="object-contain mx-auto h-full w-full"
+              src={Mockup}
               alt="Image"
             />
           </div>
 
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
+          <div className="flex flex-col max-w-xl gap-y-2">
+            <div className="h2">Lawn Signs </div>
+            <div className="h3">
+              Large lawn signs that were put up in big traffic areas in the
+              election district. It was important for us to keep only crucial
+              information on the sign when introducing voters to the candidate.
+              Leading was increased for better readability at large distances,
+              and colours were adjusted to increase contrast.
+            </div>
+          </div>
+
+          <div className="w-full h-full">
             <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image2}
-              alt="Image"
-            />
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image11}
+              className="object-contain mx-auto h-full w-full"
+              src={Lawn}
               alt="Image"
             />
           </div>
 
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image12}
-              alt="Image"
-            />
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image13}
-              alt="Image"
-            />
+          <div className="flex flex-col max-w-xl gap-y-2">
+            <div className="h2">Social Media Posts</div>
+            <div className="h3">
+              Festive and fun social media posts to introduce voters to the
+              candidates personality. These were inspired by Barack Obama's
+              yearly music list, as a way to relate to voters and showcase our
+              candidate.
+            </div>
           </div>
 
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image6}
-              alt="Image"
-            />
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image4}
-              alt="Image"
-            />
-          </div>
-
-          <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image7}
-              alt="Image"
-            />
-            <img
-              className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-              src={Image5}
-              alt="Image"
-            />
+          <div className="md:flex gap-3 pb-3">
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={SocialA}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={SocialB}
+                alt="Image"
+              />
+            </div>
           </div>
         </div>
       </div>

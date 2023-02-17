@@ -9,7 +9,7 @@ import Stocate from "../images/stocate/stocate-3.png";
 import VideoInstasnacks from "../images/instasnacks/instasnacks.mp4";
 import VideoCasper from "../images/casper/casper-2.mp4";
 import ImageCanadian from "../images/canadian/canadiantire-10.png";
-import ImageAlysha from "../images/alysha/alysha-cover-7.jpg";
+import ImageAlysha from "../images/alysha/alysha-front.jpg";
 import ImageFreelance from "../images/logos/freelance-4.png";
 import ImageBeacons from "../images/beacons/beacons-2.png";
 
@@ -123,10 +123,7 @@ function ProjectContainer() {
           </NavLink>
 
           <div className="flex flex-col md:flex-row mt-6 md:mt-0 gap-x-3">
-            <a
-              target="_blank"
-              href="https://www.behance.net/gallery/163017819/Freelance-Designer-for-Canadian-Tire-2020-2021"
-            >
+            <NavLink to="/canadiantire">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col ">
@@ -148,7 +145,7 @@ function ProjectContainer() {
                   />
                 </div>
               </div>
-            </a>
+            </NavLink>
 
             <NavLink to="/casperkitchen">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
@@ -180,11 +177,34 @@ function ProjectContainer() {
             </NavLink>
           </div>
 
+          <NavLink to="/beacons">
+            <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
+              <div className="flex flex-col w-full">
+                <div className="flex flex-col ">
+                  <div>
+                    <div className="h1">Beacons</div>
+                    <div className=" hidden">
+                      Empowering employee success in the retail workplace and
+                      improving the service experience for customers.
+                    </div>
+                  </div>
+                  <div className="h4">
+                    User Research, User Interface, User Experience
+                  </div>
+                </div>
+              </div>
+              <div className=" md:flex  mt-6">
+                <img
+                  src={ImageBeacons}
+                  alt="Image"
+                  className="object-cover h-auto rounded-image"
+                />
+              </div>
+            </div>
+          </NavLink>
+
           <div className="flex flex-col md:flex-row mt-6 md:mt-0  gap-x-3">
-            <a
-              target="_blank"
-              href="https://www.behance.net/gallery/162371367/Alysha-Alyshas-%28now-elected%29-Trustee-Campaign-2022"
-            >
+            <NavLink to="/campaign">
               <div className="flex flex-col gap-x-6 gray-button w-full">
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col ">
@@ -206,7 +226,7 @@ function ProjectContainer() {
                   />
                 </div>
               </div>
-            </a>
+            </NavLink>
 
             <a
               target="_blank"
@@ -235,31 +255,6 @@ function ProjectContainer() {
               </div>
             </a>
           </div>
-          <NavLink to="/beacons">
-            <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
-              <div className="flex flex-col w-full">
-                <div className="flex flex-col ">
-                  <div>
-                    <div className="h1">Beacons</div>
-                    <div className=" hidden">
-                      Empowering employee success in the retail workplace and
-                      improving the service experience for customers.
-                    </div>
-                  </div>
-                  <div className="h4">
-                    User Research, User Interface, User Experience
-                  </div>
-                </div>
-              </div>
-              <div className=" md:flex  mt-6">
-                <img
-                  src={ImageBeacons}
-                  alt="Image"
-                  className="object-cover h-auto rounded-image"
-                />
-              </div>
-            </div>
-          </NavLink>
         </div>
 
         {/* section */}

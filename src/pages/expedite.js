@@ -323,7 +323,7 @@ function Expedite() {
             </div>
           </div>
 
-          <div className="w-full h-full mx-auto bg-zinc-500 p-36 rounded-sm">
+          <div className="w-full h-full mx-auto bg-zinc-200 p-36 rounded-sm">
             <img
               className="object-contain h-auto w-full"
               src={System}

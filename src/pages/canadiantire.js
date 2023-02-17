@@ -1,53 +1,58 @@
 import React from "react";
 
-import CasperCover from "../images/casper/casper-cover.jpg";
-import Image1 from "../images/casper/image-4.jpeg";
-import Image2 from "../images/casper/image-2.jpeg";
-import Image3 from "../images/casper/image-3.jpeg";
-import Image4 from "../images/casper/image-1.jpeg";
-import Image5 from "../images/casper/image-5.jpeg";
-import Image6 from "../images/casper/image-6.jpeg";
-import Image7 from "../images/casper/image-7.jpeg";
-import Image8 from "../images/casper/image-8.jpeg";
-import Image9 from "../images/casper/image-9.jpeg";
-import Image10 from "../images/casper/image-10.jpeg";
-import Image11 from "../images/casper/casper-new-1.jpg";
-import Image12 from "../images/casper/casper-new-2.jpg";
-import Image13 from "../images/casper/casper-new-3.jpg";
+import { Link } from "react-router-dom";
+// Hero Image
+// Project Images
+
+import PosterA from "../images/canadian/outdoor-signs/01.png";
+import PosterB from "../images/canadian/outdoor-signs/02.png";
+import PosterC from "../images/canadian/outdoor-signs/03.png";
+import PosterD from "../images/canadian/outdoor-signs/04.png";
+import PosterE from "../images/canadian/outdoor-signs/05.png";
+import PosterF from "../images/canadian/outdoor-signs/06.png";
+
+import StandeeA from "../images/canadian/standees/ct-female.png";
+import StandeeB from "../images/canadian/standees/ct-male.png";
+import StandeeC from "../images/canadian/standees/01.png";
+import StandeeD from "../images/canadian/standees/02.png";
+import StandeeE from "../images/canadian/standees/03.png";
+import StandeeF from "../images/canadian/standees/04.png";
+import StandeeG from "../images/canadian/standees/05.png";
+
+import MapA from "../images/canadian/map-01.png";
+import MapB from "../images/canadian/map-02.jpg";
 
 function Canadian() {
   return (
-    <div className="bg-zinc-900">
+    <div className="w-full h-auto bg-zinc-900">
       <div className="md:max-w-7xl mx-auto">
         {/* Project Info */}
 
-        <div className="flex pt-[14vh] pb-24  bg-zinc-900">
-          <div className="container flex flex-col gap-y-12 md:px-6">
-            <div className="h1">Canadian Tire, Ottawa</div>
+        <div className="flex pt-[14vh] pb-24">
+          <div className="container flex flex-col gap-y-12">
+            <div className="h1">Canadian Tire</div>
             <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-3xl">
+              <div className="flex flex-col gap-y-8 max-w-xl">
                 <div className="h3">
-                  Casper Kitchen is a delivery and pickup only restaurant chain
-                  located in the heart of downtown Ottawa. I managed the content
-                  creation for the social media accounts of 4 of their
-                  restaurant brands. I created over 100 design and photo assets
-                  for digital and print purposes.
+                  I worked as a freelance designer for Canadian Tire, creating
+                  work as needed. The deliverables I designed for Canadian Tire
+                  included: wayfinding floor stickers, parking lot signs,
+                  in-store signs, trainee tools, and presentation slides. These
+                  are just a few of the deliverables I designed for the Canadian
+                  Tire Kanata (Ottawa).
                 </div>
               </div>
               <div className="flex gap-x-6">
-                <div className="flex flex-col gap-y-2">
+                <div className="flex flex-col opacity-80 gap-y-2">
                   <div className="h4">Role</div>
                   <div className="h4">Timeline</div>
                   <div className="h4">Platform</div>
                   <div className="h4">Team</div>
                 </div>
                 <div className="flex flex-col gap-y-2">
-                  <div className="h4">
-                    Graphic Design, Social Media Management, Photography, Photo
-                    Editing
-                  </div>
-                  <div className="h4">April 2021 to December, 2021</div>
-                  <div className="h4">Instagram, Facebook, TikTok</div>
+                  <div className="h4">Graphic Design, Illustration</div>
+                  <div className="h4">April 2020 to April, 2021</div>
+                  <div className="h4">Print, Digital</div>
                   <div className="h4">Myself</div>
                 </div>
               </div>
@@ -56,143 +61,147 @@ function Canadian() {
         </div>
 
         {/* Hero Image */}
-        <div className="container">
-          <div className="w-full h-[80vh] z-10">
-            <img
-              className="object-cover object-center mx-auto h-full w-full bg-sky-600 rounded-sm"
-              src={CasperCover}
-              alt="ExpediteImage"
-            />
-          </div>
-        </div>
 
         {/*  NEW Project Text */}
 
         <div className="container flex flex-col gap-y-24 py-24">
           {/*  Container */}
+          <div className="h1">Select Works</div>
 
-          <div className="h1 md:px-12">Introduction</div>
-
-          <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-            <div className="h2">Ghost Kitchen</div>
+          <div className="flex flex-col max-w-xl gap-y-2">
+            <div className="h2">Outdoor COVID Signs </div>
             <div className="h3">
-              Casper Kitchen is what is commonly referred to as a ghost kitchen,
-              which means they do all their sales through delivery and pickup
-              orders. Their kitchen is in the heart of downtown Ottawa, where
-              you can either order from their takeout window or pickup through
-              delivery apps. They drive sales by having a strong social media
-              presence and good standing in the community.
-            </div>
-            <div className="h3">
-              I created and managed daily content for 4 of their restaurant
-              brands: VietFresh & Banh Mi Bros, Casper Kitchen & Old's BBQ. I
-              worked on their Instagram, & Facebook accounts.
+              A series of large signs 36in X 60in to help customers navigate
+              picking-up items during the pandemic. This was a rush project,
+              revisions completed and sent for printing in under an hour.
             </div>
           </div>
 
-          <div className="h1 md:px-12">Process</div>
-
-          <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-            <div className="h2">Consistent & Reliable Content</div>
-            <div className="h3">
-              Casper Kitchen brands had an established customer base and social
-              presence. The most important part of designing for Casper Kitchen
-              was maintaining that brand identity and designing content that
-              would maintain that audience.
+          <div className="md:flex gap-3 bg-zinc-700 p-3">
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={PosterA}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={PosterB}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={PosterC}
+                alt="Image"
+              />
+            </div>
+          </div>
+          <div className="md:flex gap-3  bg-zinc-700 p-3">
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={PosterD}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={PosterE}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={PosterF}
+                alt="Image"
+              />
             </div>
           </div>
 
-          <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-            <div className="h2">Photo Posts</div>
+          <div className="flex flex-col max-w-xl gap-y-2">
+            <div className="h2">Re-Vamped Standees</div>
             <div className="h3">
-              Previous content consisted of mostly photography posts. This made
-              sense, because customers often browsed the Instagram when choosing
-              what to order. That is what I decided to create to maintain our
-              audience.
-            </div>
-            <div className="h3">
-              The first set of photos I created were edited to use the brand
-              specific colours to represent each restaurant. The second set of
-              photos I created used a homogenous blue background to show that
-              these brands were all under the same roof.
-            </div>
-            <div className="h3"></div>
-          </div>
-
-          <div className="flex flex-col max-w-4xl gap-y-2 md:px-12">
-            <div className="h2">Impact</div>
-            <div className="h3">
-              I was able to gain an increase in engagement, peaking at a 69%
-              increase in engagement from previous photo content. The content I
-              created helped build brand recognition for the each specific
-              restaurant. I often responded to customer questions and comments
-              to help build our customer service experience. This was important
-              to maintaining our community standing.
+              Fun and exciting outfits for life-sized PVC standees that were put
+              up in different departments of the Canadian Tire store. I had
+              initially only designed two but, these were a hit with customers,
+              so we continued to add to them! I did not design the plain standee
+              (dressed in just Canadian Tire attire), I designed the added
+              attire to specify departments.
             </div>
           </div>
 
-          <div className="h1 md:px-12">Select Posts</div>
-
-          <div className="flex flex-col gap-y-6">
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
+          <div className="md:flex gap-3 bg-zinc-700 p-3">
+            <div>
               <img
-                className="object-cover mx-auto h-full w-5/6 rounded-xl"
-                src={Image1}
+                className="object-contain mx-auto h-full w-full"
+                src={StandeeA}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={StandeeB}
+                alt="Image"
+              />
+            </div>
+          </div>
+          <div className="md:flex gap-3  bg-zinc-700 p-3">
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={StandeeC}
+                alt="Image"
+              />
+            </div>
+            <div>
+              <img
+                className="object-contain mx-auto h-full w-full"
+                src={StandeeD}
                 alt="Image"
               />
             </div>
 
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
+            <div>
               <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image2}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image11}
+                className="object-contain mx-auto h-full w-full"
+                src={StandeeF}
                 alt="Image"
               />
             </div>
+          </div>
 
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image12}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image13}
-                alt="Image"
-              />
+          <div className="flex flex-col max-w-xl gap-y-2">
+            <div className="h2">Employee Training Map</div>
+            <div className="h3">
+              A map of the Canadian Tire Kanata location as a part of an
+              improved training program for incoming employees. The map is
+              intended to be a general layout of departments, teaching new
+              employees about locations of items, location of help desks and
+              seasonal variations of the store layout.
             </div>
+          </div>
 
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image6}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image4}
-                alt="Image"
-              />
-            </div>
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full"
+              src={MapA}
+              alt="Image"
+            />
+          </div>
 
-            <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image7}
-                alt="Image"
-              />
-              <img
-                className="object-cover mx-auto h-full w-full md:w-1/2 rounded-xl"
-                src={Image5}
-                alt="Image"
-              />
-            </div>
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full"
+              src={MapB}
+              alt="Image"
+            />
           </div>
         </div>
       </div>
