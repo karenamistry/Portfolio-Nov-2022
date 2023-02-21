@@ -11,7 +11,7 @@ function About() {
         <div className="py-[20vh] bg-zinc-900">
           <div className="container flex flex-col lg:flex-row justify-center">
             <div className="flex flex-col  gap-y-6 max-w-sm">
-              <div className="h1 text-stone-300">Hello! I'm Karena.</div>
+              <div className="h1">Hello! I'm Karena.</div>
               <div className="h3">
                 I'm a designer with a BA in design from York University/Sheridan
                 College, Joint program. I'm currently living in Ottawa, Canada.

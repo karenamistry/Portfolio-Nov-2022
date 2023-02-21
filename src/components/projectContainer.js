@@ -18,26 +18,6 @@ function ProjectContainer() {
     <div className="w-full h-auto bg-zinc-900">
       <div className="container flex flex-col pt-[14vh] pb-24 gap-y-24 md:max-w-6xl mx-auto">
         {/* text section */}
-
-        <div className="flex items-start flex-col md:flex-row gap-y-12 py-24 hidden">
-          <div className="md:w-1/2">
-            <div className="max-w-xl">
-              <div className="h2">Karena Mistry is a designer of</div>
-              <div className="titleSerif ">All Kinds of Things.</div>
-            </div>
-          </div>
-          <div className="md:w-1/2">
-            <div className="h3 max-w-xs">
-              She creates <span className="text-zinc-300">data-driven</span>{" "}
-              experiences and{" "}
-              <span className="text-zinc-300">carefully crafted</span> visuals.
-              Currently freelance product designer at Dynamics CXS, previously
-              graphic designer for multiple startups in Canada.
-            </div>
-          </div>
-        </div>
-
-        {/* text section */}
         <div className=" pb-24 flex flex-col gap-y-4">
           <div className="flex flex-col md:items-center gap-y-2">
             <div className="titleSerif text-zinc-200">Karena Mistry</div>
@@ -62,12 +42,9 @@ function ProjectContainer() {
                     <div>
                       <div>
                         <div className="h2">
-                          Improving Your Pickup Experience with Expedite.
+                          Improving Your Pickup Experience with{" "}
+                          <span className="text-zinc-50">Expedite</span>.
                         </div>
-                      </div>
-                      <div className=" hidden">
-                        Improving customer experience by streamlining the pickup
-                        in-store process for retail merchants.
                       </div>
                     </div>
                     <div className="h4">
@@ -93,7 +70,8 @@ function ProjectContainer() {
                   <div className="flex flex-col gap-y-0.5">
                     <div>
                       <div className="h2">
-                        Creating a Yummy Social Media Campaign: Instasnacks.
+                        Creating a Yummy Social Media Campaign:{" "}
+                        <span className="text-zinc-50">Instasnacks</span>.
                       </div>
                       <div className=" hidden">
                         Creating a brand strategy and social media presence for
@@ -125,7 +103,8 @@ function ProjectContainer() {
                 <div className="flex flex-col gap-y-0.5">
                   <div>
                     <div className="h2">
-                      Making Sustainability More Approachable with Stocate.
+                      Making Sustainability More Approachable with{" "}
+                      <span className="text-zinc-50">Stocate</span>.
                     </div>
                     <div className=" hidden">
                       Creating user centered solutions to connecting sustainable
@@ -153,8 +132,9 @@ function ProjectContainer() {
                   <div className="flex flex-col gap-y-0.5">
                     <div>
                       <div className="h2">
-                        Print Work for the Most Popular Canadian Tire Store in
-                        Ottawa.
+                        Print Work for the Most Popular{" "}
+                        <span className="text-zinc-50">Canadian Tire</span>{" "}
+                        Store in Ottawa.
                       </div>
                       <div className=" hidden">
                         Various print and digital assets for the most popular
@@ -180,8 +160,8 @@ function ProjectContainer() {
                   <div className="flex flex-col gap-y-0.5">
                     <div>
                       <div className="h2">
-                        Increasing the Presence of a Restaurant Chain: Casper
-                        Kitchen
+                        Increasing the Presence of a Restaurant Chain:{" "}
+                        <span className="text-zinc-50">Casper Kitchen</span>.
                       </div>
                       <div className=" hidden">
                         Using social media to increase the presence of a
@@ -214,7 +194,7 @@ function ProjectContainer() {
                   <div>
                     <div className="h2">
                       Empowering Employee Success in the Retail Workplace with
-                      Beacons.
+                      <span className="text-zinc-50"> Beacons</span>.
                     </div>
                     <div className=" hidden">
                       Empowering employee success in the retail workplace and
