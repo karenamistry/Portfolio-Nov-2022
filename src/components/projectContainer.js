@@ -41,7 +41,7 @@ function ProjectContainer() {
         <div className=" pb-24 flex flex-col gap-y-4">
           <div className="flex flex-col md:items-center gap-y-2">
             <div className="titleSerif text-zinc-200">Karena Mistry</div>
-            <div className="h3 max-w-xl text-center text-zinc-400 mx-auto">
+            <div className="h3 max-w-xl  text-left md:text-center text-zinc-400 md:mx-auto">
               I create <span className="text-zinc-200">data-driven</span>{" "}
               experiences and{" "}
               <span className="text-zinc-200">carefully crafted</span> visuals.

@@ -13,7 +13,7 @@
     @apply text-zinc-200 font-black text-[36px] font-['Syne'] tracking-[-0.03em];
   }
   .h1 {
-    @apply text-zinc-300 text-[22px] font-bold leading-[2.6rem] tracking-[0.02em] font-['Syne'];
+    @apply text-zinc-300 text-[22px] font-black leading-[2.6rem] tracking-[0.02em] font-['Syne'];
   }
   .h2 {
     @apply text-zinc-300 text-[16px] font-medium leading-[1.42] tracking-[0.002em];
