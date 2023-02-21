@@ -39,7 +39,7 @@ function ProjectContainer() {
 
         {/* text section */}
         <div className=" pb-24 flex flex-col gap-y-4">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col md:items-center">
             <div className="h2 text-zinc-400">
               Karena Mistry is a designer of
             </div>
@@ -49,7 +49,7 @@ function ProjectContainer() {
             <div className="md:w-1/2">
               <div className="max-w-xl"></div>
             </div>
-            <div className="md:w-1/2">
+            <div className="md:w-5/6">
               <div className="h3 max-w-xs text-zinc-400">
                 She creates data-driven experiences and carefully crafted
                 visuals. Currently freelance product designer at Dynamics CXS,
@@ -161,7 +161,7 @@ function ProjectContainer() {
                   <div className="flex flex-col gap-y-0.5">
                     <div>
                       <div className="h2">
-                        Print Work for the Most Popular Canadian Tire store in
+                        Print Work for the Most Popular Canadian Tire Store in
                         Ottawa.
                       </div>
                       <div className=" hidden">
