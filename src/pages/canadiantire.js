@@ -25,14 +25,14 @@ import MapB from "../images/canadian/map-02.jpg";
 function Canadian() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="md:max-w-7xl mx-auto">
+      <div className="md:max-w-6xl mx-auto">
         {/* Project Info */}
 
         <div className="flex pt-[14vh] pb-24">
           <div className="container flex flex-col gap-y-12">
             <div className="h1">Canadian Tire</div>
             <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xl">
+              <div className="flex flex-col gap-y-8 max-w-xs">
                 <div className="h3">
                   I worked as a freelance designer for Canadian Tire, creating
                   work as needed. The deliverables I designed for Canadian Tire
@@ -68,7 +68,7 @@ function Canadian() {
           {/*  Container */}
           <div className="h1">Select Works</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Outdoor COVID Signs </div>
             <div className="h3">
               A series of large signs 36in X 60in to help customers navigate
@@ -124,7 +124,7 @@ function Canadian() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Re-Vamped Standees</div>
             <div className="h3">
               Fun and exciting outfits for life-sized PVC standees that were put
@@ -177,7 +177,7 @@ function Canadian() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Employee Training Map</div>
             <div className="h3">
               A map of the Canadian Tire Kanata location as a part of an

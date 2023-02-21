@@ -26,14 +26,14 @@ import Full from "../images/expedite/image-whole.png";
 function Instansnacks() {
   return (
     <div className="bg-zinc-900">
-      <div className="md:max-w-7xl mx-auto">
+      <div className="md:max-w-6xl mx-auto">
         {/* Project Info */}
 
         <div className="flex pt-[14vh] pb-24 bg-zinc-900">
           <div className="container flex flex-col gap-y-12 md:px-6">
             <div className="h1">Instasnacks</div>
             <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xl">
+              <div className="flex flex-col gap-y-8 max-w-xs">
                 <div className="h3">
                   Instasnacks delivers corner store products and specialty
                   snacks using food delivery services. I managed their social
@@ -54,8 +54,7 @@ function Instansnacks() {
                 </div>
                 <div className="flex flex-col gap-y-2">
                   <div className="h4">
-                    Social Media Management, Graphic & Motion Design,
-                    Copywriting
+                    Social Media Management, Graphic & Motion Design
                   </div>
                   <div className="h4">January 2021 to December, 2021</div>
                   <div className="h4">Instagram, Facebook, TikTok</div>
@@ -77,9 +76,9 @@ function Instansnacks() {
         <div className="container flex flex-col gap-y-24 py-24">
           {/*  Container */}
 
-          <div className="h1 md:px-12">Introduction</div>
+          <div className="h1">Introduction</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Entirely Online Retailer</div>
             <div className="h3">
               Instansnacks sells through delivery applications such as UberEats,
@@ -91,9 +90,9 @@ function Instansnacks() {
             </div>
           </div>
 
-          <div className="h1 md:px-12">Process</div>
+          <div className="h1">Process</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Getting Input from Users</div>
             <div className="h3">
               An important part of my job was interacting with customers. To
@@ -105,7 +104,7 @@ function Instansnacks() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Illustrated Campaign</div>
             <div className="h3">
               Using this information, I was able to know what I wanted to
@@ -116,7 +115,7 @@ function Instansnacks() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Impact</div>
             <div className="h3">
               I was able to gain a steady increase in engagement from previous
@@ -136,7 +135,7 @@ function Instansnacks() {
             </div>
           </div>
 
-          <div className="h1 md:px-12">Proposed Concept Illustrations </div>
+          <div className="h2">Proposed Concept Illustrations </div>
 
           <div className="w-full h-full flex flex-col md:flex-row ">
             <img
@@ -146,7 +145,7 @@ function Instansnacks() {
             />
           </div>
 
-          <div className="h1 md:px-12">Select Posts</div>
+          <div className="h1">Select Posts</div>
 
           <div className="container">
             <div className="md:flex gap-3 pb-3">

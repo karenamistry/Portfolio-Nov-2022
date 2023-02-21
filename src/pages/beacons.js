@@ -29,15 +29,17 @@ import Prototype from "../images/beacons/prototype.png";
 import IteratingA from "../images/beacons/iteration-a.png";
 import IteratingB from "../images/beacons/iteration-b.png";
 
+import Overview from "../images/beacons/overview-beacons.png";
+
 function Beacons() {
   return (
-    <div className="bg-zinc-900">
-      <div className="md:max-w-7xl mx-auto">
-        <div className="flex pt-[14vh] pb-24">
-          <div className="container flex flex-col gap-y-12 md:px-6">
+    <div className="w-full h-auto bg-zinc-900">
+      <div className="container md:max-w-6xl mx-auto">
+        <div className="py-[14vh] pb-24">
+          <div className="flex flex-col gap-y-12">
             <div className="h1">CX Beacons</div>
             <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xl">
+              <div className="flex flex-col gap-y-8 max-w-xs">
                 <div className="h3">
                   Beacons is an "ask for help" button for retail stores that is
                   managed through a mobile application. This project started as
@@ -50,18 +52,20 @@ function Beacons() {
                   </span>
                 </div>
               </div>
-              <div className="flex gap-x-6">
-                <div className="flex flex-col opacity-80 gap-y-2">
-                  <div className="h4">Role</div>
-                  <div className="h4">Timeline</div>
-                  <div className="h4">Platform</div>
-                  <div className="h4">Team</div>
-                </div>
-                <div className="flex flex-col gap-y-2">
-                  <div className="h4">User Research, UI, UX</div>
-                  <div className="h4">January 2022 to February 2022</div>
-                  <div className="h4">IOS, Android</div>
-                  <div className="h4">Myself</div>
+              <div className="md:w-1/2">
+                <div className="flex gap-x-6">
+                  <div className="flex flex-col gap-y-0.5 w-16">
+                    <div className="h4">Role</div>
+                    <div className="h4">Timeline</div>
+                    <div className="h4">Platform</div>
+                    <div className="h4">Team</div>
+                  </div>
+                  <div className="flex flex-col gap-y-0.5">
+                    <div className="h4">User Research, UI, UX</div>
+                    <div className="h4">January 2022 to February, 2022</div>
+                    <div className="h4">IOS, Android</div>
+                    <div className="h4">Myself</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -69,22 +73,20 @@ function Beacons() {
         </div>
 
         {/* Hero Image */}
-        <div className="container">
-          <div className="w-full h-[80vh] z-10">
-            <img
-              className="object-contain mx-auto h-full w-full bg-gray-800 rounded-sm"
-              src={BeaconsHero}
-              alt="ExpediteImage"
-            />
-          </div>
+        <div className="w-full h-[80vh] z-10">
+          <img
+            className="object-contain mx-auto h-full w-full bg-gray-800 rounded-sm"
+            src={BeaconsHero}
+            alt="ExpediteImage"
+          />
         </div>
         {/*  NEW Project Text */}
 
-        <div className="container flex flex-col gap-y-24 py-24">
+        <div className="flex flex-col gap-y-28 py-24">
           {/* Container */}
-          <div className="h1 md:px-12">Introduction</div>
+          <div className="h1 ">Introduction</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">From Case Study to Shipped</div>
             <div className="h3">
               I was introduced to this project while working on a freelance
@@ -97,7 +99,19 @@ function Beacons() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="w-full h-[1px] bg-zinc-700"> </div>
+
+          <div className="w-full h-full">
+            <img
+              className="object-contain mx-auto h-full w-full rounded-sm"
+              src={Overview}
+              alt="Image"
+            />
+          </div>
+
+          <div className="h1 ">Research</div>
+
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Product Goals</div>
             <div className="h3">
               Beacons was created with the goal of enhancing the customer to
@@ -125,9 +139,7 @@ function Beacons() {
             </div>
           </div>
 
-          <div className="h1 md:px-12">Research</div>
-
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">User Interviews & Pain Points</div>
             <div className="h3">
               I started researching by interviewing employees at the Canadian
@@ -148,7 +160,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Affinity Mapping & How might we ?s</div>
             <div className="h3">
               By asking "How Might We" questions, while listening back to my
@@ -167,7 +179,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Competition Analysis</div>
             <div className="h3">
               I researched the features of the two competitor products. The
@@ -193,7 +205,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Site Mapping and User Journey</div>
             <div className="h3">
               Creating a site map allowed me to recognize that the landing page
@@ -225,7 +237,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Building Personas</div>
             <div className="h3">
               I was able to build realistic personas that were based off the
@@ -249,9 +261,9 @@ function Beacons() {
             />
           </div>
 
-          <div className="h1 md:px-12">Designing</div>
+          <div className="h1 ">Designing</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Sketching & Low Fidelity</div>
             <div className="h3">
               Sketching basic UI ideas was an easy way for me to test how user
@@ -276,7 +288,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Prototyping</div>
             <div className="h3">
               I began prototyping the core user flows first, which mapped how an
@@ -317,7 +329,7 @@ function Beacons() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">User Testing</div>
             <div className="h3">
               I scheduled in-person user testing meeting with the same employees
@@ -342,7 +354,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Iterating</div>
             <div className="h3">
               To solve for one of the major feedbacks I received, which was
@@ -364,7 +376,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">High Fidelity Design</div>
             <div className="h3">
               These screens are a culmination of 1 stage of user testing and
@@ -373,7 +385,7 @@ function Beacons() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Onboarding</div>
             <div className="h3">
               When an employee is first greeted by the application, they are
@@ -390,7 +402,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Customer Requests</div>
             <div className="h3">
               Telling employees where and when the button was pressed, as well
@@ -408,7 +420,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Achievement</div>
             <div className="h3">
               The previous system of having a customer experience score for the
@@ -427,7 +439,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Editing</div>
             <div className="h3">
               Organizing beacon buttons by department and SKU, which can be
@@ -453,7 +465,7 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2 ">
             <div className="h2">Reflection</div>
             <div className="h3">
               I started this project as a case study, to further my UI and UX

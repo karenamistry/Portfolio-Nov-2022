@@ -26,14 +26,14 @@ import DCIterate from "../images/logos/dcxs-iterations.jpg";
 function Branding() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="md:max-w-7xl mx-auto">
+      <div className="md:max-w-6xl mx-auto">
         {/* Project Info */}
 
         <div className="flex pt-[14vh] pb-24">
           <div className="container flex flex-col gap-y-12">
             <div className="h1">Branding & Logos</div>
             <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xl">
+              <div className="flex flex-col gap-y-8 max-w-xs">
                 <div className="h3">
                   I worked logos and other branding assets for a variety of
                   small businesses in Ottawa. This exemplifies my process of
@@ -67,7 +67,7 @@ function Branding() {
           {/*  Container */}
           <div className="h1">Select Works</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Vanisha Mistry Photography</div>
             <div className="h3">
               I worked with Vanisha to create a brand that was warm, empowering
@@ -101,7 +101,7 @@ function Branding() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Proposed Concepts</div>
             <div className="h3">
               This logo was being used mostly digitally for social media, so we
@@ -122,7 +122,7 @@ function Branding() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Upside Realty</div>
             <div className="h3">
               I worked with The Upside Realty Team to create a logo and word
@@ -147,7 +147,7 @@ function Branding() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Proposed Concepts</div>
             <div className="h3">
               The icon was thoughtfully iterated upon until we reached a design
@@ -165,7 +165,7 @@ function Branding() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Dynamic CXS</div>
             <div className="h3">
               I worked with a retail assistant app company to create a pieces of
@@ -190,7 +190,7 @@ function Branding() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Proposed Concepts</div>
             <div className="h3">
               The team was unsure exactly what they were looking for so I

@@ -16,23 +16,49 @@ import ImageBeacons from "../images/beacons/beacons-2.png";
 function ProjectContainer() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="container flex flex-col pt-[14vh] pb-24 gap-y-24 md:max-w-7xl mx-auto">
+      <div className="container flex flex-col pt-[14vh] pb-24 gap-y-24 md:max-w-6xl mx-auto">
         {/* text section */}
-        <div className="flex flex-col w-full">
-          <div className="flex flex-col gap-y-12">
-            <div className="title">Karena Mistry</div>
-            <div className="flex flex-col gap-y-2">
-              <div className="h1">— A designer of all kinds of things.</div>
-              <div className="h3 max-w-xl">
-                I create <span className="text-zinc-200">data-driven</span>{" "}
-                experiences and{" "}
-                <span className="text-zinc-200">carefully crafted</span>{" "}
+
+        <div className="flex items-start flex-col md:flex-row gap-y-12 py-24 hidden">
+          <div className="md:w-1/2">
+            <div className="max-w-xl">
+              <div className="h2">Karena Mistry is a designer of</div>
+              <div className="titleSerif ">All Kinds of Things.</div>
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <div className="h3 max-w-xs">
+              She creates <span className="text-zinc-300">data-driven</span>{" "}
+              experiences and{" "}
+              <span className="text-zinc-300">carefully crafted</span> visuals.
+              Currently freelance product designer at Dynamics CXS, previously
+              graphic designer for multiple startups in Canada.
+            </div>
+          </div>
+        </div>
+
+        {/* text section */}
+        <div className=" pb-24 flex flex-col gap-y-4">
+          <div className="flex flex-col items-center">
+            <div className="h2 text-zinc-400">
+              Karena Mistry is a designer of
+            </div>
+            <div className="titleSerif text-zinc-200">All Kinds of Things.</div>
+          </div>
+          <div className="flex items-start flex-col md:flex-row gap-y-12">
+            <div className="md:w-1/2">
+              <div className="max-w-xl"></div>
+            </div>
+            <div className="md:w-1/2">
+              <div className="h3 max-w-xs text-zinc-400">
+                She creates data-driven experiences and carefully crafted
                 visuals. Currently freelance product designer at Dynamics CXS,
                 previously graphic designer for multiple startups in Canada.
               </div>
             </div>
           </div>
         </div>
+
         {/* component section */}
 
         <div className="w-full md:flex md:flex-col gap-y-6">
@@ -40,10 +66,12 @@ function ProjectContainer() {
             <NavLink to="/expedite" className="md:w-1/2">
               <div className="flex flex-col gray-button w-full h-full ">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col gap-y-0.5">
                     <div>
                       <div>
-                        <div className="h1">CX Expedite</div>
+                        <div className="h2">
+                          Improving Your Pickup Experience with Expedite.
+                        </div>
                       </div>
                       <div className=" hidden">
                         Improving customer experience by streamlining the pickup
@@ -70,9 +98,11 @@ function ProjectContainer() {
             <NavLink to="/instasnacks" className="md:w-1/2">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col gap-y-0.5">
                     <div>
-                      <div className="h1">Instasnacks</div>
+                      <div className="h2">
+                        Creating a Yummy Social Media Campaign: Instasnacks.
+                      </div>
                       <div className=" hidden">
                         Creating a brand strategy and social media presence for
                         a retailer that sells entirely through delivery
@@ -100,9 +130,11 @@ function ProjectContainer() {
           <NavLink to="/stocate">
             <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
               <div className="flex flex-col w-full">
-                <div className="flex flex-col ">
+                <div className="flex flex-col gap-y-0.5">
                   <div>
-                    <div className="h1">Stocate</div>
+                    <div className="h2">
+                      Making Sustainability More Approachable with Stocate.
+                    </div>
                     <div className=" hidden">
                       Creating user centered solutions to connecting sustainable
                       and local businesses with a community of interested
@@ -126,9 +158,12 @@ function ProjectContainer() {
             <NavLink to="/canadiantire">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col gap-y-0.5">
                     <div>
-                      <div className="h1">Canadian Tire</div>
+                      <div className="h2">
+                        Print Work for the Most Popular Canadian Tire store in
+                        Ottawa.
+                      </div>
                       <div className=" hidden">
                         Various print and digital assets for the most popular
                         Canadian Tire store in Ottawa.
@@ -150,9 +185,12 @@ function ProjectContainer() {
             <NavLink to="/casperkitchen">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col gap-y-0.5">
                     <div>
-                      <div className="h1">Casper Kitchen</div>
+                      <div className="h2">
+                        Increasing the Presence of a Restaurant Chain: Casper
+                        Kitchen
+                      </div>
                       <div className=" hidden">
                         Using social media to increase the presence of a
                         restaurant chain that sells entirely through delivery
@@ -180,9 +218,12 @@ function ProjectContainer() {
           <NavLink to="/beacons">
             <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
               <div className="flex flex-col w-full">
-                <div className="flex flex-col ">
+                <div className="flex flex-col gap-y-0.5">
                   <div>
-                    <div className="h1">Beacons</div>
+                    <div className="h2">
+                      Empowering Employee Success in the Retail Workplace with
+                      Beacons.
+                    </div>
                     <div className=" hidden">
                       Empowering employee success in the retail workplace and
                       improving the service experience for customers.
@@ -207,9 +248,11 @@ function ProjectContainer() {
             <NavLink to="/campaign">
               <div className="flex flex-col gap-x-6 gray-button w-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col gap-y-0.5">
                     <div>
-                      <div className="h1">Alysha Aziz Trustee Campaign</div>
+                      <div className="h2">
+                        Branding a Successful Trustee Campaign
+                      </div>
                       <div className=" hidden">
                         Creating branding and print deliverables to contribute
                         to a successful political campaign.
@@ -231,9 +274,9 @@ function ProjectContainer() {
             <NavLink to="/branding">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col gap-y-0.5">
                     <div>
-                      <div className="h1">Freelance Branding</div>
+                      <div className="h2">Branding Small Businesses</div>
                       <div className=" hidden">
                         Process & concept proposals for logos and other branding
                         assets for small businesses.

@@ -7,10 +7,10 @@ import Collage from "../images/about/me-collage.png";
 function About() {
   return (
     <div className="w-screen h-screen bg-zinc-900">
-      <div className="md:max-w-7xl mx-auto">
+      <div className="md:max-w-6xl mx-auto">
         <div className="py-[20vh] bg-zinc-900">
           <div className="container flex flex-col lg:flex-row justify-center">
-            <div className="flex flex-col  gap-y-6 max-w-xl">
+            <div className="flex flex-col  gap-y-6 max-w-sm">
               <div className="h1 text-stone-300">Hello! I'm Karena.</div>
               <div className="h3">
                 I'm a designer with a BA in design from York University/Sheridan

@@ -18,14 +18,14 @@ import Image13 from "../images/casper/casper-new-3.jpg";
 function Casper() {
   return (
     <div className="bg-zinc-900">
-      <div className="md:max-w-7xl mx-auto">
+      <div className="md:max-w-6xl mx-auto">
         {/* Project Info */}
 
         <div className="flex pt-[14vh] pb-24  bg-zinc-900">
           <div className="container flex flex-col gap-y-12 md:px-6">
             <div className="h1">Casper Kitchen</div>
             <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xl">
+              <div className="flex flex-col gap-y-8 max-w-xs">
                 <div className="h3">
                   Casper Kitchen is a delivery and pickup only restaurant chain
                   located in the heart of downtown Ottawa. I managed the content
@@ -71,9 +71,9 @@ function Casper() {
         <div className="container flex flex-col gap-y-24 py-24">
           {/*  Container */}
 
-          <div className="h1 md:px-12">Introduction</div>
+          <div className="h1">Introduction</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Ghost Kitchen</div>
             <div className="h3">
               Casper Kitchen is what is commonly referred to as a ghost kitchen,
@@ -90,9 +90,9 @@ function Casper() {
             </div>
           </div>
 
-          <div className="h1 md:px-12">Process</div>
+          <div className="h1">Process</div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Consistent & Reliable Content</div>
             <div className="h3">
               Casper Kitchen brands had an established customer base and social
@@ -102,7 +102,7 @@ function Casper() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Photo Posts</div>
             <div className="h3">
               Previous content consisted of mostly photography posts. This made
@@ -120,7 +120,7 @@ function Casper() {
             <div className="h3"></div>
           </div>
 
-          <div className="flex flex-col max-w-xl gap-y-2 md:px-12">
+          <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Impact</div>
             <div className="h3">
               I was able to gain an increase in engagement, peaking at a 69%
@@ -132,7 +132,7 @@ function Casper() {
             </div>
           </div>
 
-          <div className="h1 md:px-12">Select Posts</div>
+          <div className="h1">Select Posts</div>
 
           <div className="flex flex-col gap-y-6">
             <div className="w-full h-full flex flex-col md:flex-row gap-x-6 gap-y-4">
