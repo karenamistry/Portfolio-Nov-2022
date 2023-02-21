@@ -185,7 +185,7 @@ function Expedite() {
                   achieve in my final design solutions. I grouped categories by
                   employee type using the application in the Expedite process.
                   These being: a) The customer b) The customer facing employee
-                  c) The warehouse employee d) The cash employee. these
+                  c) The warehouse employee d) The cash employee. These
                   categories helped me better manage my questions.
                 </div>
               </div>
@@ -229,10 +229,11 @@ function Expedite() {
             <div className="h2">Site Mapping</div>
             <div className="h3">
               Creating a site map allowed me to better understand the
-              intricacies of each stage in the Expedite process. The application
-              has a different dashboard pages depending on which section of the
-              store the employee belongs to, because employees are confined to
-              their store section.
+              intricacies of each stage in the Expedite process. It was
+              important that the application have a different dashboard page
+              depending on which section of the store the employee belongs to,
+              because they needed to be confined to their store section in the
+              application.
             </div>
           </div>
           <div className="w-full h-full">
