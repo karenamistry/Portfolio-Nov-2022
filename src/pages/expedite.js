@@ -249,7 +249,7 @@ function Expedite() {
             <div className="h3">
               Expedite takes into account the journey of both the employee and
               the customer. This was difficult for me to understand at first, so
-              creating user journeys introduced a lot more clarity all around.
+              creating simplified user journeys introduced a lot more clarity.
             </div>
             <div className="h3">
               There are two user journeys depicted below. I mapped the steps
@@ -270,8 +270,10 @@ function Expedite() {
             <div className="h2">User Scenarios</div>
             <div className="h3">
               Each stage in the application was complex and would benefit from
-              being mapped via user scenarios. I completed scenarios for each of
-              the employee types using the application.
+              being mapped, so I did so via user scenarios. I completed
+              scenarios for each of the employee types using the application,
+              and wrote down HMW questions, and concerns alongside each step in
+              the process.
             </div>
           </div>
           <div className="flex flex-col gap-y-6">

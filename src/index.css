@@ -6,6 +6,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
 
 @layer components {
+  .titleSans {
+    @apply text-zinc-200 font-medium text-[36px];
+  }
   .titleSerif {
     @apply text-zinc-200 font-black text-[36px] font-['Syne'] tracking-[-0.03em];
   }

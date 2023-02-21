@@ -39,22 +39,14 @@ function ProjectContainer() {
 
         {/* text section */}
         <div className=" pb-24 flex flex-col gap-y-4">
-          <div className="flex flex-col md:items-center">
-            <div className="h2 text-zinc-400">
-              Karena Mistry is a designer of
-            </div>
-            <div className="titleSerif text-zinc-200">All Kinds of Things.</div>
-          </div>
-          <div className="flex items-start flex-col md:flex-row gap-y-12">
-            <div className="md:w-1/2">
-              <div className="max-w-xl"></div>
-            </div>
-            <div className="md:w-5/6">
-              <div className="h3 max-w-xs text-zinc-400">
-                She creates data-driven experiences and carefully crafted
-                visuals. Currently freelance product designer at Dynamics CXS,
-                previously graphic designer for multiple startups in Canada.
-              </div>
+          <div className="flex flex-col md:items-center gap-y-2">
+            <div className="titleSerif text-zinc-200">Karena Mistry</div>
+            <div className="h3 max-w-xl text-center text-zinc-400 mx-auto">
+              I create <span className="text-zinc-200">data-driven</span>{" "}
+              experiences and{" "}
+              <span className="text-zinc-200">carefully crafted</span> visuals.
+              Currently freelance product designer at Dynamics CXS, previously
+              graphic designer for multiple startups in Canada.
             </div>
           </div>
         </div>
