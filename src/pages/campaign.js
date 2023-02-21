@@ -18,15 +18,15 @@ import SocialB from "../images/alysha/post-2.png";
 function Campaign() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="md:max-w-6xl mx-auto">
+      <div className="container md:max-w-6xl mx-auto">
         {/* Project Info */}
 
-        <div className="flex pt-[14vh] pb-24">
-          <div className="container flex flex-col gap-y-12">
+        <div className="py-[14vh] pb-24">
+          <div className="flex flex-col gap-y-12">
             <div className="h1">Alysha Aziz Trustee Campaign</div>
-            <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xs">
-                <div className="h3">
+            <div className="flex flex-col gap-y-6 md:flex-row">
+              <div className="md:w-1/2 ">
+                <div className="h3 max-w-xs">
                   I designed crucial print deliverables for now elected
                   candidate Alysha Aziz's 2022 campaign for Ottawa/Carleton
                   District School Board Trustee. We worked together on several

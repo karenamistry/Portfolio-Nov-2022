@@ -17,16 +17,16 @@ import Image13 from "../images/casper/casper-new-3.jpg";
 
 function Casper() {
   return (
-    <div className="bg-zinc-900">
-      <div className="md:max-w-6xl mx-auto">
+    <div className="w-full h-auto bg-zinc-900">
+      <div className="container md:max-w-6xl mx-auto">
         {/* Project Info */}
 
-        <div className="flex pt-[14vh] pb-24  bg-zinc-900">
-          <div className="container flex flex-col gap-y-12 md:px-6">
+        <div className="py-[14vh] pb-24">
+          <div className="flex flex-col gap-y-12">
             <div className="h1">Casper Kitchen</div>
-            <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xs">
-                <div className="h3">
+            <div className="flex flex-col gap-y-6 md:flex-row">
+              <div className="md:w-1/2">
+                <div className="h3  max-w-xs">
                   Casper Kitchen is a delivery and pickup only restaurant chain
                   located in the heart of downtown Ottawa. I managed the content
                   creation for the social media accounts of 4 of their
@@ -43,11 +43,10 @@ function Casper() {
                 </div>
                 <div className="flex flex-col gap-y-2">
                   <div className="h4">
-                    Graphic Design, Social Media Management, Photography, Photo
-                    Editing
+                    Graphic Design, Social Media Management, Photography
                   </div>
                   <div className="h4">January 2021 to December, 2021</div>
-                  <div className="h4">Instagram, Facebook, TikTok</div>
+                  <div className="h4">Instagram, Facebook, Print</div>
                   <div className="h4">Myself</div>
                 </div>
               </div>

@@ -25,40 +25,44 @@ import Full from "../images/expedite/image-whole.png";
 
 function Instansnacks() {
   return (
-    <div className="bg-zinc-900">
-      <div className="md:max-w-6xl mx-auto">
+    <div className="w-full h-auto bg-zinc-900">
+      <div className="container md:max-w-6xl mx-auto">
         {/* Project Info */}
 
-        <div className="flex pt-[14vh] pb-24 bg-zinc-900">
-          <div className="container flex flex-col gap-y-12 md:px-6">
+        <div className="py-[14vh] pb-24">
+          <div className="flex flex-col gap-y-12">
             <div className="h1">Instasnacks</div>
-            <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xs">
-                <div className="h3">
-                  Instasnacks delivers corner store products and specialty
-                  snacks using food delivery services. I managed their social
-                  media for Instagram, Facebook, and TikTok. I{" "}
-                  <span className="">
-                    communicated with customers to conduct user research and
-                    create marketing strategy's
-                  </span>{" "}
-                  to increase engagement.
+            <div className="flex flex-col gap-y-6 md:flex-row">
+              <div className="md:w-1/2">
+                <div className="flex flex-col gap-y-8">
+                  <div className="h3  max-w-xs">
+                    Instasnacks delivers corner store products and specialty
+                    snacks using food delivery services. I managed their social
+                    media for Instagram, Facebook, and TikTok. I{" "}
+                    <span className="">
+                      communicated with customers to conduct user research and
+                      create marketing strategy's
+                    </span>{" "}
+                    to increase engagement.
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-x-6">
-                <div className="flex flex-col gap-y-2">
-                  <div className="h4">Role</div>
-                  <div className="h4">Timeline</div>
-                  <div className="h4">Platform</div>
-                  <div className="h4">Team</div>
-                </div>
-                <div className="flex flex-col gap-y-2">
-                  <div className="h4">
-                    Social Media Management, Graphic & Motion Design
+              <div className="md:w-1/2">
+                <div className="flex gap-x-6">
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4">Role</div>
+                    <div className="h4">Timeline</div>
+                    <div className="h4">Platform</div>
+                    <div className="h4">Team</div>
                   </div>
-                  <div className="h4">January 2021 to December, 2021</div>
-                  <div className="h4">Instagram, Facebook, TikTok</div>
-                  <div className="h4">Myself</div>
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4">
+                      Social Media Management, Graphic & Motion Design
+                    </div>
+                    <div className="h4">January 2021 to December, 2021</div>
+                    <div className="h4">Instagram, Facebook, TikTok</div>
+                    <div className="h4">Myself</div>
+                  </div>
                 </div>
               </div>
             </div>

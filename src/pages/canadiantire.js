@@ -25,35 +25,39 @@ import MapB from "../images/canadian/map-02.jpg";
 function Canadian() {
   return (
     <div className="w-full h-auto bg-zinc-900">
-      <div className="md:max-w-6xl mx-auto">
+      <div className="container md:max-w-6xl mx-auto">
         {/* Project Info */}
 
-        <div className="flex pt-[14vh] pb-24">
-          <div className="container flex flex-col gap-y-12">
+        <div className="py-[14vh] pb-24">
+          <div className="flex flex-col gap-y-12">
             <div className="h1">Canadian Tire</div>
-            <div className="flex flex-col gap-y-6 xl:flex-row xl:justify-between">
-              <div className="flex flex-col gap-y-8 max-w-xs">
-                <div className="h3">
-                  I worked as a freelance designer for Canadian Tire, creating
-                  work as needed. The deliverables I designed for Canadian Tire
-                  included: wayfinding floor stickers, parking lot signs,
-                  in-store signs, trainee tools, and presentation slides. These
-                  are just a few of the deliverables I designed for the Canadian
-                  Tire Kanata (Ottawa).
+            <div className="flex flex-col gap-y-6 md:flex-row">
+              <div className="md:w-1/2">
+                <div className="flex flex-col gap-y-8">
+                  <div className="h3  max-w-xs">
+                    I worked as a freelance designer for Canadian Tire, creating
+                    work as needed. The deliverables I designed for Canadian
+                    Tire included: wayfinding floor stickers, parking lot signs,
+                    in-store signs, trainee tools, and presentation slides.
+                    These are just a few of the deliverables I designed for the
+                    Canadian Tire Kanata (Ottawa).
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-x-6">
-                <div className="flex flex-col opacity-80 gap-y-2">
-                  <div className="h4">Role</div>
-                  <div className="h4">Timeline</div>
-                  <div className="h4">Platform</div>
-                  <div className="h4">Team</div>
-                </div>
-                <div className="flex flex-col gap-y-2">
-                  <div className="h4">Graphic Design, Illustration</div>
-                  <div className="h4">April 2020 to April, 2021</div>
-                  <div className="h4">Print, Digital</div>
-                  <div className="h4">Myself</div>
+              <div className="md:w-1/2">
+                <div className="flex gap-x-6">
+                  <div className="flex flex-col opacity-80 gap-y-2">
+                    <div className="h4">Role</div>
+                    <div className="h4">Timeline</div>
+                    <div className="h4">Platform</div>
+                    <div className="h4">Team</div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <div className="h4">Graphic Design, Illustration</div>
+                    <div className="h4">April 2020 to April, 2021</div>
+                    <div className="h4">Print, Digital</div>
+                    <div className="h4">Myself</div>
+                  </div>
                 </div>
               </div>
             </div>
