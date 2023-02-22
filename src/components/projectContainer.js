@@ -9,9 +9,10 @@ import Stocate from "../images/stocate/stocate-3.png";
 import VideoInstasnacks from "../images/instasnacks/instasnacks.mp4";
 import VideoCasper from "../images/casper/casper-2.mp4";
 import ImageCanadian from "../images/canadian/canadiantire-10.png";
-import ImageAlysha from "../images/alysha/alysha-front.jpg";
+import ImageAlysha from "../images/alysha/alysha-cover-2.jpg";
 import ImageFreelance from "../images/logos/freelance-4.png";
 import ImageBeacons from "../images/beacons/beacons-2.png";
+import VideoLogos from "../images/logos/slideshow.mp4";
 
 function ProjectContainer() {
   return (
@@ -217,6 +218,34 @@ function ProjectContainer() {
           </NavLink>
 
           <div className="flex flex-col md:flex-row mb-6 md:mt-0  gap-x-3">
+            <NavLink to="/branding">
+              <div className="flex flex-col gap-x-6 gray-button w-full h-full">
+                <div className=" md:flex  mb-6">
+                  <video
+                    className="rounded-image"
+                    src={VideoLogos}
+                    autoPlay
+                    loop
+                    muted
+                  />
+                </div>
+                <div className="flex flex-col w-full">
+                  <div className="flex flex-col gap-y-0.5">
+                    <div>
+                      <div className="h2">
+                        <span className="text-zinc-50">Branding</span> Small
+                        Businesses
+                      </div>
+                      <div className=" hidden">
+                        Process & concept proposals for logos and other branding
+                        assets for small businesses.
+                      </div>
+                    </div>
+                    <div className="h4">Graphic Design, Branding </div>
+                  </div>
+                </div>
+              </div>
+            </NavLink>
             <NavLink to="/campaign">
               <div className="flex flex-col gap-x-6 gray-button w-full">
                 <div className=" md:flex  mb-6">
@@ -230,7 +259,11 @@ function ProjectContainer() {
                   <div className="flex flex-col gap-y-0.5">
                     <div>
                       <div className="h2">
-                        Branding a Successful Trustee Campaign
+                        Branding a{" "}
+                        <span className="text-zinc-50">
+                          Successful Trustee Campaign
+                        </span>
+                        .
                       </div>
                       <div className=" hidden">
                         Creating branding and print deliverables to contribute
@@ -238,30 +271,6 @@ function ProjectContainer() {
                       </div>
                     </div>
                     <div className="h4">Graphic Design, Branding</div>
-                  </div>
-                </div>
-              </div>
-            </NavLink>
-
-            <NavLink to="/branding">
-              <div className="flex flex-col gap-x-6 gray-button w-full h-full">
-                <div className=" md:flex  mb-6">
-                  <img
-                    src={ImageFreelance}
-                    alt="Image"
-                    className="object-cover h-auto rounded-image"
-                  />
-                </div>
-                <div className="flex flex-col w-full">
-                  <div className="flex flex-col gap-y-0.5">
-                    <div>
-                      <div className="h2">Branding Small Businesses</div>
-                      <div className=" hidden">
-                        Process & concept proposals for logos and other branding
-                        assets for small businesses.
-                      </div>
-                    </div>
-                    <div className="h4">Graphic Design, Branding </div>
                   </div>
                 </div>
               </div>

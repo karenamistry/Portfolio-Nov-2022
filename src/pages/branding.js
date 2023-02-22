@@ -35,7 +35,7 @@ function Branding() {
             <div className="flex flex-col gap-y-6 md:flex-row">
               <div className="md:w-1/2">
                 <div className="h3 max-w-xs">
-                  I worked logos and other branding assets for a variety of
+                  I worked on logos and other branding assets for a variety of
                   small businesses in Ottawa. This exemplifies my process of
                   proposing concepts and iterating upon them, until reaching a
                   final design.
