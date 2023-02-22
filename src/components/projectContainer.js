@@ -35,8 +35,17 @@ function ProjectContainer() {
 
         <div className="w-full md:flex md:flex-col gap-y-6">
           <div className="flex flex-col md:flex-row gap-x-3">
-            <NavLink to="/expedite" className="md:w-1/2">
+            <NavLink to="/expedite" className="md:w-1/2 mb-6">
               <div className="flex flex-col gray-button w-full h-full ">
+                <div className="md:flex mb-6">
+                  <video
+                    className="rounded-image"
+                    src={VideoExpedite}
+                    autoPlay
+                    loop
+                    muted
+                  />
+                </div>
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col gap-y-0.5">
                     <div>
@@ -52,20 +61,20 @@ function ProjectContainer() {
                     </div>
                   </div>
                 </div>
-                <div className=" md:flex mt-6">
+              </div>
+            </NavLink>
+
+            <NavLink to="/instasnacks" className="md:w-1/2 mb-6">
+              <div className="flex flex-col gap-x-6 gray-button w-full h-full">
+                <div className="md:flex  mb-6">
                   <video
                     className="rounded-image"
-                    src={VideoExpedite}
+                    src={VideoInstasnacks}
                     autoPlay
                     loop
                     muted
                   />
                 </div>
-              </div>
-            </NavLink>
-
-            <NavLink to="/instasnacks" className="md:w-1/2">
-              <div className="flex flex-col gap-x-6 gray-button w-full h-full">
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col gap-y-0.5">
                     <div>
@@ -84,21 +93,19 @@ function ProjectContainer() {
                     </div>
                   </div>
                 </div>
-                <div className=" md:flex  mt-6">
-                  <video
-                    className="rounded-image"
-                    src={VideoInstasnacks}
-                    autoPlay
-                    loop
-                    muted
-                  />
-                </div>
               </div>
             </NavLink>
           </div>
 
           <NavLink to="/stocate">
-            <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
+            <div className="flex flex-col gap-x-6 gray-button w-full mb-6 md:mt-0">
+              <div className="md:flex mb-6">
+                <img
+                  src={Stocate}
+                  alt="Image"
+                  className="object-cover h-auto rounded-image"
+                />
+              </div>
               <div className="flex flex-col w-full">
                 <div className="flex flex-col gap-y-0.5">
                   <div>
@@ -115,19 +122,19 @@ function ProjectContainer() {
                   <div className="h4">User Interface, User Experience</div>
                 </div>
               </div>
-              <div className="md:flex mt-6">
-                <img
-                  src={Stocate}
-                  alt="Image"
-                  className="object-cover h-auto rounded-image"
-                />
-              </div>
             </div>
           </NavLink>
 
-          <div className="flex flex-col md:flex-row mt-6 md:mt-0 gap-x-3">
+          <div className="flex flex-col md:flex-row mb-6 md:mt-0 gap-x-3">
             <NavLink to="/canadiantire">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
+                <div className=" md:flex  mb-6">
+                  <img
+                    src={ImageCanadian}
+                    alt="Image"
+                    className="object-cover h-auto rounded-image"
+                  />
+                </div>
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col gap-y-0.5">
                     <div>
@@ -144,18 +151,20 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Illustration </div>
                   </div>
                 </div>
-                <div className=" md:flex  mt-6">
-                  <img
-                    src={ImageCanadian}
-                    alt="Image"
-                    className="object-cover h-auto rounded-image"
-                  />
-                </div>
               </div>
             </NavLink>
 
             <NavLink to="/casperkitchen">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
+                <div className=" md:flex mb-6">
+                  <video
+                    className="rounded-image"
+                    src={VideoCasper}
+                    autoPlay
+                    loop
+                    muted
+                  />
+                </div>
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col gap-y-0.5">
                     <div>
@@ -174,21 +183,19 @@ function ProjectContainer() {
                     </div>
                   </div>
                 </div>
-                <div className=" md:flex mt-6">
-                  <video
-                    className="rounded-image"
-                    src={VideoCasper}
-                    autoPlay
-                    loop
-                    muted
-                  />
-                </div>
               </div>
             </NavLink>
           </div>
 
           <NavLink to="/beacons">
-            <div className="flex flex-col gap-x-6 gray-button w-full mt-6 md:mt-0">
+            <div className="flex flex-col gap-x-6 gray-button w-full mb-6 md:mt-0">
+              <div className=" md:flex  mb-6">
+                <img
+                  src={ImageBeacons}
+                  alt="Image"
+                  className="object-cover h-auto rounded-image"
+                />
+              </div>
               <div className="flex flex-col w-full">
                 <div className="flex flex-col gap-y-0.5">
                   <div>
@@ -206,19 +213,19 @@ function ProjectContainer() {
                   </div>
                 </div>
               </div>
-              <div className=" md:flex  mt-6">
-                <img
-                  src={ImageBeacons}
-                  alt="Image"
-                  className="object-cover h-auto rounded-image"
-                />
-              </div>
             </div>
           </NavLink>
 
-          <div className="flex flex-col md:flex-row mt-6 md:mt-0  gap-x-3">
+          <div className="flex flex-col md:flex-row mb-6 md:mt-0  gap-x-3">
             <NavLink to="/campaign">
               <div className="flex flex-col gap-x-6 gray-button w-full">
+                <div className=" md:flex  mb-6">
+                  <img
+                    src={ImageAlysha}
+                    alt="Image"
+                    className="object-cover h-auto w-full rounded-image"
+                  />
+                </div>
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col gap-y-0.5">
                     <div>
@@ -233,18 +240,18 @@ function ProjectContainer() {
                     <div className="h4">Graphic Design, Branding</div>
                   </div>
                 </div>
-                <div className=" md:flex  mt-6">
-                  <img
-                    src={ImageAlysha}
-                    alt="Image"
-                    className="object-cover h-auto w-full rounded-image"
-                  />
-                </div>
               </div>
             </NavLink>
 
             <NavLink to="/branding">
               <div className="flex flex-col gap-x-6 gray-button w-full h-full">
+                <div className=" md:flex  mb-6">
+                  <img
+                    src={ImageFreelance}
+                    alt="Image"
+                    className="object-cover h-auto rounded-image"
+                  />
+                </div>
                 <div className="flex flex-col w-full">
                   <div className="flex flex-col gap-y-0.5">
                     <div>
@@ -256,13 +263,6 @@ function ProjectContainer() {
                     </div>
                     <div className="h4">Graphic Design, Branding </div>
                   </div>
-                </div>
-                <div className=" md:flex  mt-6">
-                  <img
-                    src={ImageFreelance}
-                    alt="Image"
-                    className="object-cover h-auto rounded-image"
-                  />
                 </div>
               </div>
             </NavLink>

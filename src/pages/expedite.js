@@ -18,7 +18,7 @@ import ScenarioA from "../images/expedite/userscenario-dark.png";
 import ScenarioB from "../images/expedite/userscenario-b-dark.png";
 import ScenarioC from "../images/expedite/userscenario-c-dark.png";
 import LowFid from "../images/expedite/low-fid-3.png";
-import System from "../images/expedite/system-dark.png";
+import System from "../images/expedite/system-dark-b.png";
 // Solution Images
 import ExpediteA from "../images/expedite/pages/expedite/CXP 168.jpg";
 import ExpediteB from "../images/expedite/pages/expedite/CXP 165.jpg";
@@ -336,7 +336,7 @@ function Expedite() {
             </div>
           </div>
 
-          <div className="w-full h-full mx-auto bg-zinc-800 p-36 rounded-sm">
+          <div className="w-full h-full mx-auto bg-zinc-800 pt-12 rounded-sm">
             <img
               className="object-contain h-auto w-full"
               src={System}

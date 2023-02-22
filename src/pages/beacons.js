@@ -10,6 +10,7 @@ import Onboarding from "../images/beacons/onboarding.png";
 import Achievement from "../images/beacons/achievements.png";
 import Request from "../images/beacons/requests.png";
 import Editing from "../images/beacons/editing.png";
+import System from "../images/beacons/system-dark.png";
 
 import Pull from "../images/beacons/interview-pullquote-dark.png";
 import Affinity from "../images/beacons/affinity-mapping-dark.png";
@@ -372,6 +373,14 @@ function Beacons() {
             <img
               className="object-contain h-auto w-full rounded-sm"
               src={Comparison}
+              alt="Image"
+            />
+          </div>
+
+          <div className="w-full h-full mx-auto rounded-sm">
+            <img
+              className="object-contain h-auto w-full rounded-sm"
+              src={System}
               alt="Image"
             />
           </div>

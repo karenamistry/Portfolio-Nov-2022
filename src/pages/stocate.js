@@ -16,7 +16,7 @@ import Testing from "../images/stocate/user-testing-2.png";
 import Pipeline from "../images/stocate/pipeline.jpg";
 import Flow from "../images/stocate/prototype-flow.png";
 import User from "../images/stocate/user-flow.png";
-import SystemA from "../images/stocate/design-system-dark.png";
+import SystemA from "../images/stocate/system-dark.png";
 import SystemB from "../images/stocate/design-system-2-dark.png";
 import Overview from "../images/stocate/overview-stocate.png";
 
