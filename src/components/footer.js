@@ -10,7 +10,7 @@ function Footer() {
             <div className="flex flex-col">
               <div className="h2 font-['Syne']">Karena Mistry</div>
               <div className="hidden h4 md:flex md:flex-col text-zinc-500">
-                Made with tailwind css
+                Made with Tailwind CSS
               </div>
             </div>
 

@@ -28,14 +28,14 @@ import ImageB from "../images/expedite/image-choice.png";
 import Full from "../images/expedite/image-whole.png";
 
 // features images
-import onboardingA from "../images/stocate/features/onboarding/sketcha.jpg";
+import onboardingA from "../images/stocate/features/onboarding/sketchd.jpg";
 import onboardingD from "../images/stocate/features/onboarding/first.jpg";
 import onboardingE from "../images/stocate/features/onboarding/second.jpg";
 import onboardingF from "../images/stocate/features/onboarding/third.jpg";
 
 import browsingA from "../images/stocate/features/browsing/page1.jpg";
 import browsingB from "../images/stocate/features/browsing/page2.jpg";
-import browsingC from "../images/stocate/features/browsing/page3.jpg";
+import browsingC from "../images/stocate/features/browsing/page4.jpg";
 
 import addingA from "../images/stocate/features/adding/addingmenu.jpg";
 import addingB from "../images/stocate/features/adding/AddStore-0.jpg";
@@ -50,6 +50,7 @@ import listC from "../images/stocate/features/lists/listc.jpg";
 import feedbA from "../images/stocate/features/chat/Chat Page-0.jpg";
 import feedbB from "../images/stocate/features/chat/Chat Page-1.jpg";
 import feedbC from "../images/stocate/features/chat/Chat Page-2.jpg";
+import { NavLink } from "react-router-dom";
 
 function Stocate() {
   return (
@@ -101,18 +102,6 @@ function Stocate() {
             src={StocateHero}
             alt="ExpediteImage"
           />
-        </div>
-
-        <div>
-          <div className="w-full h-full mx-auto rounded-sm pb-3">
-            <video
-              className="rounded-image"
-              src={StocateScreens}
-              autoPlay
-              loop
-              muted
-            />
-          </div>
         </div>
 
         <div className="w-full h-[80vh] z-10">
@@ -546,7 +535,63 @@ function Stocate() {
               communication that much more crucial. I was able to hone my skills
               in planning and presenting ideas to stakeholders. Getting
               experience creating human centered design solutions helped me
-              better understand how to juggle user wants versus needs.
+              better understand user experience and user interface outside of
+              theory.
+            </div>
+          </div>
+
+          <div className="w-full h-auto rounded-sm">
+            <div className="pb-12">
+              <div className="h1">Like what you see?</div>
+              <div className="h1">Check out some more.</div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/beacons">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Empowering Employee Success in the Retail Workplace with
+                      Beacons
+                    </div>
+                    <div className="h4">
+                      User Research, User Interface, User Experience
+                    </div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/branding">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Increasing the Presence of a Restaurant Chain: Casper
+                      Kitchen
+                    </div>
+                    <div className="h4">
+                      Graphic Design, Social Media Marketing, Photography
+                    </div>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/campaign">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Branding a Successful Trustee Campaign
+                    </div>
+                    <div className="h4">Graphic Design & Branding</div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/branding">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">Branding Small Businesses</div>
+                    <div className="h4">Graphic Design, Branding</div>
+                  </div>
+                </NavLink>
+              </div>
             </div>
           </div>
         </div>

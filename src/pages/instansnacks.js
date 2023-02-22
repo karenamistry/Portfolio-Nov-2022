@@ -1,5 +1,7 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 import ExpediteHero from "../images/expedite/smartphone-expedite-c.jpg";
 import InstaCover from "../images/instasnacks/instasnacks-cover.jpg";
 import Contest from "../images/instasnacks/contest-2.jpg";
@@ -77,7 +79,7 @@ function Instansnacks() {
 
         {/*  NEW Project Text */}
 
-        <div className="container flex flex-col gap-y-24 py-24">
+        <div className="flex flex-col gap-y-24 py-24">
           {/*  Container */}
 
           <div className="h1">Introduction</div>
@@ -221,6 +223,64 @@ function Instansnacks() {
                   loop
                   muted
                 />
+              </div>
+            </div>
+          </div>
+          <div className="w-full h-auto rounded-sm">
+            <div className="pb-12">
+              <div className="h1">Like what you see?</div>
+              <div className="h1">Check out some more.</div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/stocate">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Making Sustainability More Approachable with Stocate
+                    </div>
+                    <div className="h4">User Interface, User Experience</div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/canadiantire">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Print Work for the Most Popular Canadian Tire Store in
+                      Ottawa
+                    </div>
+                    <div className="h4">Graphic Design, Illustration</div>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/casperkitchen">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      {" "}
+                      Increasing the Presence of a Restaurant Chain: Casper
+                      Kitchen
+                    </div>
+                    <div className="h4">
+                      Graphic Design, Social Media Marketing, Photography
+                    </div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/beacons">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Empowering Employee Success in the Retail Workplace with
+                      Beacons
+                    </div>
+                    <div className="h4">
+                      User Research, User Interface, User Experience
+                    </div>
+                  </div>
+                </NavLink>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 // Hero Image
 // Project Images
@@ -68,9 +69,8 @@ function Canadian() {
 
         {/*  NEW Project Text */}
 
-        <div className="container flex flex-col gap-y-24 py-24">
+        <div className="flex flex-col gap-y-24 py-24">
           {/*  Container */}
-          <div className="h1">Select Works</div>
 
           <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Outdoor COVID Signs </div>
@@ -206,6 +206,62 @@ function Canadian() {
               src={MapB}
               alt="Image"
             />
+          </div>
+
+          <div className="w-full h-auto rounded-sm">
+            <div className="pb-12">
+              <div className="h1">Like what you see?</div>
+              <div className="h1">Check out some more.</div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/casperkitchen">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      {" "}
+                      Increasing the Presence of a Restaurant Chain: Casper
+                      Kitchen
+                    </div>
+                    <div className="h4">
+                      Graphic Design, Social Media Marketing, Photography
+                    </div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/beacons">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Empowering Employee Success in the Retail Workplace with
+                      Beacons
+                    </div>
+                    <div className="h4">
+                      User Research, User Interface, User Experience
+                    </div>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/campaign">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Branding a Successful Trustee Campaign
+                    </div>
+                    <div className="h4">Graphic Design & Branding</div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/branding">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">Branding Small Businesses</div>
+                    <div className="h4">Graphic Design, Branding</div>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>

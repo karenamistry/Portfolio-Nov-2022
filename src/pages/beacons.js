@@ -4,6 +4,8 @@ import Navbar from "../components/navbar";
 import BeaconsHero from "../images/beacons/smartphone-beacons-a.png";
 // Project Images
 
+import { NavLink } from "react-router-dom";
+
 import Access from "../images/beacons/accessibility.png";
 import Screens from "../images/beacons/screens-dark.png";
 import Onboarding from "../images/beacons/onboarding.png";
@@ -487,6 +489,59 @@ function Beacons() {
           </div>
 
           {/* Container End */}
+
+          {/* Footer Links other projects */}
+
+          <div className="w-full h-auto rounded-sm">
+            <div className="pb-12">
+              <div className="h1">Like what you see?</div>
+              <div className="h1">Check out some more.</div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/campaign">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Branding a Successful Trustee Campaign
+                    </div>
+                    <div className="h4">Graphic Design & Branding</div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/branding">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">Branding Small Businesses</div>
+                    <div className="h4">Graphic Design, Branding</div>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+            <div className="flex items-start flex-col md:flex-row gap-y-12">
+              <div className="md:w-1/2">
+                <NavLink to="/expedite">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Improving Your Pickup Experience with Expedite
+                    </div>
+                    <div className="h4">
+                      User Research, User Interface, User Experience
+                    </div>
+                  </div>
+                </NavLink>
+              </div>
+              <div className="md:w-1/2">
+                <NavLink to="/stocate">
+                  <div className="flex flex-col gap-2 py-4">
+                    <div className="h2 max-w-sm">
+                      Making Sustainability More Approachable with Stocate
+                    </div>
+                    <div className="h4">User Interface, User Experience</div>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
