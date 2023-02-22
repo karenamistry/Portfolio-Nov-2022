@@ -103,7 +103,7 @@ function Instansnacks() {
               gather data on what users were responding to, I parsed past
               comments and past posts that garnered the highest impressions. I
               got in contact with top influencers (with 25K+ followers), to see
-              what they though about our brand, and the potential of a
+              what they thought about our brand, and the potential of a
               collaboration.
             </div>
           </div>
@@ -111,11 +111,11 @@ function Instansnacks() {
           <div className="flex flex-col max-w-xs gap-y-2">
             <div className="h2">Illustrated Campaign</div>
             <div className="h3">
-              Using this information, I was able to know what I wanted to
-              accomplish with my posts. People enjoyed that our brand that was
-              young, tech-savy and fun. I did some sketching for potential
-              directions and we decided to move forward with the Illustrated
-              Posts.
+              People enjoyed that our brand that was young, tech-savy and fun.
+              Using this information, I was able to explore what I wanted to
+              accomplish with my posts. I did some sketching for potential
+              directions and we decided to move forward with an illustrated
+              approach.
             </div>
           </div>
 
