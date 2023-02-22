@@ -286,7 +286,7 @@ function Stocate() {
                   Before I started my internship, a style guide was created to
                   lay the groundwork for the visual design. One of the systems I
                   built was the design system. It was made to aid in the speed
-                  of designing and implementing for pages for our sprints, as
+                  of designing and implementing screens during our sprints, as
                   well as the visual design of the application.
                 </div>
               </div>
@@ -297,10 +297,10 @@ function Stocate() {
                 <div className="h3">
                   The process of building the system was initially very
                   iterative because the system was constantly growing. The
-                  design system was going to be used by designers and developers
-                  that had less experience visually designing, so it was
-                  important to keep it as simple as possible. It also needed to
-                  build upon the initial design of th application to save time.
+                  design system was going to be used by designers and,
+                  developers that had less experience visually designing, so it
+                  was important to keep it as understandable as possible. It
+                  also needed to be able to be built upon in the future.
                 </div>
               </div>
             </div>
@@ -346,24 +346,23 @@ function Stocate() {
           <div className="flex items-start flex-col md:flex-row gap-y-12">
             <div className="md:w-1/2">
               <div className="flex flex-col max-w-xs gap-y-2 ">
-                <div className="h2">User Testing</div>
+                <div className="h2">Usability Testing</div>
                 <div className="h3">
-                  User testing was conducted to improve clarity, speed and
-                  enjoyment for users within specific user flows. User testing
-                  was conducted for each sprint during the mid fidelity stage.
-                  Once users provided us with their feedback, we moved to the
-                  high fidelity stage, where all flaws and details were ironed
-                  out.
+                  Usability testing was conducted to improve clarity, speed and
+                  enjoyment for users within specific user flows. It was
+                  conducted for each sprint during the mid fidelity stage. Once
+                  users provided us with their feedback, we moved to the high
+                  fidelity stage, where all flaws and details were ironed out.
                 </div>
                 <div className="h3">
                   I conducted user testing bi-weekly with different users during
-                  sprints for our mobile application. User testing lasted about
-                  30 mins. The first section of the session would be an
-                  interview with the user, to help build our personas and
-                  understand user perspectives. In the second section, I would
-                  ask users to complete a scenario in the application and walk
-                  me through their experience with our Figma prototype.
-                  Scenarios were things like:{" "}
+                  sprints for our mobile application. It lasted about 30 mins.
+                  The first section of the session would be an interview with
+                  the user, to help build our personas and understand user
+                  perspectives. In the second section, I would ask users to
+                  complete a scenario in the application and walk me through
+                  their experience with our Figma prototype. Scenarios were
+                  things like:{" "}
                   <span className="italic">
                     {" "}
                     You're doing your regular grocery shop. Try finding and
@@ -376,7 +375,7 @@ function Stocate() {
               </div>
             </div>
             <div className="md:w-1/2">
-              <div className="w-full h-full">
+              <div className="w-full h-auto">
                 <img
                   className="object-contain mx-auto h-full  rounded-sm"
                   src={Testing}
