@@ -194,9 +194,9 @@ function Branding() {
             <div className="h2">Proposed Concepts</div>
             <div className="h3">
               The team was unsure exactly what they were looking for so I
-              provided a variety of styles with from more fun concepts to
-              analytical concepts. I created a variety of styles and identities
-              during the iteration phase.
+              provided a variety of styles from more fun concepts to analytical
+              concepts. I created a variety of styles and identities during the
+              iteration phase.
             </div>
           </div>
 

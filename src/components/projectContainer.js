@@ -19,7 +19,7 @@ function ProjectContainer() {
     <div className="w-full h-auto bg-zinc-900">
       <div className="container flex flex-col pt-[14vh] pb-24 gap-y-24 md:max-w-6xl mx-auto">
         {/* text section */}
-        <div className=" pb-24 flex flex-col gap-y-4">
+        <div className="pb-18 flex flex-col gap-y-4">
           <div className="flex flex-col md:items-center gap-y-2">
             <div className="titleSerif text-zinc-200">Karena Mistry</div>
             <div className="h3 max-w-xl  text-left md:text-center text-zinc-400 md:mx-auto">
