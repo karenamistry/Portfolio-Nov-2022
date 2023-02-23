@@ -14,12 +14,12 @@ import Request from "../images/beacons/requests.png";
 import Editing from "../images/beacons/editing.png";
 import System from "../images/beacons/system-dark.png";
 
-import Pull from "../images/beacons/interview-pullquote-dark.png";
-import Affinity from "../images/beacons/affinity-mapping-dark.png";
-import Sitemap from "../images/beacons/site-map-2.png";
-import Journey from "../images/beacons/user-journey.png";
+import Pull from "../images/beacons/interview-pullquote-dark-2.png";
+import Affinity from "../images/beacons/affinity-mapping-dark-2.png";
+import Sitemap from "../images/beacons/site-map-dark.png";
+import Journey from "../images/beacons/user-journey-dark.png";
 import Differences from "../images/beacons/differences.jpeg";
-import Testing from "../images/beacons/user-testing-dark.png";
+import Testing from "../images/beacons/user-testing-dark-2.png";
 import Comparison from "../images/beacons/comparison.svg";
 
 import Competition from "../images/beacons/competition-gray.png";
@@ -76,12 +76,29 @@ function Beacons() {
         </div>
 
         {/* Hero Image */}
-        <div className="w-full h-[80vh] z-10">
+        <div className="w-full h-[80vh] z-10 pb-6">
           <img
-            className="object-contain mx-auto h-full w-full bg-gray-800 rounded-sm"
+            className="object-contain mx-auto h-full w-full bg-gray-800 rounded-sm "
             src={BeaconsHero}
             alt="ExpediteImage"
           />
+        </div>
+
+        <div className="flex gap-x-6">
+          <div className="w-1/2 h-full mx-auto rounded-sm">
+            <img
+              className="object-contain h-auto w-full rounded-sm"
+              src={Goals}
+              alt="Image"
+            />
+          </div>
+          <div className="w-1/2 h-full mx-auto rounded-sm">
+            <img
+              className="object-contain h-auto w-full rounded-sm"
+              src={GoalsB}
+              alt="Image"
+            />
+          </div>
         </div>
         {/*  NEW Project Text */}
 
@@ -89,17 +106,23 @@ function Beacons() {
           {/* Container */}
           <div className="h1 ">Introduction</div>
 
-          <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">From Case Study to Shipped</div>
-            <div className="h3">
-              I was introduced to this project while working on a freelance
-              branding project for Dynamic CXS, separate from this application.
-              I decided to create this case study as a way to show them better
-              user centered design solutions for their Beacons product. I did
-              this hoping that they would want to work with me to implement my
-              solution. I was able to pitch my design solution to Dynamic CXS
-              and ship most of my final design solution.
+          <div className="flex items-start flex-col md:flex-row gap-y-12">
+            <div className="md:w-1/2">
+              <div className="flex flex-col max-w-xs gap-y-2 ">
+                <div className="h2">From Case Study to Shipped</div>
+                <div className="h3">
+                  I was introduced to this project while working on a freelance
+                  branding project for Dynamic CXS, separate from this
+                  application. I decided to create this case study as a way to
+                  show them better user centered design solutions for their
+                  Beacons product. I did this hoping that they would want to
+                  work with me to implement my solution. I was able to pitch my
+                  design solution to Dynamic CXS and ship most of my final
+                  design solution.
+                </div>
+              </div>
             </div>
+            <div className="md:w-1/2"></div>
           </div>
 
           <div className="w-full h-[1px] bg-zinc-700"> </div>
@@ -115,129 +138,63 @@ function Beacons() {
           <div className="h1 ">Research</div>
 
           <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">Product Goals</div>
+            <div className="h2">Employee Success</div>
             <div className="h3">
-              Beacons was created with the goal of enhancing the customer to
-              employee service experience, not eliminating it. By creating a
-              design that more clearly emphasizes employee success, over
-              retailer success alone, we could make Beacons a more attractive
-              solution for potential clients (retail merchants).
+              Beacons was created with the goal of enhancing the customer
+              service experience, not eliminating it. By creating a design that
+              more clearly emphasizes employee success, over retailer success
+              alone, we could improve the experience of our users, the retail
+              employee.
             </div>
           </div>
 
-          <div className="flex gap-x-6">
-            <div className="w-1/2 h-full mx-auto rounded-sm">
-              <img
-                className="object-contain h-auto w-full rounded-sm"
-                src={Goals}
-                alt="Image"
-              />
+          <div className="flex items-start flex-col md:flex-row gap-y-12">
+            <div className="md:w-1/2">
+              <div className="flex flex-col max-w-xs gap-y-2 ">
+                <div className="h2">User Interviews</div>
+                <div className="h3">
+                  I started my research by interviewing employees at the
+                  Canadian Tire Kanata store to learn the application from their
+                  perspective. Some questions I asked were as such: What do you
+                  consider pros and cons? What was the previous system used to
+                  answer customer requests? Can you walk me through your regular
+                  use cases of the app?
+                </div>
+              </div>
             </div>
-            <div className="w-1/2 h-full mx-auto rounded-sm">
-              <img
-                className="object-contain h-auto w-full rounded-sm"
-                src={GoalsB}
-                alt="Image"
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">User Interviews & Pain Points</div>
-            <div className="h3">
-              I started researching by interviewing employees at the Canadian
-              Tire Kanata store to learn the application from their perspective.
-              I did this to learn about pain points within the user journeys.
-              Some questions I asked were as such: What do you consider pros and
-              cons? What was the previous system used to answer customer
-              requests? Can you walk me through your regular use cases of the
-              app?
+            <div className="md:w-1/2">
+              <div className=" h-full mx-auto">
+                <img
+                  className="object-contain h-auto w-full"
+                  src={Pull}
+                  alt="Image"
+                />
+              </div>
             </div>
           </div>
 
-          <div className="w-1/2 h-full mx-auto">
-            <img
-              className="object-contain h-auto w-full"
-              src={Pull}
-              alt="Image"
-            />
-          </div>
-
-          <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">Affinity Mapping & How might we ?s</div>
-            <div className="h3">
-              By asking "How Might We" questions, while listening back to my
-              interviews, I was able to get an ideas of what needed to be
-              addressed in the redesign. I jotted down notes and questions
-              related to changes, features and ideas that could potentially be
-              implemented. A few takeaways being:
+          <div className="flex items-start flex-col md:flex-row gap-y-12">
+            <div className="md:w-1/2">
+              <div className="flex flex-col max-w-xs gap-y-2 ">
+                <div className="h2">Affinity Mapping & How might we ?s</div>
+                <div className="h3">
+                  By asking "How Might We" questions, while listening back to my
+                  interviews, I was able to get an ideas of what needed to be
+                  addressed in the redesign. I jotted down notes and questions
+                  related to changes, features and ideas that could potentially
+                  be implemented. A few takeaways being:
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div className="w-full h-full mx-auto">
-            <img
-              className="object-contain h-auto w-full"
-              src={Affinity}
-              alt="Image"
-            />
-          </div>
-
-          <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">Competition Analysis</div>
-            <div className="h3">
-              I researched the features of the two competitor products. The
-              first Synq Order Up, is used specifically for expensive lockup
-              items that require employee intervention to purchase. Acuity
-              Playbook is more similar to Beacons, except it suggests paths for
-              employees to take in order to successfully sell product.
+            <div className="md:w-1/2">
+              <div className="w-full h-full mx-auto">
+                <img
+                  className="object-contain h-auto w-full"
+                  src={Affinity}
+                  alt="Image"
+                />
+              </div>
             </div>
-            <div className="h3">
-              Analyzing applications competitive with Beacons was a roadblock I
-              faced because most similar products require consultation to get
-              access. To overcome this, I looked at analogous applications like
-              Square, that are have to take into account the experience of both
-              the employee and the customer.
-            </div>
-          </div>
-
-          <div className="w-1/3 h-full mx-auto">
-            <img
-              className="object-contain h-auto w-full"
-              src={Competition}
-              alt="Image"
-            />
-          </div>
-
-          <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">Site Mapping and User Journey</div>
-            <div className="h3">
-              Creating a site map allowed me to recognize that the landing page
-              was not in an optimal location. I knew prior to designing that the
-              landing page needed to better suit the needs of employees.
-            </div>
-            <div className="h3">
-              The core user journey of the application is when an employee
-              answers a button being pressed. Requests usually involve the
-              employee opening a locked up item, or just helping a customer make
-              a buying decision. The app asks the employee what type of request
-              they received after the completion of the request.
-            </div>
-          </div>
-
-          <div className="w-2/3 h-full mx-auto">
-            <img
-              className="object-contain h-auto w-full"
-              src={Sitemap}
-              alt="Image"
-            />
-          </div>
-
-          <div className="w-1/3 h-full mx-auto">
-            <img
-              className="object-contain h-auto w-full"
-              src={Journey}
-              alt="Image"
-            />
           </div>
 
           <div className="flex flex-col max-w-xs gap-y-2 ">
@@ -258,8 +215,59 @@ function Beacons() {
 
           <div className="w-2/3 h-full mx-auto">
             <img
-              className="object-contain h-auto w-full"
+              className="object-contain h-auto w-full p-6 bg-white"
               src={PersonaBoth}
+              alt="Image"
+            />
+          </div>
+
+          <div className="flex items-start flex-col md:flex-row gap-y-12">
+            <div className="md:w-1/2">
+              <div className="flex flex-col max-w-xs gap-y-2 ">
+                <div className="h2">Competition Analysis</div>
+                <div className="h3">
+                  I researched the features of the two competitor products. The
+                  first Synq Order Up, is used specifically for expensive lockup
+                  items that require employee intervention to purchase. Acuity
+                  Playbook is more similar to Beacons, except it suggests paths
+                  for employees to take in order to successfully sell product.
+                </div>
+                <div className="h3">
+                  Analyzing applications competitive with Beacons was a
+                  roadblock I faced because most similar products require
+                  consultation to get access. To overcome this, I looked at
+                  analogous applications like Square, that are have to take into
+                  account the experience of both the employee and the customer.
+                </div>
+              </div>
+            </div>
+            <div className="md:w-1/2">
+              <div className=" h-full mx-auto">
+                <img
+                  className="object-contain h-auto w-full"
+                  src={Competition}
+                  alt="Image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col max-w-xs gap-y-2 ">
+            <div className="h2">Requests User Journey</div>
+
+            <div className="h3">
+              The core user journey of the application is when an employee
+              answers a button being pressed. Requests usually involve the
+              employee opening a locked up item, or just helping a customer make
+              a buying decision. The app asks the employee what type of request
+              they received after the completion of the request.
+            </div>
+          </div>
+
+          <div className=" h-full mx-auto">
+            <img
+              className="object-contain h-auto w-full"
+              src={Journey}
               alt="Image"
             />
           </div>
@@ -332,29 +340,36 @@ function Beacons() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xs gap-y-2 ">
-            <div className="h2">User Testing</div>
-            <div className="h3">
-              I scheduled in-person user testing meeting with the same employees
-              at Canadian Tire that I had previously interviewed during my
-              research phase. My user testing lasted about 20 mins each, and
-              consisted of me asking users to complete a task and scenario in
-              the prototype. I let users find their way around the designed
-              prototype and observed actions and mood. I also asked them to
-              provide me with their thoughts as they went along.
+          <div className="flex items-start flex-col md:flex-row gap-y-12">
+            <div className="md:w-1/2">
+              <div className="flex flex-col max-w-xs gap-y-2 ">
+                <div className="h2">User Testing</div>
+                <div className="h3">
+                  I scheduled in-person user testing meeting with the same
+                  employees at Canadian Tire that I had previously interviewed
+                  during my research phase. My user testing lasted about 20 mins
+                  each, and consisted of me asking users to complete a task and
+                  scenario in the prototype. I let users find their way around
+                  the designed prototype and observed actions and mood. I also
+                  asked them to provide me with their thoughts as they went
+                  along.
+                </div>
+                <div className="h3">
+                  After user testing, I was able to use the feedback to iterate
+                  and narrow in on final mockups. Here were a few of the
+                  takeways:
+                </div>
+              </div>
             </div>
-            <div className="h3">
-              After user testing, I was able to use the feedback to iterate and
-              narrow in on final mockups. Here were a few of the takeways:
+            <div className="md:w-1/2">
+              <div className="w-full h-full mx-auto rounded-sm">
+                <img
+                  className="object-contain h-auto w-full rounded-sm"
+                  src={Testing}
+                  alt="Image"
+                />
+              </div>
             </div>
-          </div>
-
-          <div className="w-full h-full mx-auto rounded-sm">
-            <img
-              className="object-contain h-auto w-full rounded-sm"
-              src={Testing}
-              alt="Image"
-            />
           </div>
 
           <div className="flex flex-col max-w-xs gap-y-2 ">
@@ -365,7 +380,7 @@ function Beacons() {
               iterated upon the request component.
             </div>
             <div className="h3">
-              Users can see in progress requests at a glance and uf they would
+              Users can see in progress requests at a glance and if they would
               like more information, like what specific SKU employees are busy
               with, users can visit the inprogress page.
             </div>
