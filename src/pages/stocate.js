@@ -5,8 +5,7 @@ import StocateHero from "../images/stocate/smartphone-stocate-d.png";
 // Project Images
 
 import Goals from "../images/stocate/goals-blue.png";
-import Matrix from "../images/stocate/priority-matrix.png";
-
+import Matrix from "../images/stocate/priority-matrix-2.png";
 import Interview from "../images/stocate/user-interviews.png";
 import LowFid from "../images/stocate/low-fid-4.png";
 import Iterating from "../images/stocate/Iterating-b.png";
@@ -29,7 +28,7 @@ import Full from "../images/expedite/image-whole.png";
 
 // features images
 import onboardingA from "../images/stocate/features/onboarding/sketchd.jpg";
-import onboardingD from "../images/stocate/features/onboarding/first.jpg";
+import onboardingD from "../images/stocate/features/onboarding/sketche.jpg";
 import onboardingE from "../images/stocate/features/onboarding/second.jpg";
 import onboardingF from "../images/stocate/features/onboarding/third.jpg";
 
