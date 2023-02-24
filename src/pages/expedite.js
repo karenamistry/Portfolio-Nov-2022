@@ -54,8 +54,8 @@ function Expedite() {
               <div className="md:w-1/2 ">
                 <div className="md:max-w-xs h3">
                   Expedite is a customer pickup application that manages the
-                  retail end. I'm working as the sole designer on the team
-                  Expedite for Dynamic CXS. I've{" "}
+                  retail end. I'm working as the sole designer on the team for
+                  Expedite at Dynamic CXS. I've{" "}
                   <span className="font-medium">
                     streamlined user journeys, integrated new features &
                     established a design system
