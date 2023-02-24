@@ -27,7 +27,7 @@ import ImageB from "../images/expedite/image-choice.png";
 import Full from "../images/expedite/image-whole.png";
 
 // features images
-import onboardingA from "../images/stocate/features/onboarding/sketchd.jpg";
+import onboardingA from "../images/stocate/features/onboarding/sketchf.jpg";
 import onboardingD from "../images/stocate/features/onboarding/sketche.jpg";
 import onboardingE from "../images/stocate/features/onboarding/second.jpg";
 import onboardingF from "../images/stocate/features/onboarding/third.jpg";
