@@ -491,15 +491,27 @@ function Beacons() {
             />
           </div>
 
-          <div className="flex flex-col max-w-xs gap-y-2 ">
+          <div className="flex flex-col max-w-lg gap-y-2 ">
             <div className="h2">Reflection</div>
             <div className="h3">
-              I started this project as a case study, to further my UI and UX
-              skills, but I was able to work with Dynamics and learn far more
-              than I had anticipated. I found this product so interesting
-              because it concerns the user journey of both the user and the
-              customer. My skills in prototyping, user testing and iterating
-              have vastly improved since working on this project.
+              Working on Beacons was a case study that I had initially done to
+              try and improve my product design skills. I was able to learn far
+              more than I had anticipated which I was very happy about.
+            </div>
+            <div className="h3">
+              I was able to better understand the difference between interface
+              and experience design and how they both work together. Prior to
+              this I was thinking about them more as being a singular thing.
+            </div>
+            <div className="h3">
+              I was able to conduct user testing with people that were actually
+              going to use the product, so it felt really validating to create
+              human centered solutions.
+            </div>
+            <div className="h3">
+              I was able to work on product that takes into account both the
+              user and the customer which helped me think about the overall
+              product, outside of just design
             </div>
           </div>
 

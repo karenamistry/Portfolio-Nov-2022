@@ -474,6 +474,32 @@ function Expedite() {
             </div>
           </div>
 
+          <div className="flex flex-col max-w-full md:max-w-lg gap-y-2">
+            <div className="h2">Reflection</div>
+            <div className="h3">
+              The Expedite team is a small but ambitious team made up of people
+              from a variety of fields outside of design. Working with a diverse
+              team taught me a lot even if I was the only designer.
+            </div>
+            <div className="h3">
+              In terms of design, I was able to create end to end interface and
+              experience solutions for systems more complex than I had worked on
+              prior. I got experience working on products with more screens,
+              lots of data entry and plenty of empty state cases.
+            </div>
+            <div className="h3">
+              I was able to hone my skills in explaining my design processes to
+              people outside of the product team. It forced me to think about
+              product from outside of just the design team, and more towards the
+              overall product goals.
+            </div>
+            <div className="h3">
+              I worked closely with the development team so I was able to
+              improve my skills in communicating design ideas, animations &
+              journeys.
+            </div>
+          </div>
+
           <div className="flex flex-col max-w-full md:max-w-xs gap-y-2">
             <div className="h2">More Coming Soon...</div>
             <div className="h3">

@@ -524,18 +524,31 @@ function Stocate() {
             </div>
           </div>
 
-          <div className="flex flex-col max-w-xs gap-y-2 ">
+          <div className="flex flex-col max-w-lg  gap-y-2 ">
             <div className="h2">Reflection</div>
             <div className="h3">
-              Working at Stocate was like when they say to always work with
-              people smarter than yourself. It paid off in the amount of growth
-              i've had as a designer and as a member of a product team. Working
-              closely with a development team made the importance of
-              communication that much more crucial. I was able to hone my skills
-              in planning and presenting ideas to stakeholders. Getting
-              experience creating human centered design solutions helped me
-              better understand user experience and user interface outside of
-              theory.
+              Working at Stocate was like when they say to surround yourself
+              with people smarter than yourself. I was able to learn so much
+              about UX & UI from the people I worked with on the product team.
+            </div>
+            <div className="h3">
+              In terms of design, I was able to hone my skills in executing ux
+              processes. Explore my skills in bringing ideas from a meeting to
+              paper to figma. Increasing my speed in prototyping and building
+              reusable components. Trying a variety different user testing
+              methods, like A/B testing, heat maps, & user scenarios.
+            </div>
+            <div className="h3">
+              I was able to work in a fast, reactive agile environment. I had
+              understood agile sprints in a theoretical sense, but having
+              experience working in them helped better understand how to
+              organize myself around them.{" "}
+            </div>
+            <div className="h3">
+              I was able to build my skills in product management and creating
+              product goals. I was given the opportunity to lead tasks from the
+              product and development side, and it taught me to create and
+              manage goals within the product teams.{" "}
             </div>
           </div>
 
