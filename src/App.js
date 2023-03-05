@@ -11,6 +11,7 @@ import Casper from "./pages/casper";
 import Canadiantire from "./pages/canadiantire";
 import Campaign from "./pages/campaign";
 import Branding from "./pages/branding";
+import Fun from "./pages/fun";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/canadiantire" element={<Canadiantire />} />
         <Route path="/branding" element={<Branding />} />
         <Route path="/campaign" element={<Campaign />} />
+        <Route path="/fun" element={<Fun />} />
       </Routes>
     </div>
   );

@@ -31,9 +31,9 @@ function Footer() {
               <a
                 className="gray-button w-32 text-center"
                 target="_blank"
-                href="https://www.linkedin.com/in/karenamistry/"
+                href="https://dribbble.com/karenamistry"
               >
-                LinkedIn
+                Dribble
               </a>
               <a
                 className="gray-button w-32 text-center"

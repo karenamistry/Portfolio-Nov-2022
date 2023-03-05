@@ -39,6 +39,13 @@ function Navbar() {
           >
             <div>Work</div>
           </NavLink>
+          <a
+            target="_blank"
+            href="https://dribbble.com/karenamistry"
+            className="gray-button"
+          >
+            <div>Fun</div>
+          </a>
           <NavLink
             to="/about"
             className="flex gap-x-1 items-center justify-center gray-button"
