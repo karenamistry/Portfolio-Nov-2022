@@ -12,7 +12,7 @@ import Full from "../images/expedite/image-whole.png";
 // Project Images
 import Overview from "../images/expedite/overview-expedite-2.png";
 import Affinity from "../images/expedite/affinitymap-dark-2.png";
-import Pact from "../images/expedite/pact-dark-2.png";
+import Pact from "../images/expedite/pact-dark-3.png";
 import Sitemap from "../images/expedite/sitemapB.png";
 import Journey from "../images/expedite/userjourney-dark-2.png";
 import ScenarioA from "../images/expedite/userscenario-dark.png";
@@ -143,8 +143,8 @@ function Expedite() {
               <div className="flex flex-col max-w-full md:max-w-xs gap-y-2">
                 <div className="h2">Faster orders, Happier customers.</div>
                 <div className="h3">
-                  Expedite was created was to streamline the complex systems
-                  behind the pickup-in-store process of warehouse products. The
+                  Expedite was created to streamline the complex systems behind
+                  the pickup-in-store process of warehouse products. The
                   improvement in speed, combined with the ease of use for
                   customers to complete a pickup order has made for higher
                   customer satisfaction. It is currently being used in the
