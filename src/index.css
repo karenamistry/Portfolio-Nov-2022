@@ -7,22 +7,22 @@
 
 @layer components {
   .titleSans {
-    @apply text-zinc-200 font-medium text-[36px];
+    @apply text-zinc-200 font-medium text-[40px];
   }
   .titleSerif {
-    @apply text-zinc-200 font-black text-[36px] font-['Syne'] tracking-[-0.03em];
+    @apply text-zinc-200 font-black text-[40px] font-['Syne'] tracking-[-0.03em];
   }
   .h1 {
-    @apply text-zinc-200 text-[28px] font-black leading-[2.6rem] tracking-[0.02em] font-['Syne'];
+    @apply text-zinc-200 text-[32px] font-black leading-[2.6rem] tracking-[0.02em] font-['Syne'];
   }
   .h2 {
-    @apply text-zinc-200 text-[16px] font-medium leading-[1.42] tracking-[0.002em];
+    @apply text-zinc-200 text-[18px] font-medium leading-[1.42] tracking-[0.002em];
   }
   .h3 {
-    @apply text-zinc-300 font-normal text-[13px] leading-[1.68];
+    @apply text-zinc-300 font-normal text-[16px] leading-[1.68];
   }
   .h4 {
-    @apply text-zinc-500 font-normal text-[12px] leading-[1.45];
+    @apply text-zinc-500 font-normal text-[14px] leading-[1.45];
   }
   .gray-button {
     @apply w-fit h4 hover:text-zinc-100 active:text-zinc-300 transition duration-300 ease-out hover:ease-in;
